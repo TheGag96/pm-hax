@@ -1,0 +1,7 @@
+name "sfcgen"
+description "A generator for SFC codes"
+copyright "Copyright © 2017, codes"
+authors "codes"
+dependency "dlangui" version="~>0.9.46"
+versions "Debug" build="debug"
+versions "Release" build="release"

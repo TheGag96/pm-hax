@@ -1,0 +1,18 @@
+#To be inserted at 8010F9FC
+#Generated with codes' SFC Generator
+#Thanks to Wiiztec for the original SFC
+
+start:
+  stw r16,-0x12C(r2)
+  stw r7,-0x128(r2)
+  
+  #load controller input
+  lis r12,0x805C
+  lhz r12,-0x4AFA(r12)
+  
+  rlwinm r0, r0, 16, 0,  15
+  rlwinm r0, r0, 16, 16, 31
+
+  #this will stay 0 if there's no custom song
+  li r7, 0
+

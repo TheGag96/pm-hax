@@ -1,0 +1,207 @@
+VerticalLayout {
+  layoutWidth: FILL_PARENT
+  layoutHeight: FILL_PARENT
+
+  MainMenu { id: mainMenu }
+
+  /* Stage and combo row */
+  HorizontalLayout {
+    layoutWidth: FILL_PARENT 
+    layoutHeight: FILL_PARENT   
+
+    /* Stages */
+
+    VerticalLayout {
+      layoutWidth: 220
+      layoutHeight: FILL_PARENT
+      margins: 10
+
+      TextWidget {
+        text: "Stages"
+        fontWeight: 800
+      }
+      
+      StringListWidget {
+        layoutHeight: FILL_PARENT
+        id: listStage
+      }
+
+      HorizontalLayout {
+        layoutWidth: FILL_PARENT
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnAddStage
+          text: "+"
+        }
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnRemoveStage
+          text: "-"
+        }
+      }
+    }
+
+    VerticalLayout {
+      layoutWidth: FILL_PARENT
+      layoutHeight: FILL_PARENT
+      margins: 10
+      id: layoutStage
+
+      HorizontalLayout {
+        TextWidget {
+          layoutWidth: 60
+          text: "Name: "
+        }
+        EditLine {
+          layoutWidth: 200
+          id: lineStageName
+        }
+      }  
+
+      HorizontalLayout {
+        TextWidget {
+          layoutWidth: 60
+          text: "ID: "
+        }
+        EditLine {
+          layoutWidth: 200
+          id: lineStageID
+        }
+      }      
+    }
+
+
+    /* Combos */
+
+    VerticalLayout {
+      layoutWidth: 220
+      layoutHeight: FILL_PARENT
+      margins: 10
+
+      TextWidget {
+        text: "Combos"
+        fontWeight: 800
+      }
+      
+      StringListWidget {
+        layoutHeight: FILL_PARENT
+        id: listCombo
+      }
+
+      HorizontalLayout {
+        layoutWidth: FILL_PARENT
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnAddCombo
+          text: "+"
+        }
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnRemoveCombo
+          text: "-"
+        }
+      }
+    }
+
+    VerticalLayout {
+      layoutWidth: 280
+      layoutHeight: FILL_PARENT
+      margins: 10
+      id: layoutCombo
+
+      HorizontalLayout {
+        layoutWidth: FILL_PARENT
+        TextWidget { text: "Setlist: " }
+        ComboEdit {
+          layoutWidth: FILL_PARENT
+          id: comboComboSetlist
+        }
+      }
+
+      TextWidget { text: "Buttons:" }  
+    }
+  }
+
+  /* Setlist row */
+  HorizontalLayout {
+    minHeight: 300
+    maxHeight: 300
+
+    VerticalLayout {
+      layoutWidth: 220
+      layoutHeight: FILL_PARENT
+      margins: 10
+
+      TextWidget {
+        text: "Setlists"
+        fontWeight: 800
+      }
+      
+      StringListWidget {
+        layoutHeight: FILL_PARENT
+        id: listSetlist
+      }
+
+      HorizontalLayout {
+        layoutWidth: FILL_PARENT
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnAddSetlist
+          text: "+"
+        }
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnRemoveSetlist
+          text: "-"
+        }
+      }
+
+    }
+
+    VerticalLayout {
+      layoutWidth: FILL_PARENT
+      layoutHeight: FILL_PARENT
+      margins: 10
+      id: layoutSetlist
+
+      HorizontalLayout {
+        TextWidget {
+          layoutWidth: 80
+          text: "Name: "
+        }
+        EditLine {
+          layoutWidth: 200
+          id: lineSetlistName
+        }
+      }
+
+      HorizontalLayout {
+        TextWidget {
+          layoutWidth: 80
+          text: "Start ID: "
+        }
+        EditLine {
+          layoutWidth: 80
+          id: lineSetlistStartID
+        }
+      }
+
+      HorizontalLayout {
+        TextWidget {
+          layoutWidth: 80
+          text: "# of songs: "
+        }
+        EditLine {
+          layoutWidth: 80
+          id: lineSetlistNumSongs
+        }
+      }
+    }
+  }
+}
