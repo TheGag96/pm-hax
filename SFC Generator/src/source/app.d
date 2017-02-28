@@ -74,12 +74,7 @@ extern (C) int UIAppMain(string[] args) {
 
   mainWindow = Platform.instance.createWindow("SFC Generator", null, 1u, 750, 600);
 
-  version (Debug) {
-    mainWindow.mainWidget = parseML(readText("views/mainWindow.dml"));
-  }
-  else {
-    mainWindow.mainWidget = parseML(import("mainWindow.dml"));
-  }
+  mainWindow.mainWidget = parseML(import("mainWindow.dml"));
   
   ////
   // Menu items
@@ -266,7 +261,7 @@ void openInfoFile() {
     }
 
     stageEntryNames = stageEntries.map!(x => x.name.to!dstring).array;
-    songListNames   = stageEntries.map!(x => x.name.to!dstring).array;
+    songListNames   = songLists.map!(x => x.name.to!dstring).array;
 
     listStage.items   = stageEntryNames;
     listSetlist.items = songListNames;
@@ -283,6 +278,9 @@ void openInfoFile() {
     }
     else {
       selectSetlist(0);
+      lineSetlistName.enabled     = true;
+      lineSetlistStartID.enabled  = true;
+      lineSetlistNumSongs.enabled = true;
     }
   };
 
