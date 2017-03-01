@@ -3,7 +3,8 @@
 #Note that the ASL tool likely won't recognize this code! Hopefully I can write
 # a tool in the future to remedy this.
 #
-#To use with Legacy XP/TE, see lines 21 and 185
+#To use with Legacy XP/TE or PMEX builds, check lines 22, 148, and 194
+#For requiring exact button combinations, see line 169
 
 start:
   #store registers somewhere to be restored
@@ -140,9 +141,14 @@ loc_4:
   #load button code for the alt
   lhz r7, 0(r11)
   
-  #load currently held button combination from 805858B8
-  lis r3, 0x8058
-  ori r3, r3, 0x58B8
+  #load currently held button combination
+  lis r3, 0x815E
+  ori r3, r3, 0x8420
+
+  #use these instead for Legacy XP / PMEX builds
+  #lis r3, 0x8058
+  #ori r3, r3, 0x58B8
+
   lhz r3, 2(r3)
   
   #load byte at 805882F8 into r10
@@ -160,6 +166,9 @@ loc_4:
   
 loc_5:
   #if the combo for the alt == the buttons we're holding, start loading it
+  #comment out the following line to require the button combination to be
+  #  EXACTLY what is listed in the ASL data (can't hold down other buttons)
+  and. r3, r7, r3
   cmpw r7, r3
   beq- loc_7
 
@@ -182,9 +191,13 @@ loc_char:
   lis r14, 0x8151
   ori r14, r14, 0xD41B
 
-  #use these two lines instead for Legacy XP (or any PMEX build?)
+  #use these two lines instead for Legacy XP
   #lis r14, 0x814A
   #ori r14, r14, 0x835B
+
+  #use these two lines for PMEX
+  #lis r14, 0x814E
+  #ori r14, r14, 0x9A9B
 
   lbz r3, 0(r14)
 
