@@ -1,0 +1,44 @@
+VerticalLayout {
+  layoutWidth: FILL_PARENT
+  layoutHeight: FILL_PARENT
+
+  HorizontalLayout {
+    TextWidget { text: "Build folder name: " }
+    
+    EditLine {
+      id: lineFolder
+      text: "projectm"
+    }
+  }
+
+  CheckBox {
+    id: checkPMEX
+    text: "Is PMEX build?"
+  }
+
+  TextWidget { text: "Button detection behavior: " }
+
+  RadioButton {
+    id: radioMustHoldOnly
+    text: "Hold ONLY the combo's buttons"
+  }
+
+  RadioButton {
+    id: radioAtLeastHold
+    text: "Hold AT LEAST the combo's buttons"
+  }
+
+  HorizontalLayout {
+    layoutWidth: FILL_PARENT
+
+    Button {
+      id: btnInsert
+      text: "Insert"
+    }
+
+    Button {
+      id: btnCancel
+      text: "Cancel"
+    }
+  }
+}

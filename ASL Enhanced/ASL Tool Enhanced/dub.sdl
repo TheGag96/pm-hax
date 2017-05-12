@@ -1,0 +1,6 @@
+name "asl-tool-enhanced"
+description "An enhanced clone of Mewtwo2000's ASL tool."
+authors "codes/TheGag96"
+copyright "Copyright © 2017, codes/TheGag96"
+license "WTFPL"
+dependency "dlangui" version="~>0.9.53"

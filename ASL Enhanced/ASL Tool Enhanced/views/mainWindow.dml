@@ -1,0 +1,164 @@
+VerticalLayout {
+  layoutWidth: FILL_PARENT 
+  layoutHeight: FILL_PARENT
+  
+  MainMenu { id: mainMenu }
+
+  HorizontalLayout {
+    layoutWidth: FILL_PARENT 
+    layoutHeight: FILL_PARENT
+
+
+    /* Stages */
+
+    VerticalLayout {
+      layoutWidth: 220
+      layoutHeight: FILL_PARENT
+      margins: 10
+
+
+      /* .pac/.rel data switcher */
+      HorizontalLayout {
+        TextWidget {
+          text: "Data: "
+          fontWeight: 800
+        }
+
+        RadioButton {
+          id: radioPacData
+          text: ".pac"
+          checked: true
+        }
+        
+        RadioButton {
+          id: radioRelData
+          text: ".rel"
+        }
+      }
+      
+      TextWidget {
+        text: "Stages:"
+        fontWeight: 800
+      }
+
+      /* stage list box */
+      StringListWidget {
+        layoutHeight: FILL_PARENT
+        id: listStage
+      }
+
+      HorizontalLayout {
+        layoutWidth: FILL_PARENT
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnAddStage
+          text: "+"
+        }
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnRemoveStage
+          text: "-"
+        }
+      }
+    }
+
+    VerticalLayout {
+      layoutWidth: FILL_PARENT
+      layoutHeight: FILL_PARENT
+      margins: 10
+      id: layoutStage
+
+      /* stage name chooser */
+      HorizontalLayout {
+        layoutWidth: FILL_PARENT
+        TextWidget { text: "Name: " }
+        ComboEdit {
+          layoutWidth: FILL_PARENT
+          id: comboStage
+          readOnly: false
+        }
+      }
+
+      TextWidget {
+        text: "Alt selection:"
+        fontWeight: 800
+      }      
+
+      RadioButton {
+        minHeight: 30
+        text: "Button combos"
+        id: radioButtonCombos
+        checked: true
+      }
+
+      RadioButton {
+        minHeight: 30
+        text: "Random: "
+        id: radioRandom
+        
+        EditLine {
+          enabled: false
+          id: lineRandomNum
+        }
+      }
+    }
+
+
+    /* Combos */
+
+    VerticalLayout {
+      layoutWidth: 220
+      layoutHeight: FILL_PARENT
+      margins: 10
+
+      TextWidget {
+        text: "Combos:"
+        fontWeight: 800
+      }
+      
+      StringListWidget {
+        layoutHeight: FILL_PARENT
+        id: listCombo
+      }
+
+      HorizontalLayout {
+        layoutWidth: FILL_PARENT
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnAddCombo
+          text: "+"
+        }
+
+        Button {
+          layoutWidth: FILL_PARENT
+          id: btnRemoveCombo
+          text: "-"
+        }
+      }
+    }
+
+    VerticalLayout {
+      layoutWidth: 280
+      layoutHeight: FILL_PARENT
+      margins: 10
+      id: layoutCombo
+
+      HorizontalLayout {
+        minHeight: 30
+
+        TextWidget {
+          text: "Letter: " 
+        }
+
+        EditLine {
+          id: lineLetter
+        }      
+      }
+
+      TextWidget { text: "Buttons:" }  
+    }
+  }
+}
