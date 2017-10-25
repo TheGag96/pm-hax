@@ -5,3 +5,6 @@ authors "codes"
 dependency "dlangui" version="~>0.9.46"
 versions "Debug" build="debug"
 versions "Release" build="release"
+buildType "release" {
+  buildOptions "optimize" "inline"
+}
