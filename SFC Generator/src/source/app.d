@@ -1,4 +1,4 @@
-import dlangui, filedlg, dlangui.dialogs.dialog, dlangui.core.logger, dlangui.widgets.widget, dlangui.widgets.metadata;
+import dlangui, dlangui.dialogs.filedlg, dlangui.dialogs.dialog, dlangui.core.logger, dlangui.widgets.widget, dlangui.widgets.metadata;
 import std.algorithm, std.string, std.array, std.conv, std.file, std.typecons, std.functional, std.json, std.path;
 import codegen;
 
@@ -63,16 +63,11 @@ int selectedStageIndex, selectedComboIndex, selectedSetlistIndex;
 ////////
 
 extern (C) int UIAppMain(string[] args) {
-  mixin(registerWidgets!(SourceEdit)("void doSrcEditRegister")
-          .replace("dlangui.widgets.srcedit", ""));
-
-  doSrcEditRegister();
-
   ////
   // Make main window
   ////
 
-  mainWindow = Platform.instance.createWindow("SFC Generator", null, 1u, 750, 600);
+  mainWindow = Platform.instance.createWindow("SFC Generator", null, 1u, 780, 600);
 
   mainWindow.mainWidget = parseML(import("mainWindow.dml"));
   
@@ -105,7 +100,7 @@ extern (C) int UIAppMain(string[] args) {
 
   helpItem.menuItemClick = (MenuItem item) {
     if (item.id == Actions.About) {
-      mainWindow.showMessageBox("About SFC Generator"d, "SFC Generator v1.0\nwritten by TheGag96/codes"d);
+      mainWindow.showMessageBox("About SFC Generator"d, "SFC Generator v1.0.1\nwritten by TheGag96/codes"d);
     }
     return true;
   };
@@ -125,9 +120,9 @@ extern (C) int UIAppMain(string[] args) {
   listCombo   = mainWindow.mainWidget.childById!StringListWidget("listCombo");
   listSetlist = mainWindow.mainWidget.childById!StringListWidget("listSetlist");
 
-  listStage.itemClick   = (Widget w, int index) { selectStage(index);   return true; };
-  listCombo.itemClick   = (Widget w, int index) { selectCombo(index);   return true; };
-  listSetlist.itemClick = (Widget w, int index) { selectSetlist(index); return true; };
+  listStage.itemSelected   = (Widget w, int index) { selectStage(index);   return true; };
+  listCombo.itemSelected   = (Widget w, int index) { selectCombo(index);   return true; };
+  listSetlist.itemSelected = (Widget w, int index) { selectSetlist(index); return true; };
 
   ////
   // Buttons
@@ -210,7 +205,7 @@ extern (C) int UIAppMain(string[] args) {
 void openInfoFile() {
   auto flags = FileDialogFlag.Open | DialogFlag.Modal | DialogFlag.Resizable;
 
-  FileDialog dialog = new FileDialog(UIString("Choose an info file"d), mainWindow, null, flags);
+  FileDialog dialog = new FileDialog(UIString.fromRaw("Choose an info file"d), mainWindow, null, flags);
 
   dialog.dialogResult = (Dialog d, const Action result) {
     auto filename = result.stringParam;
@@ -290,7 +285,7 @@ void openInfoFile() {
 void saveInfoFile() {
   auto flags = FileDialogFlag.Save | DialogFlag.Modal | DialogFlag.Resizable;
 
-  auto dialog = new FileDialog(UIString("Save an info file"d), mainWindow, null, flags);
+  auto dialog = new FileDialog(UIString.fromRaw("Save an info file"d), mainWindow, null, flags);
 
   dialog.dialogResult = (Dialog d, const Action result) {
     auto filename = result.stringParam;
@@ -613,9 +608,9 @@ void generateASM() {
 
   btnSaveASM.click = (Widget w) { 
     auto flags  = FileDialogFlag.Save | DialogFlag.Modal | DialogFlag.Resizable;
-    auto dialog = new FileDialog(UIString("Save generated ASM code to file"d), mainWindow, null, flags);
+    auto dialog = new FileDialog(UIString.fromRaw("Save generated ASM code to file"d), mainWindow, null, flags);
 
-    //dialog.filters = [FileFilterEntry(UIString("ASM file"d), "*.asm")];
+    //dialog.filters = [FileFilterEntry(UIString.fromRaw("ASM file"d), "*.asm")];
 
     dialog.dialogResult = (Dialog d, const Action result) {
       auto filename = result.stringParam;
