@@ -261,6 +261,8 @@ void openInfoFile() {
     listStage.items   = stageEntryNames;
     listSetlist.items = songListNames;
 
+    comboComboSetlist.items = songListNames;
+
     if (stageEntries.length == 0) {
       disableStageStuff();
     }
@@ -558,7 +560,8 @@ void updateSetlistNumSongs() {
 }
 
 void updateComboSetlist(int index) {
-  if (songLists.length == 0 || stageEntries.length == 0) return;
+  if (songLists.length == 0 || stageEntries.length == 0 || listStage.selectedItemIndex < 0 || 
+      listCombo.selectedItemIndex < 0 || index < 0 || index >= songLists.length) return;
 
   stageEntries[listStage.selectedItemIndex].combos[listCombo.selectedItemIndex].songListName = songLists[index].name;
   //comboComboSetlist.selectItem(index);
