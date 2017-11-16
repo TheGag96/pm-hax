@@ -13,8 +13,9 @@ last:
   mullw r16, r16, r7
   subf r16, r16, r12
 
-  #add it back to base song ID
+  #add it back to setlist start ID
   add r0, r0, r16
+%s
 
 end:
   lwz r16,-0x12C(r2)

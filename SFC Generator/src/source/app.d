@@ -16,6 +16,8 @@ enum Actions {
   About,
 }
 
+enum FILE_FORMAT_VERION = 2;
+
 ////////
 // Globals
 ////////
@@ -43,16 +45,19 @@ dstring[]    stageEntryNames;
 
 dstring[] comboNames;
 
-SongList[]   songLists;
-dstring[]    songListNames;
+SongList[] songLists;
+dstring[]  songListNames;
+
+Options options;
 
 Window  mainWindow;
 MainMenu mainMenu;
 
 StringListWidget listStage, listCombo, listSetlist;
 Button btnAddStage, btnRemoveStage, btnAddCombo, btnRemoveCombo, btnAddSetlist, btnRemoveSetlist;
-EditLine lineStageName, lineStageID, lineSetlistStartID, lineSetlistNumSongs, lineSetlistName;
+EditLine lineStageName, lineStageID, lineSetlistStartID, lineSetlistNumSongs, lineSetlistName, lineBaseSongID;
 ComboEdit comboComboSetlist;
+TextWidget textSongIDOffset;
 
 string openedFile = "";
 
@@ -69,7 +74,12 @@ extern (C) int UIAppMain(string[] args) {
 
   mainWindow = Platform.instance.createWindow("SFC Generator", null, 1u, 780, 600);
 
-  mainWindow.mainWidget = parseML(import("mainWindow.dml"));
+  version (Debug) {
+    mainWindow.mainWidget = parseML(std.file.readText("views/mainWindow.dml"));
+  }
+  else {
+    mainWindow.mainWidget = parseML(import("mainWindow.dml"));
+  }
   
   ////
   // Menu items
@@ -78,7 +88,7 @@ extern (C) int UIAppMain(string[] args) {
   MenuItem mainMenuItems = new MenuItem;
   MenuItem fileItem = new MenuItem(new Action(Actions.File, "File"d));
 
-  fileItem.add(new Action(Actions.OpenInfo, "Open song info file..."d, "info-open", KeyCode.KEY_O, KeyFlag.Control));
+  fileItem.add(new Action(Actions.OpenInfo, "Open song info file..."d,    "info-open", KeyCode.KEY_O, KeyFlag.Control));
   fileItem.add(new Action(Actions.SaveInfo, "Save song info file as..."d, "info-save", KeyCode.KEY_S, KeyFlag.Control));
 
   fileItem.menuItemClick = (MenuItem item) {
@@ -100,7 +110,7 @@ extern (C) int UIAppMain(string[] args) {
 
   helpItem.menuItemClick = (MenuItem item) {
     if (item.id == Actions.About) {
-      mainWindow.showMessageBox("About SFC Generator"d, "SFC Generator v1.0.1\nwritten by TheGag96/codes"d);
+      mainWindow.showMessageBox("About SFC Generator"d, "SFC Generator v1.1\nwritten by TheGag96/codes"d);
     }
     return true;
   };
@@ -109,16 +119,16 @@ extern (C) int UIAppMain(string[] args) {
   mainMenuItems.add(buildItem);
   mainMenuItems.add(helpItem);
   
-  mainMenu = mainWindow.mainWidget.childById!MainMenu("mainMenu");
+  findWidget!mainMenu;
   mainMenu.menuItems = mainMenuItems;
 
   ////
   // Lists
   ////
 
-  listStage   = mainWindow.mainWidget.childById!StringListWidget("listStage");
-  listCombo   = mainWindow.mainWidget.childById!StringListWidget("listCombo");
-  listSetlist = mainWindow.mainWidget.childById!StringListWidget("listSetlist");
+  findWidget!listStage;
+  findWidget!listCombo;
+  findWidget!listSetlist;
 
   listStage.itemSelected   = (Widget w, int index) { selectStage(index);   return true; };
   listCombo.itemSelected   = (Widget w, int index) { selectCombo(index);   return true; };
@@ -128,13 +138,13 @@ extern (C) int UIAppMain(string[] args) {
   // Buttons
   ////
 
-  btnAddStage      = mainWindow.mainWidget.childById!Button("btnAddStage");
-  btnAddCombo      = mainWindow.mainWidget.childById!Button("btnAddCombo");
-  btnAddSetlist    = mainWindow.mainWidget.childById!Button("btnAddSetlist");
+  findWidget!btnAddStage;
+  findWidget!btnAddCombo;
+  findWidget!btnAddSetlist;
   
-  btnRemoveStage   = mainWindow.mainWidget.childById!Button("btnRemoveStage");
-  btnRemoveCombo   = mainWindow.mainWidget.childById!Button("btnRemoveCombo");
-  btnRemoveSetlist = mainWindow.mainWidget.childById!Button("btnRemoveSetlist");
+  findWidget!btnRemoveStage;
+  findWidget!btnRemoveCombo;
+  findWidget!btnRemoveSetlist;
 
   btnAddStage.click   = (Widget w) { addStage();   return true; };
   btnAddCombo.click   = (Widget w) { addCombo();   return true; };
@@ -148,18 +158,21 @@ extern (C) int UIAppMain(string[] args) {
   // Fields
   ////
 
-  lineStageName       = mainWindow.mainWidget.childById!EditLine("lineStageName");
-  lineStageID         = mainWindow.mainWidget.childById!EditLine("lineStageID");
-  lineSetlistName     = mainWindow.mainWidget.childById!EditLine("lineSetlistName");
-  lineSetlistStartID  = mainWindow.mainWidget.childById!EditLine("lineSetlistStartID");
-  lineSetlistNumSongs = mainWindow.mainWidget.childById!EditLine("lineSetlistNumSongs");
-  comboComboSetlist   = mainWindow.mainWidget.childById!ComboEdit("comboComboSetlist");
+  findWidget!lineStageName;
+  findWidget!lineStageID;
+  findWidget!lineSetlistName;
+  findWidget!lineSetlistStartID;
+  findWidget!lineSetlistNumSongs;
+  findWidget!lineBaseSongID;
+  findWidget!comboComboSetlist;
+  findWidget!textSongIDOffset;
 
   lineStageName.contentChange       = (EditableContent content) { updateStageName(); };
   lineStageID.contentChange         = (EditableContent content) { updateStageID(); };
   lineSetlistName.contentChange     = (EditableContent content) { updateSetlistName(); };
   lineSetlistStartID.contentChange  = (EditableContent content) { updateSetlistStartID(); };
   lineSetlistNumSongs.contentChange = (EditableContent content) { updateSetlistNumSongs(); };
+  lineBaseSongID.contentChange      = (EditableContent content) { updateOptionsBaseSongID(); };
   comboComboSetlist.itemClick       = (Widget w, int index) { updateComboSetlist(index); return true; };
 
   lineSetlistName.enabled     = false;
@@ -174,7 +187,8 @@ extern (C) int UIAppMain(string[] args) {
   // Combo button checkboxes
   ////
 
-  auto layoutCombo = mainWindow.mainWidget.childById!VerticalLayout("layoutCombo");
+  VerticalLayout layoutCombo;
+  findWidget!layoutCombo;
 
   foreach (x; 0..COMBO_BUTTONS.length) {
     comboButtonBoxes ~= new CheckBox(format("combo_button_%d", (1 << COMBO_BUTTONS[x].value)), format(COMBO_BUTTONS[x].name).to!dstring);
@@ -221,6 +235,17 @@ void openInfoFile() {
       return;
     }
 
+    Options newOptions;
+    if (const(JSONValue)* jsonVer = "version" in infoData) {
+      int ver = cast(int) jsonVer.integer;
+      JSONValue jsonOptions = infoData["options"];
+      if (ver >= 2) {
+        newOptions.baseSongID = cast(uint) jsonOptions["baseSongID"].integer;
+      }
+    }
+
+    options = newOptions;
+
     stageEntries.length    = 0;
     songLists.length       = 0;
     stageEntryNames.length = 0;
@@ -263,6 +288,8 @@ void openInfoFile() {
 
     comboComboSetlist.items = songListNames;
 
+    lineBaseSongID.text = options.baseSongID.to!dstring(16);
+
     if (stageEntries.length == 0) {
       disableStageStuff();
     }
@@ -294,6 +321,11 @@ void saveInfoFile() {
     if (!filename.length) return;
 
     JSONValue infoData = JSONValue(["fileType" : "SFC Info"]);
+    infoData["version"] = FILE_FORMAT_VERION;
+
+    JSONValue jsonOptions;
+    jsonOptions["baseSongID"] = options.baseSongID;
+    infoData.object["options"] = jsonOptions;
 
     JSONValue[] jsonSetlists;
 
@@ -393,16 +425,17 @@ void selectSetlist(int index) {
 ////
 
 void addStage() {
-  stageEntries ~= StageEntry(0, [ComboEntry(0, "")], "New stage");
+  stageEntries    ~= StageEntry(0, [ComboEntry(0, "")], "New stage");
   stageEntryNames ~= stageEntries[$-1].name.to!dstring;
-  listStage.items = stageEntryNames;
+  listStage.items  = stageEntryNames;
 
   lineStageName.enabled  = true;
   lineStageID.enabled    = true;
   btnAddCombo.enabled    = true;
   btnRemoveCombo.enabled = true;
 
-  if (stageEntries.length == 1) selectStage(0);
+  listStage.selectItem(cast(int)stageEntries.length-1);
+  selectStage(cast(int)stageEntries.length-1);
 }
 
 void addCombo() {
@@ -410,6 +443,9 @@ void addCombo() {
 
   comboNames     ~= "Default";
   listCombo.items = comboNames;
+
+  listCombo.selectItem(cast(int)comboNames.length-1);
+  selectCombo(cast(int)comboNames.length-1);
 }
 
 void addSetlist() {
@@ -419,9 +455,9 @@ void addSetlist() {
     newName ~= " 2";
   }
 
-  songLists              ~= SongList(0, 0, newName);
-  songListNames          ~= newName.to!dstring;
-  listSetlist.items       = songListNames;
+  songLists        ~= SongList(0, 0, newName);
+  songListNames    ~= newName.to!dstring;
+  listSetlist.items = songListNames;
 
   preserveAndUpdateComboSetlist();
 
@@ -429,7 +465,8 @@ void addSetlist() {
   lineSetlistStartID.enabled  = true;
   lineSetlistNumSongs.enabled = true;
 
-  if (songLists.length == 1) selectSetlist(0);
+  listSetlist.selectItem(cast(int)songLists.length-1);
+  selectSetlist(cast(int)songLists.length-1);
 }
 
 ////
@@ -489,6 +526,7 @@ void removeSetlist() {
   }
   else {
     if (index >= songListNames.length) index--;
+    listSetlist.selectItem(index);
     selectSetlist(index);
   }
 }
@@ -520,9 +558,9 @@ void updateStageID() {
 void updateSetlistName() {
   if (songLists.length == 0 || lineSetlistName.text == ""d || songListNames.canFind(lineSetlistName.text)) return;
 
-  auto index              = listSetlist.selectedItemIndex;
-  auto newName            = lineSetlistName.text.to!string;
-  auto oldName            = songLists[index].name;
+  auto index   = listSetlist.selectedItemIndex;
+  auto newName = lineSetlistName.text.to!string;
+  auto oldName = songLists[index].name;
 
   foreach (ref stage; stageEntries) {
     foreach (ref combo; stage.combos) {
@@ -532,9 +570,9 @@ void updateSetlistName() {
     }
   }
 
-  songListNames[index]    = lineSetlistName.text;
-  songLists[index].name   = newName;
-  listSetlist.items       = songListNames;
+  songListNames[index]  = lineSetlistName.text;
+  songLists[index].name = newName;
+  listSetlist.items     = songListNames;
 
   preserveAndUpdateComboSetlist();
 
@@ -583,6 +621,20 @@ bool updateComboButton(Widget w, bool b) {
   return true;
 }
 
+void updateOptionsBaseSongID() {
+  try {
+    options.baseSongID = lineBaseSongID.text.to!uint(16);
+  }
+  catch (Exception e) { return; }
+
+  if (options.baseSongID == 0) {
+    textSongIDOffset.text = ""d;
+  }
+  else {
+    textSongIDOffset.text = format(" + 0x%X"d, options.baseSongID);
+  }
+}
+
 ////
 // What it's all about
 ////
@@ -595,7 +647,7 @@ void generateASM() {
     return;
   }
 
-  auto code = generateCode(stageEntries, songLists);
+  auto code = generateCode(stageEntries, songLists, options);
 
   auto asmWindow  = Platform.instance.createWindow("ASM output", mainWindow, 1u | WindowFlag.Modal, 500, 500);
   auto layout     = new VerticalLayout("asm_display_layout");
@@ -658,6 +710,10 @@ dstring verify() {
         return format("Combo %s for stage '%s' has a setlist that doesn't exist!"d, memoize!getComboString(combo.buttons), entry.name);
       }
     }
+  }
+
+  if (options.baseSongID >= 0xFFFF) {
+    return "The valid range of song IDs is 0x40A0-0xFFFF!";
   }
 
   return "";
@@ -728,4 +784,9 @@ void preserveAndUpdateComboSetlist() {
 //format a ubyte array as a string for easier reading
 template Bytes(string s) {
   enum Bytes = s.splitter.map!(x => x.to!ubyte(16)).array;
+}
+
+pragma(inline)
+void findWidget(alias name)() {
+  name = mainWindow.mainWidget.childById!(typeof(name))(name.stringof);
 }

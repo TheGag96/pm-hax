@@ -3,10 +3,11 @@ import std.conv, std.algorithm, std.string, std.typecons, std.array, std.stdio;
 alias ComboEntry = Tuple!(uint, "buttons", string,       "songListName");
 alias StageEntry = Tuple!(uint, "id",      ComboEntry[], "combos",      string, "name");
 alias SongList   = Tuple!(uint, "startID", uint,         "numSongs",    string, "name");
+alias Options    = Tuple!(uint, "baseSongID");
 
 static immutable BUTTON_STRINGS = ["W", "E", "S", "N", "Z", "R", "L", "", "A", "B", "X", "Y", "St"];
 
-string generateCode(StageEntry[] entries, SongList[] songLists) {
+string generateCode(StageEntry[] entries, SongList[] songLists, Options options) {
   auto builder = appender!string;
 
   builder.put(import("codestart.txt"));
@@ -61,7 +62,20 @@ string generateCode(StageEntry[] entries, SongList[] songLists) {
     builder.put("    b last\n\n");
   }
 
-  builder.put(import("codeend.txt"));
+
+  string baseIDOffsetAdd = "";
+
+  if (options.baseSongID != 0) {
+    baseIDOffsetAdd = "\n  #add base song ID\n";
+    if (options.baseSongID > 0x7FFF) {
+      baseIDOffsetAdd ~= format("  addi r0, r0, 0x7FFF\n  addi r0, r0, 0x%X", options.baseSongID-0x7FFF);
+    }
+    else {
+      baseIDOffsetAdd ~= format("  addi r0, r0, 0x%X", options.baseSongID);
+    }
+  }
+
+  builder.put(format(import("codeend.txt"), baseIDOffsetAdd));
 
   return builder.data;
 }

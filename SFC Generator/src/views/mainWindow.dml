@@ -51,7 +51,7 @@ VerticalLayout {
 
       HorizontalLayout {
         TextWidget {
-          layoutWidth: 60
+          layoutWidth: 50
           text: "Name: "
         }
         EditLine {
@@ -62,8 +62,8 @@ VerticalLayout {
 
       HorizontalLayout {
         TextWidget {
-          layoutWidth: 60
-          text: "ID: "
+          layoutWidth: 50
+          text: "ID: 0x"
         }
         EditLine {
           layoutWidth: 200
@@ -126,7 +126,7 @@ VerticalLayout {
     }
   }
 
-  /* Setlist row */
+  /* Setlist and options row */
   HorizontalLayout {
     minHeight: 300
     maxHeight: 300
@@ -172,7 +172,7 @@ VerticalLayout {
 
       HorizontalLayout {
         TextWidget {
-          layoutWidth: 80
+          layoutWidth: 90
           text: "Name: "
         }
         EditLine {
@@ -183,23 +183,51 @@ VerticalLayout {
 
       HorizontalLayout {
         TextWidget {
-          layoutWidth: 80
-          text: "Start ID: "
+          layoutWidth: 90
+          text: "Start ID: 0x"
         }
         EditLine {
           layoutWidth: 80
           id: lineSetlistStartID
         }
+        TextWidget {
+          id: textSongIDOffset
+        }
       }
 
       HorizontalLayout {
         TextWidget {
-          layoutWidth: 80
+          layoutWidth: 90
           text: "# of songs: "
         }
         EditLine {
           layoutWidth: 80
           id: lineSetlistNumSongs
+        }
+      }
+    }
+
+    VerticalLayout {
+      layoutWidth: FILL_PARENT
+      layoutHeight: FILL_PARENT
+      margins: 10
+      id: layoutSetlist
+
+      TextWidget {
+        text: "Options"
+        fontWeight: 800
+      }
+
+      HorizontalLayout {
+        TextWidget {
+          layoutWidth: 120
+          text: "Base song ID: 0x"
+        }
+
+        EditLine {
+          layoutWidth: 90
+          id: lineBaseSongID
+          text: "0"
         }
       }
     }
