@@ -74,11 +74,11 @@ extern (C) int UIAppMain(string[] args) {
 
   mainWindow = Platform.instance.createWindow("SFC Generator", null, 1u, 780, 600);
 
-  version (Debug) {
-    mainWindow.mainWidget = parseML(std.file.readText("views/mainWindow.dml"));
+  version (Release) {
+    mainWindow.mainWidget = parseML(import("mainWindow.dml"));
   }
   else {
-    mainWindow.mainWidget = parseML(import("mainWindow.dml"));
+    mainWindow.mainWidget = parseML(std.file.readText("views/mainWindow.dml"));
   }
   
   ////

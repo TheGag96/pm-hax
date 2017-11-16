@@ -3,8 +3,10 @@ description "A generator for SFC codes"
 copyright "Copyright © 2017, codes"
 authors "codes"
 dependency "dlangui" version="~>0.9.46"
-versions "Debug" build="debug"
-versions "Release" build="release"
+buildType "debug" {
+  versions "Debug" build="debug"
+}
 buildType "release" {
+  versions "Release" build="release"
   buildOptions "optimize" "inline"
 }
