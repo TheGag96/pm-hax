@@ -192,6 +192,7 @@ VerticalLayout {
         }
         TextWidget {
           id: textSongIDOffset
+          fontSize: 9
         }
       }
 

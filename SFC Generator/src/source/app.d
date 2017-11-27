@@ -110,7 +110,7 @@ extern (C) int UIAppMain(string[] args) {
 
   helpItem.menuItemClick = (MenuItem item) {
     if (item.id == Actions.About) {
-      mainWindow.showMessageBox("About SFC Generator"d, "SFC Generator v1.1\nwritten by TheGag96/codes"d);
+      mainWindow.showMessageBox("About SFC Generator"d, "SFC Generator v1.1.1\nwritten by TheGag96/codes"d);
     }
     return true;
   };
@@ -418,6 +418,7 @@ void selectSetlist(int index) {
   lineSetlistStartID.text  = songLists[index].startID.to!dstring(16);
   lineSetlistNumSongs.text = songLists[index].numSongs.to!dstring;
   listSetlist.selectItem(index);
+  updateSetlistStartIDLabel();
 }
 
 ////
@@ -586,6 +587,8 @@ void updateSetlistStartID() {
     songLists[listSetlist.selectedItemIndex].startID = lineSetlistStartID.text.to!uint(16);
   }
   catch (Exception e) { }
+
+  updateSetlistStartIDLabel();
 }
 
 void updateSetlistNumSongs() {
@@ -627,11 +630,20 @@ void updateOptionsBaseSongID() {
   }
   catch (Exception e) { return; }
 
+  updateSetlistStartIDLabel();
+}
+
+void updateSetlistStartIDLabel() {
   if (options.baseSongID == 0) {
     textSongIDOffset.text = ""d;
   }
   else {
-    textSongIDOffset.text = format(" + 0x%X"d, options.baseSongID);
+    if (listSetlist.selectedItemIndex < 0) {
+      textSongIDOffset.text = format(" + 0x%X"d, options.baseSongID);
+    }
+    else {
+      textSongIDOffset.text = format(" + 0x%X = 0x%X"d, options.baseSongID, options.baseSongID + songLists[listSetlist.selectedItemIndex].startID);
+    }
   }
 }
 

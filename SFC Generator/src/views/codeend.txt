@@ -1,7 +1,8 @@
 last:
   #skip if there's no custom song or there's only one
   cmpwi r7, 1
-  ble end
+  beq- add_base
+  blt+ end
 
   #retrieve random seed
   lis r12, 0x805A
@@ -15,8 +16,9 @@ last:
 
   #add it back to setlist start ID
   add r0, r0, r16
-%s
 
+add_base:
+%s
 end:
   lwz r16,-0x12C(r2)
   lwz r7,-0x128(r2)

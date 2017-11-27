@@ -66,13 +66,14 @@ string generateCode(StageEntry[] entries, SongList[] songLists, Options options)
   string baseIDOffsetAdd = "";
 
   if (options.baseSongID != 0) {
-    baseIDOffsetAdd = "\n  #add base song ID\n";
+    baseIDOffsetAdd = "  #add base song ID\n  mr r16, r0\n";
     if (options.baseSongID > 0x7FFF) {
-      baseIDOffsetAdd ~= format("  addi r0, r0, 0x7FFF\n  addi r0, r0, 0x%X", options.baseSongID-0x7FFF);
+      baseIDOffsetAdd ~= format("  addi r16, r16, 0x7FFF\n  addi r16, r16, 0x%X", options.baseSongID-0x7FFF);
     }
     else {
-      baseIDOffsetAdd ~= format("  addi r0, r0, 0x%X", options.baseSongID);
+      baseIDOffsetAdd ~= format("  addi r16, r16, 0x%X", options.baseSongID);
     }
+    baseIDOffsetAdd ~= "\n  mr r0, r16\n";
   }
 
   builder.put(format(import("codeend.txt"), baseIDOffsetAdd));
