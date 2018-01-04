@@ -46,6 +46,7 @@ start:
   cmpw r3, r7
   bne- end
 
+  #r12 being 0xACE will signify that we're working with a stage
   li r12, 0xACE
   
   #load first 4 letters of the loading stage's filename
@@ -90,7 +91,7 @@ loc_2:
   and r7, r7, r11
   
 after_capitalize:
-  #805A7CB4 - 4?
+  #load location of data (805A7CB0 for stages, 005A7CB4 for modules)
   lis r11, 0x805A
   ori r11, r11, 0x7CB4
   cmpwi r12, 0xACE
