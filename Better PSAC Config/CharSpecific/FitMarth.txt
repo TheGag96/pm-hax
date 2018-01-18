@@ -1,0 +1,158 @@
+﻿DataSize0x94
+07C Params0 0x18
+080 Params1 0x18
+084 Params2 0x28
+088 Params3 0x28
+08C Params4 0x18
+090 Params5 0x18
+
+Params0
+Shield Breaker
+
+*0x0
+Charge time (seconds?)
+
+*0x4
+Base damage
+
+*0x8
+damage per second of charge?
+
+0xC
+Aerial horizontal momentum ratio
+
+0x10
+Aerial horizontal deceleration
+
+*0x14
+unknown, read once on initial pullback
+
+Params1
+Dancing Blade
+
+0x0
+Aerial horizontal momentum ratio
+
+0x4
+unknown, read once on first aerial startup
+
+0x8
+Aerial vertical boost
+
+0xC
+unknown, read once on first aerial startup
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params2
+Dolphin Slash
+
+0x0
+Max horizontal air movement in helpless falling (may transition to automatically)
+
+0x4
+Landing lag (frames)
+
+0x8
+unknown, read several times pre-jump
+
+0xC
+unknown, read throughout entire move
+
+0x10
+directionalization distance (displacement, not angle)
+
+0x14
+directionalized pre-jump displacement (has a low max)
+
+0x18
+aerial jump height ratio (relative to ground version)
+
+0x1C
+post-jump gravity
+
+0x20
+post jump max fall speed
+
+*0x24
+unknown, read once post-jump
+
+Params3
+Counter
+
+0x0
+Aerial horizontal momentum ratio
+
+0x4
+No Description Available.
+
+0x8
+Counter gravity
+
+0xC
+Counter max fall speed
+
+0x10
+Damage multiplier
+
+0x14
+unknown, read on activation
+
+*0x18
+Freeze frames on activation
+
+0x1C
+Minimum damage
+
+0x20
+Maximum damage
+
+0x24
+unknown, read on activation
+
+Params4
+paramMarthSpecialLwShield__11ftMarthNode
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params5
+paramMarthFinal__11ftMarthNode
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+

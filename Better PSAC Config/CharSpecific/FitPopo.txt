@@ -1,0 +1,391 @@
+﻿DataSize0xC4
+08C Params0 0x10
+090 Params1 0x10
+094 Params2 0x58
+098 Params3 0x58
+09C Params4 0x28
+0A0 Params5 0x4
+0AC Article0 0x38
+0B0 Article1 0x40
+0B4 Article2 0x44
+0B8 Article3 0x38
+0BC Article4 0x38
+0C0 Params13 0x10
+
+Article0
+1-1
+034 Params0-0 0x10
+
+Article1
+3-2
+034 Params1-0 0x48
+
+Article2
+4-3
+034 Params2-0 0x40
+
+Article3
+5-1
+034 Params3-0 0x4
+
+Article4
+1-1
+034 Params4-0 0x4
+
+Params0
+paramSpecialN__10ftPopoNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+Params1
+paramSpecialLw__10ftPopoNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params2
+paramSpecialS__10ftPopoNode
+
+0x0
+Nana snap distance
+
+0x4
+ % of initial solo grounded horizontal velocity subtracted from initial velocity?
+
+0x8
+Unknown
+
+0xC
+Grounded initial velocity
+
+0x10
+Aerial initial velocity
+
+0x14
+Grounded acceleration
+
+0x18
+Aerial horizontal acceleration
+
+0x1C
+ % of initial solo grounded vertical velocity subtracted from initial velocity?
+
+0x20
+Grounded max velocity
+
+0x24
+Aerial max horizontal velocity
+
+0x28
+Aerial solo initial vertical velocity
+
+0x2C
+Aerial synced initial vertical velocity
+
+0x30
+Aerial solo gravity
+
+0x34
+Aerial synced gravity
+
+0x38
+Aerial solo downward max velocity
+
+0x3C
+Aerial synced downward max velocity
+
+0x40
+Solo mash vertical velocity boost
+
+0x44
+Synced mash vertical velocity boost
+
+*0x48
+Mash cooldown
+
+0x4C
+Horizontal synced wall bounce momentum conservation
+
+0x50
+Horizontal solo wall bounce momentum conservation
+
+*0x54
+No Description Available.
+
+Params3
+paramSpecialHi__10ftPopoNode
+
+0x0
+Nana snap distance
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+Unknown, read on a couple of opening pre-jump frames
+
+0x10
+pre-jump horizontal braking (higher = more decelleration)
+
+0x14
+pre-jump vertical braking (higher = more decelleration)
+
+0x18
+pre-jump gravity
+
+0x1C
+unknown, read once pre-jump
+
+0x20
+bonus height from nana
+
+0x24
+bonus height from nana inverse ratio (higher = less jump)
+
+0x28
+fall speed modifier of nana throw
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+Solo vertical height boost
+
+0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+Params4
+paramSpecialHiPartner__10ftPopoNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+Params5
+paramFinal__10ftPopoNode
+
+0x0
+No Description Available.
+
+Params13
+ExtraParams13
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+Params0-0
+Blizzard
+
+0x0
+Distance/speed
+
+0x4
+Angle (degrees)
+
+0x8
+Something with angle?
+
+0xC
+Something with angle?
+
+Params1-0
+Ice Blocks
+
+0x0
+Speed
+
+0x4
+Speed increase over time?
+
+0x8
+Y offset it starts to travel at
+
+0xC
+Something with rising and vertical momentum
+
+0x10
+Gravity
+
+*0x14
+Frame count for something?
+
+*0x18
+Frame count for something?
+
+*0x1C
+Frame count for something?
+
+0x20
+Ice block size reduction
+
+0x24
+Damage multiplier
+
+*0x28
+Frame count for something?
+
+*0x2C
+How many frames before they delete
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+Params2-0
+IceBerg
+
+*0x0
+ ?? (read on hand clap)
+
+*0x4
+How many frames before iceberg rises
+
+0x8
+Iceberg rising speed
+
+*0xC
+How many frames iceberg is out for
+
+0x10
+No Description Available.
+
+0x14
+ ?? (32 makes it almost instant)
+
+*0x18
+ ?? (read on descent)
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params4-0
+ExtraParams0
+
+0x0
+No Description Available.
+

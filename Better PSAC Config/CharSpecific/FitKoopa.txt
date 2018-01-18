@@ -1,0 +1,206 @@
+﻿DataSize0x90
+07C Params0 0x50
+080 Params1 0x30
+084 Params2 0x20
+088 Params3 0x38
+08C Article0 0x38
+
+Article0
+1-1
+034 Params0-0 0x18
+
+Params0
+Flame
+
+0x0
+Initial fire angle
+
+0x4
+Flame spread randomness
+
+0x8
+Max angle upwards
+
+0xC
+Max angle downwards
+
+0x10
+Turning speed
+
+0x14
+Rotation of flames and head in relation to 0x10
+
+*0x18
+Amount of frames spent firing after releasing B
+
+0x1C
+Refueling/Spacing in gfx?
+
+0x20
+Spacing in fire gfx?
+
+0x24
+Max Size Charge
+
+0x28
+Min Size Charge
+
+0x2C
+Speed/Distance Charge Refuel Rate (per frame)
+
+0x30
+Size Charge Refuel Rate (per frame)
+
+0x34
+Speed/Distance Charge Drain Rate (per frame?)
+
+0x38
+Size Charge Drain Rate (per frame?)
+
+*0x3C
+Frame count for something?
+
+*0x40
+Frames between flames
+
+0x44
+How far away flame starts horizontally
+
+0x48
+How far away flame starts vertically
+
+0x4C
+ ?? (read on flame gfx reduction)
+
+Params1
+Whirling Fortress
+
+*0x0
+No Description Available.
+
+0x4
+Vertical momentum in air
+
+0x8
+Gravity
+
+0xC
+Unknown (read on fortress in air)
+
+0x10
+Grounded moving speed
+
+0x14
+Momentum preservation on turning?
+
+0x18
+Grounded turning speed
+
+0x1C
+Aerial mobility
+
+*0x20
+How many frames after falling to landing to automatically do a grounded fortress again
+
+*0x24
+Something dealing with 0x20 but affects how long you stay in shell
+
+*0x28
+Something dealing with 0x20 but making it really high delays the animation somehow
+
+*0x2C
+Landing lag
+
+Params2
+Bowser Bomb
+
+0x0
+Horizontal aerial momentum preservation on startup.
+
+0x4
+Vertical aerial momentum preservation on startup.
+
+0x8
+Unknown (read on aerial downB)
+
+0xC
+Unknown (read on aerial downB)
+
+0x10
+Unknown (read on aerial downB)
+
+0x14
+Speed going down (can go upwards too)
+
+0x18
+Unknown
+
+0x1C
+Unknown
+
+Params3
+Flying Slam
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+Params0-0
+Flame Article
+
+0x0
+Landing detection
+
+*0x4
+Frame count for something? (0 will freeze)
+
+*0x8
+Frame hitbox terminates on
+
+0xC
+Flame speed
+
+0x10
+Horizontal momentum of flames
+
+*0x14
+No Description Available.
+

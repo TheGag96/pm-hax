@@ -1,0 +1,184 @@
+﻿DataSize0x9C
+07C Params0 0x18
+080 Params1 0x18
+084 Params2 0x28
+088 Params3 0x20
+08C Params4 0x10
+090 Params5 0x20
+094 Article0 0x38
+098 Article1 0x38
+
+Article0
+4-8
+030 Params0D3 0x8
+034 Params0-0 0x4
+
+Article1
+1-1
+034 Params1-0 0x4
+
+Params0
+Falcon Punch
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+Momentum forward
+
+0x10
+Momentum from holding up
+
+*0x14
+No Description Available.
+
+Params1
+Raptor Boost
+
+0x0
+Horizontal momentum on hit (negative is equivalent of 0)
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+Landing lag from aerial hit
+
+*0x14
+No Description Available.
+
+Params2
+Falcon Dive
+
+0x0
+How much you slide on ground aiming upB
+
+0x4
+Something with mobility in aiming?
+
+0x8
+Mobility
+
+0xC
+Something with mobility in aiming?
+
+0x10
+ ?? (read during upB on ground)
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params3
+Falcon Kick
+
+0x0
+No Description Available.
+
+0x4
+Momentum multiplier on hit
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+Air to ground landing lag modifier
+
+0x14
+Ground to ground lag modifier
+
+0x18
+Air to ground landing friction
+
+*0x1C
+No Description Available.
+
+Params4
+Blue Falcon
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params5
+ExtraParams5
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

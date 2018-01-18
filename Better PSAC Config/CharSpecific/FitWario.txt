@@ -1,0 +1,327 @@
+﻿DataSize0xA4
+07C Params0 0x28
+080 Params1 0x20
+084 Params2 0x20
+088 Params3 0x20
+08C Article0 0x40
+090 Article1 0x38
+0A0 Params9 0x40
+
+Article0
+13-16
+030 Params0D3 0x10
+034 Params0-0 0xA0
+
+Article1
+1-1
+034 Params1-0 0x4
+
+Params0
+Chomp
+
+*0x0
+How many frames after releasing B he bites
+
+*0x4
+Max frames you can hold bite
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+*0x24
+Frames before you can bite again after throwing
+
+Params1
+Bike
+
+0x0
+Starting gravity?
+
+0x4
+ ?? (read on aerial start)
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+Jumping off bike horizontal momentum
+
+0x14
+Jumping off bike vertical momentum
+
+*0x18
+How long after bike is gone you have to wait to do sideB again
+
+*0x1C
+No Description Available.
+
+Params2
+Corkscrew
+
+0x0
+Startup Horizontal Momentum Multiplier
+
+0x4
+Startup Vertical Momentum
+
+0x8
+Something with vertical momentum when using horizontal movement? (larger = less height)
+
+0xC
+Something with horizontal joystick threshold for reversal?
+
+0x10
+Horizontal movement during jump
+
+0x14
+Horizontal momentum added to end of corkscrew
+
+0x18
+Vertical momentum subtracted from end of corkscrew
+
+*0x1C
+No Description Available.
+
+Params3
+Wario Waft
+
+*0x0
+Seconds to fully charge
+
+*0x4
+Seconds to reach charge level one
+
+*0x8
+Seconds to reach charge level two
+
+0xC
+Charge level one damage multiplier (at the point just before level two begins)
+
+0x10
+Charge level two damage multiplier (at the point just before level three begins)
+
+0x14
+Vertical momentum (level two)?
+
+0x18
+Vertical momentum (level three)?
+
+0x1C
+Vertical momentum (level four?)
+
+Params9
+ExtraParams9
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+0x0
+Initial speed (ground)?
+
+0x4
+Initial speed (air)?
+
+0x8
+Aerial Inital Jump Height
+
+0xC
+Grounded top speed
+
+0x10
+Grounded Air Resistance
+
+0x14
+Grounded Acceleration
+
+0x18
+Aerial top speed
+
+0x1C
+Aerial Air Resistance
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+Aerial Max Fallspeed
+
+*0x2C
+No Description Available.
+
+0x30
+Damage Growth Constant (Equation is roughly something like Speed (in Units) x this = damage output. At fullspeed with this set to 100, the hitbox did 699%-744%)
+
+0x34
+Something with hitbox offset?
+
+0x38
+Minimum speed to have a hitbox?
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+ ?? (read on grounded travel)
+
+0x48
+ ?? (read on grounded travel)
+
+0x4C
+Aerial Rotation Speed
+
+0x50
+Air -> ground bounce height
+
+0x54
+ ?? (read when landing from air -> ground)
+
+0x58
+No Description Available.
+
+0x5C
+Max rotation on ground
+
+0x60
+Something with rotating (at 0 you can't rotate)
+
+0x64
+Rotating down air friction? (at 0 you can't rotate)
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+*0x70
+Something with how long you have to be at max rotation before falling off at slow speeds?
+
+*0x74
+Something with how long you have to be at max rotation before falling off at fast speeds?
+
+0x78
+ ?? (read when falling off bike)
+
+*0x7C
+Falling chance on turn (i.e. one in this chance)
+
+*0x80
+See above, but for higher speed?
+
+0x84
+ ?? (read when falling off bike)
+
+0x88
+No Description Available.
+
+*0x8C
+No Description Available.
+
+0x90
+No Description Available.
+
+0x94
+No Description Available.
+
+0x98
+No Description Available.
+
+*0x9C
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

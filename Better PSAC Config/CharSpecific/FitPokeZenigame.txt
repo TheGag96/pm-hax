@@ -1,0 +1,250 @@
+﻿DataSize0x9C
+07C Params0 0x28
+080 Params1 0x28
+084 Params2 0x68
+088 Params3 0x1C
+08C Params4 0xC
+090 Article0 0x38
+094 Params6 0x20
+
+Article0
+3-3
+034 Params0-0 0x20
+
+Params0
+ExtraParams0
+
+0x0
+Max stamina
+
+0x4
+Fatigue value decreased every second
+
+0x8
+Fatigue value decreased per attack
+
+0xC
+Fatigue value increased for every second pokemon is in pokeball (and 80% KB on attacks?)
+
+0x10
+kb multiplier at "weakest" stamina (0x24)
+
+0x14
+Enter stamina wait animation (tired) when Fatigue falls below this value
+
+0x18
+Fatigue multiplier when KO'd
+
+0x1C
+Weakness multiplier
+
+0x20
+Resistance multiplier
+
+0x24
+"Weakest" stamina level
+
+Params1
+Water Gun
+
+*0x0
+How many frames of charging to be considered full
+
+0x4
+Initial angle of firing (in degrees)
+
+0x8
+Max angle upwards
+
+0xC
+Max angle down (higher is more angled down)
+
+0x10
+Turning speed
+
+0x14
+ ?? (read on water gun)
+
+0x18
+ ?? (read on water gun)
+
+*0x1C
+How many frames before not getting spray
+
+0x20
+Momentum backwards
+
+*0x24
+ ?? (read when firing water/spray)
+
+Params2
+Withdraw
+
+0x0
+Initial momentum (starts at gfx effect)
+
+0x4
+Momentum in air?
+
+0x8
+Momentum without holding direction?
+
+0xC
+Momentum preservation without holding direction?
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+Params3
+Waterfall
+
+0x0
+Joystick distance?
+
+0x4
+Joystick distance?
+
+0x8
+Directionalization distance (displacement, not angle)
+
+0xC
+Special fall aerial mobility
+
+0x10
+ ??
+
+0x14
+ ??
+
+0x18
+ ??
+
+Params4
+ExtraParams4
+
+0x0
+ ??
+
+0x4
+ ??
+
+0x8
+Aerial height
+
+Params6
+ExtraParams6
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+Params0-0
+Water Gun Attribute
+
+0x0
+Starting water gun speed
+
+0x4
+Water gun speed multiplier
+
+0x8
+Water gun gravity
+
+0xC
+Water spacing?
+
+*0x10
+Water dissapearing time
+
+0x14
+Water gfx initial size
+
+0x18
+Water gfx scaling
+
+*0x1C
+ ?? (read on water gun)
+

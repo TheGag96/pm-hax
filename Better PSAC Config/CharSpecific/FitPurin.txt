@@ -1,0 +1,176 @@
+﻿DataSize0x88
+07C Params0 0xA8
+080 Params1 0x20
+084 Params2 0x10
+
+Params0
+Rollout
+
+*0x0
+How many frames you roll around
+
+*0x4
+ ?? (frame count for something?)
+
+0x8
+Gravity
+
+0xC
+Fall speed
+
+0x10
+Friction?
+
+0x14
+Acceleration
+
+0x18
+Something with acceleration/speed
+
+0x1C
+Something with acceleration/speed
+
+0x20
+ ?? (read in air)
+
+0x24
+Aerial horizontal control acceleration (read in air, negative = forward and positive = backward)
+
+0x28
+Min Aerial Horizontal speed (momentum forward in air/momentum preservation in air)
+
+0x2C
+ ?? (read in air)
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+Rotation animation speed while pivoting or after hit
+
+*0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+Bonus damage: +3x to fast
+
+0x50
+Damage multiplier: (4% base for fast)
+
+0x54
+Horizontal recoil on hit
+
+0x58
+Vertical recoil on hit
+
+0x5C
+Horizontal ending slide speed
+
+0x60
+No Description Available.
+
+0x64
+Rolling animation speed
+
+*0x68
+No Description Available.
+
+0x6C
+Initial roll power (min 40.0--see friction)
+
+0x70
+Max roll power (min 40.0--see friction)
+
+0x74
+Roll power saved per frame
+
+0x78
+Initial charge animation speed
+
+0x7C
+No Description Available.
+
+*0x80
+Increasing it cuts short distance traveled. Friction related?
+
+0x84
+Friction. (Subtracted from roll speed)
+
+0x88
+aerial rolling animation speed
+
+0x8C
+Somehow linearly affects roll speed. Affects aerial speed more.
+
+0x90
+Pivot acceleration
+
+0x94
+Degree of influce slopes have on speed
+
+0x98
+Minimum speed required for sparkle graphics
+
+0x9C
+No Description Available.
+
+0xA0
+Rebound speed multiplier
+
+0xA4
+Landing lag (post-recoil)
+
+Params1
+Pound
+
+0x0
+Something to do with window to directionalize; when set high, can't angle
+
+0x4
+Something to do with window to directionalize; when set high or low, can't angle
+
+0x8
+Modification angle
+
+0xC
+Gravity before punch
+
+0x10
+No Description Available.
+
+0x14
+Momentum forward (aerial distance?)
+
+0x18
+Aerial decay rate
+
+*0x1C
+No Description Available.
+
+Params2
+Puff Up
+
+0x0
+Size
+
+0x4
+Inflation time (frames)
+
+0x8
+Max size time (frames)
+
+0xC
+Deflation time (frames, interrupts at 120 if larger and keeps current size)
+

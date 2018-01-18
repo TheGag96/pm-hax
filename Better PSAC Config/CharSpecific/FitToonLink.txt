@@ -1,0 +1,259 @@
+﻿DataSize0xCC
+07C Params0 0x10
+080 Params1 0x8
+084 Params2 0x18
+088 Params3 0x8
+08C Params4 0x18
+090 Params5 0x8
+094 Params6 0x10
+0A8 Article0 0x38
+0B0 Article1 0x38
+0B8 Article2 0x38
+0BC Article3 0x38
+0C0 Article4 0x38
+0C4 Article5 0x38
+0C8 Article6 0x38
+
+Article0
+4-3
+034 Params0-0 0x58
+
+Article1
+0-6
+
+Article2
+3-3
+034 Params2-0 0x28
+
+Article3
+9-1
+034 Params3-0 0x18
+
+Article4
+0-2
+
+Article5
+0-3
+
+Params0
+Arrows
+
+0x0
+More velocity with lower value, ONLY affects charged arrows
+
+0x4
+ ??
+
+*0x8
+ ??
+
+0xC
+Angle (radians)
+
+Params1
+ExtraParams1
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+Params2
+Spin Attack
+
+0x0
+Vertical height
+
+0x4
+Gravity
+
+0x8
+Not used in-game
+
+0xC
+Horizontal mobility
+
+0x10
+Horizontal maximum mobility
+
+*0x14
+Landing lag
+
+Params3
+Boomerang
+
+0x0
+Something to do with boomerang angle (above 1 you can't angle boomerang)
+
+0x4
+Angle of upward/downward boomerang throw
+
+Params4
+Triforce Slash?
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+Params5
+ExtraParams5
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params6
+ExtraParams6
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params0-0
+Boomerang Attribute
+
+0x0
+Boomerang vertical offset -16=Higher, hits floor sooner than it should
+
+*0x4
+Duration of short toss (frames)
+
+*0x8
+Duration of long toss (frames)
+
+0xC
+Short toss start velocity
+
+0x10
+Long toss start velocity
+
+0x14
+Rotation of boomerang on toss (Z axis)
+
+0x18
+Rotation of boomerang on return (Z axis)
+
+0x1C
+Deceleration/Resistance
+
+0x20
+Returning speed
+
+0x24
+ ??
+
+0x28
+ ??
+
+0x2C
+Boomerang Homing. Higher value = better homing to link
+
+0x30
+ ??
+
+*0x34
+Homing time (frames)
+
+*0x38
+ ?? (frames)
+
+0x3C
+X offset of when boomerang is catchable. Higher value = boomerang is caught further in front
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+Params2-0
+Arrows Attribute
+
+0x0
+ ??
+
+*0x4
+Duration (frames)
+
+0x8
+Uncharged arrow velocity multiplier
+
+0xC
+Charge arrow velocity multiplier
+
+0x10
+Uncharged arrow damage
+
+0x14
+Full charge arrow damage
+
+*0x18
+Arrow in ground duration (frames)
+
+0x1C
+Arrow gravity
+
+0x20
+Arrow weight
+
+*0x24
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+

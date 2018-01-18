@@ -1,0 +1,2572 @@
+﻿DataSize0x18C
+07C Params0 0x38
+080 Params1 0x10
+084 Params2 0x18
+088 Params3 0x2C
+08C Params4 0x68
+090 Params5 0x18
+094 Params6 0x18
+098 Params7 0x50
+09C Params8 0x60
+0A0 Params9 0x20
+0A4 Params10 0x20
+0A8 Params11 0x20
+0AC Params12 0x50
+0B0 Params13 0x18
+0B4 Params14 0x28
+0B8 Params15 0x28
+0BC Params16 0x18
+0C0 Params17 0x30
+0C4 Params18 0x28
+0C8 Params19 0x10
+0CC Params20 0x18
+0D0 Params21 0x18
+0D4 Params22 0x18
+0D8 Params23 0x10
+0DC Params24 0x18
+0E0 Params25 0x18
+0E4 Params26 0xC0
+0E8 Params27 0x28
+0EC Params28 0x40
+0F0 Params29 0x30
+0F4 Params30 0x8
+0F8 Params31 0x10
+0FC Params32 0x18
+100 Params33 0x10
+104 Params34 0x10
+108 Params35 0x20
+10C Params36 0x10
+110 Params37 0x50
+114 Params38 0x10
+118 Params39 0x8
+11C Params40 0x8
+124 Article0 0x38
+128 Article1 0x38
+130 Article2 0x38
+134 Article3 0x60
+138 Article4 0x38
+13C Article5 0x38
+150 Article6 0x38
+154 Article7 0x38
+158 Article8 0x38
+168 Article9 0x38
+16C Params60 0x28
+170 Article10 0x78
+174 Params62 0x348
+17C Params64 0x60
+184 Params66 0x90
+
+Article0
+2-2
+
+Article1
+1-1
+034 Params1-0 0x10
+
+Article2
+2-2
+034 Params2-0 0x50
+
+Article3
+1-1
+034 Params3-0 0x4
+
+Article4
+6-6
+
+Article5
+4-6
+
+Article6
+1-1
+034 Params6-0 0x18
+
+Article7
+3-3
+034 Params7-0 0x8
+
+Article8
+3-3
+034 Params8-0 0x20
+
+Article9
+2-2
+034 Params9-0 0x20
+
+Article10
+3-4
+034 SubAction 100tonStoneMain
+038 SubAction ThwompStoneMain
+03C SubAction SpikeBallMain
+040 SubAction StoneKirbyMain
+044 SubAction HappyStoneMain
+048 SubAction 100tonStoneGFX
+04C SubAction ThwompStoneGFX
+050 SubAction SpikeBallGFX
+054 SubAction StoneKirbyGFX
+058 SubAction HappyStoneGFX
+05C SubAction 100tonStoneSFX
+060 SubAction ThwompStoneSFX
+064 SubAction SpikeBallSFX
+068 SubAction StoneKirbySFX
+06C SubAction HappyStoneSFX
+070 Params10-15 0x90
+074 Params10-16 0x4
+
+Params0
+Inhale
+
+*0x0
+How many frames you continue inhaling for after releasing B
+
+0x4
+ ?? (read on EatWait; freezes very easily)
+
+0x8
+ ?? (read on EatWait; freezes very easily)
+
+0xC
+Inhale walk speed
+
+0x10
+Inhale jump height
+
+0x14
+Inhale stop walk momentum
+
+0x18
+X offset of exhale
+
+0x1C
+Y offset of exhale
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+full swallow aerial mobility multiplier
+
+*0x2C
+Odds of losing power when hit
+
+0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+Params1
+Hammer
+
+0x0
+Vertical momentum
+
+*0x4
+No Description Available.
+
+*0x8
+Landing lag
+
+*0xC
+No Description Available.
+
+Params2
+Final Cutter
+
+0x0
+Aerial vertical momentum
+
+0x4
+ ?? (read on upB input and initial rise)
+
+0x8
+X offset of cutter
+
+0xC
+Y offset of cutter
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params3
+Stone
+
+*0x0
+Max frames in stone
+
+*0x4
+How many frames after you press b you get out
+
+0x8
+ ?? (read on startup)
+
+0xC
+ ?? (read on startup)
+
+0x10
+ ?? (read when turned to stone)
+
+0x14
+ ?? (read when turned to stone)
+
+0x18
+Gravity
+
+0x1C
+ ?? (read when turned to stone in air)
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+Params4
+Cook Kirby
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+Number of items to spawn per article/item (This/2)
+
+*0x14
+No Description Available.
+
+*0x18
+ ?? {At 15, he stirs even if he didn't get anyone)
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+Damage per hit when cooking
+
+*0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+Params5
+Captain Falcon: Falcon Punch
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+Momentum forward
+
+0x10
+Momentum from holding up
+
+*0x14
+No Description Available.
+
+Params6
+Pikachu: Thunder Jolt
+
+0x0
+Grounded X offset
+
+0x4
+Grounded Y offset
+
+0x8
+Aerial X offset
+
+0xC
+Aerial Y offset
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params7
+MetaKnight: Mach Tornado
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+Maximum spin speed?
+
+0xC
+No Description Available.
+
+0x10
+Grounded horizontal speed
+
+0x14
+Horizontal acceleration
+
+0x18
+Aerial Horizontal speed
+
+0x1C
+Horizontal braking acceleration
+
+0x20
+Gravity modifier
+
+0x24
+Fall speed
+
+0x28
+Vertical acceleration boost on B press?
+
+*0x2C
+Related to button input (higher = harder to mash)
+
+0x30
+Button press bosst vertical acceleration?
+
+0x34
+Related to timing
+
+0x38
+Starting spin speed?
+
+0x3C
+Subtracts each frame if less than 5 B presses
+
+*0x40
+No Description Available.
+
+0x44
+Subtracts this each frame after pressing B 5 times
+
+0x48
+Spin speed equal to or less than this to end move
+
+*0x4C
+No Description Available.
+
+Params8
+Sonic: Homing Attack
+
+0x0
+Initial Vertical velocity on Charge
+
+0x4
+Momentous growth on aerial charge
+
+0x8
+Momentum Conservatism (set to 2, it will multiply current momentum by 2. Set to 0.5, current momentum will be halved. Etc.)
+
+*0xC
+Minimum startup
+
+*0x10
+Maximum startup
+
+0x14
+Maximum Curve. Lower number = smaller curves
+
+0x18
+Homing Intensity. Lower number = better homing.
+
+0x1C
+Homing Wind Resistance. (Higher number = travel slower, and cancel before you reach your target if too high.)
+
+0x20
+Homing Dash Acceleration
+
+0x24
+Homing Dash Deceleration
+
+0x28
+No Description Available.
+
+*0x2C
+Homing Dash Duration (Frames?)
+
+0x30
+Floor-bounce H Velocity
+
+0x34
+Floor-bounce V Velocity?
+
+0x38
+Floor-bounce V Velocity ...Again?
+
+0x3C
+Person-bounce Aerial Mobility
+
+0x40
+Person-bounce V Mobility
+
+0x44
+Person-bounce H Deceleration Rate?
+
+*0x48
+Person-bounce Fallspeed?
+
+0x4C
+No-homing dash angle (Degrees)
+
+0x50
+No-homing dash speed 
+
+*0x54
+No-homing dash duration
+
+0x58
+No Description Available.
+
+*0x5C
+No-homing dash duration again?
+
+Params9
+Fox: Laser
+
+0x0
+X offset grounded laser
+
+0x4
+Y offset grounded laser
+
+0x8
+X offset aerial laser
+
+0xC
+Y offset aerial laser
+
+*0x10
+Angle laser is fired at (Degrees)
+
+0x14
+Laser speed
+
+*0x18
+Landing lag?
+
+*0x1C
+No Description Available.
+
+Params10
+Falco: Laser
+
+0x0
+X offset grounded laser
+
+0x4
+Y offset grounded laser
+
+0x8
+X offset aerial laser
+
+0xC
+Y offset aerial laser
+
+*0x10
+Angle laser is fired at (degrees)
+
+0x14
+Laser speed
+
+*0x18
+Landing lag?
+
+*0x1C
+No Description Available.
+
+Params11
+Wolf: Laser
+
+0x0
+X offset grounded laser
+
+0x4
+Y offset grounded laser
+
+0x8
+X offset aerial laser
+
+0xC
+Y offset aerial laser
+
+*0x10
+Angle laser is fired at (degrees)
+
+0x14
+Laser speed
+
+*0x18
+Landing lag?
+
+*0x1C
+No Description Available.
+
+Params12
+Charizard: Flamethrower
+
+0x0
+Initial angle
+
+0x4
+Flame spread randomness
+
+0x8
+Max angle upwards
+
+0xC
+Max angle downwards
+
+0x10
+Turning speed
+
+0x14
+Turning speed/max rotation?
+
+*0x18
+Amount of frames spent firing after releasing B
+
+0x1C
+Max Speed / Distance Charge
+
+0x20
+Min Speed / Distance Charge
+
+0x24
+Max Size Charge
+
+0x28
+Min Size Charge
+
+0x2C
+Speed / Distance Recharge Rate
+
+0x30
+Size Recharge Rate
+
+0x34
+Speed / Distance Drain Rate
+
+0x38
+Size Drain Rate
+
+*0x3C
+Frame count for something?
+
+*0x40
+Frames between flames
+
+0x44
+X offset
+
+0x48
+Y offset
+
+0x4C
+No Description Available.
+
+Params13
+Ivysaur: Bullet Seed
+
+*0x0
+Frames between seeds
+
+0x4
+Vertical momentum
+
+0x8
+Y offset
+
+*0xC
+Endlag after releasing B
+
+*0x10
+Max frames you can hold B to continue attacking
+
+*0x14
+No Description Available.
+
+Params14
+Squirtle: Water Gun
+
+*0x0
+How many frames of charging to be considered full
+
+0x4
+Initial angle of firing (in degrees)
+
+0x8
+Max angle upwards
+
+0xC
+Max angle down (higher is more angle down)
+
+0x10
+Turning speed
+
+0x14
+?? (read on water gun)
+
+0x18
+?? (read on water gun)
+
+*0x1C
+How many frames before not getting spray
+
+0x20
+Momentum backwards
+
+*0x24
+?? (read when firing water/spray)
+
+Params15
+Wario: Chomp
+
+*0x0
+How many frames after releasing B he bites
+
+*0x4
+Max frames you can hold bite
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params16
+Peach: Toad
+
+0x0
+Horizontal braking speed (Peach continues moving horizontally at her previous speed divided by this constant.)
+
+0x4
+Horizontal braking acceleration?
+
+0x8
+Vertical speed
+
+0xC
+Gravity
+
+0x10
+Max fall speed
+
+*0x14
+Hitlag on hit (frames)
+
+Params17
+paramPopoSpecialN__11ftKirbyNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+Params18
+Snake: Grenade
+
+0x0
+Grenade horizontal gravity/air friction? 
+
+0x4
+Grenade vertical gravity/air friction? 
+
+0x8
+Forward angled horizontal momentum 
+
+0xC
+Forward angled vertical momentum 
+
+0x10
+Unangled horizontal momentum 
+
+0x14
+Unangled vertical momentum 
+
+0x18
+Back angled horizontal momentum 
+
+0x1C
+Back angled vertical momentum 
+
+0x20
+Duck and cover animation range 
+
+*0x24
+No Description Available.
+
+Params19
+Zelda: Nayru's Love
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+Horizontal momentum preservation (less = more)
+
+0xC
+Vertical momentum
+
+Params20
+ExtraParams20
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params21
+Lucas: PK Freeze
+
+*0x0
+Number of frames to halt vert momentum before using 0xC as gravity (0 permanently halts fall speed)
+
+*0x4
+How long after releasing B PK Freeze explodes
+
+*0x8
+PK Freeze lifetime
+
+0xC
+Gravity after initial vertical halt
+
+0x10
+ ?? (read on release/PK Freeze explosion)
+
+*0x14
+No Description Available.
+
+Params22
+Ness: PK Flash
+
+*0x0
+No Description Available.
+
+*0x4
+How long after releasing B PK Flash explodes
+
+*0x8
+PK Flash lifetime
+
+0xC
+Aerial vert momentum on charge
+
+0x10
+ ?? (read on release/PK Flash explosion)
+
+*0x14
+?? (read on release/PK Flash explosion).
+
+Params23
+Donkey Kong: Giant Punch
+
+*0x0
+How many arm swings to fully charge
+
+*0x4
+Damage per arm swing (first arm swing has no effect)
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+Params24
+Ike: Eruption
+
+*0x0
+Charge time (seconds?)
+
+*0x4
+Base damage
+
+*0x8
+Damage per second of charge
+
+0xC
+Aerial horizontal momentum ratio
+
+0x10
+Aerial horizontal momentum deceleration
+
+0x14
+Fully charged self damage
+
+Params25
+Marth: Shield Breaker
+
+*0x0
+Charge time (seconds?)
+
+*0x4
+Base damage
+
+*0x8
+Damage added per second
+
+0xC
+Aerial horizontal momentum ratio
+
+0x10
+Aerial horizontal deceleration
+
+*0x14
+Unknown, read once on initial pullback
+
+Params26
+Jigglypuff: Rollout
+
+*0x0
+How many frames you roll around
+
+*0x4
+ ?? (frame count for something?)
+
+0x8
+Gravity
+
+0xC
+Fall speed
+
+0x10
+Friction?
+
+0x14
+Acceleration
+
+0x18
+Something with acceleration/speed
+
+0x1C
+Something with acceleration/speed
+
+0x20
+ ?? (read in air)
+
+0x24
+Aerial horizontal control acceleration (read in air, negative = forward and positive = backward)
+
+0x28
+Min Aerial Horizontal speed (momentum forward in air/momentum preservation in air)
+
+0x2C
+ ?? (read in air)
+
+0x30
+Spin speed equal to or less than this to end move
+
+0x34
+No Description Available.
+
+0x38
+Rotation animation speed while pivoting or after hit
+
+*0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+Bonus damage: +3x to fast
+
+0x50
+Damage multiplier: (4% base for fast)
+
+0x54
+Horizontal momentum on hit
+
+0x58
+Vertical momentum on hit
+
+0x5C
+Horizontal ending slide speed
+
+0x60
+No Description Available.
+
+0x64
+Rolling animation speed
+
+*0x68
+No Description Available.
+
+0x6C
+Initial roll power (min 40.0--see friction)
+
+0x70
+Max roll power (min 40.0--see friction)
+
+0x74
+Roll power saved per frame
+
+0x78
+Initial charge animation speed
+
+0x7C
+No Description Available.
+
+*0x80
+Increasing it cuts short distance traveled. Friction related?
+
+0x84
+Friction. (Subtracted from roll speed)
+
+0x88
+aerial rolling animation speed
+
+0x8C
+Somehow linearly affects roll speed. Affects aerial speed more.
+
+0x90
+Pivot acceleration
+
+0x94
+Degree of influce slopes have on speed
+
+0x98
+Minimum speed required for sparkle graphics
+
+0x9C
+No Description Available.
+
+0xA0
+Rebound speed multiplier
+
+0xA4
+Landing lag (post-recoil)
+
+0xA8
+Speed of star shot
+
+0xAC
+Speed deceleration
+
+0xB0
+Spinning speed
+
+0xB4
+X offset?
+
+0xB8
+Y offset
+
+0xBC
+No Description Available.
+
+Params27
+Diddy Kong: Peanut Popgun
+
+0x0
+Vertical velocity?
+
+0x4
+Gravity?
+
+0x8
+Base vertical velocity?
+
+0xC
+Charge horizontal velocity multiplier?
+
+0x10
+Momentum backward from charged firing
+
+0x14
+Max additional damage (to base peanut throw damage)
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+Params28
+R.O.B.: Robo Beam
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+Frames to recharge?
+
+0x18
+Frames to supercharge?
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+Params29
+ExtraParams29
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+Params30
+Pikmin: Pluck
+
+0x0
+X offset of pluck?
+
+*0x4
+Y offset of pluck?
+
+Params31
+Pikmin: Pikmin Toss?
+
+*0x0
+No Description Available.
+
+0x4
+X offset of sideB toss?
+
+0x8
+Y offset of sideB toss?
+
+*0xC
+No Description Available.
+
+Params32
+Ganondorf: Warlock Punch
+
+0x0
+ ?? (read on punch)
+
+0x4
+ ?? (read on punch)
+
+0x8
+ ?? (read on punch)
+
+0xC
+Momentum forward in air
+
+0x10
+Momentum from holding up
+
+*0x14
+No Description Available.
+
+Params33
+Link: Arrows
+
+0x0
+More velocity with lower value, ONLY affects charged arrows
+
+0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+Firing angle (radians)
+
+Params34
+Toon Link: Arrows
+
+0x0
+More velocity with lower value, ONLY affects charged arrows
+
+0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+Angle (radians)
+
+Params35
+Lucario: Aura Sphere
+
+*0x0
+Amount of charge states?
+
+0x4
+Ground backwards horizontal momentum from releasing Aura Sphere
+
+0x8
+Aerial backwards horizontal momentum from releasing Aura Sphere
+
+0xC
+No Description Available.
+
+*0x10
+Loop iterations to fully charge Aura Sphere
+
+0x14
+No Description Available.
+
+0x18
+Max Aura Sphere size?
+
+0x1C
+No Description Available.
+
+Params36
+Samus: Power Shot
+
+*0x0
+Charge time. Higher value = slower charge. Unsure of ratio.
+
+0x4
+Recoil from charged power shot (air only). Negative values send you backward, positive send you forward.
+
+0x8
+Frames between change in charge level?
+
+*0xC
+No Description Available.
+
+Params37
+Bowser: Flame
+
+0x0
+Initial fire angle
+
+0x4
+Flame spread randomness
+
+0x8
+Max angle upwards
+
+0xC
+Max angle downwards
+
+0x10
+Turning speed
+
+0x14
+Rotation of flames and head in relation to 0x10
+
+*0x18
+Amount of frames spent firing after releasing B
+
+0x1C
+Refueling/Spacing in gfx?
+
+0x20
+Spacing in fire gfx
+
+0x24
+GFX scaling? (smaller = larger)
+
+0x28
+Minimum distance
+
+0x2C
+Distance refuel speed?
+
+0x30
+Something with distance refueling?
+
+0x34
+Something with distance refueling?
+
+0x38
+GFX scaling over time (larger = smaller)
+
+*0x3C
+Frame count for something?
+
+*0x40
+Frames between flames
+
+0x44
+X offset
+
+0x48
+Y offset
+
+0x4C
+ ?? (read on flame gfx reduction)
+
+Params38
+Pit: Arrows
+
+0x0
+No Description Available.
+
+*0x4
+Max charge time
+
+0x8
+Joystick sensitivity backwards
+
+0xC
+Joystick sensitivity upwards
+
+Params39
+ExtraParams39
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params40
+ExtraParams40
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+Params60
+ExtraParams60
+
+*0x0
+No Description Available.
+
+0x4
+Break threshold
+
+0x8
+Reflection bubble X pos?
+
+0xC
+Reflection bubble Y pos?
+
+0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size
+
+0x18
+Reflection damage multiplier
+
+0x1C
+Reflection speed multiplier
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params62
+pikminPullOutParam__11ftKirbyNode
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+0x7C
+No Description Available.
+
+0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+0x88
+No Description Available.
+
+*0x8C
+No Description Available.
+
+0x90
+No Description Available.
+
+0x94
+No Description Available.
+
+0x98
+No Description Available.
+
+0x9C
+No Description Available.
+
+0xA0
+No Description Available.
+
+0xA4
+No Description Available.
+
+*0xA8
+No Description Available.
+
+0xAC
+No Description Available.
+
+0xB0
+No Description Available.
+
+0xB4
+No Description Available.
+
+0xB8
+No Description Available.
+
+0xBC
+No Description Available.
+
+0xC0
+No Description Available.
+
+*0xC4
+No Description Available.
+
+0xC8
+No Description Available.
+
+0xCC
+No Description Available.
+
+0xD0
+No Description Available.
+
+0xD4
+No Description Available.
+
+0xD8
+No Description Available.
+
+0xDC
+No Description Available.
+
+*0xE0
+No Description Available.
+
+0xE4
+No Description Available.
+
+0xE8
+No Description Available.
+
+0xEC
+No Description Available.
+
+0xF0
+No Description Available.
+
+0xF4
+No Description Available.
+
+0xF8
+No Description Available.
+
+*0xFC
+No Description Available.
+
+0x100
+No Description Available.
+
+0x104
+No Description Available.
+
+0x108
+No Description Available.
+
+0x10C
+No Description Available.
+
+0x110
+No Description Available.
+
+0x114
+No Description Available.
+
+*0x118
+No Description Available.
+
+0x11C
+No Description Available.
+
+*0x120
+No Description Available.
+
+0x124
+No Description Available.
+
+0x128
+No Description Available.
+
+0x12C
+No Description Available.
+
+0x130
+No Description Available.
+
+*0x134
+No Description Available.
+
+0x138
+No Description Available.
+
+0x13C
+No Description Available.
+
+0x140
+No Description Available.
+
+0x144
+No Description Available.
+
+0x148
+No Description Available.
+
+0x14C
+No Description Available.
+
+*0x150
+No Description Available.
+
+0x154
+No Description Available.
+
+0x158
+No Description Available.
+
+0x15C
+No Description Available.
+
+0x160
+No Description Available.
+
+0x164
+No Description Available.
+
+0x168
+No Description Available.
+
+*0x16C
+No Description Available.
+
+0x170
+No Description Available.
+
+0x174
+No Description Available.
+
+0x178
+No Description Available.
+
+0x17C
+No Description Available.
+
+0x180
+No Description Available.
+
+0x184
+No Description Available.
+
+*0x188
+No Description Available.
+
+0x18C
+No Description Available.
+
+0x190
+No Description Available.
+
+0x194
+No Description Available.
+
+0x198
+No Description Available.
+
+0x19C
+No Description Available.
+
+0x1A0
+No Description Available.
+
+*0x1A4
+No Description Available.
+
+0x1A8
+No Description Available.
+
+0x1AC
+No Description Available.
+
+0x1B0
+No Description Available.
+
+0x1B4
+No Description Available.
+
+0x1B8
+No Description Available.
+
+0x1BC
+No Description Available.
+
+*0x1C0
+No Description Available.
+
+0x1C4
+No Description Available.
+
+*0x1C8
+No Description Available.
+
+*0x1CC
+No Description Available.
+
+*0x1D0
+No Description Available.
+
+0x1D4
+No Description Available.
+
+0x1D8
+No Description Available.
+
+*0x1DC
+No Description Available.
+
+0x1E0
+No Description Available.
+
+0x1E4
+No Description Available.
+
+0x1E8
+No Description Available.
+
+0x1EC
+No Description Available.
+
+0x1F0
+No Description Available.
+
+0x1F4
+No Description Available.
+
+*0x1F8
+No Description Available.
+
+0x1FC
+No Description Available.
+
+0x200
+No Description Available.
+
+0x204
+No Description Available.
+
+0x208
+No Description Available.
+
+0x20C
+No Description Available.
+
+0x210
+No Description Available.
+
+*0x214
+No Description Available.
+
+0x218
+No Description Available.
+
+0x21C
+No Description Available.
+
+0x220
+No Description Available.
+
+0x224
+No Description Available.
+
+0x228
+No Description Available.
+
+0x22C
+No Description Available.
+
+*0x230
+No Description Available.
+
+0x234
+No Description Available.
+
+0x238
+No Description Available.
+
+0x23C
+No Description Available.
+
+0x240
+No Description Available.
+
+0x244
+No Description Available.
+
+0x248
+No Description Available.
+
+*0x24C
+No Description Available.
+
+0x250
+No Description Available.
+
+0x254
+No Description Available.
+
+0x258
+No Description Available.
+
+0x25C
+No Description Available.
+
+0x260
+No Description Available.
+
+0x264
+No Description Available.
+
+*0x268
+No Description Available.
+
+0x26C
+No Description Available.
+
+0x270
+No Description Available.
+
+0x274
+No Description Available.
+
+0x278
+No Description Available.
+
+0x27C
+No Description Available.
+
+0x280
+No Description Available.
+
+*0x284
+No Description Available.
+
+0x288
+No Description Available.
+
+0x28C
+No Description Available.
+
+0x290
+No Description Available.
+
+0x294
+No Description Available.
+
+0x298
+No Description Available.
+
+0x29C
+No Description Available.
+
+*0x2A0
+No Description Available.
+
+0x2A4
+No Description Available.
+
+0x2A8
+No Description Available.
+
+0x2AC
+No Description Available.
+
+0x2B0
+No Description Available.
+
+0x2B4
+No Description Available.
+
+0x2B8
+No Description Available.
+
+*0x2BC
+No Description Available.
+
+0x2C0
+No Description Available.
+
+0x2C4
+No Description Available.
+
+0x2C8
+No Description Available.
+
+0x2CC
+No Description Available.
+
+0x2D0
+No Description Available.
+
+0x2D4
+No Description Available.
+
+*0x2D8
+No Description Available.
+
+0x2DC
+No Description Available.
+
+0x2E0
+No Description Available.
+
+0x2E4
+No Description Available.
+
+0x2E8
+No Description Available.
+
+0x2EC
+No Description Available.
+
+0x2F0
+No Description Available.
+
+*0x2F4
+No Description Available.
+
+0x2F8
+No Description Available.
+
+0x2FC
+No Description Available.
+
+0x300
+No Description Available.
+
+0x304
+No Description Available.
+
+0x308
+No Description Available.
+
+0x30C
+No Description Available.
+
+*0x310
+No Description Available.
+
+0x314
+No Description Available.
+
+0x318
+No Description Available.
+
+0x31C
+No Description Available.
+
+0x320
+No Description Available.
+
+0x324
+No Description Available.
+
+0x328
+No Description Available.
+
+*0x32C
+No Description Available.
+
+0x330
+No Description Available.
+
+*0x334
+No Description Available.
+
+*0x338
+No Description Available.
+
+*0x33C
+No Description Available.
+
+*0x340
+No Description Available.
+
+0x344
+No Description Available.
+
+Params64
+ExtraParams64
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+Params66
+ExtraParams66
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+*0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+*0x78
+No Description Available.
+
+*0x7C
+No Description Available.
+
+*0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+*0x88
+No Description Available.
+
+0x8C
+No Description Available.
+
+Params1-0
+Stone Attribute
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+Params2-0
+paramKirbyStarmissile__22wnKirbyStarMissileNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params6-0
+ExtraParams0
+
+0x0
+Landing detection
+
+*0x4
+Frame count before hitboxes (only) are deleted
+
+*0x8
+Frame count for something?
+
+0xC
+Flame speed
+
+0x10
+Horizontal momentum of flames
+
+*0x14
+No Description Available.
+
+Params7-0
+ExtraParams0
+
+*0x0
+Lifetime of seed
+
+0x4
+No Description Available.
+
+Params8-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params9-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params10-15
+ExtraParams15
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+0x7C
+No Description Available.
+
+0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+0x88
+No Description Available.
+
+*0x8C
+No Description Available.
+
+Params10-16
+ExtraParams16
+
+0x0
+No Description Available.
+

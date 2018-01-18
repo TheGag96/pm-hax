@@ -1,0 +1,271 @@
+﻿DataSize0xA4
+07C Params0 0x10
+080 Params1 0x20
+084 Params2 0x38
+088 Params3 0x18
+08C Params4 0x1C
+090 Params5 0x28
+094 Article0 0x38
+098 Article1 0x38
+09C Article2 0x38
+0A0 Article3 0x38
+
+Article0
+2-2
+034 Params0-0 0x30
+
+Article1
+1-1
+034 Params1-0 0x18
+
+Article2
+1-2
+034 Params2-0 0x4
+
+Article3
+1-1
+034 Params3-0 0xC
+
+Params0
+Nayru's Love
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+Horizontal momentum preservation (less = more)
+
+0xC
+Vertical momentum
+
+Params1
+Din's Fire
+
+*0x0
+No Description Available.
+
+*0x4
+Frame you start falling
+
+*0x8
+ ?? (read on startup)
+
+0xC
+X offset
+
+0x10
+Y offset
+
+0x14
+Falling gravity
+
+0x18
+ ?? (read when releasing B)
+
+*0x1C
+ ?? (not read)
+
+Params2
+Farore's Wind
+
+0x0
+horizontal momentum preservation (smaller = higher)
+
+0x4
+vertical momentum preservation (smaller = higher)
+
+0x8
+Vertical momentum preservation
+
+0xC
+Something with momentum preservation?
+
+*0x10
+Travel distance (in frames)
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+Params3
+ExtraParams3
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params4
+Light Arrow
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Params5
+ExtraParams5
+
+*0x0
+No Description Available.
+
+0x4
+Break threshold?
+
+*0x8
+Reflection bubble X pos?
+
+*0xC
+Reflection bubble Y pos?
+
+*0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size?
+
+0x18
+Reflected projectile damage multiplier
+
+0x1C
+Reflected projectile speed multiplier
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params0-0
+Din's Fire Attribute
+
+0x0
+Max Travel Distance in frames
+
+0x4
+Frames where damage grows with distance
+
+0x8
+Initial hit+GFX size
+
+0xC
+Terminal hit+GFX size
+
+*0x10
+Firing angle
+
+0x14
+Initial speed
+
+0x18
+Acceleration
+
+0x1C
+ ?? (read during startup)
+
+0x20
+ ?? (higher than 1.0 you can't maneuver up/down)
+
+0x24
+Up/Down maneuverability
+
+0x28
+Maximum curve projectile can angle (high numbers allow reversing direction)
+
+0x2C
+Detonation Timer
+
+Params1-0
+Din's Fire 2 Attribute
+
+0x0
+ ?? (read on explosion)
+
+0x4
+Initial Hitbox size multiplier
+
+0x8
+Terminal Hitbox size multiplier
+
+0xC
+Initial damage
+
+0x10
+Damage growth rate
+
+*0x14
+No Description Available.
+
+Params2-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params3-0
+Light Arrow Attribute
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+

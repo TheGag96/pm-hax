@@ -1,0 +1,253 @@
+﻿DataSize0xAC
+07C Params0 0x8
+080 Params1 0x4
+084 Params2 0x28
+088 Params3 0x8
+08C Article0 0x38
+090 Article1 0x38
+094 Article2 0x38
+098 Article3 0x38
+0A4 Params10 0x80
+
+Article0
+1-14
+030 Params0D3 0x10
+034 Params0-0 0x4
+
+Article1
+2-2
+034 Params1-0 0x20
+
+Article2
+9-F
+034 Params2-0 0x10
+
+Article3
+1-1
+034 Params3-0 0x4
+
+Params0
+Paralyzer
+
+0x0
+X offset
+
+0x4
+Y offset
+
+Params1
+Plasma Whip
+
+0x0
+No Description Available.
+
+Params2
+ExtraParams2
+
+0x0
+No Description Available.
+
+*0x4
+ ?? (read on starting frame)
+
+0x8
+Starting frame horizontal momentum multiplier
+
+0xC
+Starting frame vertical momentum
+
+0x10
+Flip Jump kick stick turn sensitivity
+
+*0x14
+ ?? (read on starting frame)
+
+0x18
+ ?? (read on starting frame)
+
+0x1C
+ ?? (read on starting frame)
+
+0x20
+ ?? (read on starting frame)
+
+*0x24
+No Description Available.
+
+Params3
+ExtraParams3
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+Params10
+ExtraParams10
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+*0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+*0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+*0x7C
+No Description Available.
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params1-0
+Paralyzer Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+Uncharged lifetime
+
+*0x1C
+Charged lifetime
+
+Params2-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

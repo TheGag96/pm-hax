@@ -1,0 +1,225 @@
+﻿DataSize0x90
+07C Params0 0x50
+080 Params1 0x18
+084 Params2 0x18
+088 Params3 0x18
+08C Article0 0x38
+
+Article0
+1-17
+030 Params0D3 0x68
+034 Params0-0 0x4
+
+Params0
+Mach Tornado
+
+0x0
+Initial vertical velocity gain
+
+0x4
+Horizontal Momentum Conservation (resulting max speed is capped)
+
+0x8
+Initial Spin Speed
+
+0xC
+Grounded Horizontal Acceleration
+
+0x10
+Grounded Horizontal Max Speed
+
+0x14
+Aerial Horizontal Acceleration
+
+0x18
+Aerial Horizontal Max Speed
+
+0x1C
+Horizontal braking acceleration
+
+0x20
+Gravity
+
+0x24
+Fall speed
+
+0x28
+Vertical velocity added per button press
+
+*0x2C
+Minimum frames between button presses (buffers if B is pressed before then)
+
+0x30
+Maximum vertical velocity
+
+0x34
+Spin speed added per button press
+
+0x38
+Max spin speed
+
+0x3C
+Subtracts this each frame while listening for button input
+
+*0x40
+Frames to listen for button input
+
+0x44
+Subtracts this each frame while not listening for button input
+
+0x48
+Spin speed equal to or less than this to end move
+
+*0x4C
+No Description Available.
+
+Params1
+Drill Rush
+
+0x0
+Horizontal momentum conservation
+
+0x4
+Causes MK to go up during beginning of drill rush
+
+0x8
+Causes MK to go down during beginning of drill rush
+
+0xC
+Control
+
+*0x10
+Something to do with direction after landing on platform and finishing
+
+*0x14
+No Description Available.
+
+Params2
+Dimensional Cape
+
+0x0
+Horizontal momentum conservation
+
+0x4
+Vertical momentum conservation
+
+0x8
+Max horizontal speed
+
+0xC
+Horizontal acceleration
+
+0x10
+Max vertical speed
+
+0x14
+Vertical acceleration
+
+Params3
+paramFinal__16ftMetaknightNode
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

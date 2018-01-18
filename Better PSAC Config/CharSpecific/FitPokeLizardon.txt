@@ -1,0 +1,235 @@
+﻿DataSize0x9C
+07C Params0 0x28
+080 Params1 0x50
+084 Params2 0x4
+088 Params3 0x14
+08C Params4 0xC
+090 Article0 0x38
+094 Article1 0x40
+098 Article2 0x38
+
+Article0
+1-1
+034 Params0-0 0x18
+
+Article1
+5-5
+034 Params1-0 0x20
+038 Params1-1 0x28
+
+Article2
+2-2
+
+Params0
+Fatigue/Stamina
+
+0x0
+Max stamina
+
+0x4
+Fatigue Value decreased every second
+
+0x8
+Fatigue value decreased per attack
+
+0xC
+Fatigue value increased for every second pokemon is in pokeball
+
+0x10
+kb multiplier at "weakest" stamina (0x24)
+
+0x14
+Enter stamina wait animation (tired) when Fatigue falls below this value
+
+0x18
+Fatigue multiplier when KO'd
+
+0x1C
+Weakness multiplier
+
+0x20
+Resistance multiplier
+
+0x24
+"Weakest" stamina level
+
+Params1
+Flamethrower
+
+0x0
+Initial angle
+
+0x4
+Flame spread randomness
+
+0x8
+Max angle upwards
+
+0xC
+Max angle downwards
+
+0x10
+Turning speed
+
+0x14
+Turning speed/max rotation?
+
+*0x18
+Amount of frames spent firing after releasing B
+
+0x1C
+Max Speed / Distance Charge
+
+0x20
+Min Speed / Distance Charge
+
+0x24
+Max Size Charge
+
+0x28
+Min Size Charge
+
+0x2C
+Speed / Distance Recharge Rate
+
+0x30
+Size Recharge Rate
+
+0x34
+Speed / Distance Drain Rate
+
+0x38
+Size Drain Rate
+
+*0x3C
+Frame count for something?
+
+*0x40
+Frames between flames (smaller it is the more rumble you get)
+
+0x44
+How far away flame starts horizontally
+
+0x48
+How far away flame starts horizontally
+
+0x4C
+No Description Available.
+
+Params2
+Rock Smash
+
+0x0
+No Description Available.
+
+Params3
+Fly
+
+0x0
+ ?? (read on upB)
+
+0x4
+ ?? (read on upB)
+
+0x8
+ ?? (100 makes you move left/right and down)
+
+0xC
+How much you can slide on landing
+
+0x10
+ ?? (read on upB)
+
+Params4
+FlyExtra?
+
+0x0
+ ?? (read on upB)
+
+0x4
+Gravity
+
+0x8
+No Description Available.
+
+Params0-0
+FlameThrower Attribute
+
+0x0
+Landing detection
+
+*0x4
+Frame count before hitboxes (only) are deleted
+
+*0x8
+Frame count something?
+
+0xC
+Flame speed
+
+0x10
+Horizontal momentum of flames
+
+*0x14
+No Description Available.
+
+Params1-0
+RockSmash Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params1-1
+ExtraParams1
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+

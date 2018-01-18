@@ -1,0 +1,214 @@
+﻿DataSize0xA4
+07C Params0 0x14
+080 Params1 0xC
+084 Params2 0x18
+088 Params3 0x14
+08C Params4 0x28
+090 Article0 0x38
+094 Article1 0x38
+098 Article2 0x38
+09C Article3 0x38
+0A0 Article4 0x38
+
+Article0
+0-2
+
+Article1
+1-1
+034 Params1-0 0x20
+
+Article2
+3-6
+034 Params2-0 0x14
+
+Article3
+3-3
+034 Params3-0 0x20
+
+Article4
+1-1
+034 Params4-0 0x8
+
+Params0
+Super Jump Punch
+
+0x0
+Joystick backward sensitivity?
+
+0x4
+Joystick forward sensitivity?
+
+0x8
+Affects travel direction and mobility?
+
+0xC
+Special fall aerial mobility
+
+0x10
+Unknown (read on upB)
+
+Params1
+Super Jump Punch Extra
+
+0x0
+Unknown (read on upB)
+
+0x4
+Unknown (read on upB)
+
+0x8
+Unknown (read on upB)
+
+Params2
+Cape
+
+0x0
+Horizontal momentum from moving left/right (smaller = more)
+
+0x4
+Horizontal air friction
+
+0x8
+Vertical momentum for 1st aerial usage
+
+0xC
+Gravity while Ra-Bit [17] is set
+
+0x10
+Terminal velocity
+
+*0x14
+Unknown (read on caping in air)
+
+Params3
+FLUDD
+
+*0x0
+Frames to fully charge
+
+0x4
+Unknown (read on firing)
+
+*0x8
+Unknown (read on firing)
+
+0xC
+Momentum backward when firing (affects aerial too)
+
+*0x10
+How many frames FLUDD stays out during/after downB
+
+Params4
+Cape Extra
+
+*0x0
+Unknown
+
+0x4
+Break threshold
+
+0x8
+Reflection bubble X pos?
+
+0xC
+Reflection bubble Y pos?
+
+0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size
+
+0x18
+Reflection damage multiplier
+
+0x1C
+Reflection speed multiplier
+
+0x20
+Unknown
+
+*0x24
+No Description Available.
+
+Params1-0
+Fireball
+
+0x0
+Fireball gravity
+
+0x4
+Unknown
+
+0x8
+Fireball bounce velocity multiplier
+
+0xC
+Initial speed
+
+0x10
+Initial angle (radians)
+
+*0x14
+Duration (frames)
+
+0x18
+Minimum velocity on ground collision; any lower will delete fireball
+
+0x1C
+Something to do with how many times it can bounce before disappearing. 2 = none, 4 = too many to count.
+
+Params2-0
+FLUDD Article2
+
+0x0
+Initial angle (degrees)
+
+0x4
+Max upward angle (degrees)
+
+0x8
+Max downward angle? (degrees)
+
+0xC
+Response to angling (also affects going back to center)
+
+0x10
+Relates to offsets? (at 100 they are really far up from mario and spaced out)
+
+Params3-0
+FLUDD Article3
+
+0x0
+Water speed multiplier/knockback multiplier?
+
+0x4
+Water speed base
+
+0x8
+Water gravity
+
+0xC
+Unknown (read on firing)
+
+*0x10
+How many frames water stays out (does not affect gfx past a certain point)
+
+0x14
+Water gfx size
+
+0x18
+Water gfx size multiplier (gfx get larger further they go)
+
+*0x1C
+Water pushback
+
+Params4-0
+Mario Finale Article
+
+*0x0
+Duration (frames)
+
+0x4
+No Description Available.
+

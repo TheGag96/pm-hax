@@ -1,0 +1,1641 @@
+﻿DataSize0xB0
+07C Params0 0x348
+084 Params2 0x8
+088 Params3 0x10
+08C Params4 0x8
+090 Params5 0x8
+094 Params6 0x8
+098 Params7 0x8
+09C Params8 0x4
+0A0 Params9 0x4
+0A4 Article0 0x98
+0A8 Article1 0x48
+0AC Article2 0x38
+
+Article0
+34-3B
+034 ActionExit
+038 SubAction RedMain
+03C SubAction YellowMain
+040 SubAction BlueMain
+044 SubAction WhiteMain
+048 SubAction PurpleMain
+04C SubAction RedGFX
+050 SubAction YellowGFX
+054 SubAction BlueGFX
+058 SubAction WhiteGFX
+05C SubAction PurpleGFX
+060 SubAction RedSFX
+064 SubAction YellowSFX
+068 SubAction BlueSFX
+06C SubAction WhiteSFX
+070 SubAction PurpleSFX
+074 Params0-16 0x38
+078 Params0-17 0xB8
+07C Params0-18 0x248
+080 Params0-19 0xD0
+084 Params0-20 0x10
+
+Article1
+5-8
+030 Params1D3 0x4
+034 Params1-0 0x30
+038 Params1-1 0x18
+
+Article2
+9-1
+034 Params2-0 0x18
+
+Params0
+pullOutParam__12ftPikminNode
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+0x7C
+No Description Available.
+
+0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+0x88
+No Description Available.
+
+*0x8C
+No Description Available.
+
+0x90
+No Description Available.
+
+0x94
+No Description Available.
+
+0x98
+No Description Available.
+
+0x9C
+No Description Available.
+
+0xA0
+No Description Available.
+
+0xA4
+No Description Available.
+
+*0xA8
+No Description Available.
+
+0xAC
+No Description Available.
+
+0xB0
+No Description Available.
+
+0xB4
+No Description Available.
+
+0xB8
+No Description Available.
+
+0xBC
+No Description Available.
+
+0xC0
+No Description Available.
+
+*0xC4
+No Description Available.
+
+0xC8
+No Description Available.
+
+0xCC
+No Description Available.
+
+0xD0
+No Description Available.
+
+0xD4
+No Description Available.
+
+0xD8
+No Description Available.
+
+0xDC
+No Description Available.
+
+*0xE0
+No Description Available.
+
+0xE4
+No Description Available.
+
+0xE8
+No Description Available.
+
+0xEC
+No Description Available.
+
+0xF0
+No Description Available.
+
+0xF4
+No Description Available.
+
+0xF8
+No Description Available.
+
+*0xFC
+No Description Available.
+
+0x100
+No Description Available.
+
+0x104
+No Description Available.
+
+0x108
+No Description Available.
+
+0x10C
+No Description Available.
+
+0x110
+No Description Available.
+
+0x114
+No Description Available.
+
+*0x118
+No Description Available.
+
+0x11C
+No Description Available.
+
+*0x120
+No Description Available.
+
+0x124
+No Description Available.
+
+0x128
+No Description Available.
+
+0x12C
+No Description Available.
+
+0x130
+No Description Available.
+
+*0x134
+No Description Available.
+
+0x138
+No Description Available.
+
+0x13C
+No Description Available.
+
+0x140
+No Description Available.
+
+0x144
+No Description Available.
+
+0x148
+No Description Available.
+
+0x14C
+No Description Available.
+
+*0x150
+No Description Available.
+
+0x154
+No Description Available.
+
+0x158
+No Description Available.
+
+0x15C
+No Description Available.
+
+0x160
+No Description Available.
+
+0x164
+No Description Available.
+
+0x168
+No Description Available.
+
+*0x16C
+No Description Available.
+
+0x170
+No Description Available.
+
+0x174
+No Description Available.
+
+0x178
+No Description Available.
+
+0x17C
+No Description Available.
+
+0x180
+No Description Available.
+
+0x184
+No Description Available.
+
+*0x188
+No Description Available.
+
+0x18C
+No Description Available.
+
+0x190
+No Description Available.
+
+0x194
+No Description Available.
+
+0x198
+No Description Available.
+
+0x19C
+No Description Available.
+
+0x1A0
+No Description Available.
+
+*0x1A4
+No Description Available.
+
+0x1A8
+No Description Available.
+
+0x1AC
+No Description Available.
+
+0x1B0
+No Description Available.
+
+0x1B4
+No Description Available.
+
+0x1B8
+No Description Available.
+
+0x1BC
+No Description Available.
+
+*0x1C0
+No Description Available.
+
+0x1C4
+No Description Available.
+
+*0x1C8
+No Description Available.
+
+*0x1CC
+No Description Available.
+
+*0x1D0
+No Description Available.
+
+0x1D4
+No Description Available.
+
+0x1D8
+No Description Available.
+
+*0x1DC
+No Description Available.
+
+0x1E0
+No Description Available.
+
+0x1E4
+No Description Available.
+
+0x1E8
+No Description Available.
+
+0x1EC
+No Description Available.
+
+0x1F0
+No Description Available.
+
+0x1F4
+No Description Available.
+
+*0x1F8
+No Description Available.
+
+0x1FC
+No Description Available.
+
+0x200
+No Description Available.
+
+0x204
+No Description Available.
+
+0x208
+No Description Available.
+
+0x20C
+No Description Available.
+
+0x210
+No Description Available.
+
+*0x214
+No Description Available.
+
+0x218
+No Description Available.
+
+0x21C
+No Description Available.
+
+0x220
+No Description Available.
+
+0x224
+No Description Available.
+
+0x228
+No Description Available.
+
+0x22C
+No Description Available.
+
+*0x230
+No Description Available.
+
+0x234
+No Description Available.
+
+0x238
+No Description Available.
+
+0x23C
+No Description Available.
+
+0x240
+No Description Available.
+
+0x244
+No Description Available.
+
+0x248
+No Description Available.
+
+*0x24C
+No Description Available.
+
+0x250
+No Description Available.
+
+0x254
+No Description Available.
+
+0x258
+No Description Available.
+
+0x25C
+No Description Available.
+
+0x260
+No Description Available.
+
+0x264
+No Description Available.
+
+*0x268
+No Description Available.
+
+0x26C
+No Description Available.
+
+0x270
+No Description Available.
+
+0x274
+No Description Available.
+
+0x278
+No Description Available.
+
+0x27C
+No Description Available.
+
+0x280
+No Description Available.
+
+*0x284
+No Description Available.
+
+0x288
+No Description Available.
+
+0x28C
+No Description Available.
+
+0x290
+No Description Available.
+
+0x294
+No Description Available.
+
+0x298
+No Description Available.
+
+0x29C
+No Description Available.
+
+*0x2A0
+No Description Available.
+
+0x2A4
+No Description Available.
+
+0x2A8
+No Description Available.
+
+0x2AC
+No Description Available.
+
+0x2B0
+No Description Available.
+
+0x2B4
+No Description Available.
+
+0x2B8
+No Description Available.
+
+*0x2BC
+No Description Available.
+
+0x2C0
+No Description Available.
+
+0x2C4
+No Description Available.
+
+0x2C8
+No Description Available.
+
+0x2CC
+No Description Available.
+
+0x2D0
+No Description Available.
+
+0x2D4
+No Description Available.
+
+*0x2D8
+No Description Available.
+
+0x2DC
+No Description Available.
+
+0x2E0
+No Description Available.
+
+0x2E4
+No Description Available.
+
+0x2E8
+No Description Available.
+
+0x2EC
+No Description Available.
+
+0x2F0
+No Description Available.
+
+*0x2F4
+No Description Available.
+
+0x2F8
+No Description Available.
+
+0x2FC
+No Description Available.
+
+0x300
+No Description Available.
+
+0x304
+No Description Available.
+
+0x308
+No Description Available.
+
+0x30C
+No Description Available.
+
+*0x310
+No Description Available.
+
+0x314
+No Description Available.
+
+0x318
+No Description Available.
+
+0x31C
+No Description Available.
+
+0x320
+No Description Available.
+
+0x324
+No Description Available.
+
+0x328
+No Description Available.
+
+*0x32C
+No Description Available.
+
+0x330
+No Description Available.
+
+*0x334
+No Description Available.
+
+*0x338
+No Description Available.
+
+*0x33C
+No Description Available.
+
+*0x340
+No Description Available.
+
+0x344
+No Description Available.
+
+Params2
+Pluck
+
+0x0
+X offset of pluck
+
+*0x4
+Y offset of pluck
+
+Params3
+Pikmin Toss
+
+*0x0
+ ?? (read on pluck)
+
+0x4
+X offset of sideB toss
+
+0x8
+Y offset of sideB toss
+
+*0xC
+No Description Available.
+
+Params4
+Forward Smash
+
+0x0
+Fsmash X offset
+
+0x4
+Fsmash Y offset
+
+Params5
+Up Smash
+
+0x0
+Usmash X offset
+
+0x4
+Usmash Y offset
+
+Params6
+Down Smash
+
+0x0
+Dsmash X offset (applies equally in both directions)
+
+0x4
+Dsmash Y offset
+
+Params7
+Grab
+
+0x0
+X offset
+
+0x4
+Y offset
+
+Params8
+End of the Day?
+
+0x0
+No Description Available.
+
+Params9
+paramDamageFly__12ftPikminNode
+
+0x0
+No Description Available.
+
+Params0-16
+ExtraParams16
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+Params0-17
+ExtraParams17
+
+0x0
+Pikmin 'Safespot' Olimar-Distance (How far the 'ideal' position for the Pikmin to stand is from olimar. Higher = farther)
+
+0x4
+Pikmin 'Safespot' Spacing (The distance between the pikmin's safespots)
+
+0x8
+Pikmin Runspeed
+
+0xC
+No Description Available.
+
+0x10
+Effort (When set to 100, they just stand still whenever you idle and you can run away from them and through them and they won't care. Only if you whistle or do certain moves will they respond, and even then, only some of them do)
+
+0x14
+How long pikmin continue to follow the previous aerial velocity
+
+*0x18
+Desynch Death Time (How long a desynched Pikmin has to live in frames)
+
+*0x1C
+Desynch Warning Time (How long to wait before flashtinting a desynched pikmin to warn the olimar player that it is about to die)
+
+0x20
+Budding time
+
+0x24
+Full bloom time
+
+0x28
+Budded movement speed multiplier (?)
+
+0x2C
+Flower movement speed multiplier (?)
+
+0x30
+Pikmin Pluck Angle (Inverted Radians)
+
+0x34
+Vertical momentum pikmin pluck
+
+0x38
+Horizontal momentum pikmin pluck
+
+*0x3C
+Olimar-Pikmin Interaction Box Size... Or something like that. Lets you remotely control solo pikmin
+
+0x40
+Pikmin Teleport Box Size (Lets you grab pikmin from across the stage for usage immediately with fair and dair and such.)
+
+0x44
+Something with fsmash velocity?
+
+*0x48
+Something with fsmash velocity?
+
+0x4C
+Pikmin Fsmash Initial Velocity
+
+0x50
+Pikmin Fsmash Angle (Radians)
+
+0x54
+ ?? (read on fsmash)
+
+0x58
+ ?? (read on fsmash)
+
+0x5C
+Pikmin Fsmash Gravity
+
+0x60
+Pikmin Usmash Initial Momentum
+
+0x64
+Pikmin Usmash Gravity
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+*0x74
+No Description Available.
+
+*0x78
+No Description Available.
+
+0x7C
+SideB Throw Power?
+
+0x80
+Velocity Pikmin fly off opponnent after they're done Side-B beating him
+
+*0x84
+No Description Available.
+
+0x88
+No Description Available.
+
+*0x8C
+No Description Available.
+
+0x90
+No Description Available.
+
+0x94
+No Description Available.
+
+0x98
+No Description Available.
+
+0x9C
+No Description Available.
+
+0xA0
+No Description Available.
+
+0xA4
+No Description Available.
+
+0xA8
+No Description Available.
+
+0xAC
+No Description Available.
+
+0xB0
+No Description Available.
+
+*0xB4
+No Description Available.
+
+Params0-18
+ExtraParams18
+
+*0x0
+Pikmin HP (Red Pikmin)
+
+0x4
+Walk/Run Acceleration (Red Pikmin)
+
+0x8
+Walk/Run Max Speed (Red Pikmin)
+
+0xC
+(read when Pikmin is by Olimar's side) (Red Pikmin)
+
+0x10
+(read when Pikmin is by Olimar's side) (Red Pikmin)
+
+0x14
+(read when Pikmin is by Olimar's side) (Red Pikmin)
+
+0x18
+How long Pikmin stays on ground from sideB? (at 0 he walks a bit then jumps to Olimar) (Red Pikmin)
+
+0x1C
+(read when Pikmin walks back to Olimar from sideB) (Red Pikmin)
+
+0x20
+Something to do with jump timing of Pikmin coming back from sideB (Red Pikmin)
+
+0x24
+(read when Pikmin walks back to Olimar from sideB) (Red Pikmin)
+
+0x28
+Pikmin Speed/Response to TurnRun (Red Pikmin)
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+*0x4C
+Swim time in frames? (implies Blues drown after 20 seconds; though this is way better than the Smashers can do) (Red Pikmin)
+
+0x50
+No Description Available.
+
+0x54
+Pikmin Toss throw velocity (Red Pikmin)
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+Has something to do with grab and dash grab length (Red Pikmin)
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+0x70
+No Description Available.
+
+*0x74
+Pikmin HP (Yellow Pikmin)
+
+0x78
+Walk/Run Acceleration (Yellow Pikmin)
+
+0x7C
+Walk/Run Max Speed (Yellow Pikmin)
+
+0x80
+(read when Pikmin is by Olimar's side) (Yellow Pikmin)
+
+0x84
+(read when Pikmin is by Olimar's side) (Yellow Pikmin)
+
+0x88
+(read when Pikmin is by Olimar's side) (Yellow Pikmin)
+
+0x8C
+How long Pikmin stays on ground from sideB? (at 0 he walks a bit then jumps to Olimar) (Yellow Pikmin)
+
+0x90
+(read when Pikmin walks back to Olimar from sideB) (Yellow Pikmin)
+
+0x94
+Something to do with jump timing of Pikmin coming back from sideB (Yellow Pikmin)
+
+0x98
+(read when Pikmin walks back to Olimar from sideB) (Yellow Pikmin)
+
+0x9C
+Pikmin Speed/Response to TurnRun (Yellow Pikmin)
+
+0xA0
+No Description Available.
+
+0xA4
+No Description Available.
+
+0xA8
+No Description Available.
+
+0xAC
+No Description Available.
+
+0xB0
+No Description Available.
+
+0xB4
+No Description Available.
+
+0xB8
+No Description Available.
+
+0xBC
+No Description Available.
+
+*0xC0
+Swim time in frames? (implies Blues drown after 20 seconds; though this is way better than the Smashers can do) (Yellow Pikmin)
+
+0xC4
+No Description Available.
+
+0xC8
+Pikmin Toss throw velocity (Yellow Pikmin)
+
+0xCC
+No Description Available.
+
+0xD0
+No Description Available.
+
+0xD4
+Has something to do with grab and dash grab length (Yellow Pikmin)
+
+0xD8
+No Description Available.
+
+0xDC
+No Description Available.
+
+0xE0
+No Description Available.
+
+0xE4
+No Description Available.
+
+*0xE8
+Pikmin HP (Blue Pikmin)
+
+0xEC
+Walk/Run Acceleration (Blue Pikmin)
+
+0xF0
+Walk/Run Max Speed (Blue Pikmin)
+
+0xF4
+(read when Pikmin is by Olimar's side) (Blue Pikmin)
+
+0xF8
+(read when Pikmin is by Olimar's side) (Blue Pikmin)
+
+0xFC
+(read when Pikmin is by Olimar's side) (Blue Pikmin)
+
+0x100
+How long Pikmin stays on ground from sideB? (at 0 he walks a bit then jumps to Olimar) (Blue Pikmin)
+
+0x104
+(read when Pikmin walks back to Olimar from sideB) (Blue Pikmin)
+
+0x108
+Something to do with jump timing of Pikmin coming back from sideB (Blue Pikmin)
+
+0x10C
+(read when Pikmin walks back to Olimar from sideB) (Blue Pikmin)
+
+0x110
+Pikmin Speed/Response to TurnRun (Blue Pikmin)
+
+0x114
+No Description Available.
+
+0x118
+No Description Available.
+
+0x11C
+No Description Available.
+
+0x120
+No Description Available.
+
+0x124
+No Description Available.
+
+0x128
+No Description Available.
+
+0x12C
+No Description Available.
+
+0x130
+No Description Available.
+
+*0x134
+Swim time in frames? (implies Blues drown after 20 seconds; though this is way better than the Smashers can do) (Blue Pikmin)
+
+0x138
+No Description Available.
+
+0x13C
+Pikmin Toss throw velocity (Blue Pikmin)
+
+0x140
+No Description Available.
+
+0x144
+No Description Available.
+
+0x148
+Has something to do with grab and dash grab length (Blue Pikmin)
+
+0x14C
+No Description Available.
+
+0x150
+No Description Available.
+
+0x154
+No Description Available.
+
+0x158
+No Description Available.
+
+*0x15C
+Pikmin HP (White Pikmin)
+
+0x160
+Walk/Run Acceleration (White Pikmin)
+
+0x164
+Walk/Run Max Speed (White Pikmin)
+
+0x168
+(read when Pikmin is by Olimar's side) (White Pikmin)
+
+0x16C
+(read when Pikmin is by Olimar's side) (White Pikmin)
+
+0x170
+(read when Pikmin is by Olimar's side) (White Pikmin)
+
+0x174
+How long Pikmin stays on ground from sideB? (at 0 he walks a bit then jumps to Olimar) (White Pikmin)
+
+0x178
+(read when Pikmin walks back to Olimar from sideB) (White Pikmin)
+
+0x17C
+Something to do with jump timing of Pikmin coming back from sideB (White Pikmin)
+
+0x180
+(read when Pikmin walks back to Olimar from sideB) (White Pikmin)
+
+0x184
+Pikmin Speed/Response to TurnRun (White Pikmin)
+
+0x188
+No Description Available.
+
+0x18C
+No Description Available.
+
+0x190
+No Description Available.
+
+0x194
+No Description Available.
+
+0x198
+No Description Available.
+
+0x19C
+No Description Available.
+
+0x1A0
+No Description Available.
+
+0x1A4
+No Description Available.
+
+*0x1A8
+Swim time in frames? (implies Blues drown after 20 seconds; though this is way better than the Smashers can do) (White Pikmin)
+
+0x1AC
+No Description Available.
+
+0x1B0
+Pikmin Toss throw velocity (White Pikmin)
+
+0x1B4
+No Description Available.
+
+0x1B8
+No Description Available.
+
+0x1BC
+Has something to do with grab and dash grab length (White Pikmin)
+
+0x1C0
+No Description Available.
+
+0x1C4
+No Description Available.
+
+0x1C8
+No Description Available.
+
+0x1CC
+No Description Available.
+
+*0x1D0
+Pikmin HP (Purple Pikmin)
+
+0x1D4
+Walk/Run Acceleration (Purple Pikmin)
+
+0x1D8
+Walk/Run Max Speed (Purple Pikmin)
+
+0x1DC
+(read when Pikmin is by Olimar's side) (Purple Pikmin)
+
+0x1E0
+(read when Pikmin is by Olimar's side) (Purple Pikmin)
+
+0x1E4
+(read when Pikmin is by Olimar's side) (Purple Pikmin)
+
+0x1E8
+How long Pikmin stays on ground from sideB? (at 0 he walks a bit then jumps to Olimar) (Purple Pikmin)
+
+0x1EC
+(read when Pikmin walks back to Olimar from sideB) (Purple Pikmin)
+
+0x1F0
+Something to do with jump timing of Pikmin coming back from sideB (Purple Pikmin)
+
+0x1F4
+(read when Pikmin walks back to Olimar from sideB) (Purple Pikmin)
+
+0x1F8
+Pikmin Speed/Response to TurnRun (Purple Pikmin)
+
+0x1FC
+No Description Available.
+
+0x200
+No Description Available.
+
+0x204
+No Description Available.
+
+0x208
+No Description Available.
+
+0x20C
+No Description Available.
+
+0x210
+No Description Available.
+
+0x214
+No Description Available.
+
+0x218
+No Description Available.
+
+*0x21C
+Swim time in frames? (implies Blues drown after 20 seconds; though this is way better than the Smashers can do) (Purple Pikmin)
+
+0x220
+No Description Available.
+
+0x224
+Pikmin Toss throw velocity (Purple Pikmin)
+
+0x228
+No Description Available.
+
+0x22C
+No Description Available.
+
+0x230
+Has something to do with grab and dash grab length (Purple Pikmin)
+
+0x234
+No Description Available.
+
+0x238
+No Description Available.
+
+0x23C
+No Description Available.
+
+0x240
+No Description Available.
+
+0x244
+No Description Available.
+
+Params0-19
+ExtraParams19
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+*0x68
+No Description Available.
+
+*0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+*0x74
+No Description Available.
+
+*0x78
+No Description Available.
+
+*0x7C
+No Description Available.
+
+*0x80
+No Description Available.
+
+*0x84
+No Description Available.
+
+*0x88
+No Description Available.
+
+*0x8C
+No Description Available.
+
+*0x90
+No Description Available.
+
+*0x94
+No Description Available.
+
+*0x98
+No Description Available.
+
+*0x9C
+No Description Available.
+
+*0xA0
+No Description Available.
+
+*0xA4
+No Description Available.
+
+*0xA8
+No Description Available.
+
+*0xAC
+No Description Available.
+
+*0xB0
+No Description Available.
+
+*0xB4
+No Description Available.
+
+*0xB8
+No Description Available.
+
+*0xBC
+No Description Available.
+
+*0xC0
+No Description Available.
+
+*0xC4
+No Description Available.
+
+*0xC8
+No Description Available.
+
+*0xCC
+No Description Available.
+
+Params0-20
+ExtraParams20
+
+0x0
+Body collision sensitivity
+
+0x4
+ ?? (read when pikmin go to olimar)
+
+0x8
+Body collision sensitivity to pikmin only?
+
+0xC
+Z axis of movement
+
+Params1D3
+Data3
+
+*0x0
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+Params1-1
+ExtraParams1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params2-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+

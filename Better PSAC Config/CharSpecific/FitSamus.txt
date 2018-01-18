@@ -1,0 +1,374 @@
+﻿DataSize0xD4
+07C Params0 0x10
+080 Params1 0x20
+084 Params2 0x4C
+088 Params3 0x10
+08C Params4 0x20
+090 Params5 0x8
+094 Params6 0x4
+09C Article0 0x38
+0A4 Article1 0x38
+0AC Article2 0x38
+0B4 Article3 0x38
+0BC Article4 0x38
+0C4 Article5 0x38
+0CC Article6 0x38
+0D0 Article7 0x38
+
+Article0
+9-9
+034 Params0-0 0x20
+
+Article1
+2-2
+034 Params1-0 0x24
+
+Article2
+2-2
+034 Params2-0 0x28
+
+Article3
+2-2
+034 Params3-0 0x4
+
+Article4
+2-2
+034 Params4-0 0x4
+
+Article5
+1-8
+030 Params5D3 0x10
+034 Params5-0 0x4
+
+Article6
+2-2
+034 Params6-0 0x18
+
+Article7
+9-A
+034 Params7-0 0x18
+
+Params0
+Power Shot
+
+*0x0
+Charge time. Higher value = slower charge. Unsure of ratio.
+
+0x4
+Recoil from charged power shot (air only). Negative values send you backward, positive send you forward.
+
+0x8
+Frames between change in charge level?
+
+*0xC
+No Description Available.
+
+Params1
+Screw Attack
+
+0x0
+Horizontal momentum added with no control
+
+0x4
+Horizontal control
+
+0x8
+Air friction
+
+0xC
+Vertical height (grounded doesn't seem affected)
+
+0x10
+ ?? (read on startup)
+
+0x14
+ ?? (read on startup)
+
+0x18
+Landing lag (higher = more)
+
+*0x1C
+No Description Available.
+
+Params2
+Bomb
+
+0x0
+Vertical momentum grounded bomb
+
+0x4
+Vertical momentum aerial bomb
+
+0x8
+Grounded mobility
+
+0xC
+Aerial mobility
+
+0x10
+ ??
+
+0x14
+ ??
+
+0x18
+Grounded momentum preservation
+
+0x1C
+Aerial momentum preservation
+
+*0x20
+X offset
+
+0x24
+Y offset
+
+*0x28
+Z offset
+
+0x2C
+ ??
+
+*0x30
+Frame count for something? (read on bomb explosion)
+
+0x34
+Angle you are sent at from bomb explosion from side (radians)
+
+0x38
+Vertical momentum from bomb explosion
+
+0x3C
+ ??
+
+0x40
+Max controlled horizontal speed after bomb jump
+
+0x44
+ ??
+
+0x48
+ ?? (read on bomb lay)
+
+Params3
+Missile
+
+*0x0
+Buffer (in frames) for differentiating tilt input from Smash input
+
+0x4
+Traction - The lower the value, the more momentum Samus gets going sideways when using a missile.
+
+0x8
+No Description Available.
+
+0xC
+X-offset of missile launch.
+
+Params4
+Zero Laser?
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params5
+ExtraParams5
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params6
+ExtraParams6
+
+*0x0
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+*0x0
+Power shot duration(frames).
+
+*0x4
+Angle it fires at
+
+0x8
+Base velocity. Diminishes with more charge (Full charge still goes same speed).
+
+0xC
+Charged shot velocity. Effect is greater with more charge (Uncharged shot goes same speed).
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+Initial power shot size (graphic). Scales accordingly with charge.
+
+0x1C
+Final power shot size (graphic). Scales accordingly with charge.
+
+Params1-0
+ExtraParams0
+
+*0x0
+How many frames before it explodes
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+Params2-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+*0x4
+Homing missile duration(frames).
+
+*0x8
+Homing missile deceleration point (frames). This is the point where the missle slows down.
+
+0xC
+Homing missile initial velocity.
+
+0x10
+Homing missile secondary velocity, after it finishes decelerating and stops homing.
+
+0x14
+Homing missile deceleration. Lower value = missile slows faster.
+
+0x18
+Homing capability. Higher value = better homing.
+
+0x1C
+Something to do with homing. Lower value = worse homing. Range perhaps.
+
+0x20
+Something to do with homing. Higher value = No homing.
+
+*0x24
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params4-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params5D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params5-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params6-0
+Missile Attribute
+
+*0x0
+??
+
+*0x4
+Super Missile duration(Frames).
+
+*0x8
+Super Missile acceleration point(Frames). This is the point where the super missle speeds up.
+
+0xC
+Super Missile initial velocity.
+
+0x10
+Super Missile acceleration.
+
+0x14
+Super Missile final speed?
+
+Params7-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+

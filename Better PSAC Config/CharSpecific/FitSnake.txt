@@ -1,0 +1,530 @@
+﻿DataSize0xCC
+07C Params0 0x28
+080 Params1 0x50
+084 Params2 0x4
+088 Params3 0x4
+08C Params4 0x20
+090 Article0 0x40
+094 Article1 0x34
+098 Article2 0x40
+09C Article3 0x38
+0A0 Article4 0x40
+0A4 Article5 0x38
+0A8 Article6 0x38
+0AC Article7 0x38
+0B0 Article8 0x40
+0B4 Article9 0x38
+0B8 Article10 0x38
+0BC Article11 0x38
+0C0 Article12 0x38
+0C4 Article13 0x38
+0C8 Article14 0x38
+
+Article0
+5-5
+034 Params0-0 0x18
+
+Article1
+0-3
+
+Article2
+3-2
+034 Params2-0 0x38
+
+Article3
+0-3
+
+Article4
+4-4
+034 Params4-0 0x38
+
+Article5
+8-7
+034 Params5-0 0x30
+
+Article7
+1-2
+
+Article8
+3-4
+034 Params8-0 0x58
+
+Article9
+1-5
+034 Params9-0 0x4
+
+Article10
+1-3
+034 Params10-0 0x10
+
+Article11
+1-2
+034 Params11-0 0x18
+
+Article12
+1-1
+034 Params12-0 0x4
+
+Article13
+3-2
+034 Params13-0 0x8
+
+Article14
+0-2
+
+Params0
+Grenade
+
+0x0
+Forward angle input threshold
+
+0x4
+Back angle input threshold
+
+0x8
+Forward angled horizontal momentum
+
+0xC
+Forward angled vertical momentum
+
+0x10
+Unangled horizontal momentum
+
+0x14
+Unangled vertical momentum
+
+0x18
+Back angled horizontal momentum
+
+0x1C
+Back angled vertical momentum
+
+0x20
+Duck and cover animation range
+
+*0x24
+No Description Available.
+
+Params1
+ExtraParams1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+Params2
+ExtraParams2
+
+*0x0
+No Description Available.
+
+Params3
+ExtraParams3
+
+0x0
+No Description Available.
+
+Params4
+ExtraParams4
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+Params11
+ExtraParams11
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+Params0-0
+Mine Attribute
+
+0x0
+ ?? (read on usmash firing)
+
+*0x4
+How long before it dissapears (frames)
+
+0x8
+Y offset? (read on mine lay)
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params2-0
+Up Smash Attribute
+
+0x0
+X Offset
+
+0x4
+Default height / Y Offset
+
+0x8
+"Z" offset (positive = towards camera)
+
+*0xC
+How long before they explode
+
+0x10
+Height multiplier (affects default hight too)
+
+0x14
+Height multiplier? (lower than default makes charged ones go lower)
+
+0x18
+Gravity
+
+0x1C
+Max fall speed
+
+0x20
+ ?? (read on usmash firing)
+
+0x24
+ ?? (read on usmash firing)
+
+0x28
+Mortar model flips over when this velocity or lower is reached
+
+0x2C
+Affects time mortar turns?
+
+0x30
+ ?? (read on usmash firing)
+
+0x34
+horizontal momentum of mortars that go left/right
+
+Params4-0
+Cypher Attribute
+
+0x0
+Momentum preservation? (at 0 you don't drop before you rise)
+
+0x4
+Momentum preservation? (at 0 you don't drop before you rise)
+
+0x8
+ ?? (read first frame moving)
+
+0xC
+Rising speed? (read first frame moving)
+
+0x10
+Mobility
+
+0x14
+ ?? (read first frame moving)
+
+0x18
+Vertical momentum preservation (double jump cypher preservation)
+
+0x1C
+ ?? (read when cyphering)
+
+0x20
+ ?? (read when cyphering)
+
+0x24
+Y offset of cypher when released
+
+0x28
+Speed of cypher flying away
+
+0x2C
+ ?? (read when letting go of cypher)
+
+*0x30
+How many frames before it disappears? (read when breaking from cypher; freezes at 1)
+
+0x34
+ ?? (read when cyphering)
+
+Params5-0
+paramSnakeC4__13wnSnakeC4Node
+
+0x0
+Starting fall speed
+
+0x4
+Fall acceleration
+
+0x8
+Max fall speed
+
+*0xC
+How long it stays on opponent until falling off (frames) (does not effect falling off from being hit)
+
+*0x10
+How long you stay next to someone before it transfers
+
+0x14
+No Description Available.
+
+0x18
+Chance of C4 falling off?
+
+*0x1C
+How long C4 stays out until it explodes (frames)
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+Params8-0
+paramSnakeNikitaMissile__24wnSnakeNikitaMissileNode
+
+*0x0
+Momentum preservation on turning?
+
+0x4
+Initial speed
+
+0x8
+Flying speed
+
+0xC
+Turning speed
+
+0x10
+Turning control?
+
+0x14
+Turning radius?
+
+0x18
+ ?? (read on sideB)
+
+0x1C
+ ?? (read on sideB)
+
+0x20
+ ?? (read on sideB)
+
+0x24
+ ?? (read on sideB)
+
+0x28
+ ?? (read on sideB)
+
+*0x2C
+How long before nikita slows down
+
+*0x30
+How long nikita slows down before falling
+
+0x34
+Something with slowing down?
+
+*0x38
+Something with slowing down?
+
+0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+Params9-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params10-0
+paramSnakeRgb6__15wnSnakeRgb6Node
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params11-0
+paramSnakeRgb6Sight__20wnSnakeRgb6SightNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+Params12-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params13-0
+paramSnakeRgb6Bullet__21wnSnakeRgb6BulletNode
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+

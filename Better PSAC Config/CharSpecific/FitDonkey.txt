@@ -1,0 +1,321 @@
+﻿DataSize0xA0
+07C Params0 0x10
+080 Params1 0x10
+084 Params2 0x20
+088 Params3 0x10
+08C Params4 0x58
+090 Article0 0x38
+094 Article1 0x38
+098 Params7 0xB0
+
+Article0
+1-5
+034 Params0-0 0x4
+
+Article1
+2-2
+034 Params1-0 0x18
+
+Params0
+Giant Punch
+
+*0x0
+How many arm swings to fully charge
+
+*0x4
+Damage per arm swing (first arm swing has no effect)
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+Params1
+Headbutt
+
+0x0
+Something with momentum preservation?
+
+0x4
+Horizontal momentum preservation? (lower = more)
+
+0x8
+Vertical momentum on headbutt
+
+*0xC
+No Description Available.
+
+Params2
+Spinning Kong
+
+*0x0
+No Description Available.
+
+0x4
+Aerial vertical momentum
+
+0x8
+Gravity
+
+0xC
+Max Grounded Mobility
+
+0x10
+Max Aerial Mobility
+
+0x14
+Grounded mobility
+
+0x18
+Aerial mobility
+
+0x1C
+Landing Lag without Interrupt
+
+Params3
+Hand Slap
+
+0x0
+X offset of hitbox 0/negative X offset of hitbox 3?
+
+0x4
+Y offset?
+
+0x8
+X offset of hitbox 1/negative X offset of hitbox 2?
+
+*0xC
+No Description Available.
+
+Params4
+Konga Beat
+
+*0x0
+Something with rapid beats?
+
+0x4
+ ?? (freezes if too low)
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+Params7
+ExtraParams7
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+*0x68
+No Description Available.
+
+*0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+*0x74
+No Description Available.
+
+*0x78
+No Description Available.
+
+*0x7C
+No Description Available.
+
+*0x80
+No Description Available.
+
+*0x84
+No Description Available.
+
+*0x88
+No Description Available.
+
+*0x8C
+No Description Available.
+
+*0x90
+No Description Available.
+
+*0x94
+No Description Available.
+
+*0x98
+No Description Available.
+
+*0x9C
+No Description Available.
+
+*0xA0
+No Description Available.
+
+*0xA4
+No Description Available.
+
+*0xA8
+No Description Available.
+
+*0xAC
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+

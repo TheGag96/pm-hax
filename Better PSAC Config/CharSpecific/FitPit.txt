@@ -1,0 +1,325 @@
+﻿DataSize0xB0
+07C Params0 0x10
+080 Params1 0x20
+084 Params2 0x48
+088 Params3 0x28
+09C Params8 0x28
+0A0 Article0 0x38
+0A4 Article1 0x38
+0A8 Article2 0x40
+0AC Article3 0x38
+
+Article0
+0-10
+030 Params0D3 0x10
+034 Params0-0 0x4
+
+Article1
+3-3
+034 Params1-0 0x28
+
+Article2
+5-3
+034 Params2-0 0x38
+
+Article3
+2-3
+034 Params3-0 0x28
+
+Params0
+Arrows
+
+0x0
+ ??
+
+*0x4
+Max charge time
+
+0x8
+Joystick sensitivity backwards
+
+0xC
+Joystick sensitivity upwards
+
+Params1
+Angle Ring
+
+*0x0
+Something with how long it's out at startup?
+
+0x4
+Something with how long it stays out after startup?
+
+0x8
+Something with how long it stays out after startup? (less = more)
+
+0xC
+Something with how long it stays out after startup? (might affect button tapping)
+
+0x10
+How many seconds you can hold angel ring
+
+0x14
+ ?? (read on button tap of ring hold)
+
+0x18
+ ?? (read on startup)
+
+*0x1C
+ ?? (read on startup)
+
+Params2
+Wings of Icarus
+
+0x0
+momentum preservation
+
+0x4
+initial vertical momentum
+
+*0x8
+how many frames waiting above ground until landing
+
+0xC
+momentum going right/left
+
+0x10
+momentum going down
+
+0x14
+ ??
+
+0x18
+Potency of Y-Axis control stick movement
+
+0x1C
+momentum going up
+
+0x20
+ ??
+
+0x24
+something to do with how high you can rise/how much gravity affects vertical gain
+
+0x28
+gravity?
+
+0x2C
+ ??
+
+*0x30
+flying time (frames)
+
+0x34
+Wing flap speed going up
+
+0x38
+wing flap speed going down
+
+*0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+Params3
+Mirror Shield
+
+0x0
+No Description Available.
+
+*0x4
+amount of time it can be out (frames)
+
+*0x8
+amount of time before you stand up
+
+0xC
+ ?? (higher than 1 you jitter when aiming and can possibly freeze)
+
+0x10
+Something to do with reflection distance?
+
+*0x14
+Frame count for something?
+
+0x18
+ ?? (read all the time)
+
+0x1C
+ ?? (read all the time)
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params8
+Angle Ring Article Attack
+
+*0x0
+Unknown
+
+0x4
+Break threshold?
+
+0x8
+Reflection bubble X pos?
+
+0xC
+Reflection bubble Y pos?
+
+0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size?
+
+0x18
+Reflection damage multiplier?
+
+0x1C
+Reflection speed multiplier?
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params1-0
+Arrows Attribute
+
+*0x0
+angle at which side arrow initially shoots at
+
+0x4
+side arrow speed
+
+0x8
+angle at which the up arrow initially shoots at
+
+0xC
+up arrow speed
+
+0x10
+Arrow control radius
+
+*0x14
+No Description Available.
+
+0x18
+Base damage
+
+0x1C
+Damage multiplier (extra damage per charging frame)
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params2-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+Params3-0
+Palutena's Army Attribute
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+

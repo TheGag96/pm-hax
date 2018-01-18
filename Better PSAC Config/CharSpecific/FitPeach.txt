@@ -1,0 +1,241 @@
+﻿DataSize0xB4
+07C Params0 0x18
+080 Params1 0x40
+084 Params2 0x4
+088 Params3 0x28
+08C Params4 0x4
+090 Params5 0x20
+094 Params6 0x18
+0A8 Article0 0x38
+0AC Article1 0x38
+0B0 Article2 0x38
+
+Article0
+1-9
+030 Params0D3 0x10
+034 Params0-0 0x4
+
+Article1
+1-2
+034 Params1-0 0x10
+
+Article2
+1-1
+034 Params2-0 0x10
+
+Params0
+Toad
+
+0x0
+Horizontal braking speed (Peach continues moving horizontally at her previous speed divided by this constant.)
+
+0x4
+Horizontal braking acceleration?
+
+0x8
+Vertical speed
+
+0xC
+Gravity
+
+0x10
+Max fall speed
+
+*0x14
+Hitlag on hit (frames)
+
+Params1
+Peach Bomb
+
+0x0
+Unknown, read once on ground pullback
+
+0x4
+Unknown, read once on ground pullback
+
+0x8
+Unknown, read twice on ground pullback
+
+0xC
+Vertical boost during aerial pullback
+
+0x10
+Launch distance (used on ground)
+
+0x14
+Launch distance (used in air)
+
+0x18
+Post-launch vertical boost
+
+0x1C
+Post-launch gravity
+
+0x20
+Some sort of transition ratio between post-launch and ending gravities? (higher = more of the second?)
+
+0x24
+Ending horizontal deceleration
+
+0x28
+Ending gravity
+
+0x2C
+Unknown, read on hit, controls direction of recoil
+
+0x30
+Recoil vertical boost
+
+0x34
+Unknown, something to do with ending
+
+0x38
+Unknown, something to do with ending, when set low causes massive fall speed, when set high casues momentary floating
+
+*0x3C
+No Description Available.
+
+Params2
+Turnip Pull
+
+*0x0
+Odds of getting an item (i.e. a one in this chance)
+
+Params3
+Parasol
+
+0x0
+Involves input window to directionalize launch (larger = harder)
+
+0x4
+Amount to which the launch may be directed (larger = significantly more control)
+
+0x8
+Launch height
+
+0xC
+Unknown, read 1-3 times per frame during launch
+
+0x10
+Unknown, read twice on aerial launch
+
+0x14
+Floating max horizontal speed multiplier
+
+0x18
+Floating fall speed
+
+0x1C
+Falling max horizontal speed multiplier
+
+0x20
+Landing lag from falling state (frames?)
+
+*0x24
+No Description Available.
+
+Params4
+paramUniqFloat__11ftPeachNode
+
+*0x0 Float time (Frames)
+Float time (frames)
+
+Params5
+Peach Blossom?
+
+0x0
+Unknown, read 3 times at startup
+
+0x4
+Unknown, read 3 times at startup
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params6
+Turnip Item Table
+
+*0x0
+Bob-bomb ID
+
+0x4
+Relative odds of getting a Bob-bomb
+
+*0x8
+Mr. Saturn ID
+
+0xC
+Relative odds of getting a Mr. Saturn
+
+*0x10
+Beam Sword ID
+
+0x14
+Relative odds of getting a Beam Sword
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params2-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+

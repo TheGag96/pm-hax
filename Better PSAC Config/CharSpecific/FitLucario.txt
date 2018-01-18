@@ -1,0 +1,286 @@
+﻿DataSize0xA8
+07C Params0 0x20
+080 Params1 0x10
+084 Params2 0x20
+088 Params3 0x18
+08C Params4 0x40
+090 Params5 0x20
+094 Params6 0x10
+098 Params7 0x20
+0A0 Article0 0x38
+0A4 Article1 0x38
+
+Article0
+3-A
+034 Params0-0 0x48
+
+Article1
+1-1
+
+Params0
+ExtraParams0
+
+*0x0
+Amount of charge states?
+
+0x4
+Ground backwards horizontal momentum from releasing Aura Sphere
+
+0x8
+Aerial backwards horizontal momentum from releasing Aura Sphere
+
+0xC
+No Description Available.
+
+*0x10
+Loop iterations to fully charge Aura Sphere
+
+0x14
+Aura Sphere Power
+
+0x18
+Max Aura Sphere size?
+
+0x1C
+Aura Sphere Start Size
+
+Params1
+ExtraParams1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+Params2
+Aura physics (plus unknown?)
+
+0x0
+Aura floor multiplier
+
+0x4
+Aura ceiling multiplier
+
+0x8
+Aura floor percentage
+
+0xC
+Aura baseline percentage
+
+0x10
+Aura ceiling percentage
+
+0x14
+Flat aura damage bonus
+
+0x18
+Aura maximum multiplier
+
+0x1C
+Aura minimum multiplier
+
+Params3
+Force Palm
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+Grounded X offset
+
+0xC
+Grounded Y offset
+
+0x10
+Aerial X offset
+
+0x14
+Aerial Y offset
+
+Params4
+Extreme Speed
+
+0x0
+ ?? (read on startup)
+
+0x4
+Air friction on aerial startup
+
+0x8
+Gravity on aerial startup
+
+0xC
+ ?? (read on travel)
+
+0x10
+Default angle
+
+0x14
+Speed
+
+0x18
+Turning
+
+0x1C
+ ?? (something with angle required to bounce off wall?)
+
+*0x20
+Frame duration of travel
+
+0x24
+Travel -> Ending velocity multiplier
+
+0x28
+Ending air friction (?)
+
+0x2C
+(NOT READ)
+
+0x30
+ ?? (read on end)
+
+*0x34
+ ?? (read on end)
+
+0x38
+horizontal momentum on angled travel landing
+
+*0x3C
+No Description Available.
+
+Params5
+Double Team
+
+0x0
+Momentum preservation
+
+0x4
+ ?? (read on startup)
+
+0x8
+No Description Available.
+
+*0xC
+Frames duration for dodge before hitbox action occurs
+
+0x10
+How far away from start attack occurs (in units)
+
+0x14
+No Description Available.
+
+*0x18
+Attack kick duration
+
+*0x1C
+No Description Available.
+
+Params6
+Aura Storm
+
+0x0
+rising speed
+
+0x4
+max turning angle
+
+0x8
+turning speed
+
+*0xC
+No Description Available.
+
+Params7
+ExtraParams7
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params0-0
+Aura Sphere Attribute
+
+*0x0
+Aura sphere lifetime
+
+*0x4
+Firing angle (radians)
+
+0x8
+Uncharged speed
+
+0xC
+Fully charged speed (also added on to slightly charged)
+
+*0x10
+Frames between wiggling
+
+0x14
+Movement added to a random direction each wiggle
+
+0x18
+Uncharged Aura Sphere Wiggle intensity
+
+*0x1C
+Charged Aura Sphere Wiggle intensity
+
+0x20
+Aura Sphere base growth size (smaller = bigger)
+
+0x24
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+
+0x28
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+
+0x2C
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+
+0x30
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+
+0x34
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+
+0x38
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+
+0x3C
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+
+0x40
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+
+0x44
+Unknown. Probably has something to do with aura sphere damage/stock growth
+

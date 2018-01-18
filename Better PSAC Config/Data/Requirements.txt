@@ -1,0 +1,151 @@
+﻿Character Exists?
+Animation End
+Animation has looped?
+On Ground
+In Air
+Holding a Ledge
+On a Passable Floor
+Compare
+Bit is Set
+Facing Right
+Facing Left
+Hitbox Connects
+Touching a Floor, Wall, or Ceiling
+Is Throwing Someone
+0E
+Button Tap?
+10
+11
+12
+13
+Is in Hitlag
+Article Exists
+Is Overstepping an Edge
+Distance from Floor
+18
+19
+1A
+Change in Air/Ground State
+Article Available
+Current Triggered Status ID
+1E
+Holding Item
+Holding Item of Type
+Light Item is in Grabbing Range
+Heavy Item is in Grabbing Range
+Item of Type(?) is in Grabbing Range
+Turning with Item
+25
+26
+27
+28
+29
+Is in Water
+Roll A Die
+Subaction Exists
+2D
+Button Mashing? Status Expired (sleep/bury/freeze)?
+Is Not in Damaging Magnifier
+Button Press Occurs
+Button Becomes Released
+Button is Held Down
+Button in Pressable State
+Stick Direction Pressed?
+Stick Direction Not Pressed?
+36
+Is Being Thrown by Someone (1)
+Is Being Thrown by Someone (2)
+Hasn't Tethered 3 Times
+Has Passed Over an Edge (Forward)
+Has Passed Over an Edge (Backward)
+Is Holding Someone in a Grab
+Hitbox has Connected
+3E
+3F
+40
+41
+42
+43
+44
+45
+46
+Pick Up an Item
+48
+49
+4A
+4B
+Has Been Hit by Cape Effect
+SDI Input (PM)
+Any Shield Input Occurs (PM)
+Any Shield Input Held (PM)
+Any Taunt Input Occurs (PM)
+Any Taunt Input Held (PM)
+52
+53
+54
+55
+56
+57
+58
+59
+5A
+5B
+5C
+5D
+5E
+5F
+Thread is Null (Custom)
+61
+62
+63
+64
+65
+66
+67
+68
+69
+6A
+6B
+6C
+6D
+6E
+6F
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+7A
+7B
+7C
+7D
+7E
+7F
+270F
+2710
+In walljump situation
+In wallcling situation
+Is within footstool range.
+2714
+2715
+Is falling+hit down
+Has Smash Ball
+2718
+Can Pick Up Another Item
+Successfully tethered ledge
+271B
+271C
+F-Smash Shortcut
+271E
+271F
+2720
+2721
+2722
+2723
+2724
+Tap Jump On & C-Stick not Held

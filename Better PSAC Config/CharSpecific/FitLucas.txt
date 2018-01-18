@@ -1,0 +1,345 @@
+﻿DataSize0xB0
+07C Params0 0x18
+080 Params1 0x1C
+084 Params2 0x30
+088 Params3 0x1C
+08C Params4 0x14
+090 Params5 0x20
+094 Params6 0x28
+098 Article0 0x38
+09C Article1 0x40
+0A0 Article2 0x38
+0A4 Article3 0x38
+0A8 Article4 0x38
+0AC Article5 0x38
+
+Article0
+4-4
+034 Params0-0 0x30
+
+Article1
+2-2
+034 Params1-0 0x1C
+
+Article2
+1-1
+034 Params2-0 0x18
+
+Article3
+1-1
+034 Params3-0 0x4
+
+Article4
+1-1
+034 Params4-0 0x10
+
+Article5
+9-7
+034 Params5-0 0x10
+
+Params0
+PK Freeze
+
+*0x0
+Number of frames to halt vert momentum before using @0xC as gravity (0 permanently halts fall speed)
+
+*0x4
+How long after releasing B PK Freeze explodes
+
+*0x8
+PK Freeze lifetime
+
+0xC
+Gravity after initial vertical halt
+
+0x10
+ ?? (read on release/PK Freeze explosion)
+
+*0x14
+ ?? (read on release/PK Flash explosion)
+
+Params1
+PK Fire
+
+*0x0
+Aerial Vertical Velocity
+
+0x4
+Aerial Horizontal Velocity
+
+0x8
+Grounded Vertical Velocity
+
+0xC
+Horizontal Ground speed
+
+0x10
+X offset?
+
+0x14
+Y offset of starting point
+
+0x18
+No Description Available.
+
+Params2
+PK Thunder
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+UpB hold animation Falling acceleration
+
+0x18
+PKT2 Momentum
+
+0x1C
+PKT2 deacceleration rate
+
+0x20
+PKT2 deacceleration rate after hitting something, stacks with previous
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+Landing lag duration(in frames)
+
+Params3
+PSI Magnet
+
+*0x0
+Minimum frames magnet must stay out
+
+*0x4
+Frames before gravity kicks in (?)
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+Gravity
+
+0x14
+DMG Recovery Multiplier
+
+0x18
+Maximum damage recoverable
+
+Params4
+PSI Magnet Extra
+
+0x0
+No Description Available.
+
+0x4
+Absorption Collision X Offset
+
+0x8
+Absorption Collision Y Offset
+
+0xC
+Absorption Collision Z Offset
+
+0x10
+Absorption Collision Size
+
+Params5
+ExtraParams5
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params6
+Stick swing
+
+*0x0
+No Description Available.
+
+0x4
+Break threshold
+
+0x8
+Reflection bubble X pos?
+
+0xC
+Reflection bubble Y pos?
+
+0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size
+
+0x18
+Reflection damage multiplier
+
+0x1C
+Reflection speed multiplier
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params0-0
+PK Freeze Attribute
+
+0x0
+DMG/Size multiplier? (less=larger gfx size but less dmg)
+
+0x4
+Starting size
+
+0x8
+Size multiplier
+
+0xC
+Initial firing angle, degrees below vertical
+
+0x10
+PK Freeze rising height
+
+0x14
+PK Freeze control
+
+0x18
+PK Freeze gravity
+
+0x1C
+ ?? (read on startup)
+
+0x20
+ ?? (read on startup)
+
+0x24
+How long after screen shake PK Freeze explodes
+
+0x28
+Default dmg
+
+0x2C
+Damage multiplier
+
+Params1-0
+PK Fire Attribute
+
+*0x0
+How long, in frames, the spark is out. Setting this to 0 yields "PK Fizzle".
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+Amount of time Spark stays out? (Setting this to 1 seems to have no effect on distance)
+
+0x18
+Amount of time pillars last
+
+Params2-0
+PK Thunder Attribute
+
+*0x0
+PKT Duration
+
+0x4
+PKT speed
+
+0x8
+PKT starting angle
+
+0xC
+PKT turning control, lower number = higher amount of control
+
+0x10
+PKT turning radius, higher number = tighter radius
+
+*0x14
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params4-0
+PK Starstorm Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params5-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+

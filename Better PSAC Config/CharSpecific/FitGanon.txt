@@ -1,0 +1,215 @@
+﻿DataSize0x94
+07C Params0 0x18
+080 Params1 0x20
+084 Params2 0x20
+088 Params3 0x18
+08C Article0 0x48
+090 Article1 0x38
+
+Article0
+2-2
+030 Params0D3 0x5C
+034 Params0-0 0xC
+038 Params0-1 0x14
+
+Article1
+0-1
+
+Params0
+Warlock Punch
+
+0x0
+ ?? (read on punch)
+
+0x4
+ ?? (read on punch)
+
+0x8
+ ?? (read on punch)
+
+0xC
+Momentum forward in air
+
+0x10
+Momentum from holding up
+
+*0x14
+No Description Available.
+
+Params1
+Flame Choke
+
+0x0
+Flame Choke Grab Slide
+
+0x4
+Aerial flame choke miss gravity
+
+0x8
+Aerial flame choke miss gravity related
+
+0xC
+Landling lag (Frames)
+
+0x10
+Unknown, involves movement on aerial grab
+
+0x14
+Vertical momentum on dragging down (0x10 plays role as well)
+
+0x18
+Grab plummet speed ratio
+
+0x1C
+Grab plummet acceleration ratio
+
+Params2
+Dark Dive
+
+*0x0
+Unknown, cannot control if negative
+
+0x4
+Leaping horizontal acceleration ratio
+
+0x8
+Falling horizontal max speed ratio
+
+0xC
+Unknown, read once on leap
+
+0x10
+Unknown, read once on leap
+
+0x14
+Unknown, read once on leap
+
+0x18
+Unknown, read once on leap
+
+0x1C
+Post-release gravity ratio
+
+Params3
+Wizkick
+
+0x0
+Speed modifier on hit
+
+*0x4
+Unknown; reads on startup and at start of ground-ground ending
+
+0x8
+Ground-ground ending lag modifier
+
+0xC
+Aerial-landing lag modifier
+
+0x10
+Unknown, aerial-landing related
+
+0x14
+No Description Available.
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+Params0-1
+ExtraParams1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+

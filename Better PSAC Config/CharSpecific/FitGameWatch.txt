@@ -1,0 +1,836 @@
+﻿DataSize0xBC
+07C Params0 0x8
+080 Params1 0x14
+084 Params2 0x10
+088 Params3 0x20
+08C Params4 0x18
+090 Params5 0x4
+094 Article0 0x38
+098 Article1 0x38
+09C Article2 0x38
+0A0 Article3 0x38
+0A4 Article4 0x38
+0A8 Article5 0x3C
+0AC Article6 0x50
+0B0 Params13 0x24
+0B8 Params15 0x2E8
+
+Article0
+2-6
+
+Article1
+1-3
+034 Params1-0 0x4
+
+Article2
+1-5
+034 Params2-0 0x4
+
+Article3
+1-1
+034 Params3-0 0x4
+
+Article4
+1-3
+034 Params4-0 0x4
+
+Article5
+4-7
+034 Params5-0 0x10
+
+Article6
+1-B
+034 Params6-0 0x4
+038 Params6-1 0x8
+03C Params6-2 0x8
+040 Params6-3 0x8
+044 Params6-4 0x8
+048 Params6-5 0x8
+04C Params6-6 0x8
+
+Params0
+ExtraParams0
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params1
+Judge
+
+0x0
+Aerial momentum preservation (less = more)
+
+0x4
+Something to do with aerial momentum preservation? (0 = no momentum preservation)
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+Params2
+Fire
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+Params3
+Oil Panic
+
+0x0
+Amount initial horizontal momentum is divided by
+
+0x4
+Air Friction
+
+0x8
+Gravity
+
+0xC
+Terminal Velocity
+
+0x10
+Minimum damage
+
+0x14
+Damage multiplier
+
+0x18
+Min damage per projectile
+
+0x1C
+Max damage per projectile
+
+Params4
+Oil Panic Extra
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+Absorb Collision Size
+
+*0x14
+No Description Available.
+
+Params5
+ExtraParams5
+
+0x0
+No Description Available.
+
+Params13
+Judge Extra
+
+*0x0
+Odds for getting a 1
+
+*0x4
+Odds for getting a 2
+
+*0x8
+Odds for getting a 3
+
+*0xC
+Odds for getting a 4
+
+*0x10
+Odds for getting a 5
+
+*0x14
+Odds for getting a 6
+
+*0x18
+Odds for getting a 7
+
+*0x1C
+Odds for getting a 8
+
+*0x20
+Odds for getting a 9
+
+Params15
+ExtraParams15
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+0x7C
+No Description Available.
+
+0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+0x88
+No Description Available.
+
+*0x8C
+No Description Available.
+
+0x90
+No Description Available.
+
+0x94
+No Description Available.
+
+0x98
+No Description Available.
+
+*0x9C
+No Description Available.
+
+*0xA0
+No Description Available.
+
+*0xA4
+No Description Available.
+
+0xA8
+No Description Available.
+
+0xAC
+No Description Available.
+
+0xB0
+No Description Available.
+
+0xB4
+No Description Available.
+
+0xB8
+No Description Available.
+
+0xBC
+No Description Available.
+
+0xC0
+No Description Available.
+
+0xC4
+No Description Available.
+
+*0xC8
+No Description Available.
+
+0xCC
+No Description Available.
+
+*0xD0
+No Description Available.
+
+*0xD4
+No Description Available.
+
+*0xD8
+No Description Available.
+
+0xDC
+No Description Available.
+
+*0xE0
+No Description Available.
+
+*0xE4
+No Description Available.
+
+*0xE8
+No Description Available.
+
+*0xEC
+No Description Available.
+
+*0xF0
+No Description Available.
+
+*0xF4
+No Description Available.
+
+0xF8
+No Description Available.
+
+0xFC
+No Description Available.
+
+0x100
+No Description Available.
+
+0x104
+No Description Available.
+
+0x108
+No Description Available.
+
+*0x10C
+No Description Available.
+
+*0x110
+No Description Available.
+
+*0x114
+No Description Available.
+
+0x118
+No Description Available.
+
+0x11C
+No Description Available.
+
+0x120
+No Description Available.
+
+0x124
+No Description Available.
+
+0x128
+No Description Available.
+
+0x12C
+No Description Available.
+
+0x130
+No Description Available.
+
+0x134
+No Description Available.
+
+0x138
+No Description Available.
+
+0x13C
+No Description Available.
+
+0x140
+No Description Available.
+
+0x144
+No Description Available.
+
+0x148
+No Description Available.
+
+0x14C
+No Description Available.
+
+0x150
+No Description Available.
+
+*0x154
+No Description Available.
+
+*0x158
+No Description Available.
+
+0x15C
+No Description Available.
+
+0x160
+No Description Available.
+
+0x164
+No Description Available.
+
+0x168
+No Description Available.
+
+0x16C
+No Description Available.
+
+0x170
+No Description Available.
+
+*0x174
+No Description Available.
+
+0x178
+No Description Available.
+
+0x17C
+No Description Available.
+
+*0x180
+No Description Available.
+
+*0x184
+No Description Available.
+
+0x188
+No Description Available.
+
+0x18C
+No Description Available.
+
+0x190
+No Description Available.
+
+0x194
+No Description Available.
+
+0x198
+No Description Available.
+
+0x19C
+No Description Available.
+
+0x1A0
+No Description Available.
+
+0x1A4
+No Description Available.
+
+*0x1A8
+No Description Available.
+
+0x1AC
+No Description Available.
+
+*0x1B0
+No Description Available.
+
+0x1B4
+No Description Available.
+
+*0x1B8
+No Description Available.
+
+*0x1BC
+No Description Available.
+
+0x1C0
+No Description Available.
+
+*0x1C4
+No Description Available.
+
+0x1C8
+No Description Available.
+
+*0x1CC
+No Description Available.
+
+*0x1D0
+No Description Available.
+
+*0x1D4
+No Description Available.
+
+*0x1D8
+No Description Available.
+
+*0x1DC
+No Description Available.
+
+*0x1E0
+No Description Available.
+
+*0x1E4
+No Description Available.
+
+*0x1E8
+No Description Available.
+
+0x1EC
+No Description Available.
+
+0x1F0
+No Description Available.
+
+0x1F4
+No Description Available.
+
+*0x1F8
+No Description Available.
+
+0x1FC
+No Description Available.
+
+0x200
+No Description Available.
+
+*0x204
+No Description Available.
+
+*0x208
+No Description Available.
+
+*0x20C
+No Description Available.
+
+0x210
+No Description Available.
+
+0x214
+No Description Available.
+
+0x218
+No Description Available.
+
+*0x21C
+No Description Available.
+
+*0x220
+No Description Available.
+
+*0x224
+No Description Available.
+
+*0x228
+No Description Available.
+
+0x22C
+No Description Available.
+
+0x230
+No Description Available.
+
+*0x234
+No Description Available.
+
+*0x238
+No Description Available.
+
+*0x23C
+No Description Available.
+
+*0x240
+No Description Available.
+
+*0x244
+No Description Available.
+
+*0x248
+No Description Available.
+
+*0x24C
+No Description Available.
+
+*0x250
+No Description Available.
+
+*0x254
+No Description Available.
+
+*0x258
+No Description Available.
+
+*0x25C
+No Description Available.
+
+*0x260
+No Description Available.
+
+*0x264
+No Description Available.
+
+*0x268
+No Description Available.
+
+*0x26C
+No Description Available.
+
+*0x270
+No Description Available.
+
+*0x274
+No Description Available.
+
+*0x278
+No Description Available.
+
+*0x27C
+No Description Available.
+
+*0x280
+No Description Available.
+
+*0x284
+No Description Available.
+
+*0x288
+No Description Available.
+
+*0x28C
+No Description Available.
+
+*0x290
+No Description Available.
+
+*0x294
+No Description Available.
+
+0x298
+No Description Available.
+
+*0x29C
+No Description Available.
+
+0x2A0
+No Description Available.
+
+0x2A4
+No Description Available.
+
+0x2A8
+No Description Available.
+
+0x2AC
+No Description Available.
+
+0x2B0
+No Description Available.
+
+0x2B4
+No Description Available.
+
+0x2B8
+No Description Available.
+
+0x2BC
+No Description Available.
+
+*0x2C0
+No Description Available.
+
+*0x2C4
+No Description Available.
+
+*0x2C8
+No Description Available.
+
+*0x2CC
+No Description Available.
+
+*0x2D0
+No Description Available.
+
+*0x2D4
+No Description Available.
+
+*0x2D8
+No Description Available.
+
+*0x2DC
+No Description Available.
+
+*0x2E0
+No Description Available.
+
+*0x2E4
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params2-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params4-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params5-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params6-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params6-1
+ExtraParams1
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params6-2
+ExtraParams2
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params6-3
+ExtraParams3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params6-4
+ExtraParams4
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params6-5
+ExtraParams5
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params6-6
+ExtraParams6
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+

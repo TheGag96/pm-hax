@@ -1,0 +1,404 @@
+﻿DataSize0xA8
+07C Params0 0x1C
+080 Params1 0x30
+084 Params2 0x40
+088 Params3 0x4
+08C Params4 0x8
+090 Params5 0x28
+094 Article0 0x38
+098 Article1 0x38
+09C Article2 0x38
+0A0 Article3 0x50
+0A4 Article4 0x38
+
+Article0
+1-3
+030 Params0D3 0x8
+034 Params0-1 0x4
+
+Article1
+2-2
+034 Params1-0 0xC
+
+Article2
+3-3
+034 Params2-0 0x8
+
+Article3
+A-B
+030 Params3D3 0xC
+034 Params3-0 0xC8
+
+Article4
+1-1
+034 Params4-0 0x4
+
+Params0
+Laser
+
+0x0
+X offset grounded laser
+
+0x4
+Y offset grounded laser
+
+0x8
+X offset aerial laser
+
+0xC
+Y offset aerial laser
+
+*0x10
+Angle laser is fired at (degrees)
+
+0x14
+Laser speed
+
+*0x18
+Landing lag?
+
+Params1
+Phantasm
+
+*0x0
+ ?? (something with timing short distance?)
+
+0x4
+Grounded momentum preservation on startup (higher = less, avoid 0 will cause polygon explosion at random)
+
+0x8
+Aerial momentum preservation on startup? (higher = less, barely noticeable)
+
+0xC
+Aerial vertical momentum on startup
+
+0x10
+Affects grounded momentum preservation at end? (higher = less)
+
+0x14
+Grounded momentum preservation at end (less = more)
+
+0x18
+Affects aerial momentum preservation at end (higher = less)
+
+0x1C
+Aerial momentum preservation at end (less = more)
+
+*0x20
+ ?? (read on sideB moving)
+
+0x24
+Affects shortened sideB?
+
+0x28
+ ?? (read on sideB moving)
+
+*0x2C
+ ?? (read on sideB startup)
+
+Params2
+Fire Bird
+
+*0x0
+Frame count for something? (read on startup)
+
+0x4
+ ?? (read on startup)
+
+0x8
+Aerial momentum preservation on startup (smaller = more)
+
+0xC
+Momentum on startup?
+
+0x10
+No Description Available.
+
+0x14
+Default angle? (radians)
+
+*0x18
+How many frames before you stop traveling (does not affect distance past a certain point)
+
+*0x1C
+No Description Available.
+
+*0x20
+Frames before decaying speed
+
+0x24
+Speed of travel/distance travelled
+
+0x28
+Max momentum to stop at
+
+0x2C
+ ?? (read on travel)
+
+0x30
+Angle required when hitting stage to bounce
+
+0x34
+How far you go when hitting ground angled
+
+0x38
+Special Fall Max H Mobility multiplier
+
+*0x3C
+Landing lag (frames)
+
+Params3
+ExtraParams3
+
+*0x0
+No Description Available.
+
+Params4
+Landmaster
+
+0x0
+Rising speed
+
+*0x4
+How many frames after rising you fall with landmaster (0 makes you never come back down)
+
+Params5
+Reflector
+
+*0x0
+No Description Available.
+
+0x4
+Break threshold?
+
+0x8
+Reflection bubble X pos?
+
+0xC
+Reflection bubble Y pos?
+
+*0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size?
+
+0x18
+Reflected projectile damage multiplier
+
+0x1C
+Reflected projectile speed multiplier
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params0-1
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+Laser lifetime (frames)
+
+0x4
+Laser length
+
+0x8
+Laser lengthening time? (higher = slower)
+
+Params2-0
+ExtraParams0
+
+*0x0
+How many frames illusion gfx stays out
+
+*0x4
+How many frames before illusion gfx slow down
+
+Params3D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+0x0
+Driving speed (at 0 you can't turn or drive forward)
+
+0x4
+Driving speed?
+
+0x8
+Friction?
+
+0xC
+Aerial mobility
+
+0x10
+ ?? (read when falling from jump)
+
+0x14
+ ?? (read whenever in air)
+
+0x18
+Gravity
+
+0x1C
+ ?? (read whenever on ground)
+
+*0x20
+ ?? (read whenever on ground)
+
+0x24
+ ?? (read whenever pressing left/right on ground)
+
+0x28
+ ?? (read whenever pressing left/right on ground)
+
+0x2C
+ ?? (read whenever pressing left/right on ground)
+
+*0x30
+No Description Available.
+
+0x34
+Laser speed
+
+0x38
+# of shots
+
+0x3C
+ ?? (read when landmaster falls initially)
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+0x7C
+No Description Available.
+
+0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+0x88
+No Description Available.
+
+0x8C
+No Description Available.
+
+0x90
+No Description Available.
+
+0x94
+No Description Available.
+
+0x98
+No Description Available.
+
+0x9C
+No Description Available.
+
+0xA0
+No Description Available.
+
+0xA4
+No Description Available.
+
+0xA8
+No Description Available.
+
+0xAC
+No Description Available.
+
+0xB0
+No Description Available.
+
+0xB4
+No Description Available.
+
+0xB8
+No Description Available.
+
+0xBC
+No Description Available.
+
+0xC0
+No Description Available.
+
+0xC4
+No Description Available.
+
+Params4-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

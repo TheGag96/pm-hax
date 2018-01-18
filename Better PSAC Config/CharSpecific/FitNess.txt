@@ -1,0 +1,374 @@
+﻿DataSize0xB4
+07C Params0 0x18
+080 Params1 0x1C
+084 Params2 0x30
+088 Params3 0x1C
+08C Params4 0x14
+090 Params5 0x20
+094 Params6 0x28
+098 Article0 0x38
+09C Article1 0x40
+0A0 Article2 0x38
+0A4 Article3 0x38
+0A8 Article4 0x38
+0AC Article5 0x38
+0B0 Article6 0x38
+
+Article0
+4-4
+034 Params0-0 0x30
+
+Article1
+2-2
+034 Params1-0 0x1C
+
+Article2
+1-1
+034 Params2-0 0x18
+
+Article3
+1-1
+034 Params3-0 0x4
+
+Article4
+1-1
+034 Params4-0 0xC
+
+Article5
+3-1
+034 Params5-0 0xC
+
+Article6
+3-6
+034 Params6-0 0x24
+
+Params0
+PK Flash
+
+*0x0
+ ??
+
+*0x4
+How long after releasing B PK Flash explodes
+
+*0x8
+PK Flash lifetime
+
+0xC
+Aerial vert momentum on charge
+
+0x10
+ ?? (read on release/PK Flash explosion)
+
+*0x14
+ ?? (read on release/PK Flash explosion)
+
+Params1
+PK Fire
+
+0x0
+Aerial Vertical Velocity
+
+0x4
+Aerial Horizontal Velocity
+
+0x8
+Grounded Vertical Velocity
+
+0xC
+Horizontal Ground speed
+
+0x10
+X offset?
+
+0x14
+Y offset of starting point
+
+0x18
+ ?? (read when spark is generated)
+
+Params2
+PK Thunder
+
+0x0
+ ?? (read on startup)
+
+*0x4
+How long you continue doing the PKT hold anim after it dies?
+
+*0x8
+Same as 0x4?
+
+*0xC
+How long before you fall during upB hold in air?
+
+0x10
+Something with falling speed initially
+
+0x14
+upB hold falling acceleration
+
+0x18
+PKT2 Momentum
+
+0x1C
+PKT2 deceleration rate
+
+0x20
+PKT2 deceleration rate after hitting something, stacks with previous
+
+0x24
+ ?? (read on PKT2)
+
+0x28
+ ?? (read on PKT2 end)
+
+0x2C
+Landing lag duration(in frames)
+
+Params3
+PSI Magnet
+
+*0x0
+How many frames after releasing B you continue to hold it
+
+*0x4
+ ?? (read on startup)
+
+0x8
+Something with momentum preservation?
+
+0xC
+Something with momentum preservation?
+
+0x10
+Falling speed
+
+0x14
+Damage recovery factor
+
+0x18
+Maximum damage recoverable
+
+Params4
+PSI Magnet Extra
+
+0x0
+No Description Available.
+
+0x4
+Absorption Collision X Offset
+
+0x8
+Absorption Collision Y Offset
+
+0xC
+Absorption Collision Z Offset
+
+0x10
+Absorption Collision Size
+
+Params5
+ExtraParams5
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params6
+Bat Swing
+
+*0x0
+No Description Available.
+
+0x4
+Break threshold
+
+0x8
+Reflection bubble X pos?
+
+0xC
+Reflection bubble Y pos?
+
+0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size
+
+0x18
+Reflection damage multiplier
+
+0x1C
+Reflection speed multiplier
+
+0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params0-0
+PK Flash Attribute
+
+0x0
+DMG/Size multiplier? (less=larger gfx size but less dmg)
+
+0x4
+Starting size
+
+0x8
+Size multiplier
+
+0xC
+PK Flash control
+
+0x10
+PK Flash rising height
+
+0x14
+PK Flash momentum added from stick press
+
+0x18
+PK Flash gravity
+
+0x1C
+ ?? (read on startup)
+
+0x20
+ ?? (read on startup)
+
+0x24
+How long after screen shake PK Flash explodes
+
+0x28
+Default damage
+
+0x2C
+Damage multiplier
+
+Params1-0
+PK Fire Attribute
+
+*0x0
+Spark lifetime
+
+*0x4
+Pillar lifetime
+
+0x8
+Pillar vert momentum on first hit
+
+0xC
+ ?? (read when spark is generated)
+
+0x10
+ ?? (read when spark is generated)
+
+0x14
+Pillar vert momentum on loop hits?
+
+0x18
+Pillar size multiplier on each hit?
+
+Params2-0
+PK Thunder Attribute
+
+0x0
+PKT Duration
+
+0x4
+PKT speed
+
+0x8
+PKT starting angle
+
+0xC
+PKT turning control, lower number = higher amount of control
+
+0x10
+PKT turning radius, higher number = tighter radius
+
+*0x14
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params4-0
+PK Starstorm Attribute
+
+0x0
+Base falling speed
+
+0x4
+Additional falling speed
+
+*0x8
+ ?? (freezes at 0)
+
+Params5-0
+PK Starstorm Attribute2
+
+*0x0
+ ?? (read on starstorm)
+
+*0x4
+ ?? (read on starstorm)
+
+0x8
+No Description Available.
+
+Params6-0
+PK Starstorm Attribute3
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+

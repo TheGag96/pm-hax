@@ -1,0 +1,429 @@
+﻿DataSize0xB0
+07C Params0 0x1C
+080 Params1 0x30
+084 Params2 0x40
+088 Params3 0x10
+08C Params4 0x8
+090 Params5 0x28
+094 Params6 0x10
+09C Article0 0x38
+0A0 Article1 0x38
+0A4 Article2 0x38
+0A8 Article3 0x50
+0AC Article4 0x38
+
+Article0
+1-3
+030 Params0D3 0x8
+034 Params0-0 0x4
+
+Article1
+2-2
+034 Params1-0 0xC
+
+Article2
+3-3
+034 Params2-0 0x8
+
+Article3
+A-B
+030 Params3D3 0xC
+034 Params3-0 0xC8
+
+Article4
+1-1
+034 Params4-0 0x4
+
+Params0
+Laser
+
+0x0
+X offset grounded laser
+
+0x4
+Y offset grounded laser
+
+0x8
+X offset aerial laser
+
+0xC
+Y offset aerial laser
+
+*0x10
+Angle laser is fired at (degrees)
+
+0x14
+Laser speed
+
+*0x18
+Landing lag?
+
+Params1
+Illusion
+
+*0x0
+ ?? (something with timing short distance?)
+
+0x4
+Grounded momentum preservation on startup (higher = less, avoid 0 will cause polygon explosion at random)
+
+0x8
+Aerial momentum preservation on startup? (higher = less, barely noticeable)
+
+0xC
+Aerial vertical momentum on startup
+
+0x10
+Affects grounded momentum preservation at end? (higher = less)
+
+0x14
+Grounded momentum preservation at end (less = more)
+
+0x18
+Affects aerial momentum preservation at end (higher = less)
+
+0x1C
+Aerial momentum preservation at end (less = more)
+
+*0x20
+ ?? (read on sideB moving)
+
+0x24
+Affects shortened sideB?
+
+0x28
+ ?? (read on sideB moving)
+
+*0x2C
+ ?? (read on sideB startup)
+
+Params2
+Firefox
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+Aerial momentum preservation on startup?
+
+0xC
+Momentum on startup?
+
+0x10
+No Description Available.
+
+0x14
+Default angle? (radians)
+
+*0x18
+How many frames before you stop traveling (does not affect distance past a certain point)
+
+*0x1C
+No Description Available.
+
+*0x20
+Frames before decaying speed
+
+0x24
+Speed of travel/distance traveled
+
+0x28
+Decay
+
+0x2C
+No Description Available.
+
+0x30
+Something to do with angle when hitting ground?
+
+0x34
+How far you go when hitting ground angled
+
+0x38
+Special Fall Max H Mobility multiplier
+
+*0x3C
+No Description Available.
+
+Params3
+Reflector
+
+*0x0
+No Description Available.
+
+*0x4
+Frames before 0xC takes effect
+
+0x8
+Momentum preservation (lower = more momentum preserved)
+
+0xC
+Aerial momentum downward (applies to startup and holding)
+
+Params4
+Landmaster
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params5
+Reflector Extra
+
+*0x0
+No Description Available.
+
+0x4
+Break threshold?
+
+*0x8
+Reflection bubble X pos?
+
+0xC
+Reflection bubble Y pos?
+
+*0x10
+Reflection bubble Z pos?
+
+0x14
+Reflection bubble size?
+
+0x18
+Reflected projectile damage multiplier
+
+0x1C
+Reflected projectile speed multiplier
+
+0x20
+No Description Available.
+
+*0x24
+Apparently a list of the five above-ground 45-degree angles.
+
+Params6
+Reflector Degrees?
+
+0x0
+Reflector degrees? nr 2
+
+0x4
+Reflector degrees? nr 3
+
+0x8
+Reflector degrees? nr 4
+
+0xC
+Reflector degrees? nr 5
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+Laser Life (frames)
+
+0x4
+Laser length
+
+0x8
+Laser lengthening time? (higher = slower)
+
+Params2-0
+ExtraParams0
+
+*0x0
+How many frames illusion gfx stays out
+
+*0x4
+How many frames before illusion gfx slow down
+
+Params3D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+0x58
+Health? (looks like a pretty nice value for it)
+
+0x5C
+Health? (looks like a pretty nice value for it)
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+0x7C
+No Description Available.
+
+0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+0x88
+No Description Available.
+
+0x8C
+No Description Available.
+
+0x90
+No Description Available.
+
+0x94
+No Description Available.
+
+0x98
+No Description Available.
+
+0x9C
+No Description Available.
+
+0xA0
+No Description Available.
+
+0xA4
+No Description Available.
+
+0xA8
+No Description Available.
+
+0xAC
+No Description Available.
+
+0xB0
+No Description Available.
+
+0xB4
+No Description Available.
+
+0xB8
+No Description Available.
+
+0xBC
+No Description Available.
+
+0xC0
+No Description Available.
+
+0xC4
+No Description Available.
+
+Params4-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

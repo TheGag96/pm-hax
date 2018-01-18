@@ -1,0 +1,473 @@
+﻿DataSize0x9C
+07C Params0 0x60
+080 Params1 0x80
+084 Params2 0x20
+088 Params3 0x30
+08C Params4 0x10
+090 Params5 0x4
+094 Article0 0x38
+098 Article1 0x50
+
+Article0
+4-2
+034 Params0-0 0x30
+
+Article1
+4-A
+030 Params1D3 0x78
+034 Params1-0 0x30
+040 Params1-3 0x18
+
+Params0
+Homing Attack
+
+0x0
+Initial Vertical Velocity on Charge
+
+0x4
+Momentous Growth on Aerial Charge
+
+0x8
+Momentum Conservatism (Set to 2, it will multiply current momentum by 2. Set to 0.5, current momentum will be halved. Etc.)
+
+*0xC
+Minimum startup
+
+*0x10
+Maximum startup
+
+0x14
+Maximum Curve. Lower number = smaller curves
+
+0x18
+Homing Intensity. Lower number = better homing.
+
+0x1C
+Homing Wind Resistance. (Higher number = travel slower, and cancel before you reach your target if too high.)
+
+0x20
+Homing Dash Acceleration
+
+0x24
+Homing Dash Deceleration
+
+0x28
+ ??
+
+*0x2C
+Homing Dash Duration (Frames?)
+
+0x30
+Floor-bounce H Velocity
+
+0x34
+Floor-bounce V Velocity?
+
+0x38
+Floor-bounce V Velocity ...Again?
+
+0x3C
+Person-bounce Aerial Mobility
+
+0x40
+Person-bounce V Velocity
+
+0x44
+Person-bounce H Deceleration Rate?
+
+*0x48
+Person-bounce Fallspeed?
+
+0x4C
+No-homing dash angle (Degrees)
+
+0x50
+No-homing dash speed
+
+*0x54
+No-homing dash duration
+
+0x58
+ ??
+
+*0x5C
+No-homing dash duration again?
+
+Params1
+Spin Dash
+
+*0x0
+How many frames after charge you do spin dash
+
+*0x4
+Frame count for something? (read on startup)
+
+0x8
+Momentum during charge on ground
+
+0xC
+Angle of jump?
+
+0x10
+Something with angle of jump and movement speed
+
+0x14
+Angle of jump?
+
+0x18
+ ?? (read on jump)
+
+0x1C
+Height of jump
+
+0x20
+Friction?
+
+0x24
+ ?? (read on jump, affects angle)
+
+0x28
+Speed
+
+0x2C
+ ?? (read on jump, affects angle)
+
+*0x30
+How long you can move around (in frames)
+
+0x34
+Aerial mobility
+
+0x38
+ ?? (read on jump)
+
+0x3C
+ ?? (read on jump)
+
+0x40
+ ?? (read on turn/land on ground)
+
+0x44
+Damage multiplier after hitting ground
+
+0x48
+Damage multiplier before hitting ground
+
+0x4C
+Skidding friction
+
+0x50
+Skidding friction?
+
+0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+*0x6C
+No Description Available.
+
+0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+0x78
+No Description Available.
+
+0x7C
+No Description Available.
+
+Params2
+paramSpecialHi__11ftSonicNode
+
+0x0
+How much time before you jump (negative will make spring invisible)
+
+0x4
+ ??
+
+0x8
+Grounded jump height
+
+0xC
+Aerial jump height
+
+0x10
+Gravity?
+
+0x14
+Gravity?
+
+0x18
+Maximum horizontal drift speed during fall after spring
+
+0x1C
+Drift control during fall after spring
+
+Params3
+paramSpecialLw__11ftSonicNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+Params4
+paramSpinJump__11ftSonicNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+Params5
+paramDash__11ftSonicNode
+
+0x0
+No Description Available.
+
+Params0-0
+Spring Attribute
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+Sonic Spring Initial Height (How high off of the ground foes are when they start their 'i just bounced off of this' animation)
+
+0xC
+Sonic Spring Duration (Frames)
+
+*0x10
+Spring article's initial aerial vert velocity once Sonic launches off
+
+0x14
+Sonic Spring Fallspeed
+
+0x18
+Same as 0x8?
+
+0x1C
+ ??
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+Params1D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+*0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+*0x68
+No Description Available.
+
+*0x6C
+No Description Available.
+
+*0x70
+No Description Available.
+
+*0x74
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+Params1-3
+ExtraParams3
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+

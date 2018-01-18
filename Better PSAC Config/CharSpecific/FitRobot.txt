@@ -1,0 +1,314 @@
+﻿DataSize0xB4
+07C Params0 0x40
+080 Params1 0x58
+084 Params2 0x48
+088 Params3 0x18
+08C Params4 0x18
+094 Article0 0x38
+09C Article1 0x38
+0A4 Article2 0x38
+0AC Article3 0x38
+
+Article0
+3-1
+034 Params0-0 0x8
+
+Article1
+2-2
+034 Params1-0 0x20
+
+Article2
+3-6
+
+Article3
+4-4
+034 Params3-0 0x4
+
+Params0
+Robo Beam
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+Frames to recharge?
+
+0x18
+Frames to supercharge?
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+Params1
+Arm Rotor
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+Params2
+Robo Burner
+
+0x0
+Max fuel?
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+Params3
+Gyro
+
+0x0
+Time to fully charge (frames)
+
+0x4
+Velocity multiplier (charge-based)
+
+0x8
+Also affects velocity based on charge but multiplies damage and KB as well
+
+*0xC
+ ??? (default is 0 but is read on gyro shoot)
+
+0x10
+Gryo firing Y offset
+
+*0x14
+Max gyros
+
+Params4
+Diffusion Beam
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+*0x8
+FS Duration (Seconds)(If Set At 0 It Will Last Forever)
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params13
+ExtraParams13
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params0-0
+Gyro Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+Params1-0
+Robo Beam Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

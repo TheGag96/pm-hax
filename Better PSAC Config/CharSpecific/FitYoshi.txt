@@ -1,0 +1,417 @@
+﻿DataSize0xB0
+07C Params0 0xA8
+080 Params1 0x3C
+084 Params2 0xC
+088 Params3 0x68
+08C Params4 0x10
+090 Article0 0x38
+094 Article1 0x38
+098 Article2 0x38
+09C Article3 0x38
+0A0 Article4 0x38
+
+Article0
+1-1
+034 Params0-0 0x14
+
+Article1
+2-2
+034 Params1-0 0x14
+
+Article2
+1-5
+030 Params2D3 0x28
+034 Params2-0 0x4
+
+Article3
+1-1
+034 Params3-0 0x10
+
+Article4
+3-2
+034 Params4-0 0x8
+
+Params0
+Egg Roll
+
+*0x0 Max Egg Frame Count
+Max number of frames you can be in egg before exiting automatically
+
+*0x4 Min Egg Frame Count
+Minimum number of frames to be in egg before exiting with B
+
+*0x8
+ ?? (Not read on sideB)
+
+0xC
+ ?? (Not read on sideB)
+
+*0x10 Startup Horizontal Momentum
+startup horizontal momentum
+
+0x14 Startup Vertical Momentum
+startup vertical momentum
+
+0x18
+Read on Rolling?
+
+0x1C First Landing Momentum
+rolling momentum when you land for the first time
+
+0x20
+ ?? (read on aerial startup)
+
+0x24 Gravity
+gravity
+
+0x28 Bounciness
+bounciness when hitting ground
+
+0x2C Base Rolling Momentum
+base rolling momentum?
+
+0x30 Momentum Multiplier
+rolling momentum multiplier?
+
+0x34 
+something with rolling momentum?
+
+0x38
+something with rolling momentum?
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+0x48
+air acceleration?
+
+0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+*0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+0x6C
+bounce velocity multiplier?
+
+0x70
+No Description Available.
+
+0x74
+No Description Available.
+
+0x78
+Used in damage formula?
+
+0x7C
+No Description Available.
+
+0x80
+No Description Available.
+
+0x84
+No Description Available.
+
+0x88
+ending air acceleration?
+
+0x8C
+Vertical multiplier on exit
+
+0x90
+No Description Available.
+
+*0x94
+No Description Available.
+
+0x98
+ending horizontal speed?
+
+0x9C
+(45 degrees)
+
+0xA0
+something to do with "freefall"?
+
+*0xA4
+No Description Available.
+
+Params1
+Egg Toss
+
+0x0 Upward Momentum
+Upward momentum of throwing
+
+0x4 Downward Momentum
+Downward momentum of throwing
+
+0x8 Preserved Momentum
+Momentum preserved after throwing
+
+0xC
+Upward momentum after throwing 2+ times in air
+
+0x10
+Number of times Yoshi hops from Egg Toss in the air until landing
+
+0x14
+affects angle of thrown egg backward and forward? (radians)
+
+0x18
+affects angle of thrown egg backward and forward? (32 degrees)
+
+0x1C
+affects angle of thrown egg backward and forward? (4 degrees)
+
+0x20
+angle of throwing (58 degrees affects all throws)
+
+0x24
+Vertical launch speed multiplier
+
+0x28
+Horizontal launch speed multiplier
+
+0x2C
+Egg X offset on toss
+
+0x30
+Egg Y offset on toss
+
+0x34
+Egg air friction?
+
+0x38
+base egg spin?
+
+Params2
+Ground Pound
+
+0x0
+Descent speed?
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+Params3
+Super Dragon?
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+0x64
+No Description Available.
+
+Params4
+ExtraParams4
+
+*0x0
+Number of frames to turn around during Double Jump
+
+0x4
+Joystick sensitivity to turn around during Double Jump
+
+0x8
+Knockback resistance
+
+*0xC
+No Description Available.
+
+Params0-0
+Ground Pound Star Attribute
+
+0x0
+Horizontal movement of stars?
+
+0x4
+Stars gravity?
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+How long until it explodes (frames)
+
+*0x4
+How long explosion exists in frames? (at 0 it didn't have sfx on explode)
+
+0x8
+Spinning?
+
+0xC
+Egg vertical gravity
+
+0x10
+Egg horizontal gravity
+
+Params2D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+*0x24
+No Description Available.
+
+Params2-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params3-0
+Super Dragon2 Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params4-0
+Super Dragon3 Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+

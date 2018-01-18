@@ -1,0 +1,224 @@
+﻿DataSize0x9C
+07C Params0 0x18
+080 Params1 0x48
+084 Params2 0x10
+088 Params3 0x28
+08C Params4 0x18
+090 Params5 0x38
+098 Article0 0x38
+
+Article0
+4-4
+030 Params0D3 0xC
+034 Params0-0 0x4
+
+Params0
+Eruption
+
+*0x0
+Charge time (seconds?)
+
+*0x4
+Base damage
+
+*0x8
+Damage per second of charge
+
+0xC
+aerial horizontal momentum ratio
+
+0x10
+Aerial horizontal deceleration
+
+0x14
+Fully charged self damage
+
+Params1
+Quickdraw
+
+*0x0
+Charge time for maximum damage
+
+*0x4
+Charge time for maximum distance
+
+0x8
+Base grounded travel speed (affects distance)
+
+0xC
+Base aerial travel speed (affects distance)
+
+0x10
+Grounded travel speed multiplier (per charge frame)
+
+0x14
+Aerial travel speed multiplier (per charge frame)
+
+0x18
+Grounded friction
+
+0x1C
+Aerial friction
+
+*0x20
+Travel time (frames)
+
+0x24
+unknown, read once on hit
+
+0x28
+unknown, read once on hit
+
+0x2C
+Damage growth rate (per charge frame)
+
+0x30
+Grounded ending horizontal momentum ratio
+
+0x34
+Aerial ending horizontal momentum ratio
+
+0x38
+Falling startup boost
+
+0x3C
+unknown, read twice on startup
+
+0x40
+unknown, read twice on startup
+
+0x44
+unknown, read once on startup
+
+Params2
+Aether
+
+0x0
+Aerial jump height ratio (relative to ground version)
+
+0x4
+unknown, read once on startup and jump
+
+0x8
+unknown, read once on startup and jump
+
+*0xC
+Maximum number of times you can grab the ledge before needing to land on stage
+
+Params3
+Counter
+
+0x0
+Aerial horizontal momentum preservation
+
+0x4
+Aerial Friction
+
+0x8
+Gravity
+
+0xC
+Counter max fall speed
+
+0x10
+Damage multiplier
+
+0x14
+unknown, read on activation
+
+*0x18
+Freeze frames on hit
+
+0x1C
+Minimum damage
+
+0x20
+Maximum damage
+
+0x24
+unknown, read on activation
+
+Params4
+Counter extra data?
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params5
+Great Aether
+
+0x0
+No Description Available.
+
+0x4
+X offset of sword gfx?
+
+0x8
+Y offset of sword gfx?
+
+0xC
+How high from opponent Ike is when doing hits?
+
+0x10
+Ike falling speed (does not affect opponent)
+
+0x14
+ ?? (read on hit; horizontal momentum?)
+
+*0x18
+No Description Available.
+
+*0x1C
+frames before grabbing sword?
+
+0x20
+rising speed
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+Params0D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+Params0-0
+ExtraParams0
+
+0x0
+No Description Available.
+

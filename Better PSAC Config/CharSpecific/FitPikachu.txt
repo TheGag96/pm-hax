@@ -1,0 +1,311 @@
+﻿DataSize0xA8
+07C Params0 0x14
+080 Params1 0x48
+084 Params2 0x58
+088 Params3 0x10
+08C Params4 0x18
+090 Article0 0x38
+094 Article1 0x38
+098 Article2 0x38
+09C Article3 0x38
+0A0 Article4 0x40
+
+Article0
+1-1
+034 Params0-0 0x14
+
+Article1
+1-1
+034 Params1-0 0x14
+
+Article2
+1-1
+034 Params2-0 0x10
+
+Article3
+1-1
+
+Article4
+3-3
+034 Params4-0 0x24
+038 Params4-1 0x14
+
+Params0
+Thunder Jolt
+
+0x0
+Grounded X offset
+
+0x4
+Grounded Y offset
+
+0x8
+Aerial X offset
+
+0xC
+Aerial Y offset
+
+*0x10
+ ?? (read on startup)
+
+Params1
+Skull Bash
+
+0x0
+ ?? (read on startup)
+
+0x4
+ ?? (read on startup)
+
+0x8
+Charge time (frames)
+
+0xC
+Base damage
+
+0x10
+Damage multiplier
+
+0x14
+ ?? (read on fire)
+
+0x18
+ ?? (read on air startup)
+
+0x1C
+Falling speed
+
+0x20
+Base horizontal firing momentum
+
+0x24
+Horizontal momentum multiplier
+
+0x28
+Base vertical firing momentum
+
+0x2C
+Vertical momentum multiplier
+
+0x30
+ ?? (read on firing)
+
+0x34
+Aerial stopping velocity?
+
+0x38
+ ?? (read on aerial end)
+
+0x3C
+ ?? (read on aerial end)
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+Params2
+Quick Attack
+
+*0x0
+ ?? (read on startup)
+
+*0x4
+Length
+
+0x8
+ ?? (read on travel)
+
+0xC
+Model rotation traveling on ground
+
+0x10
+Model width multiplier traveling on ground
+
+0x14
+Model height multiplier traveling on ground
+
+0x18
+Model length multiplier traveling on ground
+
+0x1C
+Model rotation traveling in air
+
+0x20
+Model width multiplier traveling in air
+
+0x24
+Model height multiplier traveling in air
+
+0x28
+Model length multiplier traveling in air
+
+0x2C
+Not read?
+
+0x30
+Aiming sensitivity
+
+0x34
+Starting momentum of each segment
+
+0x38
+Momentum added to 0x34
+
+0x3C
+Second segment length multiplier
+
+0x40
+Horizontal momentum preservation
+
+*0x44
+Minimum direction change (degrees) for grounded second segment
+
+0x48
+Horizontal momentum subtracted each frame after frame 5 of second segment
+
+*0x4C
+Minimum direction change (degrees) for second segment
+
+0x50
+ ?? Read when landing from air -> ground
+
+0x54
+Landlag
+
+Params3
+Thunder
+
+0x0
+Height of thunder creation
+
+0x4
+Something to do with landing detection when missing pika
+
+0x8
+Vertical momentum on aerial thunder hit
+
+0xC
+Air friction on aerial thunder hit?
+
+Params4
+ExtraParams4
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params0-0
+Thunder Jolt Attribute
+
+*0x0
+Lifetime (frames)
+
+0x4
+Aerial jolt angle (radians)
+
+0x8
+Aerial jolt velocity
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+Params1-0
+Thunder Jolt Attribute (As 0)
+
+*0x0
+Lifetime (frames)
+
+0x4
+Aerial jolt angle (radians)
+
+0x8
+Aerial jolt velocity
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+Params2-0
+Thunder Attribute
+
+0x0
+Area of effect for behing hit from your thunder
+
+0x4
+Thunder travel speed
+
+0x8
+Thunder lifetime (frames)
+
+*0xC
+No Description Available.
+
+Params4-0
+Volt Tackle Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+Params4-1
+ExtraParams1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+

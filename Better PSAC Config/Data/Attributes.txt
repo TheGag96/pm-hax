@@ -1,0 +1,554 @@
+0x000 Walk Initial Velocity
+The starting velocity obtained the moment the character starts walking.
+
+0x004 Walk Acceleration
+The speed of acceleration while walking.
+
+0x008 Walk Maximum Velocity
+The maximum velocity obtainable while walking.
+
+0x00C Ground Friction
+The speed which the character's horizontal velocity decreases on its own on the ground.
+
+0x010 Dash & StopTurn Initial Velocity
+The starting velocity obtained the moment the character starts a Dash.
+
+0x014 Dash & Run Acceleration A
+The speed at which the character decelerates during Dash, Run, and Turn Run. Combines with 0x018.
+
+0x018 Dash & Run Acceleration B
+The speed at which the character accelerates during Dash, Run, and Turn Run. Combines with 0x014.
+
+0x01C Dash & Run Terminal Velocity
+The velocity you will accelerate to during a Dash or Run.
+
+0x020 Run Acceleration?
+Possibly the time it takes for the character to reach full speed during a run?
+
+0x024 General Grounded Max Horizontal Velocity
+The maximum horizontal velocity you can have while on the ground.
+
+*0x028 Dash Cancel Frame Window?
+Possibly the amount of frames you have to cancel your dash animation.
+
+0x02C Guard On Max Momentum
+The maximum horizontal momentum you can have when entering shield.
+
+*0x030 Jump Startup Time
+The time in frames it takes for your character to lift off of the ground when jumping.
+
+0x034 Jump H Initial Velocity
+The starting horizontal velocity the character obtains when jumping.
+
+0x038 Jump V Initial Velocity
+The starting vertical velocity the character obtains when jumping.
+
+0x03C Ground to Air Jump Momentum Multiplier
+The amount of horizontal momentum from the ground that gets added onto a jump.
+
+0x040 Jump H Initial Velocity
+The maximum starting horazontal velocity the character is able to obtain when jumping.
+
+0x044 Hop V Initial Velocity
+The maximum vertical velocity the character obtains when hopping.
+
+0x048 V Air Jump Multiplier
+The velocity obtained from an air jump proportional to the Jump V Initial Velocity.
+
+0x04C H Air Jump Multiplier
+The velocity obtained from an air jump proportional to the Jump H Initial Velocity.
+
+0x050 Footstool Jump V Initial Velocity
+The starting vertical velocity the character obtains upon performing a footstool jump.
+
+0x054 Footstool Hop V Initial Velocity
+The starting vertical velocity the character obtains upon performing a footstool hop (quick press).
+
+0x058
+
+
+0x05C Meteor Canceling Window
+Numbers of frames into meteor knockback before the character can perform a meteor cancel.
+
+*0x060 Jumps
+The number of consecutive jumps the character is able to perform. (Note: This changes nothing without BEx FighterConfig edits and a Multijump section in Misc.)
+
+0x064 Gravity
+The speed at which the character accelerates downward.
+
+0x068 Terminal Velocity
+The maximum velocity obtainable due to gravity.
+
+0x06C V Air Friction
+Appears to have little to no effect, though seems to nullify terminal velocity when set to 0.
+
+0x070
+
+
+0x074 Air Mobility A
+The speed at which the character is able to maneuver in the air. Combines with 0x078.
+
+0x078 Air Mobility B
+The speed at which the character is able to maneuver in the air. Combines with 0x074.
+
+0x07C Maximum H Air Mobility
+The maximum horizontal velocity the character is able to obtain in the air using air mobility.
+
+0x080 H Air Friction
+The speed at which the character's horizontal velocity decreases on its own in the air.
+
+0x084 Fastfall Terminal Velocity
+The fastfalling speed of the character. 
+
+0x088 Aerial Max H Velocity
+Applies when double jumping, possibly at other times as well. Appears to always be 2.5 in Project M.
+
+*0x08C Glide Frame Window
+The amount of time (in frames) that the character has to begin a glide after jumping. Leave at 0 for no glide.
+
+0x090
+
+
+0x094 Jab-2 Input Window
+
+
+0x098 Jab-3 Input Window
+
+
+0x09C Forward Tilt 2 Input Window
+
+
+0x0A0 Forward Tilt 3 Input Window
+
+
+0x0A4 Forward Smash 2 Input Window
+
+
+0x0A8 Frames to Turn Around
+The number of frames it takes during a slow standing turn before changing direction.
+
+0x0AC
+
+
+0x0B0 Weight
+How resiliant the character is to knockback.
+
+0x0B4 Size
+The scaling of the character from their original model size. 1 = 100%, 0.5 = 50%.
+
+0x0B8 Size on Results Screen
+The scaling of the character on the results screen. 1 = 100%, 0.5 = 50%.
+
+0x0BC
+
+
+0x0C0
+
+
+0x0C4 Shield Size
+The size of the character's shield bubble when it is at full strength.
+
+0x0C8 Shield Break Bounce Velocity
+The velocity at which the character bounces upwards upon having their shield broken.
+
+0x0CC Shield Minimum Size?
+
+
+0x0D0 Item GFX Size
+Increases the size of the healing circle GFX (Food, Maximum Tomato, and Heart Container), the Starman sparkle GFX, and the Bunny Hood.
+
+0x0D4 Respawn Platform Size
+The size of the platform the character respawns on after a K.O.
+
+0x0D8 No effect?
+
+
+0x0DC
+
+
+0x0E0
+
+
+0x0E4
+
+
+*0x0E8 Rapid Jab Button Mashing?
+Unknown, could relate to button mashing for Rapid Jab (Ex: Pit).
+
+*0x0EC
+
+
+*0x0F0
+
+
+0x0F4
+
+
+0x0F8 Edge Jump H Velocity
+The starting horazontal velocity obtained from an Edge Jump.
+
+0x0FC Edge Jump V Velocity
+The starting vertical velocity obtained from an Edge Jump.
+
+0x100 Heavy Item Move Speed
+The speed the character has when carrying a heavy item, such as a crate.
+
+0x104 Heavy Item Traction
+The amount of traction the character has when carrying a heavy item, such as a crate.
+
+0x108
+
+
+0x10C
+
+
+0x110
+
+
+0x114
+
+
+0x118 Item Throw Strength
+The speed at which an item is projected when thrown.
+
+0x11C
+
+
+0x120
+
+
+0x124
+
+
+0x128 Projectile Weapon Use Move Speed
+The speed at which the character is able to move at while firing a projectile weapon.
+
+0x12C Projectile Weapon Use F Dash Speed
+The speed at which a character moves during a forward dash while firing a projectile weapon.
+
+0x130 Projectile Weapon Use B Dash Speed
+The speed at which a character moves during a backward dash while firing a projectile weapon.
+
+0x134
+
+
+0x138 Light Landing Lag
+The length of the character's light landing lag in frames. (Note: <# of real lag frames> = <this value> + 1)
+
+0x13C Normal Landing Lag
+The length of the character's normal landing lag in frames. (Note: <# of real lag frames> = <this value> + 1)
+
+0x140 Nair Landing Lag
+The length of the character's nair landing lag animation in frames.
+
+0x144 Fair Landing Lag
+The length of the character's fair landing lag animation in frames.
+
+0x148 Bair Landing Lag
+The length of the character's bair landing lag animation in frames.
+
+0x14C Uair Landing Lag
+The length of the character's uair landing lag animation in frames.
+
+0x150 Dair Landing Lag
+The length of the character's dair landing lag animation in frames.
+
+*0x154 Terminal Velocity Frames for Heavy Landing
+How many frames the character must be in terminal velocity for the LandingHeavy animation to play instead of LandingLight. In PM, the character just goes into LandingHeavy always.
+
+*0x158 HipN Bone ID
+Index of the HipN bone on the model.
+
+0x15C Tag Height Value
+The height offset that the nametag will be displayed.
+
+0x160
+
+
+0x164 Walljump H Velocity
+The starting horazontal velocity obtained from a Walljump.
+
+0x168 Walljump V Velocity
+The starting vertical velocity obtained from a Walljump.
+
+0x16C
+
+
+0x170
+
+
+*0x174
+
+
+0x178
+
+
+0x17C
+
+
+*0x180 LHandN Bone ID
+Index of the LHandN bone on the model.
+
+*0x184 RHandN Bone ID
+Index of the RHandN bone on the model.
+
+0x188
+
+
+0x18C Water V Acceleration
+The speed at which the character accelerates upward while underwater.
+
+0x190
+
+
+0x194
+
+
+0x198
+
+
+0x19C
+
+
+0x1A0
+
+
+0x1A4 Spit Star Size
+The size of the star effect used when Kirby spits out the character.
+
+*0x1A8 Spit Star Damage
+How much damage is dealt when Kirby spits out the character.
+
+0x1AC Yoshi Capture Egg Size
+The size of the egg when the character is swallowed by Yoshi's Neutral-B.
+
+*0x1B0
+
+
+0x1B4
+
+
+*0x1B8
+
+
+*0x1BC
+
+
+0x1C0
+
+
+*0x1C4
+
+
+0x1C8
+
+
+*0x1CC HipN Bone ID (Again)
+Index of the HipN bone on the model.
+
+*0x1D0
+
+
+*0x1D4
+
+
+*0x1D8
+
+
+0x1DC
+
+
+*0x1E0 XRotN Bone ID
+Index of the XRotN bone on the model.
+
+0x1E4 Ice Block X-Axis
+
+
+0x1E8 Ice Block Y-Axis
+
+
+0x1EC Ice Block GFX Size
+The size of the block of ice GFX when the character is frozen.
+
+0x1F0 Ice Block Break Jump Momentum
+How much momentum the character gets when breaking out of being frozen.
+
+0x1F4
+
+
+0x1F8 Default V Position of Pause Camera
+The defualt vertical position the camera is at relative to the character when the game is paused.
+
+0x1FC Camera Size Front
+The camera pushing effect's distance in front of the character.
+
+0x200 Camera Size Back
+The camera pushing effect's distance behind the character.
+
+0x204 Camera Size Top
+The camera pushing effect's distance above the character.
+
+0x208 Camera Size Bottom
+The camera pushing effect's distance below the character.
+
+0x20C Opposite of previous?
+
+
+0x210 Zoom Camera Size Front
+The zoom boundaries on the character in the front.
+
+0x214 Zoom Camera Size Back
+The zoom boundaries on the character in the back.
+
+0x218 Zoom Camera Size Top
+The zoom boundaries on the character on the top.
+
+0x21C Zoom Camera Size Bottom
+The zoom boundaries on the character on the bottom.
+
+*0x220 HeadN Bone ID
+The index of the HeadN bone on the model.
+
+0x224
+
+
+0x228
+
+
+0x22C
+
+
+0x230 Pause Camera Zoom Distance
+The how far the camera is zoomed when centered on the character during the game being paused.
+
+*0x234
+
+
+0x238
+
+
+0x23C
+
+
+0x240
+
+
+0x244 Magnifying Glass Shrink Ratio
+The size of the character in the magifying glass.
+
+0x248
+
+
+0x24C
+
+
+0x250
+
+
+0x254
+
+
+0x258
+
+
+0x25C
+
+
+0x260
+
+
+0x264
+
+
+0x268
+
+
+0x26C
+
+
+0x270
+
+
+0x274
+
+
+0x278
+
+
+0x27C
+
+
+0x280
+
+
+0x284
+
+
+0x288
+
+
+*0x28C
+
+
+*0x290
+
+
+*0x294
+
+
+0x298
+
+
+*0x29C
+
+
+0x2A0
+
+
+0x2A4
+
+
+0x2A8
+
+
+0x2AC
+
+
+0x2B0
+
+
+0x2B4
+
+
+0x2B8
+
+
+0x2BC
+
+
+*0x2C0
+
+
+*0x2C4
+
+
+*0x2C8
+
+
+*0x2CC
+
+
+*0x2D0
+
+
+*0x2D4
+
+
+*0x2D8
+
+
+*0x2DC Weight Dependent Throw Speed
+Controls whether the speed for each throw is affected by weight. Bit set = Independent (---- DUFB)
+
+*0x2E0
+

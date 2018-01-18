@@ -1,0 +1,222 @@
+﻿DataSize0xA0
+07C Params0 0x18
+080 Params1 0x20
+084 Params2 0x40
+088 Params3 0x18
+08C Params4 0x20
+090 Article0 0x38
+094 Article1 0x38
+098 Article2 0x38
+09C Article3 0x38
+
+Article0
+4-5
+034 Params0-0 0x10
+
+Article1
+1-1
+034 Params1-0 0x4
+
+Article2
+9-3
+034 Params2-0 0x18
+
+Article3
+1-1
+034 Params3-0 0x4
+
+Params0
+Needles
+
+0x0
+X offset grounded needles
+
+0x4
+Y offset grounded needles
+
+0x8
+X offset aerial needles
+
+0xC
+Y offset aerial needles
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params1
+Chain
+
+*0x0
+How long chain is out before reeling in (release B)
+
+*0x4
+something with hitbox refreshing?
+
+*0x8
+frame chain comes out
+
+*0xC
+frame you can move chain around (if less than or equal to 0x8 the chain will not come out)
+
+*0x10
+frame after releasing B chain reels in
+
+*0x14
+frame chain disappears after releasing B
+
+0x18
+ ?? (read all the time when you can move chain)
+
+*0x1C
+No Description Available.
+
+Params2
+Vanish
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+*0xC
+Travel time (changes distance you travel)
+
+*0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+*0x24
+Sensitivity?
+
+0x28
+Vertical momentum out of second explosion?
+
+0x2C
+Travel speed?
+
+0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+Params3
+Transform
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+Params4
+Light Arrow
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+Params0-0
+Needles Attribute
+
+*0x0
+How many frames before grounded needles go away
+
+*0x4
+ ?? (frame count for something)
+
+0x8
+ ?? (read on nB)
+
+0xC
+Needle speed
+
+Params1-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params2-0
+Chain Attribute
+
+0x0
+not read?
+
+0x4
+Rigidity
+
+0x8
+Liveliness
+
+0xC
+How far it will go into the Z axis?
+
+0x10
+Stretchiness
+
+0x14
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+*0x0
+No Description Available.
+

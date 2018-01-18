@@ -1,0 +1,293 @@
+﻿DataSize0xB0
+07C Params0 0x28
+080 Params1 0x10
+084 Params2 0x38
+088 Params3 0x10
+08C Params4 0x70
+094 Article0 0x38
+09C Article1 0x40
+0A4 Article2 0x38
+0AC Article3 0x38
+
+Article0
+3-3
+
+Article1
+3-3
+034 Params1-0 0x40
+
+Article2
+2-2
+034 Params2-0 0x10
+
+Article3
+1-1
+034 Params3-0 0x4
+
+Params0
+Peanut Popgun
+
+0x0
+vertical velocity?
+
+0x4
+gravity?
+
+0x8
+base vertical velocity?
+
+0xC
+charge horizontal velocity multiplier?
+
+0x10
+momentum backward from charged firing
+
+0x14
+Max additional damage (to base peanut throw damage)
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+Params1
+Monkey Flip
+
+0x0
+Horizontal velocity
+
+0x4
+Vertical velocity
+
+0x8
+Smash Input Velocity Multiplier
+
+*0xC
+No Description Available.
+
+Params2
+Rocketbarrel Boost
+
+0x0
+turning response
+
+0x4
+Launch arc curvature (higher number allows for steeper curves)
+
+*0x8
+Frames to fully charge UpB
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+height (affects charge as well)
+
+0x18
+height multiplier
+
+0x1C
+gravity
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+Params3
+Banana Peel
+
+0x0
+Angle of banana toss in degrees?
+
+0x4
+Vertical velocity
+
+0x8
+Gravity?
+
+*0xC
+Max bananas out at once
+
+Params4
+Rocketbarrel Barrage
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+
+0x38
+No Description Available.
+
+0x3C
+No Description Available.
+
+0x40
+No Description Available.
+
+0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+0x68
+No Description Available.
+
+*0x6C
+No Description Available.
+
+Params1-0
+paramDiddyBarrel__20wnDiddyBarrelJetNode
+
+*0x0
+Unknown, read once on stage collision
+
+0x4
+Projectile Rocket Barrel flight speed
+
+0x8
+Projectile Rocket Barrel acceleration?
+
+*0xC
+Unknown, projectile rocket barrel reads every few frames
+
+*0x10
+Unknown, projectile rocket barrel reads every few frames
+
+*0x14
+Unknown, projectile rocket barrel reads frame, sometimes twice
+
+0x18
+Unknown, projectile rocket barrel reads frame, sometimes twice
+
+0x1C
+Unknown, projectile rocket barrel reads frame, sometimes twice
+
+0x20
+Unknown, projectile rocket barrel reads frame, sometimes more
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+Unknown, projectile rocket barrel reads frame, sometimes more
+
+0x34
+Unknown, never read?
+
+0x38
+Unknown, never read?
+
+*0x3C
+No Description Available.
+
+Params2-0
+paramDiddyPeanuts__18wnDiddyPeanutsNode
+
+0x0
+Odds of final smash spawning nuts
+
+*0x4
+No Description Available.
+
+0x8
+Max number of nuts to spawn at once
+
+*0xC
+Nut rotation speed
+
+Params3-0
+paramDiddyExplosion__20wnDiddyExplosionNode
+
+*0x0
+No Description Available.
+

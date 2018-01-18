@@ -1,0 +1,570 @@
+﻿DataSize0xBC
+07C Params0 0x30
+080 Params1 0x30
+084 Params2 0x38
+088 Params3 0x18
+08C Params4 0x30
+094 Article0 0x38
+09C Article1 0x38
+0A4 Article2 0x38
+0AC Article3 0x38
+0B4 Article4 0x64
+
+Article0
+1-1
+034 Params0-0 0x8
+
+Article1
+1-1
+034 Params1-0 0x4
+
+Article2
+A-E
+030 Params2D3 0x10
+
+Article3
+1-1
+034 Params3-0 0x18
+
+Article4
+1A-1C
+034 SubAction DeeMain
+038 SubAction DooMain
+03C SubAction GordoMain
+040 SubAction DeeGFX
+044 SubAction DooGFX
+048 SubAction GordoGFX
+04C SubAction DeeSFX
+050 SubAction DooSFX
+054 SubAction GordoSFX
+058 Params4-9 0x148
+05C Params4-10 0x38
+
+Params0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+Params1
+Waddle Toss
+
+0x0
+Base throw speed
+
+0x4
+Strong throw ratio
+
+0x8
+Default throw angle
+
+0xC
+Downward angle
+
+0x10
+Upward angle
+
+*0x14
+Max number of minions
+
+0x18
+Relative odds of throwing a Waddle Dee
+
+0x1C
+Relative odds of throwing a Waddle Doo
+
+0x20
+Relative odds of throwing a Gordo
+
+0x24
+Relative odds of throwing a Capsule
+
+*0x28
+ ?? (read on waddle toss)
+
+0x2C
+ ?? (read on waddle toss)
+
+Params2
+Super Dedede Jump
+
+0x0
+Horizontal boost on startup
+
+0x4
+Vertical momentum on startup
+
+0x8
+Gravity on startup
+
+0xC
+Horizontal movement ratio
+
+0x10
+Vertical momentum on travel
+
+0x14
+Bonus gravity
+
+0x18
+Launch vertical velocity
+
+0x1C
+Launch vertical velocity
+
+*0x20
+Height
+
+*0x24
+ ?? (read on upB normal landing)
+
+0x28
+X offset of right buttstar
+
+0x2C
+Y offset of right buttstar
+
+0x30
+X offset of left buttstar
+
+0x34
+Y offset of left buttstar
+
+Params3
+Jet Hammer
+
+0x0
+ ?? (read on upB normal landing)
+
+*0x4
+Time to fully charge (frames)
+
+0x8
+Charge multiplier
+
+*0xC
+Frame interval of self-damage?
+
+*0x10
+Full charge hold self-damage limit
+
+*0x14
+No Description Available.
+
+Params4
+Waddle Dee Army
+
+*0x0
+How long before the next minion comes out
+
+*0x4
+X offset?
+
+*0x8
+Max minions
+
+*0xC
+Max number of dances before FS ending?
+
+*0x10
+ ?? (read on FS)
+
+0x14
+Waddle Dee ratio
+
+0x18
+Waddle Doo ratio
+
+0x1C
+Gordo ratio
+
+*0x20
+ ?? (read on FS)
+
+0x24
+ ?? (read on FS)
+
+*0x28
+ ?? (read on FS)
+
+0x2C
+Gordo bounce height?
+
+Params0-0
+ExtraParams0
+
+0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+Params1-0
+ExtraParams0
+
+*0x0
+No Description Available.
+
+Params2D3
+Data3
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+Params3-0
+ExtraParams0
+
+0x0
+Speed of star shot
+
+0x4
+Speed deceleration
+
+0x8
+Spinning speed
+
+0xC
+X offset?
+
+0x10
+Y offset
+
+0x14
+??
+
+Params4-9
+ExtraParams9
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+*0x8
+Duration of the Waddle Dee (frames)
+
+0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+waddle dee air friction related
+
+0x38
+ ?? read when spawning and hitting waddle dee
+
+0x3C
+ ?? read when spawning and hitting waddle dee
+
+0x40
+waddle dee hitting person bounce distance
+
+0x44
+waddle dee hitting person bounce distance
+
+0x48
+No Description Available.
+
+0x4C
+No Description Available.
+
+0x50
+No Description Available.
+
+0x54
+No Description Available.
+
+*0x58
+No Description Available.
+
+0x5C
+No Description Available.
+
+0x60
+No Description Available.
+
+*0x64
+No Description Available.
+
+*0x68
+No Description Available.
+
+0x6C
+No Description Available.
+
+0x70
+No Description Available.
+
+*0x74
+Duration of the Waddle Doo (frames)
+
+0x78
+No Description Available.
+
+0x7C
+No Description Available.
+
+*0x80
+No Description Available.
+
+*0x84
+No Description Available.
+
+0x88
+No Description Available.
+
+0x8C
+No Description Available.
+
+0x90
+No Description Available.
+
+0x94
+No Description Available.
+
+0x98
+waddle doo friction
+
+0x9C
+waddle doo air friction
+
+0xA0
+waddle doo air friction related
+
+0xA4
+ ?? read when spawning and hitting waddle doo
+
+0xA8
+ ?? read when spawning and hitting waddle doo
+
+0xAC
+waddle doo hitting waddle bounce distance
+
+0xB0
+waddle doo hitting person bounce distance
+
+0xB4
+No Description Available.
+
+0xB8
+No Description Available.
+
+0xBC
+No Description Available.
+
+0xC0
+No Description Available.
+
+*0xC4
+No Description Available.
+
+0xC8
+No Description Available.
+
+0xCC
+No Description Available.
+
+*0xD0
+No Description Available.
+
+*0xD4
+No Description Available.
+
+0xD8
+No Description Available.
+
+0xDC
+No Description Available.
+
+0xE0
+No Description Available.
+
+0xE4
+No Description Available.
+
+0xE8
+No Description Available.
+
+0xEC
+No Description Available.
+
+*0xF0
+No Description Available.
+
+0xF4
+No Description Available.
+
+0xF8
+No Description Available.
+
+0xFC
+No Description Available.
+
+0x100
+No Description Available.
+
+0x104
+No Description Available.
+
+0x108
+No Description Available.
+
+0x10C
+No Description Available.
+
+0x110
+No Description Available.
+
+0x114
+No Description Available.
+
+0x118
+No Description Available.
+
+0x11C
+No Description Available.
+
+0x120
+No Description Available.
+
+0x124
+No Description Available.
+
+0x128
+No Description Available.
+
+0x12C
+No Description Available.
+
+*0x130
+No Description Available.
+
+0x134
+No Description Available.
+
+0x138
+No Description Available.
+
+*0x13C
+No Description Available.
+
+*0x140
+No Description Available.
+
+0x144
+No Description Available.
+
+Params4-10
+ExtraParams10
+
+*0x0
+No Description Available.
+
+*0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+*0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+0x28
+No Description Available.
+
+*0x2C
+No Description Available.
+
+0x30
+No Description Available.
+
+0x34
+No Description Available.
+

@@ -1,0 +1,258 @@
+﻿DataSize0x9C
+07C Params0 0x14
+080 Params1 0xC
+084 Params2 0x60
+088 Params3 0x18
+08C Params4 0x8
+090 Params5 0x8
+094 Article0 0x38
+098 Article1 0x38
+
+Article0
+1-1
+034 Params0-0 0x20
+
+Article1
+2-2
+034 Params1-0 0x58
+
+Params0
+Fire Jump Punch
+
+0x0
+Unknown
+
+*0x4
+Unknown
+
+0x8
+Unknown
+
+0xC
+Unknown
+
+0x10
+Landing lag
+
+Params1
+Fire Jump Punch Extra
+
+*0x0
+Unknown
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+Params2
+Green Missile
+
+0x0
+Unknown
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+*0xC
+Time (frames) to fully charge
+
+0x10
+Base damage
+
+0x14
+Damage slope (damage = base damage + frames spent charging * this)
+
+0x18
+Unknown
+
+0x1C
+Unknown
+
+0x20
+Unknown
+
+0x24
+Horizontal momentum
+
+0x28
+Horizontal momentum multiplier
+
+0x2C
+Vertical momentum
+
+0x30
+Vertical momentum multiplier
+
+0x34
+Vertical momentum something?
+
+0x38
+Unknown
+
+0x3C
+Unknown
+
+0x40
+Unknown
+
+0x44
+Unknown
+
+*0x48
+Misfire ratio (i.e. 1 out of this chance of misfiring)
+
+0x4C
+Misfire horizontal momentum
+
+0x50
+Misfire vertical momentum
+
+0x54
+Unknown
+
+0x58
+Unknown
+
+*0x5C
+No Description Available.
+
+Params3
+Luigi Cyclone
+
+0x0
+Unknown (read on downB ground only)
+
+0x4
+Grounded horizontal momentum
+
+0x8
+Grounded turning momentum
+
+0xC
+Unknown (read on downB ground only)
+
+0x10
+Tapping B vertical momentum
+
+0x14
+Maximum vertical momentum
+
+Params4
+Luigi Cyclone Extra
+
+0x0
+Unknown (read on tapping and in air)
+
+0x4
+Unknown (read on tapping and in air)
+
+Params5
+Other (Negative Zone?)
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+Params0-0
+Fireball Attribute
+
+*0x0
+No Description Available.
+
+0x4
+Unknown
+
+0x8
+Unknown
+
+0xC
+Fireball velocity
+
+0x10
+Fireball Angle
+
+*0x14
+How long fireball stays out (frames)
+
+0x18
+Unknown
+
+0x1C
+Unknown
+
+Params1-0
+Negative Zone Attribute
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
+No Description Available.
+
+0x20
+No Description Available.
+
+0x24
+No Description Available.
+
+*0x28
+No Description Available.
+
+0x2C
+No Description Available.
+
+*0x30
+No Description Available.
+
+*0x34
+No Description Available.
+
+*0x38
+No Description Available.
+
+*0x3C
+No Description Available.
+
+*0x40
+No Description Available.
+
+*0x44
+No Description Available.
+
+*0x48
+No Description Available.
+
+*0x4C
+No Description Available.
+
+*0x50
+No Description Available.
+
+*0x54
+No Description Available.
+
