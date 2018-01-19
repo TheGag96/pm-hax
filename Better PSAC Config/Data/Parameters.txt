@@ -30,11 +30,11 @@ Unknown.
 Requirement
 The form of requirement used in evaluation of the event.
 Variable
-The first variable in the comparisson requirement.
+The first variable in the comparison requirement.
 Comparison Method
 The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
 Variable
-The second variable in the comparisson requirement.
+The second variable in the comparison requirement.
 
 000B0100
 Requirement
@@ -92,9 +92,9 @@ The second variable in the comparison requirement.
 
 00100200
 Status ID?
-Unknown. Appears to often (if not always) be set to 0x2710.
+Unknown. Appears to often (if not always) be set to 0x2710 (IC-Basic[10000]).
 Variable
-The variable that will be compared against the case values.
+The variable that will be compared against the case values. Can also be a requirement such as "Roll A Die"
 
 02000300
 Status ID
@@ -138,11 +138,11 @@ The ID of the action that the character will execute.
 Requirement
 The form of requirement used in evaluation of the event.
 Variable
-The first variable in the comparisson requirement.
+The first variable in the comparison requirement.
 Comparison Method
 The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
 Variable
-The second variable in the comparisson requirement.
+The second variable in the comparison requirement.
 
 02040100
 Requirement
@@ -156,11 +156,11 @@ Unknown.
 Requirement
 The form of requirement used in evaluation of the event.
 Variable
-The first variable in the comparisson requirement.
+The first variable in the comparison requirement.
 Comparison Method
 The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
 Variable
-The second variable in the comparisson requirement.
+The second variable in the comparison requirement.
 
 02050300
 Interrupt ID
@@ -188,11 +188,11 @@ The Status ID to affect.
 Requirement
 If true, the status ID will be enabled, else disabled.
 Variable
-The first variable in the comparisson requirement.
+The first variable in the comparison requirement.
 Comparison Method
 The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
 Variable
-The second variable in the comparisson requirement.
+The second variable in the comparison requirement.
 
 02060100
 Status ID
@@ -227,6 +227,12 @@ Pass Frame
 Weather to pass the current frame of the current animation onto the new animation.
 Sub Action Frame Speed
 How many times faster the frames are.
+
+04010200
+Value
+Unknown.
+Requirement
+The form of requirement used in evaluation of the event.
 
 04020100
 Requirement
@@ -264,17 +270,21 @@ The method used to compare the two variables. From 0 to 5: <, <=, =, !=, >=, >
 Variable
 The second variable in the comparison requirement.
 
+04060100
+Frame
+The frame to skip to.
+
 04070100
 Multiplier
 How many times faster the frames are.
 
 040C0100
-Subaction
-A subaction ID.
+Sub Action
+A sub action ID.
 
 06000D00
 Bone/ID
-The bone the collision bubble is attached to/The ID number of the collision bubble. Where XXXXYYYY is X=Bone, Y=Id.
+The bone the collision bubble is attached to / the ID number of the collision bubble; XXXXYYYY where X=Bone, Y=ID.
 Damage
 The amount of damage inflicted to the target upon collision.
 Trajectory
@@ -292,7 +302,7 @@ The offset in the Y direction from the attached bone (affected by its rotation).
 X Offset
 The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this X on some screens.)
 Tripping Rate
-The percent possibility of the collision bubble inducing a trip. (1 = 100%)
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
 Hitlag Multiplier
 A multiplier affecting the time in which both parties pause when the collision bubble connects.
 SDI Multiplier
@@ -343,6 +353,10 @@ Action
 The Action ID that the foe executes if successfully grabbed.
 Air/Ground
 0 = grabs nothing, 1 = grabs grounded only, 2 = grabs aerial only, 3 = grabs aerial and grounded.
+Value
+Unknown.
+Boolean
+Unknown.
 
 060C0100
 ID
@@ -382,15 +396,15 @@ When True, hitlag multiplier of 0.
 Undefined
 True or False Bolean, its usually true.
 Type?
-unknown, can be 0, 1, 2, 3, 8, not sure what it does yet.
+Almost always 8, which is typical invincibility frame length, but also the Throwing type - and it's 2 (Body-type) for Bowser's Flying Slam, 0 for most special moves and transformation Final Smashes. That said, if it's type, that would mean Nana's throws are Typeless.
 
 060F0500
-Parameter 0
-similar to offensive collisions Action ID's can be 1,2, or 3: for example, if you have 1 throw collsion, you will set it to =0, however, if you have 3 throw collisions, you will have them ordered from 1(for the first), 2(for the second), and 3(and for the third collsion code).
-Parameter 1
-Bone ID, usually throw bone.
-Parameter 2
-Usually RA BIT Basic Variable set at a value of 2.
+ID?
+Similar to offensive collisions Action ID's can be 1,2, or 3: for example, if you have 1 throw collsion, you will set it to =0, however, if you have 3 throw collisions, you will have them ordered from 1(for the first), 2(for the second), and 3(and for the third collsion code).
+Bone
+Appears to always be the bone the thrown character is attached to.
+Bone
+The bone that the hitbubble is attached to.
 Parameter 3
 Usually RA BIT Basic Variable set at a value of 3.
 Parameter 4
@@ -399,12 +413,12 @@ Usually RA BIT Basic Variable set at a value of 4.
 06101100
 Undefined
 When messed with, seemed to affect the accuracy of the collision detection. Should be set to 0 to be safe.
-Id
+ID
 The ID of the hitbox
 Bone?
 Possibly the bone that the hitbubble is attached to.
 Size
-The size of the oblivious hitbubble.
+The size of the hitbubble.
 X Offset
 Transition relative to the currently attached bone.
 Y Offset
@@ -416,7 +430,7 @@ Flags
 Undefined
 Undefined.
 Air/Ground
-1 = Only Hits Grounded Foes, 2 = Only Hits Aerial Foes, 3 = Hits Aerial and Grounded Foes.
+1 = only hits grounded foes, 2 = only hits aerial foes, 3 = hits aerial and grounded foes.
 Undefined
 Undefined.
 Undefined
@@ -432,9 +446,15 @@ Possibly if the uninteractive collision affects the host character.
 Undefined
 Undefined.
 
+06140200
+Hitbox ID
+ID of the hitbox to be changed.
+Damage
+Add damage of the hitbox.
+
 06150F00
 Bone/ID
-The bone the collision bubble is attached to/The ID number of the collision bubble. Where XXXXYYYY is X=Bone, Y=Id.
+The bone the collision bubble is attached to / the ID number of the collision bubble; XXXXYYYY where X=Bone, Y=ID.
 Damage
 The amount of damage inflicted to the target upon collision.
 Trajectory
@@ -452,7 +472,7 @@ The offset in the Y direction from the attached bone (affected by its rotation).
 X Offset
 The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this X on some screens.)
 Tripping Rate
-The percent possibility of the collision bubble inducing a trip. (1 = 100%)
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
 Hitlag Multiplier
 A multiplier affecting the time in which both parties pause when the collision bubble connects.
 SDI Multiplier
@@ -464,9 +484,49 @@ How many frames between each hitbox refresh; for example a value of 8 will cause
 Special Flags
 Flags for hitbox type and attributes such as susceptibility to reflection and absorption. These might help: tinyurl.com/HitboxFlagParser http://tinyurl.com/HitboxFlagInfo
 
+061B0500
+Hitbox ID
+ID of the hitbox to be changed.
+New Bone
+The bone the collision bubble is attached to
+New Z Offset
+Transition relative to the currently attached bone.
+New Y Offset
+Transition relative to the currently attached bone.
+New X Offset
+Transition relative to the currently attached bone.
+
+062B0D00
+Bone/ID
+The bone the collision bubble is attached to / the ID number of the collision bubble; XXXXYYYY where X=Bone, Y=ID.
+Damage
+The amount of damage inflicted to the target upon collision.
+Trajectory
+The direction in which a target gets launched.
+WDSK/KBG
+(full info can be read at tinyurl.com/HitboxParam) Data entry is XXXXYYYY, where X=WDSK and Y=KBG. WDSK stands for Weight Dependent Set Knockback, and only has an effect when set to a value other than 0 (this uses a unique formula, found in the pastebin). KBG stands for KnockBack Growth but actually has very little to do with scaling knockback. Remember that a KBG of 0 is NOT what causes set knockback!
+Shield Damage/BKB
+(full info can be read at tinyurl.com/HitboxParam) The amount of damage dealt to the target's shield if it is up/The distance the target is launched regardless of its damage (zero for fixed knockback hits). Where XXXXYYYY is X=Shield Damage, Y=Base Knockback.
+Size
+The size of the collision bubble.
+Z Offset
+The offset in the Z direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this X on some screens.)
+Y Offset
+The offset in the Y direction from the attached bone (affected by its rotation).
+X Offset
+The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this X on some screens.)
+Tripping Rate
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
+Hitlag Multiplier
+A multiplier affecting the time in which both parties pause when the collision bubble connects.
+SDI Multiplier
+Smash Directional Influence Multiplier; affects the ability for the character maneuver themselves a small amount while in hitlag by this collision bubble.
+Flags
+Flags for various parameters such as hit effects and sound effects. These might help: tinyurl.com/HitboxFlagParser http://tinyurl.com/HitboxFlagInfo
+
 062C0F00
 Bone/ID?
-The bone the collision bubble is attached to/The ID number of the collision bubble. Where XXXXYYYY is X=Bone, Y=Id.
+The bone the collision bubble is attached to / the ID number of the collision bubble; XXXXYYYY where X=Bone, Y=ID.
 Damage
 The amount of damage inflicted to the target upon collision.
 Trajectory
@@ -484,7 +544,7 @@ The amount the collision bubble is transitioned relative to the currently attach
 Z Offset?
 The amount the collision bubble is transitioned relative to the currently attached bone.
 Tripping Rate?
-The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback.
+The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
 Hitlag Multiplier?
 A multiplier affecting the time in which both parties pause when the collision bubble connects.
 SDI Multiplier?
@@ -514,7 +574,7 @@ Character State
 
 08020100
 Character State?
-Appears to use similar values to "Set Edge Slide."
+Appears to use similar values to "Set Aerial/Onstage State".
 
 0A000100
 Sound Effect
@@ -537,16 +597,16 @@ Sound Effect
 The ID number for the sound effect called.
 
 0B000200
-Thing to Change
-The ID of the way in which the model changes.
-How to Change
-Typically, 0 changes to the normal state, 1 changes the location or shape, and 2 removes it entirely.  (Example: Bowser is normal on 0, Bowser is in his shell on 1, and Bowser is invisible on 2)
+BoneSwitch ID
+The target switch for model changes. (Example: Link's sword is 1, his shield is 2)
+BoneGroup ID
+Typically, 0 changes to the normal state, 1 changes the location or shape, and 2 removes it entirely. (Example: Bowser is normal on 0, Bowser is in his shell on 1, and Bowser is invisible on 2)
 
 0B010200
-Thing to Change
-The ID of the way in which the model changes.
-How to Change
-Typically, 0 changes to the normal state, 1 changes the location or shape, and 2 removes it entirely.  (Example: Bowser is normal on 0, Bowser is in his shell on 1, and Bowser is invisible on 2)
+BoneSwitch ID
+The target switch for model changes. (Example: Link's sword is 1, his shield is 2)
+BoneGroup ID
+Typically, 0 changes to the normal state, 1 changes the location or shape, and 2 removes it entirely. (Example: Bowser is normal on 0, Bowser is in his shell on 1, and Bowser is invisible on 2)
 
 0B020100
 Visibility
@@ -558,9 +618,9 @@ Allow/Disallow
 
 0C230200
 Strength
-Scalar=time stop, value=slow time. If you use a Scalar here then use parameter 1 to set how long time stops. if you use a value here, use parameter 1 to set how long time slows.
+The larger the value, the slower the enemy's movement. 4=Same as timer item. 1=Return to normal..
 Frames
-If you use a scalar here time will stop forever. If you use a value here it tells the game how long time stops or slows, for example, if I set parameter 0 to be scalar=10, and parameter 1 to be value=10, it implies time will stop for 10 frames.
+Duration time. Value 0x1E = 0.5sec
 
 0C250100
 Tag On/Off
@@ -568,17 +628,17 @@ Set Boolean: True = On, False = Off
 
 0D000200
 Thread ID?
-Possibly the thread ID of the concurrent routine. Sometimes 4, sometimes 6, sometimes 9.
+The event stack to run the subroutine (use 4, 6, or 9 or you risk crashes)
 Offset
 The subroutine location that contains the events that you would like to loop infinitely.
 
 0D010100
 Thread ID?
-Possibly the thread ID of the concurrent routine. Sometimes 4, sometimes 6, sometimes 9.
+The event stack to run the subroutine (use 4, 6, or 9 or you risk crashes)
 
 0E000100
 State
-The state of the character's air/ground status.
+The state of the character's air/ground status. 0 = In Air, 1 = On Ground, 10 = Control stick does not affect horizontal movement (or fastfall?)
 
 0E010200
 Horizontal Velocity
@@ -609,14 +669,14 @@ True or False
 Undefined.
 
 10000100
-Article Id
-The ID of the prop article to be called. (For example, zelda's Din fire is article 0)
+Article ID
+The ID of the prop article to be called.
 
 10000200
-Parameter 0
 Article ID
-Parameter 1
-Bolean, usually false.
+The ID of the prop article to be called.
+Subaction Exclusive?
+Whether or not you want the article to be automatically deleted when the subaction ends.
 
 10010100
 Parameter 0
@@ -628,21 +688,21 @@ ID of the article to be removed.
 
 10040100
 Model ID
-Model.(Only Summons the Id of the article/model to call. ONLY SUMMONS A FITCHARACTER00.pac. For example, Pit's bow is article/model 0)
+Model.(Only Summons the ID of the article/model to call. ONLY SUMMONS A FITCHARACTER00.pac. For example, Pit's bow is article/model 0)
 
 10040200
-Model ID
-Model Id.(The Id of the article/model to call. for example, Pit's bow is article/model 0)
-Animation ID
-Animation Id. (The animation file [ID] of the article/model, usually found in a FitCharacter00.Pac file. You will have to create custom animations for new article movements)
+Article ID
+The ID of the article you would like to edit.
+Action
+The action you would like the article to execute.
 
 10040300
-Model ID
-Model Id. (The Id of the article/model to call. for example, Pit's bow is article/model 0)
-Animation ID
-Animation ID.(The animation file [ID] of the article, usually found in a FitCharacter00.Pac file. You will have to create custom animations for new article movements)
-Parameter 3
-Bolean.(I'm not sure what this does yet, but it's usually false)
+Article ID
+The ID of the article you would like to edit.
+Action
+The action you would like the article to execute.
+Subaction Exclusive?
+Whether or not you want the article to be automatically deleted when the subaction ends.
 
 10050200
 Article
@@ -651,7 +711,7 @@ Visibility
 Set Boolean: True = Visible, False = Invisible
 
 10070200
-Article ID?
+Article ID
 ID of the article to be affected.
 Action
 The action you would like the article to execute.
@@ -660,7 +720,25 @@ The action you would like the article to execute.
 Article ID
 ID of the article to be affected.
 Animation ID
-Article animation ID to call.
+The action you would like the article to execute.
+
+100A0300
+Article ID
+ID of the article to be affected.
+Bone
+ID of the bone to attach to.
+Undefined
+Possibly decides which article to attach if multiple copies of a certain article are present.
+
+100C0200
+Article ID
+ID of the article to be affected.
+Multiplier
+How many times faster the frames are.
+
+10130100
+Article ID
+ID of the article to be affected.
 
 11001000
 Graphic
@@ -717,10 +795,10 @@ Size
 The size of the graphic.
 Terminate With Animation
 Sets whether or not this graphic effect terminates when the animation ends.
-Value
-No Description Available.
-Value
-No Description Available.
+Extra Graphic Effect ID 1
+Character's Color. usually set to 0.
+Extra Graphic Effect ID 2
+Shield Effect Color. usually set to 0.
 
 11020A00
 Graphic
@@ -743,10 +821,10 @@ Size
 The size of the graphic.
 Terminate With Animation
 Sets whether or not this graphic effect terminates when the animation ends.
-Value
-No Description Available.
-Value
-No Description Available.
+Extra Graphic Effect ID 1
+Character's Color. usually set to 0.
+Extra Graphic Effect ID 2
+Shield Effect Color. usually set to 0.
 
 11031400
 Trace ID
@@ -754,7 +832,7 @@ Color/Type. (usually, only sword characters that have multiple sword glow textur
 Blur Length
 The length of the glow's aftershadow.
 Starting Bone
-1st Bone the Glow starts at
+Bone the 1st point of the sword trail follows.
 1st Glow X Offset
 X offset of the 1st point of the sword trail.
 1st Glow Y Offset
@@ -762,7 +840,7 @@ Y offset of the 1st point of the sword trail.
 1st Glow Z Offset
 Z offset of the 1st point of the sword trail.
 2nd Bone
-This is the bone of the second beam. (usually the same as the first)
+Bone the 2nd point of the sword trail follows. (usually the same as the first)
 2nd Glow X Offset
 X offset of the 2nd point of the sword trail.
 2nd Glow Y Offset
@@ -770,7 +848,7 @@ Y offset of the 2nd point of the sword trail.
 2nd Glow Z Offset
 Z offset of the 2nd point of the sword trail.
 Glow State
-If set to true, glow/trail disappears at the end of the subaction.
+If set to true, glow/trail disappears at the end of the sub action.
 Graphic
 The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File# Y=Graphic ID.
 Glow Bone
@@ -787,8 +865,8 @@ Y Rotation
 Rotation of the sword glow around the Y axis.
 Z Rotation
 Rotation of the sword glow around the Z axis.
-Glow Size
-Size of sword glow.
+Glow Length
+Length of the sword glow, i.e. halving this value will make it half the sword's length.
 
 11041700
 Trace ID
@@ -796,7 +874,7 @@ Color/Type. (usually, only sword characters that have multiple sword glow textur
 Blur Length
 The length of the glow's aftershadow.
 Starting Bone
-1st Bone the Glow starts at
+Bone the 1st point of the sword trail follows.
 1st Glow X Offset
 X offset of the 1st point of the sword trail.
 1st Glow Y Offset
@@ -804,7 +882,7 @@ Y offset of the 1st point of the sword trail.
 1st Glow Z Offset
 Z offset of the 1st point of the sword trail.
 2nd Bone
-This is the bone of the second beam. (usually the same as the first)
+Bone the 2nd point of the sword trail follows. (usually the same as the first)
 2nd Glow X Offset
 X offset of the 2nd point of the sword trail.
 2nd Glow Y Offset
@@ -812,7 +890,7 @@ Y offset of the 2nd point of the sword trail.
 2nd Glow Z Offset
 Z offset of the 2nd point of the sword trail.
 Glow State
-If set to true, glow/trail disappears at the end of the subaction.
+If set to true, glow/trail disappears at the end of the sub action.
 Graphic
 The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File# Y=Graphic ID.
 Glow Bone
@@ -829,14 +907,18 @@ Y Rotation
 Rotation of the sword glow around the Y axis.
 Z Rotation
 Rotation of the sword glow around the Z axis.
-Glow Size
-Size of sword glow.
+Glow Length
+Length of the sword glow, i.e. halving this value will make it half the sword's length.
 Value
-Undefined.
+No Description Available.
 Value
-Undefined.
-Scalar
-Undefined.
+No Description Available.
+Size
+No Description Available.
+
+11050100
+Fade Time
+The time it takes for the sword glow to fade out.
 
 11150300
 Graphic
@@ -990,6 +1072,14 @@ The variable to increment.
 Variable
 The variable to decrement.
 
+12050300
+Value
+The minimum random value to load.
+Value
+The maximum random value to load.
+Variable
+The Basic type variable to access.
+
 12060200
 Value
 The floating point value to place inside the specified variable.
@@ -1016,9 +1106,21 @@ The Bit type variable to set.
 Variable
 The Bit type variable to clear.
 
+120D0200
+Value
+The value to multiply the selected variable by.
+Variable
+The Basic type variable to be multiplied.
+
+120E0200
+Value
+The value to divide the selected variable by.
+Variable
+The Basic type variable to be divided.
+
 120F0200
 Value
-The floating point value to place inside the specified variable.
+The floating point value to multiply with the specified variable.
 Variable
 The Float type variable to access.
 
@@ -1028,8 +1130,20 @@ The floating point value to divide with the specified variable.
 Variable
 The Float type variable to access.
 
+12110200
+Value
+The value to set the basic equal to.
+Variable
+The Basic type variable to be set.
+
+12120200
+Value
+The floating point value to set the variable equal to.
+Variable
+The Float type variable to access.
+
 14040100
-Model ID
+Model ID?
 Puts away an model that was summoned. (Usually set to Article/Model ID..sometimes 0. This works with characters who have articles in their texture or vertext file. For example, mario, ike, pit, etc)
 
 14070A00
@@ -1084,10 +1198,14 @@ No Description Available.
 Detached/Attached
 False=detached, true=attached.
 
+1A070100
+Detached/Attached
+False=deviate, true=normal.
+
 1E000200
 Armor State
 0 = None, 1 = Super Armor, 2 = Knockback Based Heavy Armor, 3 = Damage Based Heavy Armor, 4 = Subtractive Knockback Armor (Project M only)
-Armor Damage Value
+Armor Tolerance
 For heavy armor, the minimum damage that will cause the character to flinch when using heavy armor. For subtractive knockback armor, the amount subtracted from the knockback of the attacking move.
 
 1E030100
@@ -1128,35 +1246,35 @@ If set to false, model will appear, else disapper.
 
 21010400
 Red
-Color.
+The red value from 0-255.
 Green
-Color.
+The green value from 0-255.
 Blue
-Color.
+The blue value from 0-255.
 Alpha
-Transparency.
+The alpha value from 0-255 (0 = fully transparent, 255 = fully opaque).
 
 21020500
 Transition Time
 Number of frames to transition to the new color.
 Red
-Color.
+The red value (0-255) of the target color.
 Green
-Color.
+The green value (0-255) of the target color.
 Blue
-Color.
+The blue value (0-255) of the target color.
 Alpha
-Transparency.
+The alpha value (0-255, 0 = fully transparent, 255 = fully opaque) of the target color.
 
 21050600
 Red
-Color. 
+The red value from 0-255. 
 Green
-Color. 
+The green value from 0-255. 
 Blue
-Color. 
+The blue value from 0-255. 
 Alpha
-Transparency.
+The alpha value from 0-255 (0 = fully transparent, 255 = fully opaque).
 Light Source X
 X position of the light source.
 Light Source Y
@@ -1166,13 +1284,13 @@ Y position of the light source.
 Transition Time
 Number of frames to transition to the new color.
 Red
-Color. 
+The red value (0-255) of the target color. 
 Green
-Color. 
+The green value (0-255) of the target color. 
 Blue
-Color. 
+The blue value (0-255) of the target color. 
 Alpha
-Transparency.
+The alpha value from 0-255 (0 = fully transparent, 255 = fully opaque).
 
 0D070200
 Thread ID

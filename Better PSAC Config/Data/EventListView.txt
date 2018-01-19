@@ -167,6 +167,10 @@ ID=\X00, Dmg=\X02, Angle=\X03, KBG=\X04, WDSK=\X05, BKB=\X06, Bone=\X01, Element
 C
 ID=\H0048, Dmg=\X01, Angle=\X02, WDSK=\H0304, KBG=\H0348, BKB=\H0448, Bone=\H0004, Size=\X05, Z Offset=\X06, Y Offset=\X07, X Offset=\X08, Hitlag Mult=\X10, SDI Mult=\X11, Rehit Rate=\X13, Trip Rate=\X09, Flags=\X12, Special Flags=\X14
 
+06140200
+1
+ID=\X, Damage=\X
+
 08000100
 V
 00000001-Can drop off side of stage
@@ -199,6 +203,14 @@ File #=\H, Graphic=\H, Bone=\X, Z Offset=\X, Y Offset=\X, X Offset=\X, Z Rotate=
 11020A00
 1
 File #=\H, Graphic=\H, Bone=\X, Z Offset=\X, Y Offset=\X, X Offset=\X, Z Rotate=\X, Y Rotate=\X, X Rotate=\X, Size=\X, Terminate With Animation=\X
+
+11031400
+1
+ID=\X, Blur=\X, 1st Bone=\X, 1st X Offset=\X, 1st Y Offset=\X, 1st Z Offset=\X, 2nd Bone=\X, 2nd X Offset=\X, 2nd Y Offset=\X, 2nd Z Offset=\X, \X, Graphic=\X, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X
+ 
+11041700
+1
+ID=\X, Blur=\X, 1st Bone=\X, 1st X Offset=\X, 1st Y Offset=\X, 1st Z Offset=\X, 2nd Bone=\X, 2nd X Offset=\X, 2nd Y Offset=\X, 2nd Z Offset=\X, \X, Graphic=\X, Bone=\X, X Offset=\X, Y Offset=\X, Z Offset=\X, X Rotate=\X, Y Rotate=\X, Z Rotate=\X, Size=\X, \X, \X, \X
 
 11170700
 1
@@ -256,6 +268,14 @@ C
 1
 \X = false
 
+120D0200
+C
+\X01 *= \X00
+
+120E0200
+C
+\X01 /= \X00
+
 120F0200
 C
 \X01 *= \X00
@@ -263,6 +283,14 @@ C
 12100200
 C
 \X01 /= \X00
+
+12110200
+C
+\X01 = abs(\X00)
+
+12120200
+C
+\X01 = abs(\X00)
 
 1A040500
 1
