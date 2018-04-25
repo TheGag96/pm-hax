@@ -1,8 +1,10 @@
+add_base:
+  addi r16, r16, 0x7FFF
+
 last:
   #skip if there's no custom song or there's only one
   cmpwi r7, 1
-  beq- add_base
-  blt+ end
+  ble- end
 
   #retrieve random seed
   lis r12, 0x805A
@@ -10,21 +12,20 @@ last:
   lwz r12, 0(r12)
 
   #perform modulo to get song ID offset
-  divwu r16, r12, r7
-  mullw r16, r16, r7
-  subf r16, r16, r12
+  divwu r0, r12, r7
+  mullw r0, r0, r7
+  subf r0, r0, r12
 
   #add it back to setlist start ID
-  add r0, r0, r16
+  add r16, r16, r0
 
-add_base:
-%s
 end:
+  #mask out top two bytes just in case a value >= 0x8000 was loaded and was interpreted as negative
+  andi. r16, r16, 0xFFFF
+
+  #store the song id in the right place
+  stw r16, 0(r29)
+
   lwz r16,-0x12C(r2)
   lwz r7,-0x128(r2)
   
-  #mask out top two bytes just in case a value >= 0x8000 was loaded and was interpreted as negative
-  andi. r0, r0, 0xFFFF
-
-  #store the song id in the right place
-  stw r0, 0(r29)

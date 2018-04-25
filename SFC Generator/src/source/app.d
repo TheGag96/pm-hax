@@ -55,7 +55,7 @@ MainMenu mainMenu;
 
 StringListWidget listStage, listCombo, listSetlist;
 Button btnAddStage, btnRemoveStage, btnAddCombo, btnRemoveCombo, btnAddSetlist, btnRemoveSetlist;
-EditLine lineStageName, lineStageID, lineSetlistStartID, lineSetlistNumSongs, lineSetlistName, lineBaseSongID;
+EditLine lineStageName, lineStageID, lineSetlistStartID, lineSetlistNumSongs, lineSetlistName;
 ComboEdit comboComboSetlist;
 TextWidget textSongIDOffset;
 
@@ -163,7 +163,6 @@ extern (C) int UIAppMain(string[] args) {
   findWidget!lineSetlistName;
   findWidget!lineSetlistStartID;
   findWidget!lineSetlistNumSongs;
-  findWidget!lineBaseSongID;
   findWidget!comboComboSetlist;
   findWidget!textSongIDOffset;
 
@@ -172,7 +171,6 @@ extern (C) int UIAppMain(string[] args) {
   lineSetlistName.contentChange     = (EditableContent content) { updateSetlistName(); };
   lineSetlistStartID.contentChange  = (EditableContent content) { updateSetlistStartID(); };
   lineSetlistNumSongs.contentChange = (EditableContent content) { updateSetlistNumSongs(); };
-  lineBaseSongID.contentChange      = (EditableContent content) { updateOptionsBaseSongID(); };
   comboComboSetlist.itemClick       = (Widget w, int index) { updateComboSetlist(index); return true; };
 
   lineSetlistName.enabled     = false;
@@ -288,7 +286,13 @@ void openInfoFile() {
 
     comboComboSetlist.items = songListNames;
 
-    lineBaseSongID.text = options.baseSongID.to!dstring(16);
+    if (options.baseSongID != 0) {
+      foreach (ref list; songLists) {
+        list.startID += options.baseSongID;
+      }
+
+      options.baseSongID = 0;
+    }
 
     if (stageEntries.length == 0) {
       disableStageStuff();
@@ -418,7 +422,6 @@ void selectSetlist(int index) {
   lineSetlistStartID.text  = songLists[index].startID.to!dstring(16);
   lineSetlistNumSongs.text = songLists[index].numSongs.to!dstring;
   listSetlist.selectItem(index);
-  updateSetlistStartIDLabel();
 }
 
 ////
@@ -587,8 +590,6 @@ void updateSetlistStartID() {
     songLists[listSetlist.selectedItemIndex].startID = lineSetlistStartID.text.to!uint(16);
   }
   catch (Exception e) { }
-
-  updateSetlistStartIDLabel();
 }
 
 void updateSetlistNumSongs() {
@@ -622,29 +623,6 @@ bool updateComboButton(Widget w, bool b) {
   listCombo.selectItem(comboIndex);
 
   return true;
-}
-
-void updateOptionsBaseSongID() {
-  try {
-    options.baseSongID = lineBaseSongID.text.to!uint(16);
-  }
-  catch (Exception e) { return; }
-
-  updateSetlistStartIDLabel();
-}
-
-void updateSetlistStartIDLabel() {
-  if (options.baseSongID == 0) {
-    textSongIDOffset.text = ""d;
-  }
-  else {
-    if (listSetlist.selectedItemIndex < 0) {
-      textSongIDOffset.text = format(" + 0x%X"d, options.baseSongID);
-    }
-    else {
-      textSongIDOffset.text = format(" + 0x%X = 0x%X"d, options.baseSongID, options.baseSongID + songLists[listSetlist.selectedItemIndex].startID);
-    }
-  }
 }
 
 ////
@@ -702,6 +680,10 @@ dstring verify() {
     if (songLists[i+1..$].map!(x => x.name).canFind(setlist.name)) {
       return format("A song list called '%s' was already defined!"d, setlist.name);
     }
+
+    if (setlist.startID > 0xFFFF || setlist.startID + setlist.numSongs - 1 > 0xFFFF) {
+      return format("Setlist '%s' has a range outside 0x0000-0xFFFF!"d, setlist.name);
+    }
   }
 
   foreach (entry; stageEntries) {
@@ -724,8 +706,8 @@ dstring verify() {
     }
   }
 
-  if (options.baseSongID >= 0xFFFF) {
-    return "The valid range of song IDs is 0x40A0-0xFFFF!";
+  if (options.baseSongID > 0xFFFF) {
+    return "The valid range of song IDs is 0x0000-0xFFFF!";
   }
 
   return "";

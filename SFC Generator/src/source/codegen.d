@@ -57,26 +57,26 @@ string generateCode(StageEntry[] entries, SongList[] songLists, Options options)
   foreach (list; songLists) {
     builder.put(songListLabels[list.name]);
     builder.put(":\n");
-    builder.put(format("    li r0, 0x%x\n", list.startID));
     builder.put(format("    li r7, %d\n", list.numSongs));
-    builder.put("    b last\n\n");
-  }
 
+    if (list.startID > 0x7FFF) {
+      if (list.startID == 0xFFFF) {
+        builder.put("    li r16, 0x7FFF\n");
+        builder.put("    addi r16, r16, 1\n");
+      }
+      else {
+        builder.put(format("    li r16, 0x%x\n", list.startID-0x7FFF));
+      }
 
-  string baseIDOffsetAdd = "";
-
-  if (options.baseSongID != 0) {
-    baseIDOffsetAdd = "  #add base song ID\n  mr r16, r0\n";
-    if (options.baseSongID > 0x7FFF) {
-      baseIDOffsetAdd ~= format("  addi r16, r16, 0x7FFF\n  addi r16, r16, 0x%X", options.baseSongID-0x7FFF);
+      builder.put("    b add_base\n\n");
     }
     else {
-      baseIDOffsetAdd ~= format("  addi r16, r16, 0x%X", options.baseSongID);
+      builder.put(format("    li r16, 0x%x\n", list.startID));
+      builder.put("    b last\n\n");
     }
-    baseIDOffsetAdd ~= "\n  mr r0, r16\n";
   }
 
-  builder.put(format(import("codeend.txt"), baseIDOffsetAdd));
+  builder.put(import("codeend.txt"));
 
   return builder.data;
 }

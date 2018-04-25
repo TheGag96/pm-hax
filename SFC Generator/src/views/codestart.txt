@@ -10,8 +10,9 @@ start:
   lis r12,0x805C
   lhz r12,-0x4AFA(r12)
   
-  rlwinm r0, r0, 16, 0,  15
-  rlwinm r0, r0, 16, 16, 31
+  mr r16, r0
+  rlwinm r16, r16, 16, 0,  15
+  rlwinm r16, r16, 16, 16, 31
 
   #this will stay 0 if there's no custom song
   li r7, 0

@@ -190,10 +190,6 @@ VerticalLayout {
           layoutWidth: 80
           id: lineSetlistStartID
         }
-        TextWidget {
-          id: textSongIDOffset
-          fontSize: 9
-        }
       }
 
       HorizontalLayout {
@@ -208,6 +204,7 @@ VerticalLayout {
       }
     }
 
+    /*
     VerticalLayout {
       layoutWidth: FILL_PARENT
       layoutHeight: FILL_PARENT
@@ -232,5 +229,6 @@ VerticalLayout {
         }
       }
     }
+    */
   }
 }
