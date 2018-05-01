@@ -5,6 +5,7 @@
 088 Params3 0x20
 08C Params4 0x10
 090 Article0 0x40
+094 Params6 0x20
 
 Article0
 13-16
@@ -138,6 +139,33 @@ No Description Available.
 No Description Available.
 
 0xC
+No Description Available.
+
+Params6
+ExtraParams6
+
+Flags? 0x0
+No Description Available.
+
+Flags? 0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
 No Description Available.
 
 Params0D3

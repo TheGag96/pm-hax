@@ -5,6 +5,7 @@
 088 Params3 0x20
 08C Article0 0x40
 090 Article1 0x38
+094 Params6 0x20
 0A0 Params9 0x40
 
 Article0
@@ -129,6 +130,33 @@ Vertical momentum (level three)?
 
 0x1C
 Vertical momentum (level four?)
+
+Params6
+ExtraParams6
+
+Flags? 0x0
+No Description Available.
+
+Flags? 0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+0x1C
+No Description Available.
 
 Params9
 ExtraParams9

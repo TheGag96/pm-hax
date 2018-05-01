@@ -3,6 +3,7 @@
 080 Params1 0x20
 084 Params2 0x48
 088 Params3 0x28
+08C Params4 0x20
 09C Params8 0x28
 0A0 Article0 0x38
 0A4 Article1 0x38
@@ -21,6 +22,7 @@ Article1
 Article2
 5-3
 034 Params2-0 0x38
+038 Params2-1 0x20
 
 Article3
 2-3
@@ -158,6 +160,33 @@ No Description Available.
 *0x24
 No Description Available.
 
+Params4
+HitDataList4
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
 Params8
 Angle Ring Article Attack
 
@@ -288,6 +317,33 @@ No Description Available.
 No Description Available.
 
 0x34
+No Description Available.
+
+Params2-1
+HitDataList1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
 No Description Available.
 
 Params3-0

@@ -28,6 +28,7 @@ Article3
 A-B
 030 Params3D3 0xC
 034 Params3-0 0xC8
+038 Params3-1 0xFC
 
 Article4
 1-1
@@ -394,6 +395,198 @@ No Description Available.
 No Description Available.
 
 0xC4
+No Description Available.
+
+Params3-1
+Bone Floats
+
+*Data0 Bone
+No Description Available.
+
+Data0 Float0
+No Description Available.
+
+Data0 Float1
+No Description Available.
+
+Data0 Float2
+No Description Available.
+
+Data0 Float3
+No Description Available.
+
+Data0 Float4
+No Description Available.
+
+Data0 Float5
+No Description Available.
+
+*Data1 Bone
+No Description Available.
+
+Data1 Float0
+No Description Available.
+
+Data1 Float1
+No Description Available.
+
+Data1 Float2
+No Description Available.
+
+Data1 Float3
+No Description Available.
+
+Data1 Float4
+No Description Available.
+
+Data1 Float5
+No Description Available.
+
+*Data2 Bone
+No Description Available.
+
+Data2 Float0
+No Description Available.
+
+Data2 Float1
+No Description Available.
+
+Data2 Float2
+No Description Available.
+
+Data2 Float3
+No Description Available.
+
+Data2 Float4
+No Description Available.
+
+Data2 Float5
+No Description Available.
+
+*Data3 Bone
+No Description Available.
+
+Data3 Float0
+No Description Available.
+
+Data3 Float1
+No Description Available.
+
+Data3 Float2
+No Description Available.
+
+Data3 Float3
+No Description Available.
+
+Data3 Float4
+No Description Available.
+
+Data3 Float5
+No Description Available.
+
+*Data4 Bone
+No Description Available.
+
+Data4 Float0
+No Description Available.
+
+Data4 Float1
+No Description Available.
+
+Data4 Float2
+No Description Available.
+
+Data4 Float3
+No Description Available.
+
+Data4 Float4
+No Description Available.
+
+Data4 Float5
+No Description Available.
+
+*Data5 Bone
+No Description Available.
+
+Data5 Float0
+No Description Available.
+
+Data5 Float1
+No Description Available.
+
+Data5 Float2
+No Description Available.
+
+Data5 Float3
+No Description Available.
+
+Data5 Float4
+No Description Available.
+
+Data5 Float5
+No Description Available.
+
+*Data6 Bone
+No Description Available.
+
+Data6 Float0
+No Description Available.
+
+Data6 Float1
+No Description Available.
+
+Data6 Float2
+No Description Available.
+
+Data6 Float3
+No Description Available.
+
+Data6 Float4
+No Description Available.
+
+Data6 Float5
+No Description Available.
+
+*Data7 Bone
+No Description Available.
+
+Data7 Float0
+No Description Available.
+
+Data7 Float1
+No Description Available.
+
+Data7 Float2
+No Description Available.
+
+Data7 Float3
+No Description Available.
+
+Data7 Float4
+No Description Available.
+
+Data7 Float5
+No Description Available.
+
+*Data8 Bone
+No Description Available.
+
+Data8 Float0
+No Description Available.
+
+Data8 Float1
+No Description Available.
+
+Data8 Float2
+No Description Available.
+
+Data8 Float3
+No Description Available.
+
+Data8 Float4
+No Description Available.
+
+Data8 Float5
 No Description Available.
 
 Params4-0

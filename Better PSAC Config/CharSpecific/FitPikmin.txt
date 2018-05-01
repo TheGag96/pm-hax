@@ -35,12 +35,14 @@ Article0
 07C Params0-18 0x248
 080 Params0-19 0xD0
 084 Params0-20 0x10
+088 Params0-21 0x40
 
 Article1
 5-8
 030 Params1D3 0x4
 034 Params1-0 0x30
 038 Params1-1 0x18
+040 Params1-3 0x20
 
 Article2
 9-1
@@ -1552,6 +1554,57 @@ Body collision sensitivity to pikmin only?
 0xC
 Z axis of movement
 
+Params0-21
+HitDataList
+
+HitData0-0
+No Description Available.
+
+HitData0-1
+No Description Available.
+
+HitData0-2
+No Description Available.
+
+HitData0-3
+No Description Available.
+
+HitData0-4
+No Description Available.
+
+HitData0-5
+No Description Available.
+
+HitData0-6
+No Description Available.
+
+Flags(HitData0-7)
+No Description Available.
+
+HitData1-0
+No Description Available.
+
+HitData1-1
+No Description Available.
+
+HitData1-2
+No Description Available.
+
+HitData1-3
+No Description Available.
+
+HitData1-4
+No Description Available.
+
+HitData1-5
+No Description Available.
+
+HitData1-6
+No Description Available.
+
+Flags(HitData1-7)
+No Description Available.
+
 Params1D3
 Data3
 
@@ -1616,6 +1669,33 @@ No Description Available.
 No Description Available.
 
 *0x14
+No Description Available.
+
+Params1-3
+HitDataList3
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
 No Description Available.
 
 Params2-0

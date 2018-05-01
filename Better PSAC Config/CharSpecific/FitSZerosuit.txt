@@ -7,6 +7,7 @@
 090 Article1 0x38
 094 Article2 0x38
 098 Article3 0x38
+09C Params8 0x20
 0A4 Params10 0x80
 
 Article0
@@ -81,6 +82,33 @@ ExtraParams3
 No Description Available.
 
 0x4
+No Description Available.
+
+Params8
+ExtraParams8
+
+*0x0
+No Description Available.
+
+Flags? 0x4
+No Description Available.
+
+*0x8
+No Description Available.
+
+*0xC
+No Description Available.
+
+*0x10
+No Description Available.
+
+*0x14
+No Description Available.
+
+*0x18
+No Description Available.
+
+*0x1C
 No Description Available.
 
 Params10

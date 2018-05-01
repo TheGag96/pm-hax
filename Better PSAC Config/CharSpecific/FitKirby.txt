@@ -49,6 +49,7 @@
 150 Article6 0x38
 154 Article7 0x38
 158 Article8 0x38
+15C Params56 0x20
 168 Article9 0x38
 16C Params60 0x28
 170 Article10 0x78
@@ -70,6 +71,8 @@ Article2
 Article3
 1-1
 034 Params3-0 0x4
+04C Params3-6 0x20
+054 Params3-8 0x14
 
 Article4
 6-6
@@ -779,7 +782,7 @@ No Description Available.
 0x28
 No Description Available.
 
-*0x2C
+Flags? 0x2C
 No Description Available.
 
 Params18
@@ -1431,6 +1434,33 @@ ExtraParams40
 No Description Available.
 
 0x4
+No Description Available.
+
+Params56
+HitDataList56
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
 No Description Available.
 
 Params60
@@ -2102,10 +2132,10 @@ No Description Available.
 Params64
 ExtraParams64
 
-*0x0
+Flags0-0? 0x0
 No Description Available.
 
-*0x4
+Flags0-1? 0x4
 No Description Available.
 
 *0x8
@@ -2117,7 +2147,7 @@ No Description Available.
 0x10
 No Description Available.
 
-*0x14
+0x14
 No Description Available.
 
 0x18
@@ -2126,10 +2156,10 @@ No Description Available.
 0x1C
 No Description Available.
 
-*0x20
+Flags1-0? 0x20
 No Description Available.
 
-*0x24
+Flags1-1? 0x24
 No Description Available.
 
 *0x28
@@ -2141,7 +2171,7 @@ No Description Available.
 0x30
 No Description Available.
 
-*0x34
+0x34
 No Description Available.
 
 0x38
@@ -2150,10 +2180,10 @@ No Description Available.
 0x3C
 No Description Available.
 
-*0x40
+Flags2-0? 0x40
 No Description Available.
 
-*0x44
+Flags2-1? 0x44
 No Description Available.
 
 *0x48
@@ -2367,6 +2397,51 @@ Params3-0
 ExtraParams0
 
 *0x0
+No Description Available.
+
+Params3-6
+ExtraFlags0
+
+Flags0?
+No Description Available.
+
+Flags1?
+No Description Available.
+
+Flags2?
+No Description Available.
+
+Flags3?
+No Description Available.
+
+Flags4?
+No Description Available.
+
+Flags5?
+No Description Available.
+
+Flags6?
+No Description Available.
+
+Flags7?
+No Description Available.
+
+Params3-8
+ExtraFlags1
+
+Flags0?
+No Description Available.
+
+Flags1?
+No Description Available.
+
+Flags2?
+No Description Available.
+
+Flags3?
+No Description Available.
+
+Flags4?
 No Description Available.
 
 Params6-0

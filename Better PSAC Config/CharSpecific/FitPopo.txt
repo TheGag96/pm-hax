@@ -19,10 +19,12 @@ Article0
 Article1
 3-2
 034 Params1-0 0x48
+038 Params1-1 0x20
 
 Article2
 4-3
 034 Params2-0 0x40
+038 Params2-1 0x40
 
 Article3
 5-1
@@ -326,6 +328,33 @@ No Description Available.
 0x44
 No Description Available.
 
+Params1-1
+HitDataList1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
 Params2-0
 IceBerg
 
@@ -375,6 +404,57 @@ No Description Available.
 No Description Available.
 
 *0x3C
+No Description Available.
+
+Params2-1
+HitDataList
+
+HitData0-0
+No Description Available.
+
+HitData0-1
+No Description Available.
+
+HitData0-2
+No Description Available.
+
+HitData0-3
+No Description Available.
+
+HitData0-4
+No Description Available.
+
+HitData0-5
+No Description Available.
+
+HitData0-6
+No Description Available.
+
+Flags(HitData0-7)
+No Description Available.
+
+HitData1-0
+No Description Available.
+
+HitData1-1
+No Description Available.
+
+HitData1-2
+No Description Available.
+
+HitData1-3
+No Description Available.
+
+HitData1-4
+No Description Available.
+
+HitData1-5
+No Description Available.
+
+HitData1-6
+No Description Available.
+
+Flags(HitData1-7)
 No Description Available.
 
 Params3-0

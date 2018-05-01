@@ -6,6 +6,7 @@
 08C Params4 0x18
 090 Params5 0x8
 094 Params6 0x10
+098 Params7 0x20
 0A8 Article0 0x38
 0B0 Article1 0x38
 0B8 Article2 0x38
@@ -135,6 +136,33 @@ No Description Available.
 No Description Available.
 
 *0xC
+No Description Available.
+
+Params7
+HitDataList7
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
 No Description Available.
 
 Params0-0

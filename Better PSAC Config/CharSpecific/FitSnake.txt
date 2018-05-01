@@ -23,6 +23,7 @@
 Article0
 5-5
 034 Params0-0 0x18
+038 Params0-1 0x20
 
 Article1
 0-3
@@ -37,6 +38,7 @@ Article3
 Article4
 4-4
 034 Params4-0 0x38
+038 Params4-1 0x20
 
 Article5
 8-7
@@ -48,6 +50,7 @@ Article7
 Article8
 3-4
 034 Params8-0 0x58
+038 Params8-1 0x20
 
 Article9
 1-5
@@ -273,6 +276,33 @@ No Description Available.
 *0x14
 No Description Available.
 
+Params0-1
+HitDataList1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
 Params2-0
 Up Smash Attribute
 
@@ -362,6 +392,33 @@ How many frames before it disappears? (read when breaking from cypher; freezes a
 
 0x34
  ?? (read when cyphering)
+
+Params4-1
+HitDataList1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
 
 Params5-0
 paramSnakeC4__13wnSnakeC4Node
@@ -469,6 +526,33 @@ No Description Available.
 No Description Available.
 
 *0x54
+No Description Available.
+
+Params8-1
+HitDataList1
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
 No Description Available.
 
 Params9-0

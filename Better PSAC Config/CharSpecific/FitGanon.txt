@@ -11,6 +11,7 @@ Article0
 030 Params0D3 0x5C
 034 Params0-0 0xC
 038 Params0-1 0x14
+040 Params0-3 0x1E0
 
 Article1
 0-1
@@ -211,5 +212,368 @@ No Description Available.
 No Description Available.
 
 0x10
+No Description Available.
+
+Params0-3
+HitDataList
+
+HitData0-0
+No Description Available.
+
+HitData0-1
+No Description Available.
+
+HitData0-2
+No Description Available.
+
+HitData0-3
+No Description Available.
+
+HitData0-4
+No Description Available.
+
+HitData0-5
+No Description Available.
+
+HitData0-6
+No Description Available.
+
+Flags(HitData0-7)
+No Description Available.
+
+HitData1-0
+No Description Available.
+
+HitData1-1
+No Description Available.
+
+HitData1-2
+No Description Available.
+
+HitData1-3
+No Description Available.
+
+HitData1-4
+No Description Available.
+
+HitData1-5
+No Description Available.
+
+HitData1-6
+No Description Available.
+
+Flags(HitData1-7)
+No Description Available.
+
+HitData2-0
+No Description Available.
+
+HitData2-1
+No Description Available.
+
+HitData2-2
+No Description Available.
+
+HitData2-3
+No Description Available.
+
+HitData2-4
+No Description Available.
+
+HitData2-5
+No Description Available.
+
+HitData2-6
+No Description Available.
+
+Flags(HitData2-7)
+No Description Available.
+
+HitData3-0
+No Description Available.
+
+HitData3-1
+No Description Available.
+
+HitData3-2
+No Description Available.
+
+HitData3-3
+No Description Available.
+
+HitData3-4
+No Description Available.
+
+HitData3-5
+No Description Available.
+
+HitData3-6
+No Description Available.
+
+Flags(HitData3-7)
+No Description Available.
+
+HitData4-0
+No Description Available.
+
+HitData4-1
+No Description Available.
+
+HitData4-2
+No Description Available.
+
+HitData4-3
+No Description Available.
+
+HitData4-4
+No Description Available.
+
+HitData4-5
+No Description Available.
+
+HitData4-6
+No Description Available.
+
+Flags(HitData4-7)
+No Description Available.
+
+HitData5-0
+No Description Available.
+
+HitData5-1
+No Description Available.
+
+HitData5-2
+No Description Available.
+
+HitData5-3
+No Description Available.
+
+HitData5-4
+No Description Available.
+
+HitData5-5
+No Description Available.
+
+HitData5-6
+No Description Available.
+
+Flags(HitData5-7)
+No Description Available.
+
+HitData6-0
+No Description Available.
+
+HitData6-1
+No Description Available.
+
+HitData6-2
+No Description Available.
+
+HitData6-3
+No Description Available.
+
+HitData6-4
+No Description Available.
+
+HitData6-5
+No Description Available.
+
+HitData6-6
+No Description Available.
+
+Flags(HitData6-7)
+No Description Available.
+
+HitData7-0
+No Description Available.
+
+HitData7-1
+No Description Available.
+
+HitData7-2
+No Description Available.
+
+HitData7-3
+No Description Available.
+
+HitData7-4
+No Description Available.
+
+HitData7-5
+No Description Available.
+
+HitData7-6
+No Description Available.
+
+Flags(HitData7-7)
+No Description Available.
+
+HitData8-0
+No Description Available.
+
+HitData8-1
+No Description Available.
+
+HitData8-2
+No Description Available.
+
+HitData8-3
+No Description Available.
+
+HitData8-4
+No Description Available.
+
+HitData8-5
+No Description Available.
+
+HitData8-6
+No Description Available.
+
+Flags(HitData8-7)
+No Description Available.
+
+HitData9-0
+No Description Available.
+
+HitData9-1
+No Description Available.
+
+HitData9-2
+No Description Available.
+
+HitData9-3
+No Description Available.
+
+HitData9-4
+No Description Available.
+
+HitData9-5
+No Description Available.
+
+HitData9-6
+No Description Available.
+
+Flags(HitData9-7)
+No Description Available.
+
+HitData10-0
+No Description Available.
+
+HitData10-1
+No Description Available.
+
+HitData10-2
+No Description Available.
+
+HitData10-3
+No Description Available.
+
+HitData10-4
+No Description Available.
+
+HitData10-5
+No Description Available.
+
+HitData10-6
+No Description Available.
+
+Flags(HitData10-7)
+No Description Available.
+
+HitData11-0
+No Description Available.
+
+HitData11-1
+No Description Available.
+
+HitData11-2
+No Description Available.
+
+HitData11-3
+No Description Available.
+
+HitData11-4
+No Description Available.
+
+HitData11-5
+No Description Available.
+
+HitData11-6
+No Description Available.
+
+Flags(HitData11-7)
+No Description Available.
+
+HitData12-0
+No Description Available.
+
+HitData12-1
+No Description Available.
+
+HitData12-2
+No Description Available.
+
+HitData12-3
+No Description Available.
+
+HitData12-4
+No Description Available.
+
+HitData12-5
+No Description Available.
+
+HitData12-6
+No Description Available.
+
+Flags(HitData12-7)
+No Description Available.
+
+HitData13-0
+No Description Available.
+
+HitData13-1
+No Description Available.
+
+HitData13-2
+No Description Available.
+
+HitData13-3
+No Description Available.
+
+HitData13-4
+No Description Available.
+
+HitData13-5
+No Description Available.
+
+HitData13-6
+No Description Available.
+
+Flags(HitData13-7)
+No Description Available.
+
+HitData14-0
+No Description Available.
+
+HitData14-1
+No Description Available.
+
+HitData14-2
+No Description Available.
+
+HitData14-3
+No Description Available.
+
+HitData14-4
+No Description Available.
+
+HitData14-5
+No Description Available.
+
+HitData14-6
+No Description Available.
+
+Flags(HitData14-7)
 No Description Available.
 

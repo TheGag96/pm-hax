@@ -23,6 +23,11 @@ Execute Loop
 Execute the the previously set loop.
 
 
+00060000
+Loop Break?
+Breaks out of the current loop?
+
+
 00070100
 Sub Routine
 Enter the event routine specified and return after ending.
@@ -53,20 +58,55 @@ If
 Start an If block until an Else or an EndIf is reached.
 6505
 
-000E0000
-Else
-Insert an Else block inside an If block.
+000B0100
+And
+Seems to be an "and" to an If statement.
+6
 
+000B0200
+And
+Seems to be an "and" to an If statement.
+65
 
 000B0400
 And Comparison
 Seems to be an "And" to an If statement.
 6505
 
+000C0100
+Or
+Insert an alternate requirement to fall back on if the above requirement(s) are not met.
+6
+
+000C0200
+Or
+Insert an alternate requirement to fall back on if the above requirement(s) are not met.
+65
+
+000C0400
+Or Comparison
+Insert an alternate requirement to fall back on if the above requirement(s) are not met.
+6505
+
+000D0100
+Else If
+Insert an Else If block inside of an If block.
+6
+
+000D0200
+Else If
+Insert an Else If block inside of an If block.
+65
+
 000D0400
 Else If Comparison
 Insert an Else If block inside of an If block.
 6505
+
+000E0000
+Else
+Insert an Else block inside an If block.
+
 
 000F0000
 End If
@@ -91,6 +131,11 @@ The case chosen if none of the others are executed.
 00130000
 End Switch
 End a Switch block.
+
+
+00180000
+Break
+Appears within Case statements; exits the switch event completely. All code located in the same case block after this event will not be executed.
 
 
 01010000
@@ -513,21 +558,6 @@ Basic Variable Divide
 Divide a basic value by the specified value.
 05
 
-12060200
-Float Variable Set
-Set a floating point variable to the specified value.
-15
-
-12070200
-Float Variable Add
-Add a specified value to a float variable.
-15
-
-12080200
-Float Variable Subtract
-Subtract a specified value from a float variable.
-15
-
 12030100
 Basic Variable Increment
 Variable++
@@ -542,6 +572,21 @@ Variable--
 Basic Variable Set Absolute
 Sets a Basic type variable to the absolute value of the specified value
 05
+
+12060200
+Float Variable Set
+Set a floating point variable to the specified value.
+15
+
+12070200
+Float Variable Add
+Add a specified value to a float variable.
+15
+
+12080200
+Float Variable Subtract
+Subtract a specified value from a float variable.
+15
 
 120F0200
 Float Variable Multiply
@@ -673,11 +718,6 @@ Allow Interrupt
 Allow the current action to be interrupted by another action.
 
 
-020A0100
-Allow Specific Interrupt
-Allows interruption only by specific commands. See parameters for list of possible interrupts.
-
-
 1A000100
 Screenshake
 Shakes the screen.
@@ -793,51 +833,6 @@ Flow 03
 Undefined. in used Go to Loop.
 
 
-00060000
-Loop Break?
-Breaks out of the current loop?
-
-
-000B0100
-And
-Seems to be an "and" to an If statement.
-6
-
-000B0200
-And
-Seems to be an "and" to an If statement.
-65
-
-000C0100
-Or
-Insert an alternate requirement to fall back on if the above requirement(s) are not met.
-6
-
-000C0200
-Or
-Insert an alternate requirement to fall back on if the above requirement(s) are not met.
-65
-
-000C0400
-Or Comparison
-Insert an alternate requirement to fall back on if the above requirement(s) are not met.
-6505
-
-000D0100
-Else If
-Insert an Else If block inside of an If block.
-6
-
-000D0200
-Else If
-Insert an Else If block inside of an If block.
-65
-
-00180000
-Break
-Appears within Case statements; exits the switch event completely. All code located in the same case block after this event will not be executed.
-
-
 02000400
 Change Action Status
 Change the current action upon the specified requirement being met. (the requirement does not have to be met at the time this ID is executed - it can be used anytime after execution.)
@@ -856,6 +851,11 @@ Disables the Action associated with the given Status ID.
 02090200
 Invert Action Status ID
 Appears to invert (or possibly only disable) a specific Status ID's enabled/disabled status. For example, if a character can crawl, this is used to disable the ability to dash when crouched, even though naturally crouching allows dashing through 020A (Allow Specific Interrupt).
+
+
+020A0100
+Allow Specific Interrupt
+Allows interruption only by specific commands. See parameters for list of possible interrupts.
 
 
 020B0100

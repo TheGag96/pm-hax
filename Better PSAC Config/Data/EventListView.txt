@@ -110,6 +110,29 @@ V
 00000013-Fall Through Platform (Squat Only)
 XDefault-Undefined(\D)
 
+020B0100
+V
+00000001-Ground Special
+00000002-Ground Item
+00000003-Grab
+00000004-Ground Attack
+00000005-Ground Dodge
+00000006-Shield
+00000007-Ground Jump
+00000008-Ground (Other)
+00000009-Landing
+0000000A-Ledge Grab
+0000000B-Air Special
+0000000C-Air Item Throw
+0000000D-Air Grab
+0000000E-Air Dodge
+0000000F-Air Attack
+00000010-Footstool
+00000011-Wall Jump
+00000012-Air Jump
+00000013-Fall Through Platform (Squat Only)
+XDefault-Undefined(\D)
+
 04000100
 1
 Sub Action=\X
@@ -140,7 +163,7 @@ ID=\H0048, Dmg=\X01, Angle=\X02, WDSK=\H0304, KBG=\H0348, BKB=\H0448, Bone=\H000
 
 06010200
 1
-ID=\X, Damege=\X
+ID=\X, Damage=\X
 
 06020200
 1

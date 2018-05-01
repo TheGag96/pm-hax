@@ -224,7 +224,7 @@ No Description Available.
 0x18
 No Description Available.
 
-0x1C
+Flags? 0x1C
 No Description Available.
 
 *0x20

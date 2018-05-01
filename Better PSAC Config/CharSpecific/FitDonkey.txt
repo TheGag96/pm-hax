@@ -193,7 +193,7 @@ No Description Available.
 *0x28
 No Description Available.
 
-*0x2C
+Flags? 0x2C
 No Description Available.
 
 *0x30
@@ -217,7 +217,7 @@ No Description Available.
 *0x48
 No Description Available.
 
-*0x4C
+Flags? 0x4C
 No Description Available.
 
 *0x50
@@ -241,7 +241,7 @@ No Description Available.
 *0x68
 No Description Available.
 
-*0x6C
+Flags? 0x6C
 No Description Available.
 
 *0x70
@@ -265,7 +265,7 @@ No Description Available.
 *0x88
 No Description Available.
 
-*0x8C
+Flags? 0x8C
 No Description Available.
 
 *0x90
@@ -289,7 +289,7 @@ No Description Available.
 *0xA8
 No Description Available.
 
-*0xAC
+Flags? 0xAC
 No Description Available.
 
 Params0-0

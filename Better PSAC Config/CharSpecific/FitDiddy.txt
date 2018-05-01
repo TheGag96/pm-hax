@@ -15,6 +15,7 @@ Article0
 Article1
 3-3
 034 Params1-0 0x40
+038 Params1-1 0x20
 
 Article2
 2-2
@@ -268,6 +269,33 @@ Unknown, never read?
 Unknown, never read?
 
 *0x3C
+No Description Available.
+
+Params1-1
+hitDataBarrel__20wnDiddyBarrelJetNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
 No Description Available.
 
 Params2-0
