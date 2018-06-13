@@ -1,4 +1,5 @@
 # To be inserted at 808611DC
+# Function hijacked: isVoiceId/[ftSoundIdExchangerImpl]
 
 start:
   # we don't care about non-expanded sounds
