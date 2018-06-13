@@ -300,7 +300,7 @@ The offset in the Z direction from the attached bone (affected by its rotation).
 Y Offset
 The offset in the Y direction from the attached bone (affected by its rotation).
 X Offset
-The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this X on some screens.)
+The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this Z on some screens.)
 Tripping Rate
 The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
 Hitlag Multiplier
@@ -470,7 +470,7 @@ The offset in the Z direction from the attached bone (affected by its rotation).
 Y Offset
 The offset in the Y direction from the attached bone (affected by its rotation).
 X Offset
-The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this X on some screens.)
+The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this Z on some screens.)
 Tripping Rate
 The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
 Hitlag Multiplier
@@ -514,7 +514,7 @@ The offset in the Z direction from the attached bone (affected by its rotation).
 Y Offset
 The offset in the Y direction from the attached bone (affected by its rotation).
 X Offset
-The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this X on some screens.)
+The offset in the X direction from the attached bone (affected by its rotation). (Note: BrawlBox incorrectly calls this Z on some screens.)
 Tripping Rate
 The percent possibility of the collision bubble inducing a trip, provided the target doesn't leave the ground from the knockback. (1 = 100%)
 Hitlag Multiplier
