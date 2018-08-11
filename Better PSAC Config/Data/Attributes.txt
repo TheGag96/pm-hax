@@ -494,7 +494,7 @@ The size of the character in the magifying glass.
 
 
 *0x294 2nd KO SFX Probability
-When playing a regular KO sound, there is a 1 in N chance for the alternate one to play, where N is this value.
+When playing a regular KO sound, there is a 1 in N chance for the alternate one to play, where N is this value. When 0, it's never played.
 
 0x298
 
