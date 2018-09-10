@@ -993,6 +993,11 @@ Add Hitbox Damage
 Add a specific hitbox's damage.
 
 
+06160100
+Hitbox Damage Multiplier
+Muliplies the damage of every hitbox spawned from the character by the specified value. Persists until changed
+1
+
 062C0F00
 Special Collateral Collision
 Used for the "bump" collisions that occur when a character in knockback collides with another body.

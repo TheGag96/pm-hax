@@ -484,6 +484,10 @@ How many frames between each hitbox refresh; for example a value of 8 will cause
 Special Flags
 Flags for hitbox type and attributes such as susceptibility to reflection and absorption. These might help: tinyurl.com/HitboxFlagParser http://tinyurl.com/HitboxFlagInfo
 
+06160100
+Multiplier
+Multiplies all damage given by this value.
+
 061B0500
 Hitbox ID
 ID of the hitbox to be changed.

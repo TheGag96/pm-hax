@@ -80,7 +80,7 @@ Any Shield Input Occurs (PM)
 Any Shield Input Held (PM)
 Any Taunt Input Occurs (PM)
 Any Taunt Input Held (PM)
-52
+Specific Hitbox Connects (Custom)
 53
 54
 55

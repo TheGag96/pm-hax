@@ -194,6 +194,10 @@ ID=\H0048, Dmg=\X01, Angle=\X02, WDSK=\H0304, KBG=\H0348, BKB=\H0448, Bone=\H000
 1
 ID=\X, Damage=\X
 
+06160100
+C
+\X00
+
 08000100
 V
 00000001-Can drop off side of stage
