@@ -1,26 +1,26 @@
 ﻿DataSize0x9C
-07C Params0 0x28
-080 Params1 0x50
-084 Params2 0x4
-088 Params3 0x14
-08C Params4 0xC
-090 Article0 0x38
-094 Article1 0x40
-098 Article2 0x38
+07C Par00 A
+080 Par01 14
+084 Par02 1
+088 Par03 5
+08C Par04 3
+090 Art0
+094 Art1
+098 Art2
 
-Article0
+Art0
 1-1
-034 Params0-0 0x18
+034 Par00-0 6
 
-Article1
+Art1
 5-5
-034 Params1-0 0x20
-038 Params1-1 0x28
+034 Par01-0 8
+038 Par01-1 A
 
-Article2
+Art2
 2-2
 
-Params0
+Par00
 Fatigue/Stamina
 
 0x0
@@ -53,7 +53,7 @@ Resistance multiplier
 0x24
 "Weakest" stamina level
 
-Params1
+Par01
 Flamethrower
 
 0x0
@@ -116,13 +116,13 @@ How far away flame starts horizontally
 0x4C
 No Description Available.
 
-Params2
+Par02
 Rock Smash
 
 0x0
 No Description Available.
 
-Params3
+Par03
 Fly
 
 0x0
@@ -140,7 +140,7 @@ How much you can slide on landing
 0x10
  ?? (read on upB)
 
-Params4
+Par04
 FlyExtra?
 
 0x0
@@ -152,7 +152,7 @@ Gravity
 0x8
 No Description Available.
 
-Params0-0
+Par00-0
 FlameThrower Attribute
 
 0x0
@@ -173,7 +173,7 @@ Horizontal momentum of flames
 *0x14
 No Description Available.
 
-Params1-0
+Par01-0
 RockSmash Attribute
 
 0x0
@@ -200,36 +200,36 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params1-1
+Par01-1
 ExtraParams1
 
-*0x0
+Data0
 No Description Available.
 
-*0x4
+Data1
 No Description Available.
 
-*0x8
+Data2
 No Description Available.
 
-*0xC
+Data3
 No Description Available.
 
-*0x10
+Data4
 No Description Available.
 
-*0x14
+Data5
 No Description Available.
 
-0x18
+Data6
 No Description Available.
 
-Flags? 0x1C
+Flags7
 No Description Available.
 
-*0x20
+*Data8
 No Description Available.
 
-*0x24
+*Data9
 No Description Available.
 

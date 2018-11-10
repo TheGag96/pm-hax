@@ -1,37 +1,43 @@
 ﻿DataSize0xB0
-07C Params0 0xA8
-080 Params1 0x3C
-084 Params2 0xC
-088 Params3 0x68
-08C Params4 0x10
-090 Article0 0x38
-094 Article1 0x38
-098 Article2 0x38
-09C Article3 0x38
-0A0 Article4 0x38
+07C Par00 2A
+080 Par01 F
+084 Par02 3
+088 Par03 1A
+08C Par04 4
+090 Art0
+094 Art1
+098 Art2
+09C Art3
+0A0 Art4
+0A4 Par10 3
+0A8 Par11 4
+0AC Par12 3
+X0B 29-02fyoshiCatchSkipFrame__11ftYoshiNode
+X0C 2A-02fyoshiCatchDashSkipFrame__11ftYoshiNode
+X0B 2B-02fyoshiCatchTurnSkipFrame__11ftYoshiNode
 
-Article0
+Art0
 1-1
-034 Params0-0 0x14
+034 Par00-0 5
 
-Article1
+Art1
 2-2
-034 Params1-0 0x14
+034 Par01-0 5
 
-Article2
+Art2
 1-5
-030 Params2D3 0x28
-034 Params2-0 0x4
+030 Par02D3 A
+034 Par02-0 1
 
-Article3
+Art3
 1-1
-034 Params3-0 0x10
+034 Par03-0 4
 
-Article4
+Art4
 3-2
-034 Params4-0 0x8
+034 Par04-0 2
 
-Params0
+Par00
 Egg Roll
 
 *0x0 Max Egg Frame Count
@@ -73,7 +79,7 @@ base rolling momentum?
 0x30 Momentum Multiplier
 rolling momentum multiplier?
 
-0x34 
+0x34
 something with rolling momentum?
 
 0x38
@@ -160,7 +166,7 @@ something to do with "freefall"?
 *0xA4
 No Description Available.
 
-Params1
+Par01
 Egg Toss
 
 0x0 Upward Momentum
@@ -208,7 +214,7 @@ Egg air friction?
 0x38
 base egg spin?
 
-Params2
+Par02
 Ground Pound
 
 0x0
@@ -220,7 +226,7 @@ No Description Available.
 0x8
 No Description Available.
 
-Params3
+Par03
 Super Dragon?
 
 0x0
@@ -301,8 +307,8 @@ No Description Available.
 0x64
 No Description Available.
 
-Params4
-ExtraParams4
+Par04
+Flutter Jump?
 
 *0x0
 Number of frames to turn around during Double Jump
@@ -316,7 +322,46 @@ Knockback resistance
 *0xC
 No Description Available.
 
-Params0-0
+Par10
+yoshiCatchData__11ftYoshiNode
+
+0x0
+Starting frame for the table above- equal to the starting frame of Yoshi's standing grab hitbox.
+
+0x4
+Ending frame for the table above- equal to the ending frame of Yoshi's standing grab hitbox minus one.
+
+Offset
+Animation frame set. Upon successfully grabbing, the grab animation is set to this frame to show Yoshi pulling his foe in. The frame to switch to depends on the frame Yoshi grabbed his foe. By default, a successful grab on the first frame of the grab sets the animation frame to 46 (tongue just returning to Yoshi's mouth) and a successful grab on the last frame of the grab, where Yoshi's tongue is extended to its max distance, sets the animation to frame 29, where Yoshi's tongue is just starting to return to his mouth from max distance.
+
+Par11
+yoshiCatchDashData__11ftYoshiNode
+
+0x0
+Starting frame for the table above- equal to the starting frame of Yoshi's dash grab hitbox.
+
+0x4
+Ending frame for the table above- equal to the ending frame of Yoshi's dash grab hitbox minus one.
+
+Offset
+Animation frame set. Upon successfully grabbing, the grab animation is set to this frame to show Yoshi pulling his foe in. The frame to switch to depends on the frame Yoshi grabbed his foe. By default, a successful grab on the first frame of the grab sets the animation frame to 34 (tongue just returning to Yoshi's mouth) and a successful grab on the last frame of the grab, where Yoshi's tongue is extended to its max distance, sets the animation to frame 22, where Yoshi's tongue is just starting to return to his mouth from max distance.
+
+*0xC?
+Garbage Data?
+
+Par12
+yoshiCatchTurnData__11ftYoshiNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+Offset
+Animation frame set. Upon successfully grabbing, the grab animation is set to this frame to show Yoshi pulling his foe in. The frame to switch to depends on the frame Yoshi grabbed his foe. By default, a successful grab on the first frame of the grab sets the animation frame to 26 (tongue just returning to Yoshi's mouth) and a successful grab on the last frame of the grab, where Yoshi's tongue is extended to its max distance, sets the animation to frame 20, where Yoshi's tongue is just starting to return to his mouth from max distance.
+
+Par00-0
 Ground Pound Star Attribute
 
 0x0
@@ -334,8 +379,8 @@ No Description Available.
 0x10
 No Description Available.
 
-Params1-0
-ExtraParams0
+Par01-0
+Egg Toss Extra
 
 *0x0
 How long until it explodes (frames)
@@ -352,7 +397,7 @@ Egg vertical gravity
 0x10
 Egg horizontal gravity
 
-Params2D3
+Par02D3
 Data3
 
 *0x0
@@ -385,13 +430,13 @@ No Description Available.
 *0x24
 No Description Available.
 
-Params2-0
+Par02-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params3-0
+Par03-0
 Super Dragon2 Attribute
 
 0x0
@@ -406,7 +451,7 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params4-0
+Par04-0
 Super Dragon3 Attribute
 
 0x0

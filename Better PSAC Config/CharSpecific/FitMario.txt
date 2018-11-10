@@ -1,35 +1,35 @@
 ﻿DataSize0xA4
-07C Params0 0x14
-080 Params1 0xC
-084 Params2 0x18
-088 Params3 0x14
-08C Params4 0x28
-090 Article0 0x38
-094 Article1 0x38
-098 Article2 0x38
-09C Article3 0x38
-0A0 Article4 0x38
+07C Par00 5
+080 Par01 3
+084 Par02 6
+088 Par03 5
+08C Par04 A
+090 Art0
+094 Art1
+098 Art2
+09C Art3
+0A0 Art4
 
-Article0
+Art0
 0-2
 
-Article1
+Art1
 1-1
-034 Params1-0 0x20
+034 Par01-0 8
 
-Article2
+Art2
 3-6
-034 Params2-0 0x14
+034 Par02-0 5
 
-Article3
+Art3
 3-3
-034 Params3-0 0x20
+034 Par03-0 8
 
-Article4
+Art4
 1-1
-034 Params4-0 0x8
+034 Par04-0 2
 
-Params0
+Par00
 Super Jump Punch
 
 0x0
@@ -47,7 +47,7 @@ Special fall aerial mobility
 0x10
 Unknown (read on upB)
 
-Params1
+Par01
 Super Jump Punch Extra
 
 0x0
@@ -59,7 +59,7 @@ Unknown (read on upB)
 0x8
 Unknown (read on upB)
 
-Params2
+Par02
 Cape
 
 0x0
@@ -80,7 +80,7 @@ Terminal velocity
 *0x14
 Unknown (read on caping in air)
 
-Params3
+Par03
 FLUDD
 
 *0x0
@@ -98,7 +98,7 @@ Momentum backward when firing (affects aerial too)
 *0x10
 How many frames FLUDD stays out during/after downB
 
-Params4
+Par04
 Cape Extra
 
 *0x0
@@ -131,7 +131,7 @@ Unknown
 *0x24
 No Description Available.
 
-Params1-0
+Par01-0
 Fireball
 
 0x0
@@ -158,7 +158,7 @@ Minimum velocity on ground collision; any lower will delete fireball
 0x1C
 Something to do with how many times it can bounce before disappearing. 2 = none, 4 = too many to count.
 
-Params2-0
+Par02-0
 FLUDD Article2
 
 0x0
@@ -176,7 +176,7 @@ Response to angling (also affects going back to center)
 0x10
 Relates to offsets? (at 100 they are really far up from mario and spaced out)
 
-Params3-0
+Par03-0
 FLUDD Article3
 
 0x0
@@ -203,7 +203,7 @@ Water gfx size multiplier (gfx get larger further they go)
 *0x1C
 Water pushback
 
-Params4-0
+Par04-0
 Mario Finale Article
 
 *0x0

@@ -1,32 +1,33 @@
 ﻿DataSize0xBC
-07C Params0 0x30
-080 Params1 0x30
-084 Params2 0x38
-088 Params3 0x18
-08C Params4 0x30
-094 Article0 0x38
-09C Article1 0x38
-0A4 Article2 0x38
-0AC Article3 0x38
-0B4 Article4 0x64
+07C Par00 C
+080 Par01 C
+084 Par02 E
+088 Par03 6
+08C Par04 C
+094 Art0
+09C Art1
+0A4 Art2
+0AC Art3
+0B4 Art4
+X10 2E-00x
 
-Article0
+Art0
 1-1
-034 Params0-0 0x8
+034 Par00-0 2
 
-Article1
+Art1
 1-1
-034 Params1-0 0x4
+034 Par01-0 1
 
-Article2
+Art2
 A-E
-030 Params2D3 0x10
+030 Par02D3 4
 
-Article3
+Art3
 1-1
-034 Params3-0 0x18
+034 Par03-0 6
 
-Article4
+Art4
 1A-1C
 034 SubAction DeeMain
 038 SubAction DooMain
@@ -37,10 +38,13 @@ Article4
 04C SubAction DeeSFX
 050 SubAction DooSFX
 054 SubAction GordoSFX
-058 Params4-9 0x148
-05C Params4-10 0x38
+058 Par04-0 52
+05C Par04-1 E
+X08 2D-18-00x
+X08 2D-18-02x
+X08 2D-18-04x
 
-Params0
+Par00
 ExtraParams0
 
 *0x0
@@ -79,7 +83,7 @@ No Description Available.
 *0x2C
 No Description Available.
 
-Params1
+Par01
 Waddle Toss
 
 0x0
@@ -118,7 +122,7 @@ Relative odds of throwing a Capsule
 0x2C
  ?? (read on waddle toss)
 
-Params2
+Par02
 Super Dedede Jump
 
 0x0
@@ -163,7 +167,7 @@ X offset of left buttstar
 0x34
 Y offset of left buttstar
 
-Params3
+Par03
 Jet Hammer
 
 0x0
@@ -184,7 +188,7 @@ Full charge hold self-damage limit
 *0x14
 No Description Available.
 
-Params4
+Par04
 Waddle Dee Army
 
 *0x0
@@ -223,7 +227,7 @@ Gordo ratio
 0x2C
 Gordo bounce height?
 
-Params0-0
+Par00-0
 ExtraParams0
 
 0x0
@@ -232,13 +236,13 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params1-0
+Par01-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params2D3
+Par02D3
 Data3
 
 *0x0
@@ -253,7 +257,7 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 0x0
@@ -274,7 +278,7 @@ Y offset
 0x14
 ??
 
-Params4-9
+Par04-0
 ExtraParams9
 
 0x0
@@ -523,7 +527,7 @@ No Description Available.
 0x144
 No Description Available.
 
-Params4-10
+Par04-1
 ExtraParams10
 
 *0x0
@@ -566,5 +570,137 @@ No Description Available.
 No Description Available.
 
 0x34
+No Description Available.
+
+EXD 2E-00x
+addAreaDataSet__12ftDededeNode
+
+Flags0-0
+No Description Available.
+
+Flags0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Data0-7
+No Description Available.
+
+Flags1-0
+No Description Available.
+
+Flags1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Data1-7
+No Description Available.
+
+EXD 2D-18-00x
+hitDataWaddledee__21wnDededeWaddleDeeNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+EXD 2D-18-02x
+hitDataWaddledoo__21wnDededeWaddleDooNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
+
+EXD 2D-18-04x
+hitDataGoldo__17wnDededeGoldoNode
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
 No Description Available.
 

@@ -1,12 +1,12 @@
 ﻿DataSize0x94
-07C Params0 0x18
-080 Params1 0x18
-084 Params2 0x28
-088 Params3 0x28
-08C Params4 0x18
-090 Params5 0x18
+07C Par00 6
+080 Par01 6
+084 Par02 A
+088 Par03 A
+08C Par04 6
+090 Par05 6
 
-Params0
+Par00
 Shield Breaker
 
 *0x0
@@ -27,7 +27,7 @@ Aerial horizontal deceleration
 *0x14
 unknown, read once on initial pullback
 
-Params1
+Par01
 Dancing Blade
 
 0x0
@@ -48,7 +48,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params2
+Par02
 Dolphin Slash
 
 0x0
@@ -81,7 +81,7 @@ post jump max fall speed
 *0x24
 unknown, read once post-jump
 
-Params3
+Par03
 Counter
 
 0x0
@@ -114,7 +114,7 @@ Maximum damage
 0x24
 unknown, read on activation
 
-Params4
+Par04
 paramMarthSpecialLwShield__11ftMarthNode
 
 *0x0
@@ -135,7 +135,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params5
+Par05
 paramMarthFinal__11ftMarthNode
 
 0x0

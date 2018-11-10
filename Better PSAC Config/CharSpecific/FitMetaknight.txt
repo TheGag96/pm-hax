@@ -1,16 +1,16 @@
 ﻿DataSize0x90
-07C Params0 0x50
-080 Params1 0x18
-084 Params2 0x18
-088 Params3 0x18
-08C Article0 0x38
+07C Par00 14
+080 Par01 6
+084 Par02 6
+088 Par03 6
+08C Art0
 
-Article0
+Art0
 1-17
-030 Params0D3 0x68
-034 Params0-0 0x4
+030 Par00D3 1A
+034 Par00-0 1
 
-Params0
+Par00
 Mach Tornado
 
 0x0
@@ -73,7 +73,7 @@ Spin speed equal to or less than this to end move
 *0x4C
 No Description Available.
 
-Params1
+Par01
 Drill Rush
 
 0x0
@@ -94,7 +94,7 @@ Something to do with direction after landing on platform and finishing
 *0x14
 No Description Available.
 
-Params2
+Par02
 Dimensional Cape
 
 0x0
@@ -115,7 +115,7 @@ Max vertical speed
 0x14
 Vertical acceleration
 
-Params3
+Par03
 paramFinal__16ftMetaknightNode
 
 *0x0
@@ -136,7 +136,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params0D3
+Par00D3
 Data3
 
 *0x0
@@ -217,7 +217,7 @@ No Description Available.
 *0x64
 No Description Available.
 
-Params0-0
+Par00-0
 ExtraParams0
 
 *0x0

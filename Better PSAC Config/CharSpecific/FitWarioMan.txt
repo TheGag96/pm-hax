@@ -1,18 +1,21 @@
 ﻿DataSize0xA0
-07C Params0 0x28
-080 Params1 0x20
-084 Params2 0x20
-088 Params3 0x20
-08C Params4 0x10
-090 Article0 0x40
-094 Params6 0x20
+07C Par00 A
+080 Par01 8
+084 Par02 8
+088 Par03 8
+08C Par04 4
+090 Art0
+094 Par06 8
+X4F 27-00iBone Index Replacement Data0
+X45 27-01iBone Index Replacement Data1
 
-Article0
+Art0
 13-16
-030 Params0D3 0x10
-034 Params0-0 0xA0
+030 Par00D3 4
+034 Par00-0 28
+X1E 24-0E-00x
 
-Params0
+Par00
 Chomp
 
 *0x0
@@ -45,7 +48,7 @@ No Description Available.
 *0x24
 No Description Available.
 
-Params1
+Par01
 Unknown
 
 0x0
@@ -72,7 +75,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params2
+Par02
 Corkscrew
 
 0x0
@@ -99,7 +102,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params3
+Par03
 Wario Waft
 
 *0x0
@@ -126,7 +129,7 @@ Vertical momentum (level three)?
 0x1C
 Vertical momentum (level four?)
 
-Params4
+Par04
 ExtraParams4
 
 0x0
@@ -141,7 +144,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params6
+Par06
 ExtraParams6
 
 Flags? 0x0
@@ -168,7 +171,7 @@ No Description Available.
 0x1C
 No Description Available.
 
-Params0D3
+Par00D3
 Data3
 
 *0x0
@@ -183,7 +186,7 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params0-0
+Par00-0
 ExtraParams0
 
 0x0
@@ -304,5 +307,98 @@ No Description Available.
 No Description Available.
 
 *0x9C
+No Description Available.
+
+EXD 24-0E-00x
+ParamList1
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Flags0-7
+No Description Available.
+
+*Data0-8
+No Description Available.
+
+*Data0-9
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Flags1-7
+No Description Available.
+
+*Data1-8
+No Description Available.
+
+*Data1-9
+No Description Available.
+
+Data2-0
+No Description Available.
+
+Data2-1
+No Description Available.
+
+Data2-2
+No Description Available.
+
+Data2-3
+No Description Available.
+
+Data2-4
+No Description Available.
+
+Data2-5
+No Description Available.
+
+Data2-6
+No Description Available.
+
+Flags2-7
+No Description Available.
+
+*Data2-8
+No Description Available.
+
+*Data2-9
 No Description Available.
 

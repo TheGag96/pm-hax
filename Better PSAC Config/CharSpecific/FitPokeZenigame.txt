@@ -1,17 +1,17 @@
 ﻿DataSize0x9C
-07C Params0 0x28
-080 Params1 0x28
-084 Params2 0x68
-088 Params3 0x1C
-08C Params4 0xC
-090 Article0 0x38
-094 Params6 0x20
+07C Par00 A
+080 Par01 A
+084 Par02 1A
+088 Par03 7
+08C Par04 3
+090 Art0
+094 Par06 8
 
-Article0
+Art0
 3-3
-034 Params0-0 0x20
+034 Par00-0 8
 
-Params0
+Par00
 ExtraParams0
 
 0x0
@@ -44,7 +44,7 @@ Resistance multiplier
 0x24
 "Weakest" stamina level
 
-Params1
+Par01
 Water Gun
 
 *0x0
@@ -77,7 +77,7 @@ Momentum backwards
 *0x24
  ?? (read when firing water/spray)
 
-Params2
+Par02
 Withdraw
 
 0x0
@@ -158,7 +158,7 @@ No Description Available.
 0x64
 No Description Available.
 
-Params3
+Par03
 Waterfall
 
 0x0
@@ -182,7 +182,7 @@ Special fall aerial mobility
 0x18
  ??
 
-Params4
+Par04
 ExtraParams4
 
 0x0
@@ -194,7 +194,7 @@ ExtraParams4
 0x8
 Aerial height
 
-Params6
+Par06
 ExtraParams6
 
 Flags? 0x0
@@ -221,7 +221,7 @@ No Description Available.
 0x1C
 No Description Available.
 
-Params0-0
+Par00-0
 Water Gun Attribute
 
 0x0

@@ -1,25 +1,26 @@
 ﻿DataSize0x9C
-07C Params0 0x60
-080 Params1 0x80
-084 Params2 0x20
-088 Params3 0x30
-08C Params4 0x10
-090 Params5 0x4
-094 Article0 0x38
-098 Article1 0x50
+07C Par00 18
+080 Par01 20
+084 Par02 8
+088 Par03 C
+08C Par04 4
+090 Par05 1
+094 Art0
+098 Art1
 
-Article0
+Art0
 4-2
-034 Params0-0 0x30
+034 Par00-0 C
 
-Article1
+Art1
 4-A
-030 Params1D3 0x78
-034 Params1-0 0x30
-038 Params1-1 0x1A0
-040 Params1-3 0x18
+030 Par01D3 1E
+034 Par01-0 C
+038 Par01-1 68
+040 Par01-3 6
+X02 26-13x
 
-Params0
+Par00
 Homing Attack
 
 0x0
@@ -94,7 +95,7 @@ No-homing dash duration
 *0x5C
 No-homing dash duration again?
 
-Params1
+Par01
 Spin Dash
 
 *0x0
@@ -193,7 +194,7 @@ No Description Available.
 0x7C
 No Description Available.
 
-Params2
+Par02
 paramSpecialHi__11ftSonicNode
 
 0x0
@@ -220,7 +221,7 @@ Maximum horizontal drift speed during fall after spring
 0x1C
 Drift control during fall after spring
 
-Params3
+Par03
 paramSpecialLw__11ftSonicNode
 
 0x0
@@ -259,7 +260,7 @@ No Description Available.
 *0x2C
 No Description Available.
 
-Params4
+Par04
 paramSpinJump__11ftSonicNode
 
 0x0
@@ -274,13 +275,13 @@ No Description Available.
 0xC
 No Description Available.
 
-Params5
+Par05
 paramDash__11ftSonicNode
 
 0x0
 No Description Available.
 
-Params0-0
+Par00-0
 Spring Attribute
 
 0x0
@@ -319,7 +320,7 @@ No Description Available.
 *0x2C
 No Description Available.
 
-Params1D3
+Par01D3
 Data3
 
 *0x0
@@ -412,7 +413,7 @@ No Description Available.
 *0x74
 No Description Available.
 
-Params1-0
+Par01-0
 ExtraParams0
 
 0x0
@@ -451,7 +452,7 @@ No Description Available.
 *0x2C
 No Description Available.
 
-Params1-1
+Par01-1
 HitDataList
 
 HitData0-0
@@ -766,7 +767,7 @@ No Description Available.
 Flags(HitData12-7)
 No Description Available.
 
-Params1-3
+Par01-3
 ExtraParams3
 
 0x0
@@ -785,5 +786,14 @@ No Description Available.
 No Description Available.
 
 *0x14
+No Description Available.
+
+EXD 26-13x
+Flash Overlay Effect
+
+Offset(Event)
+Event Data(Flash Overlay Effect)
+
+Flags
 No Description Available.
 

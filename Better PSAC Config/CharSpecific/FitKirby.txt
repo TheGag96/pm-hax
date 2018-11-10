@@ -1,102 +1,156 @@
 ﻿DataSize0x18C
-07C Params0 0x38
-080 Params1 0x10
-084 Params2 0x18
-088 Params3 0x2C
-08C Params4 0x68
-090 Params5 0x18
-094 Params6 0x18
-098 Params7 0x50
-09C Params8 0x60
-0A0 Params9 0x20
-0A4 Params10 0x20
-0A8 Params11 0x20
-0AC Params12 0x50
-0B0 Params13 0x18
-0B4 Params14 0x28
-0B8 Params15 0x28
-0BC Params16 0x18
-0C0 Params17 0x30
-0C4 Params18 0x28
-0C8 Params19 0x10
-0CC Params20 0x18
-0D0 Params21 0x18
-0D4 Params22 0x18
-0D8 Params23 0x10
-0DC Params24 0x18
-0E0 Params25 0x18
-0E4 Params26 0xC0
-0E8 Params27 0x28
-0EC Params28 0x40
-0F0 Params29 0x30
-0F4 Params30 0x8
-0F8 Params31 0x10
-0FC Params32 0x18
-100 Params33 0x10
-104 Params34 0x10
-108 Params35 0x20
-10C Params36 0x10
-110 Params37 0x50
-114 Params38 0x10
-118 Params39 0x8
-11C Params40 0x8
-124 Article0 0x38
-128 Article1 0x38
-130 Article2 0x38
-134 Article3 0x60
-138 Article4 0x38
-13C Article5 0x38
-150 Article6 0x38
-154 Article7 0x38
-158 Article8 0x38
-15C Params56 0x20
-168 Article9 0x38
-16C Params60 0x28
-170 Article10 0x78
-174 Params62 0x348
-17C Params64 0x60
-184 Params66 0x90
+07C Par00 E
+080 Par01 4
+084 Par02 6
+088 Par03 B
+08C Par04 1A
+090 Par05 6
+094 Par06 6
+098 Par07 14
+09C Par08 18
+0A0 Par09 8
+0A4 Par10 8
+0A8 Par11 8
+0AC Par12 14
+0B0 Par13 6
+0B4 Par14 A
+0B8 Par15 A
+0BC Par16 6
+0C0 Par17 C
+0C4 Par18 A
+0C8 Par19 4
+0CC Par20 6
+0D0 Par21 6
+0D4 Par22 6
+0D8 Par23 4
+0DC Par24 6
+0E0 Par25 6
+0E4 Par26 30
+0E8 Par27 A
+0EC Par28 10
+0F0 Par29 C
+0F4 Par30 2
+0F8 Par31 4
+0FC Par32 6
+100 Par33 4
+104 Par34 4
+108 Par35 8
+10C Par36 4
+110 Par37 14
+114 Par38 4
+118 Par39 2
+11C Par40 2
+124 Art0
+128 Art1
+130 Art2
+134 Art3
+138 Art4
+13C Art5
+150 Art6
+154 Art7
+158 Art8
+15C Par56 8
+168 Art9
+16C Par60 A
+170 Art10
+174 Par62 D2
+17C Par64 18
+184 Par66 24
+X3D 50-00-00imodelNodeConvertDataDonkeyToReal__17ftKirbyDonkeyNode
+X3E 50-00-01imodelNodeConvertDataDonkeyToOriginal__17ftKirbyDonkeyNode
+X3D 50-01-00imodelNodeConvertDataGameWatchToReal__20ftKirbyGameWatchNode
+X3F 50-01-01imodelNodeConvertDataGameWatchToOriginal__20ftKirbyGameWatchNode
+X3E 50-02-00imodelNodeConvertDataFalcoToReal__16ftKirbyFalcoNode
+X3E 50-02-01imodelNodeConvertDataFalcoToOriginal__16ftKirbyFalcoNode
+X3E 50-03-00imodelNodeConvertDataPikminToReal__17ftKirbyPikminNode
+X44 50-03-01imodelNodeConvertDataPikminToOriginal__17ftKirbyPikminNode
+X3D 50-04-00imodelNodeConvertDataPurinToReal__16ftKirbyPurinNode
+X45 50-04-01imodelNodeConvertDataPurinToOriginal__16ftKirbyPurinNode
+X3D 50-05-00imodelNodeConvertDataSnakeToReal__16ftKirbySnakeNode
+X44 50-05-01imodelNodeConvertDataSnakeToOriginal__16ftKirbySnakeNode
+X12 52-00iParamList51-0
+X0B 52-01iParamList51-1
+X0B 52-02iParamList51-2
+X0C 52-03iParamList51-3
+X0E 52-04iParamList51-4
+X0C 52-05iParamList51-5
+X02 53-00iParamList52-0
+X06 53-02iParamList52-2
+X03 53-03iParamList52-3
+X04 53-04iParamList52-4
+X06 53-06iParamList52-6
+X06 53-07iParamList52-7
+X02 53-09iParamList52-9
+X03 53-0AiParamList52-10
+X02 53-0BiParamList52-11
+X02 53-0CiParamList52-12
+X04 53-0DiParamList52-13
+X04 53-0EiParamList52-14
+X02 53-0FiParamList52-15
+X02 53-11iParamList52-17
+X02 53-14iParamList52-20
+X03 53-15iParamList52-21
+X03 53-16iParamList52-22
+X08 53-18iParamList52-24
+X02 53-1AiParamList52-26
+X03 53-1BiParamList52-27
+X04 53-1DiParamList52-29
+X05 53-1EiParamList52-30
+X08 53-1FiParamList52-31
+X02 53-20iParamList52-32
+X03 53-21iParamList52-33
+X0A 53-22iParamList52-34
+X02 53-23iParamList52-35
+X06 53-29iParamList52-41
+X03 53-2CiParamList52-44
+X03 53-2FiParamList52-47
+XKV 51xModelVisibilityExtra
+XKA 4D-0ExArticle3-ExtraData1
+XKA 4D-0FxArticle3-ExtraData2
+XKA 4D-10xArticle3-ExtraData3
+XKA 4D-11xArticle3-ExtraData4
+XKA 4D-12xArticle3-ExtraData5
 
-Article0
+Art0
 2-2
 
-Article1
+Art1
 1-1
-034 Params1-0 0x10
+034 Par01-0 4
 
-Article2
+Art2
 2-2
-034 Params2-0 0x50
+034 Par02-0 14
 
-Article3
+Art3
 1-1
-034 Params3-0 0x4
-04C Params3-6 0x20
-054 Params3-8 0x14
+034 Par03-0 1
+04C Par03-6 8
+054 Par03-8 5
 
-Article4
+Art4
 6-6
 
-Article5
+Art5
 4-6
 
-Article6
+Art6
 1-1
-034 Params6-0 0x18
+034 Par06-0 6
 
-Article7
+Art7
 3-3
-034 Params7-0 0x8
+034 Par07-0 2
 
-Article8
+Art8
 3-3
-034 Params8-0 0x20
+034 Par08-0 8
 
-Article9
+Art9
 2-2
-034 Params9-0 0x20
+034 Par09-0 8
 
-Article10
+Art10
 3-4
 034 SubAction 100tonStoneMain
 038 SubAction ThwompStoneMain
@@ -113,10 +167,10 @@ Article10
 064 SubAction SpikeBallSFX
 068 SubAction StoneKirbySFX
 06C SubAction HappyStoneSFX
-070 Params10-15 0x90
-074 Params10-16 0x4
+070 Par10-0 24
+074 Par10-1 1
 
-Params0
+Par00
 Inhale
 
 *0x0
@@ -161,7 +215,7 @@ No Description Available.
 *0x34
 No Description Available.
 
-Params1
+Par01
 Hammer
 
 0x0
@@ -176,7 +230,7 @@ Landing lag
 *0xC
 No Description Available.
 
-Params2
+Par02
 Final Cutter
 
 0x0
@@ -197,7 +251,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params3
+Par03
 Stone
 
 *0x0
@@ -233,7 +287,7 @@ No Description Available.
 *0x28
 No Description Available.
 
-Params4
+Par04
 Cook Kirby
 
 *0x0
@@ -314,7 +368,7 @@ No Description Available.
 0x64
 No Description Available.
 
-Params5
+Par05
 Captain Falcon: Falcon Punch
 
 0x0
@@ -335,7 +389,7 @@ Momentum from holding up
 *0x14
 No Description Available.
 
-Params6
+Par06
 Pikachu: Thunder Jolt
 
 0x0
@@ -356,7 +410,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params7
+Par07
 MetaKnight: Mach Tornado
 
 0x0
@@ -419,7 +473,7 @@ Spin speed equal to or less than this to end move
 *0x4C
 No Description Available.
 
-Params8
+Par08
 Sonic: Homing Attack
 
 0x0
@@ -483,7 +537,7 @@ Person-bounce Fallspeed?
 No-homing dash angle (Degrees)
 
 0x50
-No-homing dash speed 
+No-homing dash speed
 
 *0x54
 No-homing dash duration
@@ -494,7 +548,7 @@ No Description Available.
 *0x5C
 No-homing dash duration again?
 
-Params9
+Par09
 Fox: Laser
 
 0x0
@@ -521,7 +575,7 @@ Landing lag?
 *0x1C
 No Description Available.
 
-Params10
+Par10
 Falco: Laser
 
 0x0
@@ -548,7 +602,7 @@ Landing lag?
 *0x1C
 No Description Available.
 
-Params11
+Par11
 Wolf: Laser
 
 0x0
@@ -575,7 +629,7 @@ Landing lag?
 *0x1C
 No Description Available.
 
-Params12
+Par12
 Charizard: Flamethrower
 
 0x0
@@ -638,7 +692,7 @@ Y offset
 0x4C
 No Description Available.
 
-Params13
+Par13
 Ivysaur: Bullet Seed
 
 *0x0
@@ -659,7 +713,7 @@ Max frames you can hold B to continue attacking
 *0x14
 No Description Available.
 
-Params14
+Par14
 Squirtle: Water Gun
 
 *0x0
@@ -692,7 +746,7 @@ Momentum backwards
 *0x24
 ?? (read when firing water/spray)
 
-Params15
+Par15
 Wario: Chomp
 
 *0x0
@@ -725,7 +779,7 @@ No Description Available.
 *0x24
 No Description Available.
 
-Params16
+Par16
 Peach: Toad
 
 0x0
@@ -746,7 +800,7 @@ Max fall speed
 *0x14
 Hitlag on hit (frames)
 
-Params17
+Par17
 paramPopoSpecialN__11ftKirbyNode
 
 0x0
@@ -785,40 +839,40 @@ No Description Available.
 Flags? 0x2C
 No Description Available.
 
-Params18
+Par18
 Snake: Grenade
 
 0x0
-Grenade horizontal gravity/air friction? 
+Grenade horizontal gravity/air friction?
 
 0x4
-Grenade vertical gravity/air friction? 
+Grenade vertical gravity/air friction?
 
 0x8
-Forward angled horizontal momentum 
+Forward angled horizontal momentum
 
 0xC
-Forward angled vertical momentum 
+Forward angled vertical momentum
 
 0x10
-Unangled horizontal momentum 
+Unangled horizontal momentum
 
 0x14
-Unangled vertical momentum 
+Unangled vertical momentum
 
 0x18
-Back angled horizontal momentum 
+Back angled horizontal momentum
 
 0x1C
-Back angled vertical momentum 
+Back angled vertical momentum
 
 0x20
-Duck and cover animation range 
+Duck and cover animation range
 
 *0x24
 No Description Available.
 
-Params19
+Par19
 Zelda: Nayru's Love
 
 0x0
@@ -833,7 +887,7 @@ Horizontal momentum preservation (less = more)
 0xC
 Vertical momentum
 
-Params20
+Par20
 ExtraParams20
 
 0x0
@@ -854,7 +908,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params21
+Par21
 Lucas: PK Freeze
 
 *0x0
@@ -875,7 +929,7 @@ Gravity after initial vertical halt
 *0x14
 No Description Available.
 
-Params22
+Par22
 Ness: PK Flash
 
 *0x0
@@ -896,7 +950,7 @@ Aerial vert momentum on charge
 *0x14
 ?? (read on release/PK Flash explosion).
 
-Params23
+Par23
 Donkey Kong: Giant Punch
 
 *0x0
@@ -911,7 +965,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params24
+Par24
 Ike: Eruption
 
 *0x0
@@ -932,7 +986,7 @@ Aerial horizontal momentum deceleration
 0x14
 Fully charged self damage
 
-Params25
+Par25
 Marth: Shield Breaker
 
 *0x0
@@ -953,7 +1007,7 @@ Aerial horizontal deceleration
 *0x14
 Unknown, read once on initial pullback
 
-Params26
+Par26
 Jigglypuff: Rollout
 
 *0x0
@@ -1083,24 +1137,24 @@ Rebound speed multiplier
 Landing lag (post-recoil)
 
 0xA8
-Speed of star shot
+Dedede: StarMissile_Speed of star shot
 
 0xAC
-Speed deceleration
+Dedede: StarMissile_Speed deceleration
 
 0xB0
-Spinning speed
+Dedede: StarMissile_Spinning speed
 
 0xB4
-X offset?
+Dedede: StarMissile_X offset?
 
 0xB8
-Y offset
+Dedede: StarMissile_Y offset
 
 0xBC
-No Description Available.
+Dedede: StarMissile_Unknown
 
-Params27
+Par27
 Diddy Kong: Peanut Popgun
 
 0x0
@@ -1133,7 +1187,7 @@ No Description Available.
 0x24
 No Description Available.
 
-Params28
+Par28
 R.O.B.: Robo Beam
 
 0x0
@@ -1184,7 +1238,7 @@ No Description Available.
 *0x3C
 No Description Available.
 
-Params29
+Par29
 ExtraParams29
 
 *0x0
@@ -1223,7 +1277,7 @@ No Description Available.
 *0x2C
 No Description Available.
 
-Params30
+Par30
 Pikmin: Pluck
 
 0x0
@@ -1232,7 +1286,7 @@ X offset of pluck?
 *0x4
 Y offset of pluck?
 
-Params31
+Par31
 Pikmin: Pikmin Toss?
 
 *0x0
@@ -1247,7 +1301,7 @@ Y offset of sideB toss?
 *0xC
 No Description Available.
 
-Params32
+Par32
 Ganondorf: Warlock Punch
 
 0x0
@@ -1268,7 +1322,7 @@ Momentum from holding up
 *0x14
 No Description Available.
 
-Params33
+Par33
 Link: Arrows
 
 0x0
@@ -1283,7 +1337,7 @@ No Description Available.
 0xC
 Firing angle (radians)
 
-Params34
+Par34
 Toon Link: Arrows
 
 0x0
@@ -1298,7 +1352,7 @@ No Description Available.
 0xC
 Angle (radians)
 
-Params35
+Par35
 Lucario: Aura Sphere
 
 *0x0
@@ -1325,7 +1379,7 @@ Max Aura Sphere size?
 0x1C
 No Description Available.
 
-Params36
+Par36
 Samus: Power Shot
 
 *0x0
@@ -1340,7 +1394,7 @@ Frames between change in charge level?
 *0xC
 No Description Available.
 
-Params37
+Par37
 Bowser: Flame
 
 0x0
@@ -1403,7 +1457,7 @@ Y offset
 0x4C
  ?? (read on flame gfx reduction)
 
-Params38
+Par38
 Pit: Arrows
 
 0x0
@@ -1418,7 +1472,7 @@ Joystick sensitivity backwards
 0xC
 Joystick sensitivity upwards
 
-Params39
+Par39
 ExtraParams39
 
 0x0
@@ -1427,7 +1481,7 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params40
+Par40
 ExtraParams40
 
 0x0
@@ -1436,7 +1490,7 @@ No Description Available.
 0x4
 No Description Available.
 
-Params56
+Par56
 HitDataList56
 
 0x0
@@ -1463,7 +1517,7 @@ No Description Available.
 Flags 0x1C
 No Description Available.
 
-Params60
+Par60
 ExtraParams60
 
 *0x0
@@ -1496,7 +1550,7 @@ No Description Available.
 *0x24
 No Description Available.
 
-Params62
+Par62
 pikminPullOutParam__11ftKirbyNode
 
 *0x0
@@ -2129,7 +2183,7 @@ No Description Available.
 0x344
 No Description Available.
 
-Params64
+Par64
 ExtraParams64
 
 Flags0-0? 0x0
@@ -2204,7 +2258,7 @@ No Description Available.
 0x5C
 No Description Available.
 
-Params66
+Par66
 ExtraParams66
 
 *0x0
@@ -2315,7 +2369,7 @@ No Description Available.
 0x8C
 No Description Available.
 
-Params1-0
+Par01-0
 Stone Attribute
 
 0x0
@@ -2330,7 +2384,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params2-0
+Par02-0
 paramKirbyStarmissile__22wnKirbyStarMissileNode
 
 0x0
@@ -2393,13 +2447,13 @@ No Description Available.
 *0x4C
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params3-6
+Par03-6
 ExtraFlags0
 
 Flags0?
@@ -2426,7 +2480,7 @@ No Description Available.
 Flags7?
 No Description Available.
 
-Params3-8
+Par03-8
 ExtraFlags1
 
 Flags0?
@@ -2444,7 +2498,7 @@ No Description Available.
 Flags4?
 No Description Available.
 
-Params6-0
+Par06-0
 ExtraParams0
 
 0x0
@@ -2465,7 +2519,7 @@ Horizontal momentum of flames
 *0x14
 No Description Available.
 
-Params7-0
+Par07-0
 ExtraParams0
 
 *0x0
@@ -2474,7 +2528,7 @@ Lifetime of seed
 0x4
 No Description Available.
 
-Params8-0
+Par08-0
 ExtraParams0
 
 0x0
@@ -2501,7 +2555,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params9-0
+Par09-0
 ExtraParams0
 
 0x0
@@ -2528,7 +2582,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params10-15
+Par10-0
 ExtraParams15
 
 0x0
@@ -2639,7 +2693,7 @@ No Description Available.
 *0x8C
 No Description Available.
 
-Params10-16
+Par10-1
 ExtraParams16
 
 0x0

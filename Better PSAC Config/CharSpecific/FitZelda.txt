@@ -1,32 +1,32 @@
 ﻿DataSize0xA4
-07C Params0 0x10
-080 Params1 0x20
-084 Params2 0x38
-088 Params3 0x18
-08C Params4 0x1C
-090 Params5 0x28
-094 Article0 0x38
-098 Article1 0x38
-09C Article2 0x38
-0A0 Article3 0x38
+07C Par00 4
+080 Par01 8
+084 Par02 E
+088 Par03 6
+08C Par04 7
+090 Par05 A
+094 Art0
+098 Art1
+09C Art2
+0A0 Art3
 
-Article0
+Art0
 2-2
-034 Params0-0 0x30
+034 Par00-0 C
 
-Article1
+Art1
 1-1
-034 Params1-0 0x18
+034 Par01-0 6
 
-Article2
+Art2
 1-2
-034 Params2-0 0x4
+034 Par02-0 1
 
-Article3
+Art3
 1-1
-034 Params3-0 0xC
+034 Par03-0 3
 
-Params0
+Par00
 Nayru's Love
 
 0x0
@@ -41,7 +41,7 @@ Horizontal momentum preservation (less = more)
 0xC
 Vertical momentum
 
-Params1
+Par01
 Din's Fire
 
 *0x0
@@ -68,7 +68,7 @@ Falling gravity
 *0x1C
  ?? (not read)
 
-Params2
+Par02
 Farore's Wind
 
 0x0
@@ -113,7 +113,7 @@ No Description Available.
 0x34
 No Description Available.
 
-Params3
+Par03
 ExtraParams3
 
 0x0
@@ -134,7 +134,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params4
+Par04
 Light Arrow
 
 0x0
@@ -158,7 +158,7 @@ No Description Available.
 0x18
 No Description Available.
 
-Params5
+Par05
 ExtraParams5
 
 *0x0
@@ -191,7 +191,7 @@ No Description Available.
 *0x24
 No Description Available.
 
-Params0-0
+Par00-0
 Din's Fire Attribute
 
 0x0
@@ -230,7 +230,7 @@ Maximum curve projectile can angle (high numbers allow reversing direction)
 0x2C
 Detonation Timer
 
-Params1-0
+Par01-0
 Din's Fire 2 Attribute
 
 0x0
@@ -251,13 +251,13 @@ Damage growth rate
 *0x14
 No Description Available.
 
-Params2-0
+Par02-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params3-0
+Par03-0
 Light Arrow Attribute
 
 *0x0

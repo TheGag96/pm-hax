@@ -1,26 +1,26 @@
 ﻿DataSize0x98
-07C Params0 0x28
-080 Params1 0x18
-084 Params2 0x20
-088 Params3 0x4
-08C Article0 0x38
-090 Article1 0x38
-094 Article2 0x38
+07C Par00 A
+080 Par01 6
+084 Par02 8
+088 Par03 1
+08C Art0
+090 Art1
+094 Art2
 
-Article0
+Art0
 2-2
-034 Params0-0 0x20
+034 Par00-0 8
 
-Article1
+Art1
 3-3
-034 Params1-0 0x8
+034 Par01-0 2
 
-Article2
+Art2
 9-2
-030 Params2D3 0x20
-034 Params2-0 0x8
+030 Par02D3 8
+034 Par02-0 2
 
-Params0
+Par00
 Fatigue/Stamina
 
 0x0
@@ -53,7 +53,7 @@ Resistance multiplier
 0x24
 "Weakest" stamina level
 
-Params1
+Par01
 Bullet Seed
 
 *0x0
@@ -74,7 +74,7 @@ Max frames you can hold B to continue attacking
 *0x14
 No Description Available.
 
-Params2
+Par02
 Razor Leaf
 
 0x0
@@ -101,13 +101,13 @@ X offset aerial
 0x1C
 Y offset aerial
 
-Params3
+Par03
 ExtraParams3
 
 *0x0
 No Description Available.
 
-Params0-0
+Par00-0
 Razor Leaf Attribute
 
 *0x0
@@ -134,7 +134,7 @@ Affects trajectory angles while in the air
 0x1C
 Unsure, but a value higher than 1 causes random super-fast leaves
 
-Params1-0
+Par01-0
 Bullet Seed Attribute
 
 *0x0
@@ -143,7 +143,7 @@ Frame duration of article
 0x4
 No Description Available.
 
-Params2D3
+Par02D3
 Data3
 
 *0x0
@@ -170,7 +170,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params2-0
+Par02-0
 ExtraParams0
 
 0x0

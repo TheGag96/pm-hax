@@ -1,31 +1,31 @@
 ﻿DataSize0xA0
-07C Params0 0x18
-080 Params1 0x20
-084 Params2 0x40
-088 Params3 0x18
-08C Params4 0x20
-090 Article0 0x38
-094 Article1 0x38
-098 Article2 0x38
-09C Article3 0x38
+07C Par00 6
+080 Par01 8
+084 Par02 10
+088 Par03 6
+08C Par04 8
+090 Art0
+094 Art1
+098 Art2
+09C Art3
 
-Article0
+Art0
 4-5
-034 Params0-0 0x10
+034 Par00-0 4
 
-Article1
+Art1
 1-1
-034 Params1-0 0x4
+034 Par01-0 1
 
-Article2
+Art2
 9-3
-034 Params2-0 0x18
+034 Par02-0 6
 
-Article3
+Art3
 1-1
-034 Params3-0 0x4
+034 Par03-0 1
 
-Params0
+Par00
 Needles
 
 0x0
@@ -46,7 +46,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params1
+Par01
 Chain
 
 *0x0
@@ -73,7 +73,7 @@ frame chain disappears after releasing B
 *0x1C
 No Description Available.
 
-Params2
+Par02
 Vanish
 
 0x0
@@ -124,7 +124,7 @@ No Description Available.
 *0x3C
 No Description Available.
 
-Params3
+Par03
 Transform
 
 0x0
@@ -145,7 +145,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params4
+Par04
 Light Arrow
 
 0x0
@@ -172,7 +172,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params0-0
+Par00-0
 Needles Attribute
 
 *0x0
@@ -187,13 +187,13 @@ How many frames before grounded needles go away
 0xC
 Needle speed
 
-Params1-0
+Par01-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params2-0
+Par02-0
 Chain Attribute
 
 0x0
@@ -214,7 +214,7 @@ Stretchiness
 0x14
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 *0x0

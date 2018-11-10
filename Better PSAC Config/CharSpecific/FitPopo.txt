@@ -1,40 +1,43 @@
 ﻿DataSize0xC4
-08C Params0 0x10
-090 Params1 0x10
-094 Params2 0x58
-098 Params3 0x58
-09C Params4 0x28
-0A0 Params5 0x4
-0AC Article0 0x38
-0B0 Article1 0x40
-0B4 Article2 0x44
-0B8 Article3 0x38
-0BC Article4 0x38
-0C0 Params13 0x10
+08C Par00 4
+090 Par01 4
+094 Par02 16
+098 Par03 16
+09C Par04 A
+0A0 Par05 1
+0AC Art0
+0B0 Art1
+0B4 Art2
+0B8 Art3
+0BC Art4
+0C0 Par13 4
+XNS 29xNana Sound Lists
 
-Article0
+Art0
 1-1
-034 Params0-0 0x10
+034 Par00-0 4
 
-Article1
+Art1
 3-2
-034 Params1-0 0x48
-038 Params1-1 0x20
+034 Par01-0 12
+038 Par01-1 8
 
-Article2
+Art2
 4-3
-034 Params2-0 0x40
-038 Params2-1 0x40
+034 Par02-0 10
+038 Par02-1 10
+X03 2D-10x
+X0A 2D-10-00x
 
-Article3
+Art3
 5-1
-034 Params3-0 0x4
+034 Par03-0 1
 
-Article4
+Art4
 1-1
-034 Params4-0 0x4
+034 Par04-0 1
 
-Params0
+Par00
 paramSpecialN__10ftPopoNode
 
 0x0
@@ -49,7 +52,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params1
+Par01
 paramSpecialLw__10ftPopoNode
 
 0x0
@@ -64,7 +67,7 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params2
+Par02
 paramSpecialS__10ftPopoNode
 
 0x0
@@ -133,7 +136,7 @@ Horizontal solo wall bounce momentum conservation
 *0x54
 No Description Available.
 
-Params3
+Par03
 paramSpecialHi__10ftPopoNode
 
 0x0
@@ -202,7 +205,7 @@ No Description Available.
 0x54
 No Description Available.
 
-Params4
+Par04
 paramSpecialHiPartner__10ftPopoNode
 
 0x0
@@ -235,13 +238,13 @@ No Description Available.
 0x24
 No Description Available.
 
-Params5
+Par05
 paramFinal__10ftPopoNode
 
 0x0
 No Description Available.
 
-Params13
+Par13
 ExtraParams13
 
 *0x0
@@ -256,7 +259,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params0-0
+Par00-0
 Blizzard
 
 0x0
@@ -271,7 +274,7 @@ Something with angle?
 0xC
 Something with angle?
 
-Params1-0
+Par01-0
 Ice Blocks
 
 0x0
@@ -328,7 +331,7 @@ No Description Available.
 0x44
 No Description Available.
 
-Params1-1
+Par01-1
 HitDataList1
 
 0x0
@@ -355,7 +358,7 @@ No Description Available.
 Flags 0x1C
 No Description Available.
 
-Params2-0
+Par02-0
 IceBerg
 
 *0x0
@@ -406,8 +409,8 @@ No Description Available.
 *0x3C
 No Description Available.
 
-Params2-1
-HitDataList
+Par02-1
+hitDataIceBerg__17wnPopoIceBergNode
 
 HitData0-0
 No Description Available.
@@ -457,15 +460,60 @@ No Description Available.
 Flags(HitData1-7)
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params4-0
+Par04-0
 ExtraParams0
 
 0x0
+No Description Available.
+
+EXD 2D-10x
+Extra Data3
+
+Offset
+No Description Available.
+
+Offset>Count
+No Description Available.
+
+Flags
+No Description Available.
+
+EXD 2D-10-00x
+Extra Data3>Offset
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data2-0
+No Description Available.
+
+Data2-1
+No Description Available.
+
+Data3-0
+No Description Available.
+
+Data3-1
+No Description Available.
+
+Data4-0
+No Description Available.
+
+Data4-1
 No Description Available.
 

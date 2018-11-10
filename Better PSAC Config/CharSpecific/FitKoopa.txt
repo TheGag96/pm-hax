@@ -1,15 +1,15 @@
 ﻿DataSize0x90
-07C Params0 0x50
-080 Params1 0x30
-084 Params2 0x20
-088 Params3 0x38
-08C Article0 0x38
+07C Par00 14
+080 Par01 C
+084 Par02 8
+088 Par03 E
+08C Art0
 
-Article0
+Art0
 1-1
-034 Params0-0 0x18
+034 Par00-0 6
 
-Params0
+Par00
 Flame
 
 0x0
@@ -72,7 +72,7 @@ How far away flame starts vertically
 0x4C
  ?? (read on flame gfx reduction)
 
-Params1
+Par01
 Whirling Fortress
 
 *0x0
@@ -111,7 +111,7 @@ Something dealing with 0x20 but making it really high delays the animation someh
 *0x2C
 Landing lag
 
-Params2
+Par02
 Bowser Bomb
 
 0x0
@@ -138,7 +138,7 @@ Unknown
 0x1C
 Unknown
 
-Params3
+Par03
 Flying Slam
 
 0x0
@@ -183,7 +183,7 @@ No Description Available.
 *0x34
 No Description Available.
 
-Params0-0
+Par00-0
 Flame Article
 
 0x0

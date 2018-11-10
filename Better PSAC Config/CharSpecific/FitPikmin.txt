@@ -1,18 +1,18 @@
 ﻿DataSize0xB0
-07C Params0 0x348
-084 Params2 0x8
-088 Params3 0x10
-08C Params4 0x8
-090 Params5 0x8
-094 Params6 0x8
-098 Params7 0x8
-09C Params8 0x4
-0A0 Params9 0x4
-0A4 Article0 0x98
-0A8 Article1 0x48
-0AC Article2 0x38
+07C Par00 D2
+084 Par02 2
+088 Par03 4
+08C Par04 2
+090 Par05 2
+094 Par06 2
+098 Par07 2
+09C Par08 1
+0A0 Par09 1
+0A4 Art0
+0A8 Art1
+0AC Art2
 
-Article0
+Art0
 34-3B
 034 ActionExit
 038 SubAction RedMain
@@ -30,25 +30,26 @@ Article0
 068 SubAction BlueSFX
 06C SubAction WhiteSFX
 070 SubAction PurpleSFX
-074 Params0-16 0x38
-078 Params0-17 0xB8
-07C Params0-18 0x248
-080 Params0-19 0xD0
-084 Params0-20 0x10
-088 Params0-21 0x40
+074 Par00-0 E
+078 Par00-1 2E
+07C Par00-2 92
+080 Par00-3 34
+084 Par00-4 4
+088 Par00-5 10
+X02 29-25x
 
-Article1
+Art1
 5-8
-030 Params1D3 0x4
-034 Params1-0 0x30
-038 Params1-1 0x18
-040 Params1-3 0x20
+030 Par01D3 1
+034 Par01-0 C
+038 Par01-1 6
+040 Par01-3 8
 
-Article2
+Art2
 9-1
-034 Params2-0 0x18
+034 Par02-0 6
 
-Params0
+Par00
 pullOutParam__12ftPikminNode
 
 *0x0
@@ -681,7 +682,7 @@ No Description Available.
 0x344
 No Description Available.
 
-Params2
+Par02
 Pluck
 
 0x0
@@ -690,7 +691,7 @@ X offset of pluck
 *0x4
 Y offset of pluck
 
-Params3
+Par03
 Pikmin Toss
 
 *0x0
@@ -705,7 +706,7 @@ Y offset of sideB toss
 *0xC
 No Description Available.
 
-Params4
+Par04
 Forward Smash
 
 0x0
@@ -714,7 +715,7 @@ Fsmash X offset
 0x4
 Fsmash Y offset
 
-Params5
+Par05
 Up Smash
 
 0x0
@@ -723,7 +724,7 @@ Usmash X offset
 0x4
 Usmash Y offset
 
-Params6
+Par06
 Down Smash
 
 0x0
@@ -732,7 +733,7 @@ Dsmash X offset (applies equally in both directions)
 0x4
 Dsmash Y offset
 
-Params7
+Par07
 Grab
 
 0x0
@@ -741,19 +742,19 @@ X offset
 0x4
 Y offset
 
-Params8
+Par08
 End of the Day?
 
 0x0
 No Description Available.
 
-Params9
+Par09
 paramDamageFly__12ftPikminNode
 
 0x0
 No Description Available.
 
-Params0-16
+Par00-0
 ExtraParams16
 
 *0x0
@@ -798,7 +799,7 @@ No Description Available.
 *0x34
 No Description Available.
 
-Params0-17
+Par00-1
 ExtraParams17
 
 0x0
@@ -939,7 +940,7 @@ No Description Available.
 *0xB4
 No Description Available.
 
-Params0-18
+Par00-2
 ExtraParams18
 
 *0x0
@@ -1380,7 +1381,7 @@ No Description Available.
 0x244
 No Description Available.
 
-Params0-19
+Par00-3
 ExtraParams19
 
 *0x0
@@ -1539,7 +1540,7 @@ No Description Available.
 *0xCC
 No Description Available.
 
-Params0-20
+Par00-4
 ExtraParams20
 
 0x0
@@ -1554,8 +1555,8 @@ Body collision sensitivity to pikmin only?
 0xC
 Z axis of movement
 
-Params0-21
-HitDataList
+Par00-5
+hitDataPikmin__18wnPikminPikminNode
 
 HitData0-0
 No Description Available.
@@ -1605,13 +1606,13 @@ No Description Available.
 Flags(HitData1-7)
 No Description Available.
 
-Params1D3
+Par01D3
 Data3
 
 *0x0
 No Description Available.
 
-Params1-0
+Par01-0
 ExtraParams0
 
 0x0
@@ -1650,7 +1651,7 @@ No Description Available.
 *0x2C
 No Description Available.
 
-Params1-1
+Par01-1
 ExtraParams1
 
 0x0
@@ -1671,7 +1672,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params1-3
+Par01-3
 HitDataList3
 
 0x0
@@ -1698,7 +1699,7 @@ No Description Available.
 Flags 0x1C
 No Description Available.
 
-Params2-0
+Par02-0
 ExtraParams0
 
 0x0
@@ -1717,5 +1718,14 @@ No Description Available.
 No Description Available.
 
 *0x14
+No Description Available.
+
+EXD 29-25x
+Flash Overlay Effect
+
+Offset(Event)
+Event Data(Flash Overlay Effect)
+
+Flags
 No Description Available.
 

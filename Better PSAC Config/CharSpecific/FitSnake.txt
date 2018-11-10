@@ -1,81 +1,81 @@
 ﻿DataSize0xCC
-07C Params0 0x28
-080 Params1 0x50
-084 Params2 0x4
-088 Params3 0x4
-08C Params4 0x20
-090 Article0 0x40
-094 Article1 0x34
-098 Article2 0x40
-09C Article3 0x38
-0A0 Article4 0x40
-0A4 Article5 0x38
-0A8 Article6 0x38
-0AC Article7 0x38
-0B0 Article8 0x40
-0B4 Article9 0x38
-0B8 Article10 0x38
-0BC Article11 0x38
-0C0 Article12 0x38
-0C4 Article13 0x38
-0C8 Article14 0x38
+07C Par00 A
+080 Par01 14
+084 Par02 1
+088 Par03 1
+08C Par04 8
+090 Art0
+094 Art1
+098 Art2
+09C Art3
+0A0 Art4
+0A4 Art5
+0A8 Art6
+0AC Art7
+0B0 Art8
+0B4 Art9
+0B8 Art10
+0BC Art11
+0C0 Art12
+0C4 Art13
+0C8 Art14
 
-Article0
+Art0
 5-5
-034 Params0-0 0x18
-038 Params0-1 0x20
+034 Par00-0 6
+038 Par00-1 8
 
-Article1
+Art1
 0-3
 
-Article2
+Art2
 3-2
-034 Params2-0 0x38
+034 Par02-0 E
 
-Article3
+Art3
 0-3
 
-Article4
+Art4
 4-4
-034 Params4-0 0x38
-038 Params4-1 0x20
+034 Par04-0 E
+038 Par04-1 8
 
-Article5
+Art5
 8-7
-034 Params5-0 0x30
+034 Par05-0 C
 
-Article7
+Art7
 1-2
 
-Article8
+Art8
 3-4
-034 Params8-0 0x58
-038 Params8-1 0x20
+034 Par08-0 16
+038 Par08-1 8
 
-Article9
+Art9
 1-5
-034 Params9-0 0x4
+034 Par09-0 1
 
-Article10
+Art10
 1-3
-034 Params10-0 0x10
+034 Par10-0 4
 
-Article11
+Art11
 1-2
-034 Params11-0 0x18
+034 Par11-0 6
 
-Article12
+Art12
 1-1
-034 Params12-0 0x4
+034 Par12-0 1
 
-Article13
+Art13
 3-2
-034 Params13-0 0x8
+034 Par13-0 2
 
-Article14
+Art14
 0-2
 
-Params0
+Par00
 Grenade
 
 0x0
@@ -108,7 +108,7 @@ Duck and cover animation range
 *0x24
 No Description Available.
 
-Params1
+Par01
 ExtraParams1
 
 0x0
@@ -171,19 +171,19 @@ No Description Available.
 0x4C
 No Description Available.
 
-Params2
+Par02
 ExtraParams2
 
 *0x0
 No Description Available.
 
-Params3
+Par03
 ExtraParams3
 
 0x0
 No Description Available.
 
-Params4
+Par04
 ExtraParams4
 
 *0x0
@@ -255,7 +255,7 @@ No Description Available.
 *0x34
 No Description Available.
 
-Params0-0
+Par00-0
 Mine Attribute
 
 0x0
@@ -276,7 +276,7 @@ No Description Available.
 *0x14
 No Description Available.
 
-Params0-1
+Par00-1
 HitDataList1
 
 0x0
@@ -303,7 +303,7 @@ No Description Available.
 Flags 0x1C
 No Description Available.
 
-Params2-0
+Par02-0
 Up Smash Attribute
 
 0x0
@@ -348,7 +348,7 @@ Affects time mortar turns?
 0x34
 horizontal momentum of mortars that go left/right
 
-Params4-0
+Par04-0
 Cypher Attribute
 
 0x0
@@ -393,7 +393,7 @@ How many frames before it disappears? (read when breaking from cypher; freezes a
 0x34
  ?? (read when cyphering)
 
-Params4-1
+Par04-1
 HitDataList1
 
 0x0
@@ -420,7 +420,7 @@ No Description Available.
 Flags 0x1C
 No Description Available.
 
-Params5-0
+Par05-0
 paramSnakeC4__13wnSnakeC4Node
 
 0x0
@@ -459,7 +459,7 @@ No Description Available.
 *0x2C
 No Description Available.
 
-Params8-0
+Par08-0
 paramSnakeNikitaMissile__24wnSnakeNikitaMissileNode
 
 *0x0
@@ -528,7 +528,7 @@ No Description Available.
 *0x54
 No Description Available.
 
-Params8-1
+Par08-1
 HitDataList1
 
 0x0
@@ -555,13 +555,13 @@ No Description Available.
 Flags 0x1C
 No Description Available.
 
-Params9-0
+Par09-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params10-0
+Par10-0
 paramSnakeRgb6__15wnSnakeRgb6Node
 
 *0x0
@@ -576,7 +576,7 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params11-0
+Par11-0
 paramSnakeRgb6Sight__20wnSnakeRgb6SightNode
 
 0x0
@@ -597,13 +597,13 @@ No Description Available.
 0x14
 No Description Available.
 
-Params12-0
+Par12-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params13-0
+Par13-0
 paramSnakeRgb6Bullet__21wnSnakeRgb6BulletNode
 
 *0x0

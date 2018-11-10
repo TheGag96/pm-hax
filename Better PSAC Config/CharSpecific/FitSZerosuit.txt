@@ -1,33 +1,33 @@
 ﻿DataSize0xAC
-07C Params0 0x8
-080 Params1 0x4
-084 Params2 0x28
-088 Params3 0x8
-08C Article0 0x38
-090 Article1 0x38
-094 Article2 0x38
-098 Article3 0x38
-09C Params8 0x20
-0A4 Params10 0x80
+07C Par00 2
+080 Par01 1
+084 Par02 A
+088 Par03 2
+08C Art0
+090 Art1
+094 Art2
+098 Art3
+09C Par08 8
+0A4 Par10 20
 
-Article0
+Art0
 1-14
-030 Params0D3 0x10
-034 Params0-0 0x4
+030 Par00D3 4
+034 Par00-0 1
 
-Article1
+Art1
 2-2
-034 Params1-0 0x20
+034 Par01-0 8
 
-Article2
+Art2
 9-F
-034 Params2-0 0x10
+034 Par02-0 4
 
-Article3
+Art3
 1-1
-034 Params3-0 0x4
+034 Par03-0 1
 
-Params0
+Par00
 Paralyzer
 
 0x0
@@ -36,13 +36,13 @@ X offset
 0x4
 Y offset
 
-Params1
+Par01
 Plasma Whip
 
 0x0
 No Description Available.
 
-Params2
+Par02
 ExtraParams2
 
 0x0
@@ -75,7 +75,7 @@ Flip Jump kick stick turn sensitivity
 *0x24
 No Description Available.
 
-Params3
+Par03
 ExtraParams3
 
 0x0
@@ -84,7 +84,7 @@ No Description Available.
 0x4
 No Description Available.
 
-Params8
+Par08
 ExtraParams8
 
 *0x0
@@ -111,7 +111,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params10
+Par10
 ExtraParams10
 
 *0x0
@@ -210,7 +210,7 @@ No Description Available.
 *0x7C
 No Description Available.
 
-Params0D3
+Par00D3
 Data3
 
 *0x0
@@ -225,13 +225,13 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params0-0
+Par00-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params1-0
+Par01-0
 Paralyzer Attribute
 
 0x0
@@ -258,7 +258,7 @@ Uncharged lifetime
 *0x1C
 Charged lifetime
 
-Params2-0
+Par02-0
 ExtraParams0
 
 0x0
@@ -273,7 +273,7 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 *0x0

@@ -1,22 +1,22 @@
 ﻿DataSize0x94
-07C Params0 0x18
-080 Params1 0x20
-084 Params2 0x20
-088 Params3 0x18
-08C Article0 0x48
-090 Article1 0x38
+07C Par00 6
+080 Par01 8
+084 Par02 8
+088 Par03 6
+08C Art0
+090 Art1
 
-Article0
+Art0
 2-2
-030 Params0D3 0x5C
-034 Params0-0 0xC
-038 Params0-1 0x14
-040 Params0-3 0x1E0
+030 Par00D3 17
+034 Par00-0 3
+038 Par00-1 5
+040 Par00-3 78
 
-Article1
+Art1
 0-1
 
-Params0
+Par00
 Warlock Punch
 
 0x0
@@ -37,7 +37,7 @@ Momentum from holding up
 *0x14
 No Description Available.
 
-Params1
+Par01
 Flame Choke
 
 0x0
@@ -64,7 +64,7 @@ Grab plummet speed ratio
 0x1C
 Grab plummet acceleration ratio
 
-Params2
+Par02
 Dark Dive
 
 *0x0
@@ -91,7 +91,7 @@ Unknown, read once on leap
 0x1C
 Post-release gravity ratio
 
-Params3
+Par03
 Wizkick
 
 0x0
@@ -112,7 +112,7 @@ Unknown, aerial-landing related
 0x14
 No Description Available.
 
-Params0D3
+Par00D3
 Data3
 
 *0x0
@@ -184,7 +184,7 @@ No Description Available.
 *0x58
 No Description Available.
 
-Params0-0
+Par00-0
 ExtraParams0
 
 0x0
@@ -196,7 +196,7 @@ No Description Available.
 0x8
 No Description Available.
 
-Params0-1
+Par00-1
 ExtraParams1
 
 0x0
@@ -214,7 +214,7 @@ No Description Available.
 0x10
 No Description Available.
 
-Params0-3
+Par00-3
 HitDataList
 
 HitData0-0

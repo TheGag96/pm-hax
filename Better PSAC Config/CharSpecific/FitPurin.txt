@@ -1,9 +1,9 @@
 ﻿DataSize0x88
-07C Params0 0xA8
-080 Params1 0x20
-084 Params2 0x10
+07C Par00 2A
+080 Par01 8
+084 Par02 4
 
-Params0
+Par00
 Rollout
 
 *0x0
@@ -132,7 +132,7 @@ Rebound speed multiplier
 0xA4
 Landing lag (post-recoil)
 
-Params1
+Par01
 Pound
 
 0x0
@@ -159,7 +159,7 @@ Aerial decay rate
 *0x1C
 No Description Available.
 
-Params2
+Par02
 Puff Up
 
 0x0

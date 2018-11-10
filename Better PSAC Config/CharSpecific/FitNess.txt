@@ -1,48 +1,49 @@
 ﻿DataSize0xB4
-07C Params0 0x18
-080 Params1 0x1C
-084 Params2 0x30
-088 Params3 0x1C
-08C Params4 0x14
-090 Params5 0x20
-094 Params6 0x28
-098 Article0 0x38
-09C Article1 0x40
-0A0 Article2 0x38
-0A4 Article3 0x38
-0A8 Article4 0x38
-0AC Article5 0x38
-0B0 Article6 0x38
+07C Par00 6
+080 Par01 7
+084 Par02 C
+088 Par03 7
+08C Par04 5
+090 Par05 8
+094 Par06 A
+098 Art0
+09C Art1
+0A0 Art2
+0A4 Art3
+0A8 Art4
+0AC Art5
+0B0 Art6
 
-Article0
+Art0
 4-4
-034 Params0-0 0x30
+034 Par00-0 C
 
-Article1
+Art1
 2-2
-034 Params1-0 0x1C
+034 Par01-0 7
+X14 27-0E-00x
 
-Article2
+Art2
 1-1
-034 Params2-0 0x18
+034 Par02-0 6
 
-Article3
+Art3
 1-1
-034 Params3-0 0x4
+034 Par03-0 1
 
-Article4
+Art4
 1-1
-034 Params4-0 0xC
+034 Par04-0 3
 
-Article5
+Art5
 3-1
-034 Params5-0 0xC
+034 Par05-0 3
 
-Article6
+Art6
 3-6
-034 Params6-0 0x24
+034 Par06-0 9
 
-Params0
+Par00
 PK Flash
 
 *0x0
@@ -63,7 +64,7 @@ Aerial vert momentum on charge
 *0x14
  ?? (read on release/PK Flash explosion)
 
-Params1
+Par01
 PK Fire
 
 0x0
@@ -87,7 +88,7 @@ Y offset of starting point
 0x18
  ?? (read when spark is generated)
 
-Params2
+Par02
 PK Thunder
 
 0x0
@@ -126,7 +127,7 @@ PKT2 deceleration rate after hitting something, stacks with previous
 0x2C
 Landing lag duration(in frames)
 
-Params3
+Par03
 PSI Magnet
 
 *0x0
@@ -150,7 +151,7 @@ Damage recovery factor
 0x18
 Maximum damage recoverable
 
-Params4
+Par04
 PSI Magnet Extra
 
 0x0
@@ -168,7 +169,7 @@ Absorption Collision Z Offset
 0x10
 Absorption Collision Size
 
-Params5
+Par05
 ExtraParams5
 
 0x0
@@ -195,7 +196,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params6
+Par06
 Bat Swing
 
 *0x0
@@ -228,7 +229,7 @@ No Description Available.
 *0x24
 No Description Available.
 
-Params0-0
+Par00-0
 PK Flash Attribute
 
 0x0
@@ -267,7 +268,7 @@ Default damage
 0x2C
 Damage multiplier
 
-Params1-0
+Par01-0
 PK Fire Attribute
 
 *0x0
@@ -291,7 +292,7 @@ Pillar vert momentum on loop hits?
 0x18
 Pillar size multiplier on each hit?
 
-Params2-0
+Par02-0
 PK Thunder Attribute
 
 0x0
@@ -312,13 +313,13 @@ PKT turning radius, higher number = tighter radius
 *0x14
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params4-0
+Par04-0
 PK Starstorm Attribute
 
 0x0
@@ -330,7 +331,7 @@ Additional falling speed
 *0x8
  ?? (freezes at 0)
 
-Params5-0
+Par05-0
 PK Starstorm Attribute2
 
 *0x0
@@ -342,7 +343,7 @@ PK Starstorm Attribute2
 0x8
 No Description Available.
 
-Params6-0
+Par06-0
 PK Starstorm Attribute3
 
 0x0
@@ -370,5 +371,68 @@ No Description Available.
 No Description Available.
 
 0x20
+No Description Available.
+
+EXD 27-0E-00x
+ParamList1
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Flags0-7
+No Description Available.
+
+*Data0-8
+No Description Available.
+
+*Data0-9
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Flags1-7
+No Description Available.
+
+*Data1-8
+No Description Available.
+
+*Data1-9
 No Description Available.
 

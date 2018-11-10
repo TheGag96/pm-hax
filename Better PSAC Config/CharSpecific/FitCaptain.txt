@@ -1,23 +1,23 @@
 ﻿DataSize0x9C
-07C Params0 0x18
-080 Params1 0x18
-084 Params2 0x28
-088 Params3 0x20
-08C Params4 0x10
-090 Params5 0x20
-094 Article0 0x38
-098 Article1 0x38
+07C Par00 6
+080 Par01 6
+084 Par02 A
+088 Par03 8
+08C Par04 4
+090 Par05 8
+094 Art0
+098 Art1
 
-Article0
+Art0
 4-8
-030 Params0D3 0x8
-034 Params0-0 0x4
+030 Par00D3 2
+034 Par00-0 1
 
-Article1
+Art1
 1-1
-034 Params1-0 0x4
+034 Par01-0 1
 
-Params0
+Par00
 Falcon Punch
 
 0x0
@@ -38,7 +38,7 @@ Momentum from holding up
 *0x14
 No Description Available.
 
-Params1
+Par01
 Raptor Boost
 
 0x0
@@ -59,7 +59,7 @@ Landing lag from aerial hit
 *0x14
 No Description Available.
 
-Params2
+Par02
 Falcon Dive
 
 0x0
@@ -92,7 +92,7 @@ No Description Available.
 *0x24
 No Description Available.
 
-Params3
+Par03
 Falcon Kick
 
 0x0
@@ -119,7 +119,7 @@ Air to ground landing friction
 *0x1C
 No Description Available.
 
-Params4
+Par04
 Blue Falcon
 
 0x0
@@ -134,7 +134,7 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params5
+Par05
 ExtraParams5
 
 0x0
@@ -161,7 +161,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params0D3
+Par00D3
 Data3
 
 *0x0
@@ -170,13 +170,13 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params0-0
+Par00-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params1-0
+Par01-0
 ExtraParams0
 
 *0x0

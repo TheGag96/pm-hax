@@ -1,41 +1,47 @@
 ﻿DataSize0xB0
-07C Params0 0x1C
-080 Params1 0x30
-084 Params2 0x40
-088 Params3 0x10
-08C Params4 0x8
-090 Params5 0x28
-094 Params6 0x10
-09C Article0 0x38
-0A0 Article1 0x38
-0A4 Article2 0x38
-0A8 Article3 0x50
-0AC Article4 0x38
+07C Par00 7
+080 Par01 C
+084 Par02 10
+088 Par03 4
+08C Par04 2
+090 Par05 A
+094 Par06 4
+09C Art0
+0A0 Art1
+0A4 Art2
+0A8 Art3
+0AC Art4
 
-Article0
+Art0
 1-3
-030 Params0D3 0x8
-034 Params0-0 0x4
+030 Par00D3 2
+034 Par00-0 1
 
-Article1
+Art1
 2-2
-034 Params1-0 0xC
+034 Par01-0 3
 
-Article2
+Art2
 3-3
-034 Params2-0 0x8
+034 Par02-0 2
 
-Article3
+Art3
 A-B
-030 Params3D3 0xC
-034 Params3-0 0xC8
-038 Params3-1 0xFC
+030 Par03D3 3
+034 Par03-0 32
+038 Par03-1 3F
+X10 2A-0F-00x
+X14 2A-10-00x
+X14 2A-10-01x
+X02 2A-12x
+X03 2A-13x
+X0A 2A-13-00x
 
-Article4
+Art4
 1-1
-034 Params4-0 0x4
+034 Par04-0 1
 
-Params0
+Par00
 Blaster
 
 0x0
@@ -59,7 +65,7 @@ Laser speed
 *0x18
 Landling lag?
 
-Params1
+Par01
 Wolf Flash
 
 *0x0
@@ -98,7 +104,7 @@ No Description Available.
 *0x2C
 No Description Available.
 
-Params2
+Par02
 Fire Wolf
 
 *0x0
@@ -149,7 +155,7 @@ Special fall aerial mobility
 *0x3C
 Landing lag (frames)
 
-Params3
+Par03
 Reflector
 
 *0x0
@@ -164,7 +170,7 @@ Momentum preservation (lower = more momentum preserved)
 0xC
 Aerial momentum downward (applies to startup and holding)
 
-Params4
+Par04
 Landmaster
 
 0x0
@@ -173,7 +179,7 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params5
+Par05
 ExtraParams5
 
 *0x0
@@ -206,7 +212,7 @@ No Description Available.
 *0x24
 Like Fox, a list of five 45-degree angles.
 
-Params6
+Par06
 ExtraParams6
 
 0x0
@@ -221,7 +227,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params0D3
+Par00D3
 Data3
 
 *0x0
@@ -230,13 +236,13 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params0-0
+Par00-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params1-0
+Par01-0
 Laser Attribute
 
 *0x0
@@ -248,7 +254,7 @@ Laser length
 0x8
 Laser lengthening time? (higher = slower)
 
-Params2-0
+Par02-0
 Wolf Flash Attribute
 
 *0x0
@@ -257,7 +263,7 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params3D3
+Par03D3
 Data3
 
 0x0
@@ -269,7 +275,7 @@ No Description Available.
 *0x8
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 0x0
@@ -422,7 +428,7 @@ No Description Available.
 0xC4
 No Description Available.
 
-Params3-1
+Par03-1
 Bone Floats
 
 *Data0 Bone
@@ -614,9 +620,240 @@ No Description Available.
 Data8 Float5
 No Description Available.
 
-Params4-0
+Par04-0
 ExtraParams0
 
 *0x0
+No Description Available.
+
+EXD 2A-0F-00x
+HitDataList2
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Flags0-7
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Flags1-7
+No Description Available.
+
+EXD 2A-10-00x
+Extra Data3-0
+
+*Data0-0
+No Description Available.
+
+*Data0-1
+No Description Available.
+
+*Data1-0
+No Description Available.
+
+*Data1-1
+No Description Available.
+
+*Data2-0
+No Description Available.
+
+*Data2-1
+No Description Available.
+
+*Data3-0
+No Description Available.
+
+*Data3-1
+No Description Available.
+
+*Data4-0
+No Description Available.
+
+*Data4-1
+No Description Available.
+
+*Data5-0
+No Description Available.
+
+*Data5-1
+No Description Available.
+
+*Data6-0
+No Description Available.
+
+*Data6-1
+No Description Available.
+
+*Data7-0
+No Description Available.
+
+*Data7-1
+No Description Available.
+
+*Data8-0
+No Description Available.
+
+*Data8-1
+No Description Available.
+
+*Data9-0
+No Description Available.
+
+*Data9-1
+No Description Available.
+
+EXD 2A-10-01x
+Extra Data3-1
+
+*Data0-0
+No Description Available.
+
+*Data0-1
+No Description Available.
+
+*Data1-0
+No Description Available.
+
+*Data1-1
+No Description Available.
+
+*Data2-0
+No Description Available.
+
+*Data2-1
+No Description Available.
+
+*Data3-0
+No Description Available.
+
+*Data3-1
+No Description Available.
+
+*Data4-0
+No Description Available.
+
+*Data4-1
+No Description Available.
+
+*Data5-0
+No Description Available.
+
+*Data5-1
+No Description Available.
+
+*Data6-0
+No Description Available.
+
+*Data6-1
+No Description Available.
+
+*Data7-0
+No Description Available.
+
+*Data7-1
+No Description Available.
+
+*Data8-0
+No Description Available.
+
+*Data8-1
+No Description Available.
+
+*Data9-0
+No Description Available.
+
+*Data9-1
+No Description Available.
+
+EXD 2A-12x
+Flash Overlay Effect
+
+Offset(Event)
+Event Data(Flash Overlay Effect)
+
+Flags
+No Description Available.
+
+EXD 2A-13x
+Extra Data6
+
+Offset
+No Description Available.
+
+Offset>Count
+Parameter Data Count.
+
+Flags
+No Description Available.
+
+EXD 2A-13-00x
+Extra Data6>Offset
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data2-0
+No Description Available.
+
+Data2-1
+No Description Available.
+
+Data3-0
+No Description Available.
+
+Data3-1
+No Description Available.
+
+Data4-0
+No Description Available.
+
+Data4-1
 No Description Available.
 

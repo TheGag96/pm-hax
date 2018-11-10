@@ -1,54 +1,57 @@
 ﻿DataSize0xBC
-07C Params0 0x8
-080 Params1 0x14
-084 Params2 0x10
-088 Params3 0x20
-08C Params4 0x18
-090 Params5 0x4
-094 Article0 0x38
-098 Article1 0x38
-09C Article2 0x38
-0A0 Article3 0x38
-0A4 Article4 0x38
-0A8 Article5 0x3C
-0AC Article6 0x50
-0B0 Params13 0x24
-0B8 Params15 0x2E8
+07C Par00 2
+080 Par01 5
+084 Par02 4
+088 Par03 8
+08C Par04 6
+090 Par05 1
+094 Art0
+098 Art1
+09C Art2
+0A0 Art3
+0A4 Art4
+0A8 Art5
+0AC Art6
+0B0 Par13 9
+0B8 Par15 BA
 
-Article0
+Art0
 2-6
+034 Par00-0 5
+X19 25-0D-03x
 
-Article1
+Art1
 1-3
-034 Params1-0 0x4
+034 Par01-0 1
 
-Article2
+Art2
 1-5
-034 Params2-0 0x4
+034 Par02-0 1
 
-Article3
+Art3
 1-1
-034 Params3-0 0x4
+034 Par03-0 1
 
-Article4
+Art4
 1-3
-034 Params4-0 0x4
+034 Par04-0 1
 
-Article5
+Art5
 4-7
-034 Params5-0 0x10
+034 Par05-0 4
+X14 2A-0E-00x
 
-Article6
+Art6
 1-B
-034 Params6-0 0x4
-038 Params6-1 0x8
-03C Params6-2 0x8
-040 Params6-3 0x8
-044 Params6-4 0x8
-048 Params6-5 0x8
-04C Params6-6 0x8
+034 Par06-0 1
+038 Par06-1 2
+03C Par06-2 2
+040 Par06-3 2
+044 Par06-4 2
+048 Par06-5 2
+04C Par06-6 2
 
-Params0
+Par00
 ExtraParams0
 
 0x0
@@ -57,7 +60,7 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params1
+Par01
 Judge
 
 0x0
@@ -75,7 +78,7 @@ No Description Available.
 0x10
 No Description Available.
 
-Params2
+Par02
 Fire
 
 0x0
@@ -90,7 +93,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params3
+Par03
 Oil Panic
 
 0x0
@@ -117,7 +120,7 @@ Min damage per projectile
 0x1C
 Max damage per projectile
 
-Params4
+Par04
 Oil Panic Extra
 
 0x0
@@ -138,13 +141,13 @@ Absorb Collision Size
 *0x14
 No Description Available.
 
-Params5
+Par05
 ExtraParams5
 
 0x0
 No Description Available.
 
-Params13
+Par13
 Judge Extra
 
 *0x0
@@ -174,7 +177,7 @@ Odds for getting a 8
 *0x20
 Odds for getting a 9
 
-Params15
+Par15
 ExtraParams15
 
 0x0
@@ -735,31 +738,49 @@ No Description Available.
 *0x2E4
 No Description Available.
 
-Params1-0
+Par00-0
+Chef
+
+0x0
+No Description Available.
+
+*0x4
+Damaging time(frames)
+
+*0x8
+Time spent flashing(frames)
+
+Offset
+No Description Available.
+
+Offset>Count
+Number of trajectories
+
+Par01-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params2-0
+Par02-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params4-0
+Par04-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params5-0
+Par05-0
 ExtraParams0
 
 0x0
@@ -774,13 +795,13 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params6-0
+Par06-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params6-1
+Par06-1
 ExtraParams1
 
 *0x0
@@ -789,7 +810,7 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params6-2
+Par06-2
 ExtraParams2
 
 *0x0
@@ -798,7 +819,7 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params6-3
+Par06-3
 ExtraParams3
 
 *0x0
@@ -807,7 +828,7 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params6-4
+Par06-4
 ExtraParams4
 
 *0x0
@@ -816,7 +837,7 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params6-5
+Par06-5
 ExtraParams5
 
 *0x0
@@ -825,12 +846,153 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params6-6
+Par06-6
 ExtraParams6
 
 *0x0
 No Description Available.
 
 *0x4
+No Description Available.
+
+EXD 25-0D-03x
+Chef Extra
+
+Data0-0
+Trajectory 1 horizontal velocity
+
+Data0-1
+Trajectory 1 vertical velocity
+
+Data0-2
+Trajectory 1 gravity
+
+Data0-3
+Trajectory 1 max fall speed
+
+Data0-4
+Trajectory 1 spinning
+
+Data1-0
+Trajectory 2 horizontal velocity
+
+Data1-1
+Trajectory 2 vertical velocity
+
+Data1-2
+Trajectory 2 gravity
+
+Data1-3
+Trajectory 2 max fall speed
+
+Data1-4
+Trajectory 2 spinning
+
+Data2-0
+Trajectory 3 horizontal velocity
+
+Data2-1
+Trajectory 3 vertical velocity
+
+Data2-2
+Trajectory 3 gravity
+
+Data2-3
+Trajectory 3 max fall speed
+
+Data2-4
+Trajectory 3 spinning
+
+Data3-0
+Trajectory 4 horizontal velocity
+
+Data3-1
+Trajectory 4 vertical velocity
+
+Data3-2
+Trajectory 4 gravity
+
+Data3-3
+Trajectory 4 max fall speed
+
+Data3-4
+Trajectory 4 spinning
+
+Data4-0
+Trajectory 5 horizontal velocity
+
+Data4-1
+Trajectory 5 vertical velocity
+
+Data4-2
+Trajectory 5 gravity
+
+Data4-3
+Trajectory 5 max fall speed
+
+Data4-4
+Trajectory 5 spinning
+
+EXD 2A-0E-00x
+ParamList1
+
+Data0-0
+No Description Available.
+
+Data0-1
+No Description Available.
+
+Data0-2
+No Description Available.
+
+Data0-3
+No Description Available.
+
+Data0-4
+No Description Available.
+
+Data0-5
+No Description Available.
+
+Data0-6
+No Description Available.
+
+Flags0-7
+No Description Available.
+
+*Data0-8
+No Description Available.
+
+*Data0-9
+No Description Available.
+
+Data1-0
+No Description Available.
+
+Data1-1
+No Description Available.
+
+Data1-2
+No Description Available.
+
+Data1-3
+No Description Available.
+
+Data1-4
+No Description Available.
+
+Data1-5
+No Description Available.
+
+Data1-6
+No Description Available.
+
+Flags1-7
+No Description Available.
+
+*Data1-8
+No Description Available.
+
+*Data1-9
 No Description Available.
 

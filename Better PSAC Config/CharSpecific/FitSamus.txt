@@ -1,54 +1,54 @@
 ﻿DataSize0xD4
-07C Params0 0x10
-080 Params1 0x20
-084 Params2 0x4C
-088 Params3 0x10
-08C Params4 0x20
-090 Params5 0x8
-094 Params6 0x4
-09C Article0 0x38
-0A4 Article1 0x38
-0AC Article2 0x38
-0B4 Article3 0x38
-0BC Article4 0x38
-0C4 Article5 0x38
-0CC Article6 0x38
-0D0 Article7 0x38
+07C Par00 4
+080 Par01 8
+084 Par02 13
+088 Par03 4
+08C Par04 8
+090 Par05 2
+094 Par06 1
+09C Art0
+0A4 Art1
+0AC Art2
+0B4 Art3
+0BC Art4
+0C4 Art5
+0CC Art6
+0D0 Art7
 
-Article0
+Art0
 9-9
-034 Params0-0 0x20
+034 Par00-0 8
 
-Article1
+Art1
 2-2
-034 Params1-0 0x24
+034 Par01-0 9
 
-Article2
+Art2
 2-2
-034 Params2-0 0x28
+034 Par02-0 A
 
-Article3
+Art3
 2-2
-034 Params3-0 0x4
+034 Par03-0 1
 
-Article4
+Art4
 2-2
-034 Params4-0 0x4
+034 Par04-0 1
 
-Article5
+Art5
 1-8
-030 Params5D3 0x10
-034 Params5-0 0x4
+030 Par05D3 4
+034 Par05-0 1
 
-Article6
+Art6
 2-2
-034 Params6-0 0x18
+034 Par06-0 6
 
-Article7
+Art7
 9-A
-034 Params7-0 0x18
+034 Par07-0 6
 
-Params0
+Par00
 Power Shot
 
 *0x0
@@ -63,7 +63,7 @@ Frames between change in charge level?
 *0xC
 No Description Available.
 
-Params1
+Par01
 Screw Attack
 
 0x0
@@ -90,7 +90,7 @@ Landing lag (higher = more)
 *0x1C
 No Description Available.
 
-Params2
+Par02
 Bomb
 
 0x0
@@ -150,7 +150,7 @@ Max controlled horizontal speed after bomb jump
 0x48
  ?? (read on bomb lay)
 
-Params3
+Par03
 Missile
 
 *0x0
@@ -165,7 +165,7 @@ No Description Available.
 0xC
 X-offset of missile launch.
 
-Params4
+Par04
 Zero Laser?
 
 0x0
@@ -192,7 +192,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params5
+Par05
 ExtraParams5
 
 *0x0
@@ -201,13 +201,13 @@ No Description Available.
 *0x4
 No Description Available.
 
-Params6
+Par06
 ExtraParams6
 
 *0x0
 No Description Available.
 
-Params0-0
+Par00-0
 ExtraParams0
 
 *0x0
@@ -234,7 +234,7 @@ Initial power shot size (graphic). Scales accordingly with charge.
 0x1C
 Final power shot size (graphic). Scales accordingly with charge.
 
-Params1-0
+Par01-0
 ExtraParams0
 
 *0x0
@@ -264,7 +264,7 @@ No Description Available.
 0x20
 No Description Available.
 
-Params2-0
+Par02-0
 ExtraParams0
 
 *0x0
@@ -297,19 +297,19 @@ Something to do with homing. Higher value = No homing.
 *0x24
 No Description Available.
 
-Params3-0
+Par03-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params4-0
+Par04-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params5D3
+Par05D3
 Data3
 
 *0x0
@@ -324,13 +324,13 @@ No Description Available.
 *0xC
 No Description Available.
 
-Params5-0
+Par05-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params6-0
+Par06-0
 Missile Attribute
 
 *0x0
@@ -351,7 +351,7 @@ Super Missile acceleration.
 0x14
 Super Missile final speed?
 
-Params7-0
+Par07-0
 ExtraParams0
 
 0x0

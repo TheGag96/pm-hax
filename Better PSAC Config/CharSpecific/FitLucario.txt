@@ -1,23 +1,24 @@
 ﻿DataSize0xA8
-07C Params0 0x20
-080 Params1 0x10
-084 Params2 0x20
-088 Params3 0x18
-08C Params4 0x40
-090 Params5 0x20
-094 Params6 0x10
-098 Params7 0x20
-0A0 Article0 0x38
-0A4 Article1 0x38
+07C Par00 8
+080 Par01 4
+084 Par02 8
+088 Par03 6
+08C Par04 10
+090 Par05 8
+094 Par06 4
+098 Par07 8
+0A0 Art0
+0A4 Art1
+X08 27-00x
 
-Article0
+Art0
 3-A
-034 Params0-0 0x48
+034 Par00-0 12
 
-Article1
+Art1
 1-1
 
-Params0
+Par00
 ExtraParams0
 
 *0x0
@@ -44,7 +45,7 @@ Max Aura Sphere size?
 0x1C
 Aura Sphere Start Size
 
-Params1
+Par01
 ExtraParams1
 
 0x0
@@ -59,7 +60,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params2
+Par02
 Aura physics (plus unknown?)
 
 0x0
@@ -86,7 +87,7 @@ Aura maximum multiplier
 0x1C
 Aura minimum multiplier
 
-Params3
+Par03
 Force Palm
 
 0x0
@@ -107,7 +108,7 @@ Aerial X offset
 0x14
 Aerial Y offset
 
-Params4
+Par04
 Extreme Speed
 
 0x0
@@ -158,7 +159,7 @@ horizontal momentum on angled travel landing
 *0x3C
 No Description Available.
 
-Params5
+Par05
 Double Team
 
 0x0
@@ -185,7 +186,7 @@ Attack kick duration
 *0x1C
 No Description Available.
 
-Params6
+Par06
 Aura Storm
 
 0x0
@@ -200,7 +201,7 @@ turning speed
 *0xC
 No Description Available.
 
-Params7
+Par07
 ExtraParams7
 
 0x0
@@ -227,7 +228,7 @@ No Description Available.
 *0x1C
 No Description Available.
 
-Params0-0
+Par00-0
 Aura Sphere Attribute
 
 *0x0
@@ -283,4 +284,31 @@ Aura Sphere size table (bigger = bigger, will automatically scale to base size a
 
 0x44
 Unknown. Probably has something to do with aura sphere damage/stock growth
+
+EXD 27-00x
+HitDataList8
+
+0x0
+No Description Available.
+
+0x4
+No Description Available.
+
+0x8
+No Description Available.
+
+0xC
+No Description Available.
+
+0x10
+No Description Available.
+
+0x14
+No Description Available.
+
+0x18
+No Description Available.
+
+Flags 0x1C
+No Description Available.
 

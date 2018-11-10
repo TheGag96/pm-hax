@@ -1,22 +1,22 @@
 ﻿DataSize0x9C
-07C Params0 0x14
-080 Params1 0xC
-084 Params2 0x60
-088 Params3 0x18
-08C Params4 0x8
-090 Params5 0x8
-094 Article0 0x38
-098 Article1 0x38
+07C Par00 5
+080 Par01 3
+084 Par02 18
+088 Par03 6
+08C Par04 2
+090 Par05 2
+094 Art0
+098 Art1
 
-Article0
+Art0
 1-1
-034 Params0-0 0x20
+034 Par00-0 8
 
-Article1
+Art1
 2-2
-034 Params1-0 0x58
+034 Par01-0 16
 
-Params0
+Par00
 Fire Jump Punch
 
 0x0
@@ -34,7 +34,7 @@ Unknown
 0x10
 Landing lag
 
-Params1
+Par01
 Fire Jump Punch Extra
 
 *0x0
@@ -46,7 +46,7 @@ Unknown
 0x8
 Unknown
 
-Params2
+Par02
 Green Missile
 
 0x0
@@ -121,7 +121,7 @@ Unknown
 *0x5C
 No Description Available.
 
-Params3
+Par03
 Luigi Cyclone
 
 0x0
@@ -142,7 +142,7 @@ Tapping B vertical momentum
 0x14
 Maximum vertical momentum
 
-Params4
+Par04
 Luigi Cyclone Extra
 
 0x0
@@ -151,7 +151,7 @@ Unknown (read on tapping and in air)
 0x4
 Unknown (read on tapping and in air)
 
-Params5
+Par05
 Other (Negative Zone?)
 
 0x0
@@ -160,7 +160,7 @@ No Description Available.
 0x4
 No Description Available.
 
-Params0-0
+Par00-0
 Fireball Attribute
 
 *0x0
@@ -187,7 +187,7 @@ Unknown
 0x1C
 Unknown
 
-Params1-0
+Par01-0
 Negative Zone Attribute
 
 0x0

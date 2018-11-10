@@ -1,22 +1,22 @@
 ﻿DataSize0xA0
-07C Params0 0x10
-080 Params1 0x10
-084 Params2 0x20
-088 Params3 0x10
-08C Params4 0x58
-090 Article0 0x38
-094 Article1 0x38
-098 Params7 0xB0
+07C Par00 4
+080 Par01 4
+084 Par02 8
+088 Par03 4
+08C Par04 16
+090 Art0
+094 Art1
+098 Par07 2C
 
-Article0
+Art0
 1-5
-034 Params0-0 0x4
+034 Par00-0 1
 
-Article1
+Art1
 2-2
-034 Params1-0 0x18
+034 Par01-0 6
 
-Params0
+Par00
 Giant Punch
 
 *0x0
@@ -31,7 +31,7 @@ No Description Available.
 0xC
 No Description Available.
 
-Params1
+Par01
 Headbutt
 
 0x0
@@ -46,7 +46,7 @@ Vertical momentum on headbutt
 *0xC
 No Description Available.
 
-Params2
+Par02
 Spinning Kong
 
 *0x0
@@ -73,7 +73,7 @@ Aerial mobility
 0x1C
 Landing Lag without Interrupt
 
-Params3
+Par03
 Hand Slap
 
 0x0
@@ -88,7 +88,7 @@ X offset of hitbox 1/negative X offset of hitbox 2?
 *0xC
 No Description Available.
 
-Params4
+Par04
 Konga Beat
 
 *0x0
@@ -157,7 +157,7 @@ No Description Available.
 *0x54
 No Description Available.
 
-Params7
+Par07
 ExtraParams7
 
 *0x0
@@ -292,13 +292,13 @@ No Description Available.
 Flags? 0xAC
 No Description Available.
 
-Params0-0
+Par00-0
 ExtraParams0
 
 *0x0
 No Description Available.
 
-Params1-0
+Par01-0
 ExtraParams0
 
 *0x0
