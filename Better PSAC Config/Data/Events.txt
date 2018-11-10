@@ -588,6 +588,11 @@ Float Variable Subtract
 Subtract a specified value from a float variable.
 15
 
+12090300
+Float Variable Random
+Load a float variable with a random integer.
+115
+
 120F0200
 Float Variable Multiply
 Multiply a specified value with a float variable.

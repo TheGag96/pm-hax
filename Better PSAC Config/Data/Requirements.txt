@@ -128,16 +128,16 @@ Thread is Null (Custom)
 7F
 270F
 2710
-In walljump situation
-In wallcling situation
-Is within footstool range.
+In Walljump Situation
+In Wallcling Situation
+Is Within Footstool Range.
 2714
 2715
-Is falling+hit down
+Is Falling + Hit Down
 Has Smash Ball
 2718
 Can Pick Up Another Item
-Successfully tethered ledge
+Successfully Tethered Ledge
 271B
 271C
 F-Smash Shortcut
@@ -147,5 +147,5 @@ F-Smash Shortcut
 2721
 2722
 2723
-Character in game?
-Tap Jump On & C-Stick not Held
+Fighter Loaded
+Tap Jump On & C-Stick Not Held

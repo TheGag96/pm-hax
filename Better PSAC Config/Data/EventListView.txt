@@ -287,6 +287,10 @@ C
 C
 \X01 -= \X00
 
+12090300
+C
+\X02 = rand(\X00, \X01)
+
 120A0100
 1
 \X = true
@@ -355,7 +359,7 @@ Transition Time=\X, Red=\X, Green=\X, Blue=\X, Alpha=\X
 
 0D050200
 1
-(Thread \X): 0x\X
+(Thread \X): \X
 
 0D060100
 1

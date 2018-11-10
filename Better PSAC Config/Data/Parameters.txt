@@ -1102,6 +1102,14 @@ The floating point value to subtract from the specified variable.
 Variable
 The Float type variable to access.
 
+12090300
+Value
+The minimum random value to load.
+Value
+The maximum random value to load.
+Variable
+The Float type variable to access.
+
 120A0100
 Variable
 The Bit type variable to set.
