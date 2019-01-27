@@ -148,6 +148,16 @@ Change Action Status: Requirement
 Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action Status is based on a requirement being met.
 006
 
+02000400
+Change Action Status: Requirement Value
+Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action Status is based on a requirement with a specified value being met.
+0065
+
+02000600
+Change Action Status: Comparison
+Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action Status is based on a comparison.
+006505
+
 02010200
 Change Action: Requirement
 Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action is based on a requirement being met.
@@ -198,6 +208,30 @@ Enable Action Status ID
 Enables the given Status ID.
 
 
+02080100
+Disable Action Status ID
+Disables the Action associated with the given Status ID.
+
+
+02090200
+Invert Action Status ID
+Appears to invert (or possibly only disable) a specific Status ID's enabled/disabled status. For example, if a character can crawl, this is used to disable the ability to dash when crouched, even though naturally crouching allows dashing through 020A (Allow Specific Interrupt).
+
+
+020A0100
+Allow Specific Interrupt
+Allows interruption only by specific commands. See parameters for list of possible interrupts.
+
+
+020B0100
+Prevent Specific Interrupt
+Closes the specific interruption window. Must be set to the same thing as the allow specific interrupt that you wish to cancel.
+
+
+020C0100
+Clear Prevent Interrupt
+Possibly unregisters a previously created interrupt.
+
 04000100
 Change Sub Action
 Change the current sub action.
@@ -207,6 +241,46 @@ Change the current sub action.
 Change Sub Action: Pass Frame
 Change the current sub action. Can specify whether or not to pass the current frame or start the animation over.
 03
+
+04020100
+Set Loop Resume Condition: Requirement
+Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a requirement.
+6
+
+04020200
+Set Loop Resume Condition: Requirement Value
+Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a requirement with a specified value being met.
+65
+
+04020400
+Set Loop Resume Condition: Comparison
+Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a comparison.
+6505
+
+04030100
+Additional Loop Resume Condition: Requirement
+Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a requirement.
+6
+
+04030200
+Additional Loop Resume Condition: Requirement Value
+Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a requirement with a specified value being met.
+65
+
+04030400
+Additional Loop Resume Condition: Comparison
+Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a comparison.
+6505
+
+04050100
+Additional Loop Resume Condition: Unknown
+Used quite a bit in Meta Knight's special move actions, as well as Pit's Down-B.
+
+
+04060100
+Set Animation Frame
+Changes the current frame of the animation. Does not change the frame of the sub action (i.e. timers and such are unaffected). Works when used in articles that have assigned animations in the FitEtc file.
+1
 
 05000000
 Reverse Direction
@@ -837,81 +911,6 @@ Moves entire character to match sloped ground?
 Flow 03
 Undefined. in used Go to Loop.
 
-
-02000400
-Change Action Status: Requirement Value
-Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action Status is based on a requirement with a specified value being met.
-0065
-
-02000600
-Change Action Status: Comparison
-Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action Status is based on a comparison.
-006505
-
-02080100
-Disable Action Status ID
-Disables the Action associated with the given Status ID.
-
-
-02090200
-Invert Action Status ID
-Appears to invert (or possibly only disable) a specific Status ID's enabled/disabled status. For example, if a character can crawl, this is used to disable the ability to dash when crouched, even though naturally crouching allows dashing through 020A (Allow Specific Interrupt).
-
-
-020A0100
-Allow Specific Interrupt
-Allows interruption only by specific commands. See parameters for list of possible interrupts.
-
-
-020B0100
-Prevent Specific Interrupt
-Closes the specific interruption window. Must be set to the same thing as the allow specific interrupt that you wish to cancel.
-
-
-020C0100
-Clear Prevent Interrupt
-Possibly unregisters a previously created interrupt.
-
-
-04020100
-Set Loop Resume Condition: Requirement
-Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a requirement.
-6
-
-04020200
-Set Loop Resume Condition: Requirement Value
-Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a requirement with a specified value being met.
-65
-
-04020400
-Set Loop Resume Condition: Comparison
-Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a comparison.
-6505
-
-04030100
-Additional Loop Resume Condition: Requirement
-Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a requirement.
-6
-
-04030200
-Additional Loop Resume Condition: Requirement Value
-Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a requirement with a specified value being met.
-65
-
-04030400
-Additional Loop Resume Condition: Comparison
-Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a comparison.
-6505
-
-04050100
-Additional Loop Resume Condition: Unknown
-Used quite a bit in Meta Knight's special move actions, as well as Pit's Down-B.
-
-
-04060100
-Set Animation Frame
-Changes the current frame of the animation. Does not change the frame of the sub action (i.e. timers and such are unaffected). Works when used in articles that have assigned animations in the FitEtc file.
-1
 
 04010200
 Set Loop Resume Requirement 01
