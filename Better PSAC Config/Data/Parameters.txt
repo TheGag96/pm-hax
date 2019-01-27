@@ -1324,6 +1324,14 @@ Location of the subroutine code to be ran.
 Thread ID
 ID of the thread to be terminated.
 
+05060300
+X
+Amount to rotate model on X Axis
+Y
+Amount to rotate model on Y Axis
+Z
+Amount to rotate model on Z Axis
+
 12200200
 Value
 The value to set the variable(s) to.

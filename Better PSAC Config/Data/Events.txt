@@ -1337,6 +1337,11 @@ Terminate Independent Subroutine (Custom)
 Stops a running independent subroutine. (Requires the relevant code by Mawootad.)
 2
 
+05060300
+Rotate Character Model
+Rotates character's model by amount specified
+111
+
 12200200
 Attribute Range Set (Custom)
 Requires the On the Fly Attribute Modification code by Mawootad.
