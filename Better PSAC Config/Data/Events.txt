@@ -732,6 +732,16 @@ Item Property
 Modify a property of the currently held item.
 01
 
+1F050000
+Fire Weapon
+Fires a shot from the currently held item. (May have other unknown applications)
+
+
+1F060100
+Fire Projectile
+Fires a projectile of the specified degree of power.
+
+
 1F070100
 Rocket Operation
 Undefined: Is used when firing a cracker launcher.
@@ -740,6 +750,16 @@ Undefined: Is used when firing a cracker launcher.
 1F080100
 Generate Item
 Generate an item in the character's hand.
+
+
+1F090100
+Item Visibility: Held Items
+Determines visibilty of the currently held item.
+3
+
+1F0A0000
+Delete Held Item
+Deletes the item that the character is holding.
 
 
 1F0C0100
@@ -752,19 +772,9 @@ Throw Item
 Cause the character to throw the currently held item.
 11555
 
-1F090100
-Item Visibility: Held Items
-Determines visibilty of the currently held item.
-3
-
-1F050000
-Fire Weapon
-Fires a shot from the currently held item. (May have other unknown applications)
-
-
-1F060100
-Fire Projectile
-Fires a projectile of the specified degree of power.
+1F0F0100
+Item Visibility: Wearable Items
+Visiblity of wearable items (bunny hood, franklin badge, screw attack, etc)
 
 
 21000000
@@ -1247,11 +1257,6 @@ Camera 0C
 Undefined.
 
 
-1F0A0000
-Delete Held Item
-Deletes the item that the character is holding.
-
-
 20000200
 Turn 00
 unknown.
@@ -1285,11 +1290,6 @@ Undefined.
 18030200
 Character Specific 03
 Undefined. Used in Samus.
-
-
-1F0F0100
-Item Visibility: Wearable Items
-Visiblity of wearable items (bunny hood, franklin badge, screw attack, etc)
 
 
 01000000
