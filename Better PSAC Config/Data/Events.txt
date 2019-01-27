@@ -194,7 +194,7 @@ Links a Status ID with an interrupt, which will only allow the interrupt to exec
 006501
 
 02060100
-Enable Status ID
+Enable Action Status ID
 Enables the given Status ID.
 
 
