@@ -200,6 +200,7 @@ C
 
 08000100
 V
+00000000-Can pass through solid stage elements
 00000001-Can drop off side of stage
 00000002-Can't drop off side of stage
 00000005-In Air; Can leave stage vertically

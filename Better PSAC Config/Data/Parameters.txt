@@ -574,7 +574,7 @@ Unknown, Usually 39.
 
 08000100
 Character State
-1: Can drop off side of stage.  2: Can't drop off side of stage.  5: Treated as in air; can leave stage vertically.  Other states unknown.
+0: Can pass through solid stage elements. 1: Can drop off side of stage.  2: Can't drop off side of stage.  5: Treated as in air; can leave stage vertically.  Other states unknown.
 
 08020100
 Character State?
@@ -928,9 +928,9 @@ The time it takes for the sword glow to fade out.
 Graphic
 The file from which to call from/The graphical effect to call, where XXXXYYYY is X=File# Y=Graphic ID.
 Boolean
-No Description Available.
+Set this to True.
 Boolean
-No Description Available.
+Set this to True.
 
 11170600
 Undefined
@@ -1078,9 +1078,9 @@ The variable to decrement.
 
 12050300
 Value
-The minimum random value to load.
+The minimum random value to load (inclusive).
 Value
-The maximum random value to load.
+The maximum random value to load (inclusive).
 Variable
 The Basic type variable to access.
 
@@ -1180,6 +1180,10 @@ Scalar,unknown.
 Parameter 9
 Hex ID.
 
+18000100
+Grounded Feet
+States which of the player's feet are currently touching the ground. 0: No feet are on the ground. 2: Left foot is on the ground. 4: Right foot is on the ground. 6: Both feet are on the ground.
+
 1A000100
 Size
 The size of the screenshake.
@@ -1254,7 +1258,7 @@ Usually an internal constant basic variable set at 1031.
 
 1F0F0100
 True or False
-If set to false, model will appear, else disapper.
+Visiblity of wearable items (bunny hood, franklin badge, screw attack, etc)
 
 21010400
 Red

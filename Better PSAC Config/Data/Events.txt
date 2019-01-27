@@ -24,8 +24,8 @@ Execute the the previously set loop.
 
 
 00060000
-Loop Break?
-Breaks out of the current loop?
+Loop Break
+Breaks out of the current loop
 
 
 00070100
@@ -40,72 +40,72 @@ Return from a Subroutine.
 
 00090100
 Goto
-Goto the event location specified and execute.
+Goto the event location specified and execute (does not return afterwards).
 2
 
 000A0100
-If
-Start an If block until an Else or an EndIf is reached.
+If: Requirement
+Start an If block until an Else or an End If is reached. Use this If to check for a requirement.
 6
 
 000A0200
-If
-Start an If block until an Else or an EndIf is reached.
+If: Requirement Value
+Start an If block until an Else or an End If is reached. Use this If to check for a requirement with a specified value.
 65
 
 000A0400
-If
-Start an If block until an Else or an EndIf is reached.
+If: Comparison
+Start an If block until an Else or an End If is reached. Use this If to compare values.
 6505
 
 000B0100
-And
-Seems to be an "and" to an If statement.
+And: Requirement
+Insert an And statement to an If statement. Use this And to check for a requirement.
 6
 
 000B0200
-And
-Seems to be an "and" to an If statement.
+And: Requirement Value
+Insert an And statement to an If statement. Use this And to check for a requirement with a specified value.
 65
 
 000B0400
-And Comparison
-Seems to be an "And" to an If statement.
+And: Comparison
+Insert an And statement to an If statement. Use this And to compare values.
 6505
 
 000C0100
-Or
-Insert an alternate requirement to fall back on if the above requirement(s) are not met.
+Or: Requirement
+Insert an Or statement to an If statement. Use this And to check for a requirement.
 6
 
 000C0200
-Or
-Insert an alternate requirement to fall back on if the above requirement(s) are not met.
+Or: Requirement Value
+Insert an Or statement to an If statement. Use this Or to check for a requirement with a specified value.
 65
 
 000C0400
-Or Comparison
-Insert an alternate requirement to fall back on if the above requirement(s) are not met.
+Or: Comparison
+Insert an Or statement to an If statement. Use this Or to compare values.
 6505
 
 000D0100
-Else If
-Insert an Else If block inside of an If block.
+Else If: Requirement
+Insert an Else If block to go with an If series. Use this Else If to check for a requirement.
 6
 
 000D0200
-Else If
-Insert an Else If block inside of an If block.
+Else If: Value
+Insert an Else If block to go with an If series. Use this Else If to check for a requirement with a specified value.
 65
 
 000D0400
-Else If Comparison
-Insert an Else If block inside of an If block.
+Else If: Comparison
+Insert an Else If block to go with an If series. Use this Else if to compare values.
 6505
 
 000E0000
 Else
-Insert an Else block inside an If block.
+Insert an Else block to go with an If series.
 
 
 000F0000
@@ -120,12 +120,12 @@ Begin a multiple case Switch block.
 
 00110100
 Case
-Handler for if the variable in the switch statement equals the specified value.
+Handler for if the variable in the switch block equals the specified value.
 
 
 00120000
 Default Case
-The case chosen if none of the others are executed.
+The case chosen if none of the others are executed in a switch block.
 
 
 00130000
@@ -140,61 +140,61 @@ Appears within Case statements; exits the switch event completely. All code loca
 
 01010000
 Loop Rest
-Stop subsequent loads until the "Set Loop Resume Requirement" is achieved.
+Stops a loop from iterating again until the "Set Loop Resume Requirement" is achieved.
 
 
 02000300
-Change Action Status
-Change the current action upon the specified requirement being met. (the requirement does not have to be met at the time this ID is executed - it can be used anytime after execution.)
+Change Action Status: Requirement
+Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action Status is based on a requirement being met.
 006
 
 02010200
-Change Action
-Change the current action upon the specified requirement being met. (the requirement does not have to be met at the time this ID is executed - it can be used anytime after execution.)
+Change Action: Requirement
+Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action is based on a requirement being met.
 06
 
 02010300
-Change Action
-Change the current action upon the specified requirement being met. (the requirement does not have to be met at the time this ID is executed - it can be used anytime after execution.)
+Change Action: Requirement Value
+Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action is based on a requirement with a specified value being met.
 065
 
 02010500
-Change Action
-Change the current action upon the specified requirement being met. (the requirement does not have to be met at the time this ID is executed - it can be used anytime after execution.)
+Change Action: Comparison
+Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action is based on a comparison.
 06505
 
 02040100
-Additional Action Requirement
-Add an additional requirement to the preceeding Change Action statement.
+Additional Action Requirement: Requirement
+Add an additional requirement to the preceeding Change Action statement. This Additional Action Requirement is based on a requirement being met.
 6
 
 02040200
-Additional Action Requirement
-Add an additional requirement to the preceeding Change Action statement.
+Additional Action Requirement: Requirement Value
+Add an additional requirement to the preceeding Change Action statement. This Additional Action Requirement is based on a requirement with a specified value being met.
 65
 
 02040400
-Additional Action Requirement
-Add an additional requirement to the preceeding Change Action statement.
+Additional Action Requirement: Comparison
+Add an additional requirement to the preceeding Change Action statement. This Additional Action Requirement is based on a comparison.
 6505
 
 02050300
-Set Status ID Interrupt
-Links a Status ID with an interrupt, which will only allow the interrupt to execute (or prevent) the Status ID when the Requirement is met (Warning: Persists globally and can cause memory leaks. Recommended for the on-load routine.)
+Set Status ID Interrupt: Requirement
+Links a Status ID with an interrupt, which will only allow the interrupt to execute (or prevent) the Status ID. This Set Status ID Interrupt is based on a requirement being met. (Warning: Persists globally and can cause memory leaks. Recommended for the on-load routine.)
 006
 
 02050400
-Set Status ID Interrupt
-Links a Status ID with an interrupt, which will only allow the interrupt to execute (or prevent) the Status ID when the Requirement is met (Warning: Persists globally and can cause memory leaks. Recommended for the on-load routine.)
+Set Status ID Interrupt: Requirement Value
+Links a Status ID with an interrupt, which will only allow the interrupt to execute (or prevent) the Status ID. This Set Status ID Interrupt is based on a requirement with a specified value being met. (Warning: Persists globally and can cause memory leaks. Recommended for the on-load routine.)
 0065
 
 02050600
-Set Status ID Interrupt
-Links a Status ID with an interrupt, which will only allow the interrupt to execute (or prevent) the Status ID when the Requirement is met (Warning: Persists globally and can cause memory leaks. Recommended for the on-load routine.)
+Set Status ID Interrupt: Comparison
+Links a Status ID with an interrupt, which will only allow the interrupt to execute (or prevent) the Status ID. This Set Status ID Interrupt is based on a comparison. (Warning: Persists globally and can cause memory leaks. Recommended for the on-load routine.)
 006501
 
 02060100
-Disable Other Status ID
+Enable Status ID
 Enables the given Status ID.
 
 
@@ -204,7 +204,7 @@ Change the current sub action.
 
 
 04000200
-Change Sub Action
+Change Sub Action: Pass Frame
 Change the current sub action. Can specify whether or not to pass the current frame or start the animation over.
 03
 
@@ -265,11 +265,11 @@ Generate an offensive collision bubble - is able to achieve unique effects. Help
 
 06170300
 Defensive Collision
-Generate a defensive collision bubble that nullifies close combat attacks.
+Generate a defensive collision bubble that nullifies close combat attacks. Read more about how this works here: https://tinyurl.com/defensive-collisions
 
 
 06180300
-Defensive Collision Operation
+Defensive Collision: Remove
 Removes defensive collisions.
 
 
@@ -330,12 +330,12 @@ Stops the specified sound effect immediately.
 
 0A070100
 Sound Effect 07
-Play a specified sound effect. sound effect occurs when landing.(Exception: Mario's Fireball)
+Play a specified sound effect. sound effect occurs when landing. (Exception: Mario's Fireball)
  
 
 0C050000
 Terminate Instance
-Causes the acting instance to terminate (if possible). Will load secondary instance if available (i.e. character transformation).
+If used within an article, causes the acting article instance to terminate (if possible). Has other niche uses as well, such as loading secondary instance if available (i.e. character transformation).
 
 
 0C0B0000
@@ -365,12 +365,12 @@ Dictates the frame speed of the sub action. Example: Setting to 2 makes the anim
 
 0C230200
 Time Manipulation
-Change the speed of time for various parts of the environment.Scalar=time stop, value=slow time. If you use a Scalar in parameter 0, then use parameter 1 to a value set how long time stops. if you use a value in parameter 0, use parameter 1 to set a value how long time slows. using a scalar in parameter 0 and 1 will stop time forever.
+Change the speed of time for various parts of the environment. Scalar=time stop, Value=slow time. If you use a Scalar in parameter 0, then use parameter 1 to a value set how long time stops. if you use a value in parameter 0, use parameter 1 to set a value how long time slows. Using a scalar in parameter 0 and 1 will stop time forever.
 
 
 0E000100
 Set Air/Ground
-Sets the current physics state.
+Sets the current physics state of your character.
 
 
 08000100
@@ -380,13 +380,13 @@ Determines whether or not the character will slide off the edge.
 
 10000100
 Generate Article
-Generate a pre-made prop effect from the prop library.
+Generates a character specific article: a pre-made prop effect from the prop library.
 
 
 10000200
-Generate Article
-Generate a pre-made prop effect from the prop library.
-
+Generate Article: Subaction Exclusive
+Generates a character specific article: a pre-made prop effect from the prop library. Has option to force article to terminate after subaction ends.
+03
 
 10010100
 Article Event 02
@@ -545,8 +545,8 @@ Subtract a specified value from a basic variable.
 
 12050300
 Basic Variable Random
-Load a basic variable with a random integer.
-115
+Load a basic variable with a random integer between a min and max value.
+005
 
 120D0200
 Basic Variable Multiply
@@ -560,12 +560,12 @@ Divide a basic value by the specified value.
 
 12030100
 Basic Variable Increment
-Variable++
+Variable++ (adds 1)
 5
 
 12040100
 Basic Variable Decrement
-Variable--
+Variable-- (subtracts 1)
 5
 
 12110200
@@ -590,7 +590,7 @@ Subtract a specified value from a float variable.
 
 12090300
 Float Variable Random
-Load a float variable with a random integer.
+Load a float variable with a random integer between a min and max value.
 115
 
 120F0200
@@ -679,7 +679,7 @@ Cause the character to throw the currently held item.
 11555
 
 1F090100
-Item Visibility
+Item Visibility: Held Items
 Determines visibilty of the currently held item.
 3
 
@@ -755,7 +755,7 @@ Adds or subtracts speed to the char's current momentum.
 
 0E060100
 Disallow Certain Movements
-When set to 2, sideways movement is disallowed. When set to 1, disables vertical gravity. Note: Hitstun can often times enhance momentum in the disabled direction.
+When set to 1, disables vertical gravity. When set to 2, sideways movement is disallowed. Note: Hitstun can often times enhance momentum in the disabled direction.
 
 
 0E070100
@@ -775,7 +775,7 @@ When set to 1, horizontal speed and decay rate are reset back to 0.
 
 0C250100
 Tag Display
-Disables or enables tag display for the current sub action.
+Disables or enables tag display for the current sub action. The tag is the icon above your player (e.g. the P1 icon that shows up over your player's head during a match).
 3
 
 1E000200
@@ -800,12 +800,12 @@ Deletes a hitbox of the specified ID. Only guaranteed to work on Offensive Colli
 
 0B000200
 Model Changer
-Changes the character's model in certain preset ways defined in the Misc section. (Examples: sheathe sword, retreat into shell, etc.)
+Changes the character's model in certain preset ways defined in the Misc section. (Examples: sheathe sword, retreat into shell, etc). Will revert back after action ends.
 
 
 0B010200
-Model Display Toggle?
-Changes what entries of Hidden and Visible bone indexes from Model Display are used in some fashion.
+Model Changer: Permanent
+Changes the character's model in certain preset ways defined in the Misc section. (Examples: sheathe sword, retreat into shell, etc). Will persist even after action ends.
 
 
 14040100
@@ -820,7 +820,7 @@ Creates a rumble loop on the controller.
 
 18000100
 Slope Contour Stand
-Moves specific parts of the character if on sloped ground?
+Keeps feet properly on ground when using move on slope. 0: No feet are on the ground. 2: Left foot is on the ground. 4: Right foot if on the ground. 6: Both feet are on the ground.
 
 
 18010200
@@ -839,13 +839,13 @@ Undefined. in used Go to Loop.
 
 
 02000400
-Change Action Status
-Change the current action upon the specified requirement being met. (the requirement does not have to be met at the time this ID is executed - it can be used anytime after execution.)
+Change Action Status: Requirement Value
+Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action Status is based on a requirement with a specified value being met.
 0065
 
 02000600
-Change Action Status
-Change the current action upon the specified requirement being met. (the requirement does not have to be met at the time this ID is executed - it can be used anytime after execution.)
+Change Action Status: Comparison
+Change the current action upon the specified requirement being met. The requirement does not have to be met at the time this ID is executed - it can be used anytime after execution. This Change Action Status is based on a comparison.
 006505
 
 02080100
@@ -874,43 +874,43 @@ Possibly unregisters a previously created interrupt.
 
 
 04020100
-Set Loop Resume Requirement
-Set requirement for reading "Loop Rest" or later.
+Set Loop Resume Condition: Requirement
+Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a requirement.
 6
 
 04020200
-Set Loop Resume Requirement
-Set requirement for reading "Loop Rest" or later.
+Set Loop Resume Condition: Requirement Value
+Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a requirement with a specified value being met.
 65
 
 04020400
-Set Loop Resume Requirement
-Set requirement for reading "Loop Rest" or later.
+Set Loop Resume Condition: Comparison
+Sets the condition that needs to be met in order for a loop to iterate again after a Loop Rest has been hit (must be used before Loop Rest command). This Set Loop Resume is based on a comparison.
 6505
 
 04030100
-Additional Loop Resume Requirement
-Add an additional requirement to Set Loop Resume Requirement.
+Additional Loop Resume Condition: Requirement
+Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a requirement.
 6
 
 04030200
-Additional Loop Resume Requirement
-Add an additional requirement to Set Loop Resume Requirement.
+Additional Loop Resume Condition: Requirement Value
+Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a requirement with a specified value being met.
 65
 
 04030400
-Additional Loop Resume Requirement
-Add an additional requirement to Set Loop Resume Requirement.
+Additional Loop Resume Condition: Comparison
+Add an additional requirement to Set Loop Resume Condition. This Additional Set Loop Resume is based on a comparison.
 6505
 
 04050100
-Additional Loop Resume Requirement
+Additional Loop Resume Condition: Unknown
 Used quite a bit in Meta Knight's special move actions, as well as Pit's Down-B.
 
 
 04060100
 Set Animation Frame
-Changes the current frame of the animation. Does not change the frame of the sub action (i.e. timers and such are unaffected).
+Changes the current frame of the animation. Does not change the frame of the sub action (i.e. timers and such are unaffected). Works when used in articles that have assigned animations in the FitEtc file.
 1
 
 04010200
@@ -1075,7 +1075,7 @@ Undefined.
 
 0C060000
 Enter Final Smash State
-Allows use of Final Smash locked articles, variables, etc. Highly unstable.
+Allows use of Final Smash locked articles, variables, etc. Highly unstable. When used in certain articles (such as Mario's fireball), it loads in a value from article floating point parameter table and applies it (Mario's fireball loads in velocity bounce multiplier, for example).
 
 
 0C070000
@@ -1085,7 +1085,7 @@ Undefined.
 
 0C080000
 Terminate Self
-Used by certain article instances to remove themselves.
+Used by certain article instances to remove themselves instead of terminate instance (note: nearly all projectiles in the game will terminate fine with the terminate instance command).
 
 
 0C090100
@@ -1190,12 +1190,12 @@ Undefined.
 
 0D000200
 Concurrent Infinite Loop
-Runs a subroutine once per frame for the current action.
+Runs a subroutine once per frame for the current action in parallel. This means that this subroutine loop will run independently of the code that comes after it in the action.
 02
 
 0D010100
 Terminate Concurrent Infinite Loop
-Seems to stop the execution of a loop created with 0D000200 (Concurrent Infinite Loop).
+Terminates a concurrent infinite loop.
 
 
 0F030200
@@ -1249,7 +1249,7 @@ Undefined.
 
 
 1F0A0000
-Obliterate Held Item
+Delete Held Item
 Deletes the item that the character is holding.
 
 
@@ -1289,8 +1289,8 @@ Undefined. Used in Samus.
 
 
 1F0F0100
-Morph Model Event
-If false model will appear else if true model will disappear.
+Item Visibility: Wearable Items
+Visiblity of wearable items (bunny hood, franklin badge, screw attack, etc)
 
 
 01000000
@@ -1310,7 +1310,7 @@ Appears to control posture graphics.
 
 11150300
 Terminate Graphic Effect
-Terminate a lingering graphical effect.
+Terminate a lingering graphical effect. First parameter is the graphic effect id. The other two parameters just set to true.
 033
 
 18010300
