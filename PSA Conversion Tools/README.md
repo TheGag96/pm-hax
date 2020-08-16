@@ -2,6 +2,32 @@
 
 This folder contains tools that can be used to extract/manipulate PSA code.
 
+## PSA to Gecko
+
+Written by codes. This is a command-line tool that can generate global PSA Gecko codes from commands copied from PSA Compressor. The resulting codes are much like how Project M made edits to Fighter.pac and can be standalone or automatically hijack at an address of your choice.
+
+To use, copy some PSA commands in PSA Compressor, and save them to a text file (e.g. `mypsa.txt`). (Note: You don't need to include a `Return` command - the tool will add one for you.) Then, run the program like so:
+
+```bat
+psa2gecko.exe
+```
+
+You will be prompted for 3 things, like this:
+
+```
+Main code insertion address: <where you want the code to write to>
+Hijack address (0 if standalone): <where you want to insert a subroutine call to jump to your code, or 0 if you don't want to hijack at all>
+Code file path: <path to the file containing your PSA commands>
+```
+
+Alternatively, you can just provide all of these arguments in the command prompt like so:
+
+```bat
+psa2gecko.exe 805482A0 80FAD86C mypsa.txt
+```
+
+In the future, it would be nice to output this code in the more descriptive code format that can be used with GCTRealMate (Project+'s GCT compiling system). For now, you would need to convert it by hand after the fact if you wanted that.
+
 ## Fighter.pac Extractor
 
 Written by codes. This is a command-line tool that is able to extract the entirety of Fighter.pac, including all action entry and exit routines and the subroutines they call, and outputting them in a format you can copy and paste into PSA Compressor. It does this by reading from a RAM dump, meaning that the results of global Fighter.pac code edits made by PM/P+ can be naturally read. (This is especially helpful for implementing Action Overrides on a moveset, since now you can copy-paste the original and then simply modify, not worrying whether you're leaving out important normal functionality.)
