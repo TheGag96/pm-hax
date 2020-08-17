@@ -21,3 +21,9 @@ Author: codes
 This is a global PSA injection that makes it so you can buffer an air dodge / wavedash input during jump squat. This makes airdodging as easy as pressing jump and shield simultaneously, instead of having to time the shield press a few frames after jump (which is different for each character). When you do, you'll immediately be wavedashing the moment the jump squat animation ends (a perfectly-timed wavedash). This makes things work much like Slap City, Rivals, and Icons.
 
 When inserting this into your codeset, make sure that it goes **after all Project M PSA injections**, as this overwrites parts of some of them. You may either use the plain Gecko .txt, or the .asm file for GCTRealMate codesets (like Project+).
+
+## Red Flash on Missed L-Cancel
+
+Author: codes
+
+This is a global PSA injection replacing `L-Canceling/Edge Canceling v3.2 (2/2) [Shanus, Yeroc, Dantarion, Wind Owl, Magus]` in Project+'s `Source/ProjectM/PSA/L-Cancel.asm` that makes it so missing an L-cancel will make you flash red. You'll still flash white upon a successful one, like in vanilla PM/P+.
