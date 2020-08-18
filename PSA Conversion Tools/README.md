@@ -26,7 +26,31 @@ Alternatively, you can just provide all of these arguments in the command prompt
 psa2gecko.exe 805482A0 80FAD86C mypsa.txt
 ```
 
-In the future, it would be nice to output this code in the more descriptive code format that can be used with GCTRealMate (Project+'s GCT compiling system). For now, you would need to convert it by hand after the fact if you wanted that.
+If you use the command line flag `--realmate`, you'll get output that looks like the following (for use with GCTRealMate):
+
+```asm
+.alias Code_Loc = 0x80123458
+CODE @ $80123458
+{
+  # +0x00 Pointer to injection
+  word 2; word Code_Loc+0x18
+
+  # +0x08 Params for Code_Loc+0x18
+  word 1; scalar 7
+  # +0x10 Params for Code_Loc+0x20
+  word 5; RA_Bit 17
+
+  # +0x18 PSA commands start
+  word 0x00020100; word Code_Loc+0x08 #
+  word 0x120B0100; word Code_Loc+0x10 #
+  word 0x00080000; word 0x00000000    # Return
+}
+CODE @ $80654320
+{
+  # Subroutine injection
+  word 0x00070100; word Code_Loc
+}
+```
 
 ## Fighter.pac Extractor
 
