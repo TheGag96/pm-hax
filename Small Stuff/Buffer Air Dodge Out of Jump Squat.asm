@@ -1,5 +1,5 @@
 ###################################################
-Buffer Air Dodge Out of Jump Squat v1.0 [codes]
+Buffer Air Dodge Out of Jump Squat v1.1 [codes]
 ###################################################
 .alias AirDodge_Loc = 0x805482A0
 CODE @ $805482A0
@@ -35,16 +35,17 @@ CODE @ $80FC17E0
 CODE @ $80548310
 {
 	#+0x00 Pointer to injection
-	word 2; word AirDodge_Loc+0x88
+	word 2; word AirDodge_Loc+0x90
 
-	#+0x08 If: Requirement: Any Shield Input Occurs (PM)
-	word 6; word 0x0000004E
-	#+0x10 Bit Variable Set: RA-Bit[7] = True
+	#+0x08 If: Requirement Value: Button Press Occurs: 3 (Shield)
+	word 6; word 0x00000030
+	word 0; word 3
+	#+0x18 Bit Variable Set: RA-Bit[7] = True
 	word 5; RA_Bit 7
 
-	#+0x18 Injection Start
-	word 0x000A0100; word AirDodge_Loc+0x78	#If: Requirement: Any Shield Input Occurs (PM)
-	word 0x120A0100; word AirDodge_Loc+0x80	#	Bit Variable Set: RA-Bit[7] = True
+	#+0x20 Injection Start
+	word 0x000A0100; word AirDodge_Loc+0x78	#If: Requirement Value: Button Press Occurs: 3 (Shield)
+	word 0x120A0100; word AirDodge_Loc+0x88	#	Bit Variable Set: RA-Bit[7] = True
 	word 0x000F0000; word 0					#Endif
 	word 0x00080000; word 0					#Return
 }
