@@ -98,11 +98,11 @@ uint[] loadDump(string path) {
 uint readMem(uint addr, uint[] dolphinDump, uint[] mem2Dump) {
   if (addr < 0x90000000u) {
     uint index = (addr-0x80000000u)/4;
-	return dolphinDump[index];
+    return dolphinDump[index];
   }
   else {
     uint index = (addr-0x90000000u)/4;
-	return mem2Dump[index];
+    return mem2Dump[index];
   }
 }
 
